@@ -1,0 +1,15 @@
+{
+  const c = Get('ema6A');
+  Update('ema6A', { layout: 'vertical' });
+  Replace(c.children[0].id, {"type":"frame","id":"Y4m28h","name":"section","context":"section","width":"fill_container","fill":"#ffffff","cornerRadius":[8,8,0,0],"stroke":"#0505050f","strokeWidth":{"bottom":1},"strokeAlignment":"inner","layout":"horizontal","padding":[42,24,51,24],"children":[{"type":"ref","ref":"antd-button-live-origin","id":"btn_wogf4z","name":"Btn · Primary Danger","width":79,"height":32,"inputs":{"children":"Primary","type":"primary","danger":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_3qe4cv","name":"Btn · Default Danger","width":77,"height":32,"inputs":{"children":"Default","danger":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_y3bdlp","name":"Btn · Dashed Danger","width":79,"height":32,"inputs":{"children":"Dashed","type":"dashed","danger":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_5le95b","name":"Btn · Text Danger","width":59,"height":32,"inputs":{"children":"Text","type":"text","danger":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_9yge2u","name":"Btn · Link Danger","width":57,"height":32,"inputs":{"children":"Link","type":"link","danger":true}}],"gap":8,"alignItems":"center"});
+}
+{
+  const c = Get('CodtW');
+  Update('CodtW', { layout: 'vertical' });
+  Replace(c.children[0].id, {"type":"frame","id":"p2oRF","name":"section","context":"section","width":"fill_container","fill":"#ffffff","cornerRadius":[8,8,0,0],"stroke":"#0505050f","strokeWidth":{"bottom":1},"strokeAlignment":"inner","layout":"horizontal","padding":[42,24,51,24],"children":[{"type":"ref","ref":"antd-button-live-origin","id":"btn_6armxl","name":"Btn · Gradient Large","width":171,"height":40,"inputs":{"children":"Gradient Button","type":"primary","size":"large","icon":"ant-design","linearGradient":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_f241tl","name":"Btn · Normal Large","width":79,"height":40,"inputs":{"children":"Button","type":"default","size":"large"}}],"gap":8,"alignItems":"center"});
+}
+{
+  const c = Get('nFhIx');
+  Update('nFhIx', { layout: 'vertical' });
+  Replace(c.children[0].id, {"type":"frame","id":"Iewxf","name":"section","context":"section","width":"fill_container","fill":"#ffffff","cornerRadius":[8,8,0,0],"stroke":"#0505050f","strokeWidth":{"bottom":1},"strokeAlignment":"inner","layout":"horizontal","padding":[42,24,51,24],"children":[{"type":"ref","ref":"antd-button-live-origin","id":"btn_lsa7ky","name":"Btn · Primary Disabled","width":126,"height":32,"inputs":{"children":"Primary Button","type":"primary","disabled":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_hnpur9","name":"Btn · Default Custom Disabled","width":124,"height":32,"inputs":{"children":"Default Button","type":"default","disabled":true,"disabledBg":"#0000001A"}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_x6mrfr","name":"Btn · Dashed Custom Disabled","width":126,"height":32,"inputs":{"children":"Dashed Button","type":"dashed","disabled":true,"disabledBg":"#00000066"}}],"gap":8,"alignItems":"center"});
+}

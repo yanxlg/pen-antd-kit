@@ -1,0 +1,23 @@
+{
+  "skill_name": "antd-prototype",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "在 pen.dev 中设计一个 Ant Design 6 的后台用户列表页，包含筛选表单、表格、分页、新增用户弹窗，并覆盖加载、空数据和接口错误状态。",
+      "expected_output": "使用 Ant Design library instances，结构化记录 Form/Table/Modal Props，生成状态帧和交付说明。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "把一个产品需求里的订单详情页画成 Pencil 原型，要求使用 antd 的 Card、Descriptions、Tag、Steps 和 Drawer，并能交给 React 开发导出。",
+      "expected_output": "组件均可追溯到 registry，使用 Token 和 Slots，说明 Drawer 的 runtime-only 行为和代码映射。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "设计一个深色主题的 Ant Design 设置页，包含 Input、Select、Switch、Upload 和保存按钮，并给出校验失败与提交中状态。",
+      "expected_output": "应用 darkAlgorithm 对应的主题变量，使用真实组件实例，覆盖表单状态和 Upload 状态。",
+      "files": []
+    }
+  ]
+}

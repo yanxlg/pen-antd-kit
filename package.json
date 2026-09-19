@@ -1,0 +1,50 @@
+{
+  "name": "@company/pen-antd-kit",
+  "private": true,
+  "type": "module",
+  "version": "6.6.4",
+  "description": "Ant Design 6 component library, scripts and product prototype skill for pen.dev",
+  "scripts": {
+    "verify": "node scripts/verify-antd-assets.mjs",
+    "verify:icon": "node scripts/verify-icon-canvas.mjs",
+    "generate:icon": "node scripts/generate-icon-canvas.mjs && node scripts/build-independent-instances.mjs",
+    "generate:pen": "node scripts/generate-figma-design-system.mjs",
+    "generate:design-system": "node scripts/generate-figma-design-system.mjs",
+    "import:figma": "python3 scripts/import_figma_antd.py",
+    "serve:samples": "node scripts/serve-antd-samples.mjs",
+    "generate:matrix": "node scripts/generate-antd-state-matrix.mjs",
+    "verify:render": "node scripts/verify-antd-render-catalog.mjs",
+    "generate:registry": "node scripts/generate-antd-type-registry.mjs && node scripts/generate-antd-inspector-schema.mjs",
+    "generate:canvas": "node scripts/generate-canvas-components.mjs && node scripts/navigation/generate.mjs && node scripts/build-independent-instances.mjs",
+    "generate:example": "node scripts/generate-antd-example.mjs",
+    "generate:typography": "node scripts/generate-typography-canvas.mjs && node scripts/build-independent-instances.mjs",
+    "verify:typography": "node scripts/verify-typography-canvas.mjs",
+    "generate:floatbutton": "node scripts/generate-floatbutton-canvas.mjs && node scripts/build-independent-instances.mjs",
+    "verify:floatbutton": "node scripts/verify-floatbutton-canvas.mjs",
+    "generate:badge": "node scripts/generate-badge-canvas.mjs && node scripts/build-independent-instances.mjs",
+    "verify:button": "node scripts/verify-button-composition.mjs && node scripts/verify-button-auto-space.mjs",
+    "generate:icon-bindings": "node scripts/generate-icon-value-bindings.mjs && node scripts/build-independent-instances.mjs",
+    "verify:layout": "node scripts/layout/verify.mjs",
+    "generate:layout": "node scripts/layout/generate.mjs && node scripts/build-independent-instances.mjs",
+    "verify:instances": "node scripts/verify-independent-instances.mjs",
+    "generate:navigation": "node scripts/navigation/generate.mjs",
+    "verify:navigation": "node scripts/navigation/verify.mjs"
+    ,"verify:composition": "node scripts/audit-component-composition.mjs"
+    ,"generate:data-entry": "node scripts/generate-canvas-components.mjs && node scripts/navigation/generate.mjs && node scripts/data-entry/install.mjs && node scripts/build-independent-instances.mjs"
+    ,"verify:data-entry": "node scripts/data-entry/verify.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "antd": "6.6.4",
+    "fig-kiwi": "^0.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "~5.7.3"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "packageManager": "pnpm@10.23.0"
+}

@@ -1,0 +1,2013 @@
+{
+  "url": "https://ant.design/components/spin",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "spin-demo-basic",
+      "title": "Basic Usage",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "97.1406px"
+      },
+      "width": 835.984375,
+      "height": 97.140625,
+      "demo": "spin-demo-nested",
+      "title": "Embedded mode",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-container",
+        "ant-alert ant-alert-info ant-alert-outlined ant-alert-with-description ant-alert-no-icon css-var-_R_afsua_ css-19u5a7b",
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-alert",
+      "classes": [
+        "ant-alert",
+        "ant-alert-info",
+        "ant-alert-outlined",
+        "ant-alert-with-description",
+        "ant-alert-no-icon",
+        "css-var-_R_afsua_",
+        "css-19u5a7b"
+      ],
+      "text": "Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(230, 244, 255)",
+        "borderColor": "rgb(145, 202, 255)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "20px 24px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "97.1406px"
+      },
+      "width": 835.984375,
+      "height": 97.140625,
+      "demo": "spin-demo-nested",
+      "title": "Embedded mode",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": true,
+      "parentKind": "ant-spin",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-switch",
+      "classes": [
+        "ant-switch",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.25)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "100px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "44px",
+        "height": "22px"
+      },
+      "width": 44,
+      "height": 22,
+      "demo": "spin-demo-nested",
+      "title": "Embedded mode",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-switch-handle",
+        "ant-switch-inner",
+        "ant-switch-inner-checked",
+        "ant-switch-inner-unchecked"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": "false",
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "97.1406px"
+      },
+      "width": 835.984375,
+      "height": 97.140625,
+      "demo": "spin-demo-delayanddebounce",
+      "title": "Delay",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-container",
+        "ant-alert ant-alert-info ant-alert-outlined ant-alert-with-description ant-alert-no-icon css-var-_R_afsua_ css-19u5a7b",
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-alert",
+      "classes": [
+        "ant-alert",
+        "ant-alert-info",
+        "ant-alert-outlined",
+        "ant-alert-with-description",
+        "ant-alert-no-icon",
+        "css-var-_R_afsua_",
+        "css-19u5a7b"
+      ],
+      "text": "Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(230, 244, 255)",
+        "borderColor": "rgb(145, 202, 255)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "20px 24px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "97.1406px"
+      },
+      "width": 835.984375,
+      "height": 97.140625,
+      "demo": "spin-demo-delayanddebounce",
+      "title": "Delay",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": true,
+      "parentKind": "ant-spin",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-switch",
+      "classes": [
+        "ant-switch",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.25)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "100px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "44px",
+        "height": "22px"
+      },
+      "width": 44,
+      "height": 22,
+      "demo": "spin-demo-delayanddebounce",
+      "title": "Delay",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-switch-handle",
+        "ant-switch-inner",
+        "ant-switch-inner-checked",
+        "ant-switch-inner-unchecked"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": "false",
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-switch",
+      "classes": [
+        "ant-switch",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "AutoAuto",
+      "texts": [
+        "Auto",
+        "Auto"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.25)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "100px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "59.8281px",
+        "height": "22px"
+      },
+      "width": 59.828125,
+      "height": 22,
+      "demo": "spin-demo-percent",
+      "title": "Progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-switch-handle",
+        "ant-switch-inner",
+        "ant-switch-inner-checked",
+        "ant-switch-inner-unchecked"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": "false",
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-sm",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "14px",
+        "height": "14px"
+      },
+      "width": 14,
+      "height": 14,
+      "demo": "spin-demo-percent",
+      "title": "Progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-holder ant-spin-dot-progress ant-spin-dot-holder-hidden",
+        "ant-spin-dot-circle ant-spin-dot-circle-bg",
+        "ant-spin-dot-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "spin-demo-percent",
+      "title": "Progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-holder ant-spin-dot-progress ant-spin-dot-holder-hidden",
+        "ant-spin-dot-circle ant-spin-dot-circle-bg",
+        "ant-spin-dot-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-lg",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "32px",
+        "height": "32px"
+      },
+      "width": 32,
+      "height": 32,
+      "demo": "spin-demo-percent",
+      "title": "Progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-holder ant-spin-dot-progress ant-spin-dot-holder-hidden",
+        "ant-spin-dot-circle ant-spin-dot-circle-bg",
+        "ant-spin-dot-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Show fullscreen",
+      "texts": [
+        "Show fullscreen"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "137.438px",
+        "height": "32px"
+      },
+      "width": 137.4375,
+      "height": 32,
+      "demo": "spin-demo-fullscreen",
+      "title": "Fullscreen",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-fullscreen",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.45)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "2400px",
+        "height": "1400px"
+      },
+      "width": 2400,
+      "height": 1400,
+      "demo": "spin-demo-fullscreen",
+      "title": "Fullscreen",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-sm",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "14px",
+        "height": "14px"
+      },
+      "width": 14,
+      "height": 14,
+      "demo": "spin-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "spin-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-lg",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "32px",
+        "height": "32px"
+      },
+      "width": 32,
+      "height": 32,
+      "demo": "spin-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-sm",
+        "ant-spin-spinning",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Loading",
+      "texts": [
+        "Loading"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "100px",
+        "height": "100px"
+      },
+      "width": 100,
+      "height": 100,
+      "demo": "spin-demo-tip",
+      "title": "Customized description",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section",
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description",
+        "ant-spin-container"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Loading",
+      "texts": [
+        "Loading"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "100px",
+        "height": "100px"
+      },
+      "width": 100,
+      "height": 100,
+      "demo": "spin-demo-tip",
+      "title": "Customized description",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section",
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description",
+        "ant-spin-container"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-lg",
+        "ant-spin-spinning",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Loading",
+      "texts": [
+        "Loading"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "100px",
+        "height": "100px"
+      },
+      "width": 100,
+      "height": 100,
+      "demo": "spin-demo-tip",
+      "title": "Customized description",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section",
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description",
+        "ant-spin-container"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Loading...Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Loading...",
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "97.1406px"
+      },
+      "width": 836,
+      "height": 97.140625,
+      "demo": "spin-demo-tip",
+      "title": "Customized description",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section",
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description",
+        "ant-spin-container",
+        "ant-alert ant-alert-info ant-alert-outlined ant-alert-with-description ant-alert-no-icon css-var-_R_afsua_ css-19u5a7b",
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-alert",
+      "classes": [
+        "ant-alert",
+        "ant-alert-info",
+        "ant-alert-outlined",
+        "ant-alert-with-description",
+        "ant-alert-no-icon",
+        "css-var-_R_afsua_",
+        "css-19u5a7b"
+      ],
+      "text": "Alert message titleFurther details about the context of this alert.",
+      "texts": [
+        "Alert message title",
+        "Further details about the context of this alert."
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(230, 244, 255)",
+        "borderColor": "rgb(145, 202, 255)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "20px 24px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "97.1406px"
+      },
+      "width": 836,
+      "height": 97.140625,
+      "demo": "spin-demo-tip",
+      "title": "Customized description",
+      "icons": [],
+      "content": {
+        "title": "Alert message title",
+        "description": "Further details about the context of this alert.",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-alert-section",
+        "ant-alert-title",
+        "ant-alert-description"
+      ],
+      "nested": true,
+      "parentKind": "ant-spin",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-sm",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "14px",
+        "height": "14px"
+      },
+      "width": 14,
+      "height": 14,
+      "demo": "spin-demo-custom-indicator",
+      "title": "Custom spinning indicator",
+      "icons": [
+        "loading"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "anticon anticon-loading anticon-spin ant-spin-dot"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "spin-demo-custom-indicator",
+      "title": "Custom spinning indicator",
+      "icons": [
+        "loading"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "anticon anticon-loading anticon-spin ant-spin-dot"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-lg",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "32px",
+        "height": "32px"
+      },
+      "width": 32,
+      "height": 32,
+      "demo": "spin-demo-custom-indicator",
+      "title": "Custom spinning indicator",
+      "icons": [
+        "loading"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "anticon anticon-loading anticon-spin ant-spin-dot"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "48px",
+        "height": "48px"
+      },
+      "width": 48,
+      "height": 48,
+      "demo": "spin-demo-custom-indicator",
+      "title": "Custom spinning indicator",
+      "icons": [
+        "loading"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "anticon anticon-loading anticon-spin ant-spin-dot"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "acss-11z55jn",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "8px",
+        "gap": "12px",
+        "width": "36px",
+        "height": "36px"
+      },
+      "width": 36,
+      "height": 36,
+      "demo": "spin-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-sm",
+        "ant-spin-spinning",
+        "acss-11z55jn",
+        "ant-spin-section",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "8px",
+        "gap": "12px",
+        "width": "30px",
+        "height": "30px"
+      },
+      "width": 30,
+      "height": 30,
+      "demo": "spin-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "semantic-mark-root",
+        "ant-spin-section",
+        "semantic-mark-section",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "12px",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "spin-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-dot-holder semantic-mark-indicator",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "semantic-mark-root",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_"
+      ],
+      "text": "Loading",
+      "texts": [
+        "Loading"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "100px",
+        "height": "100px"
+      },
+      "width": 100,
+      "height": 100,
+      "demo": "spin-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section semantic-mark-section",
+        "ant-spin-dot-holder semantic-mark-indicator",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description semantic-mark-description",
+        "ant-spin-container semantic-mark-container"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-spin",
+      "classes": [
+        "ant-spin",
+        "ant-spin-spinning",
+        "ant-spin-fullscreen",
+        "semantic-mark-root",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_"
+      ],
+      "text": "Loading",
+      "texts": [
+        "Loading"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.45)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "395.547px",
+        "height": "434.75px"
+      },
+      "width": 395.546875,
+      "height": 434.75,
+      "demo": "spin-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-spin-section semantic-mark-section",
+        "ant-spin-dot-holder semantic-mark-indicator",
+        "ant-spin-dot ant-spin-dot-spin",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-dot-item",
+        "ant-spin-description semantic-mark-description"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "spin-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Basic Usage",
+    "",
+    "Embedded mode",
+    "",
+    "Delay",
+    "",
+    "Progress",
+    "",
+    "Fullscreen",
+    "",
+    "Size",
+    "",
+    "Customized description",
+    "",
+    "Custom spinning indicator",
+    "",
+    "Custom semantic dom styling",
+    ""
+  ]
+}

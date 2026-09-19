@@ -1,0 +1,44 @@
+{
+  "styles": {
+    "default:normal": {
+      "bg": "#FFFFFF",
+      "color": "#000000E0",
+      "border": "#D9D9D9"
+    },
+    "default:hover": {
+      "bg": "#FFFFFF",
+      "color": "#4096FF",
+      "border": "#4096FF"
+    },
+    "default:active": {
+      "bg": "#FFFFFF",
+      "color": "#0958D9",
+      "border": "#0958D9"
+    },
+    "default:disabled": {
+      "bg": "#0000000A",
+      "color": "#00000040",
+      "border": "#D9D9D9"
+    },
+    "primary:normal": {
+      "bg": "#1677FF",
+      "color": "#FFFFFF",
+      "border": "#00000000"
+    },
+    "primary:hover": {
+      "bg": "#4096FF",
+      "color": "#FFFFFF",
+      "border": "#00000000"
+    },
+    "primary:active": {
+      "bg": "#0958D9",
+      "color": "#FFFFFF",
+      "border": "#00000000"
+    },
+    "primary:disabled": {
+      "bg": "#0000000A",
+      "color": "#00000040",
+      "border": "#D9D9D9"
+    }
+  }
+}

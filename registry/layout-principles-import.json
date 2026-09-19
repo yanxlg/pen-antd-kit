@@ -1,0 +1,48 @@
+{
+  "source": "https://ant.design/docs/spec/layout/",
+  "selector": ".markdown",
+  "viewport": {
+    "width": 2400,
+    "height": 1978,
+    "unit": "CSS px"
+  },
+  "article": {
+    "nodeId": "lwyZE",
+    "width": 1787.98,
+    "height": 5065,
+    "scale": 1
+  },
+  "artboard": {
+    "nodeId": "artboard-layout-principles",
+    "width": 1852,
+    "height": 5257,
+    "contentX": 32,
+    "contentY": 160
+  },
+  "images": [
+    "vEKHY",
+    "HzlVh",
+    "WVrY4",
+    "EbVA8",
+    "t41fy"
+  ],
+  "verification": {
+    "canvasScreenshotInspected": true,
+    "clippingProblems": 0,
+    "imageCount": 5,
+    "orderedListMarkers": 9
+  },
+  "gridExcerpt": {
+    "sourceSections": [
+      "Grid Unit",
+      "Raster"
+    ],
+    "nodeId": "p3dkoB",
+    "artboardId": "OPKwJ",
+    "articleWidth": 1787.98,
+    "artboardWidth": 1852,
+    "artboardHeight": 1417,
+    "canvasScreenshotInspected": true,
+    "clippingProblems": 0
+  }
+}

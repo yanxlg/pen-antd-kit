@@ -1,0 +1,35 @@
+const refs={'ant-alert':'rS4lY','ant-btn':'DQZzq','ant-progress':'E4VZpG','ant-result':'f1wU2W','ant-skeleton':'DAA17','ant-spin':'puR2r','ant-affix':'eHLzk','ant-switch':'rZqkn','ant-radio-group':'H0DThz','ant-input':'iQ5uU','ant-select':'VoQE7','ant-checkbox-wrapper':'cpj9Y','ant-float-btn':'AhZRS'};
+const cleanNode=n=>{const c={...n};delete c.id;delete c.reusable;delete c.context;delete c.metadata;if(Array.isArray(c.children))c.children=c.children.map(cleanNode);return c;};
+const countBy={};
+for(const m of [...matches].sort((a,b)=>b.depth-a.depth)){
+ const r=m.r,kind=r.kind,cls=r.classes.join(' ');let ref=refs[kind];if(!ref)continue;
+ const n=Get(m.id,{depth:30});let inputs={};
+ const buttons=Get(m.id,(v)=>v.type==='ref'&&v.ref==='DQZzq'?cleanNode(v):undefined);
+ const actions=buttons.length?JSON.stringify({type:'frame',name:'Actions',layout:'horizontal',gap:8,justifyContent:'end',alignItems:'center',children:buttons.map(v=>({...v,x:0,y:0}))}):'';
+ if(kind==='ant-btn'){inputs={children:r.text,type:cls.includes('ant-btn-primary')?'primary':cls.includes('ant-btn-link')?'link':cls.includes('ant-btn-text')?'text':cls.includes('ant-btn-dashed')?'dashed':'default',size:cls.includes('ant-btn-sm')?'small':cls.includes('ant-btn-lg')?'large':'middle',danger:cls.includes('danger'),disabled:cls.includes('disabled'),loading:cls.includes('loading'),icon:r.icons?.length?JSON.stringify({type:'ref',ref:'antd-icon-live-origin',inputs:{name:r.icons[0].split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('')+'Outlined',fontSize:14}}):''};}
+ if(kind==='ant-alert')inputs={title:r.content.title||r.texts[0],description:r.content.description||'',type:['success','info','warning','error'].find(v=>cls.includes('ant-alert-'+v))||'info',showIcon:!cls.includes('ant-alert-no-icon'),closable:r.icons.includes('close'),banner:cls.includes('ant-alert-banner'),variant:cls.includes('ant-alert-filled')?'filled':'outlined',action:actions};
+ if(kind==='ant-progress'){const pct=Number(r.ariaNow||r.text.match(/\d+(?:\.\d+)?/)?.[0]|| (cls.includes('success')?100:cls.includes('exception')?70:0));inputs={percent:pct,type:cls.includes('ant-progress-circle')?'circle':'line',status:['exception','success','active'].find(v=>cls.includes('status-'+v))||'normal',showInfo:cls.includes('show-info'),size:cls.includes('ant-progress-small')?'small':'default',steps:r.title?.includes('Step')?10:0};if(r.title?.includes('Dashboard'))inputs.type='dashboard';}
+ if(kind==='ant-skeleton'){const subtype=r.skeletonKind;if(subtype){ref=({button:'S2bGM',avatar:'q4tGS',input:'eREO0',image:'I0FsS',node:'pEAPZ'})[subtype];inputs={active:cls.includes('active'),shape:subtype==='avatar'?'circle':'default',block:r.width>400};}else{const li=Get(m.id,v=>v.context==='li'?1:undefined).length;inputs={active:cls.includes('active'),avatar:r.hasAvatar,rows:li||3,title:true,loading:true,round:cls.includes('round')};}}
+ if(kind==='ant-spin')inputs={spinning:true,size:cls.includes('ant-spin-lg')?'large':cls.includes('ant-spin-sm')?'small':'default',tip:r.text||''};
+ if(kind==='ant-result')inputs={status:['403','404','500','success','error','warning','info'].find(v=>cls.includes('ant-result-'+v))||'info',title:r.content.title,subTitle:r.content.description,extra:actions};
+ if(kind==='ant-switch')inputs={checked:r.checked==='true',disabled:cls.includes('disabled'),checkedChildren:r.texts[0]||'',unCheckedChildren:r.texts[1]||''};
+ if(kind==='ant-radio-group')inputs={options:r.texts.join('|'),value:r.texts[0]||'',optionType:cls.includes('solid')?'button':'default'};
+ if(kind==='ant-input')inputs={value:r.value,placeholder:r.placeholder||'',disabled:cls.includes('disabled')};
+ if(kind==='ant-select')inputs={value:r.text,options:r.text};
+ if(kind==='ant-checkbox-wrapper')inputs={children:r.text,checked:cls.includes('checked'),disabled:cls.includes('disabled')};
+ if(kind==='ant-affix')continue;
+ const id=Replace(m.id,{type:'ref',ref,name:kind.replace('ant-','')+' · Official instance',x:n.x||0,y:n.y||0,width:n.width||r.width,height:r.height,layoutPosition:n.layoutPosition,inputs});
+ countBy[m.page]=(countBy[m.page]||0)+1;
+}
+for(const p of pages){
+ const remove=Get(p.root,(n,c)=>n.type==='frame'&&((n.opacity===0.7&&n.strokeWidth?.top===1)||(c.depth===1&&n.layoutPosition==='absolute'&&Number(n.y)<0))?n.id:undefined);for(const id of remove)Delete(id);
+ const titleRows=Get(p.root,(n,c)=>n.type==='frame'&&n.layoutPosition==='absolute'&&Number(n.y)<0&&Number(n.height)===30&&c.parentCtx?.node.context==='section'?{id:n.id,parent:c.parentCtx.node.id}:undefined);
+ for(const row of titleRows){const title=Get(row.id,(n)=>n.type==='text'?n.content:undefined).join('');const old=Get(row.id,{depth:1});const parent=Get(row.parent,{depth:1});for(const ch of old.children)if(ch.context?.includes('svg'))Delete(ch.id);Update(row.id,{y:-15,height:30});for(const ch of old.children)if(ch.context==='a')Update(ch.id,{y:2.75});const line=Insert(row.parent,{type:'rectangle',name:'Example title divider',width:'fill_container',height:1,fill:'#F0F0F0'});Move(line,row.parent,0);}
+ const versions=Get(p.root,(n,c)=>n.type==='text'&&/^\d+\.\d+\.\d+$/.test(String(n.content||''))?c.parentCtx.node.id:undefined);for(const id of [...new Set(versions)])Delete(id);
+ Update(p.root,{enabled:true,name:'Official Examples · Imported',context:'antd-official-import:https://ant.design/components/'+p.slug+'/|'+(p.slug==='float-button'?'#float-button-demo-back-top':'.demo-wrapper'),x:0,y:0,width:'fill_container',height:'fit_content',clip:false});
+ const cols=Get(p.root,(n,c)=>n.type==='frame'&&c.depth<4&&n.layout==='vertical'&&Number(n.height)>500? n.id:undefined);for(const id of cols)Update(id,{height:'fit_content'});
+ Move(p.root,p.content);Delete(p.old);
+ Update(p.content,{height:'fit_content',gap:24,width:'fill_container'});
+ Update(p.usage,{height:'fit_content',layout:'vertical',padding:32,gap:40,clip:false});
+}
+Print({converted:countBy});

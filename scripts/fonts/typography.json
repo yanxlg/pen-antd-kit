@@ -1,0 +1,50 @@
+[
+  {
+    "family": "Inter",
+    "style": "italic",
+    "weight": "400",
+    "file": "Inter-400-italic.ttf"
+  },
+  {
+    "family": "Inter",
+    "style": "italic",
+    "weight": "600",
+    "file": "Inter-600-italic.ttf"
+  },
+  {
+    "family": "Inter",
+    "style": "normal",
+    "weight": "400",
+    "file": "Inter-400-normal.ttf"
+  },
+  {
+    "family": "Inter",
+    "style": "normal",
+    "weight": "600",
+    "file": "Inter-600-normal.ttf"
+  },
+  {
+    "family": "Roboto Mono",
+    "style": "italic",
+    "weight": "400",
+    "file": "Roboto-Mono-400-italic.ttf"
+  },
+  {
+    "family": "Roboto Mono",
+    "style": "italic",
+    "weight": "600",
+    "file": "Roboto-Mono-600-italic.ttf"
+  },
+  {
+    "family": "Roboto Mono",
+    "style": "normal",
+    "weight": "400",
+    "file": "Roboto-Mono-400-normal.ttf"
+  },
+  {
+    "family": "Roboto Mono",
+    "style": "normal",
+    "weight": "600",
+    "file": "Roboto-Mono-600-normal.ttf"
+  }
+]

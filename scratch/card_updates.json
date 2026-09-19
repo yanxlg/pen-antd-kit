@@ -1,0 +1,3057 @@
+{
+  "originInputs": {
+    "children": "Button",
+    "icon": "",
+    "type": "default",
+    "color": "default",
+    "variant": "outlined",
+    "size": "middle",
+    "shape": "default",
+    "danger": false,
+    "ghost": false,
+    "block": false,
+    "loading": false,
+    "disabled": false,
+    "state": "normal",
+    "autoInsertSpace": true,
+    "href": "",
+    "htmlType": "button",
+    "iconPlacement": "start",
+    "iconPosition": "start",
+    "prefixCls": "",
+    "className": "",
+    "rootClassName": "",
+    "classNames": "",
+    "styles": "",
+    "_skipSemantic": false,
+    "name": "",
+    "id": "",
+    "title": "",
+    "linearGradient": false,
+    "disabledBg": "",
+    "customFill": null,
+    "customStroke": null,
+    "customTextColor": null
+  },
+  "cardUpdates": [
+    {
+      "cardId": "ecSyZ",
+      "previewNode": {
+        "type": "frame",
+        "id": "n48iil",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_cji09w",
+            "name": "Btn · Primary Button",
+            "width": 136,
+            "height": 32,
+            "inputs": {
+              "children": "Primary Button",
+              "type": "primary"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_c57zh4",
+            "name": "Btn · Default Button",
+            "width": 132,
+            "height": 32,
+            "inputs": {
+              "children": "Default Button",
+              "type": "default"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_asc2oz",
+            "name": "Btn · Dashed Button",
+            "width": 131,
+            "height": 32,
+            "inputs": {
+              "children": "Dashed Button",
+              "type": "dashed"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_c8ddd2",
+            "name": "Btn · Text Button",
+            "width": 113,
+            "height": 32,
+            "inputs": {
+              "children": "Text Button",
+              "type": "text"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_gpss5h",
+            "name": "Btn · Link Button",
+            "width": 112,
+            "height": 32,
+            "inputs": {
+              "children": "Link Button",
+              "type": "link"
+            }
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "amPdg",
+      "previewNode": {
+        "type": "frame",
+        "id": "hiw09",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "row_icon_1",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_snv539",
+                "name": "Btn · Search Circle Primary",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "search",
+                  "type": "primary",
+                  "shape": "circle"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_vn83pj",
+                "name": "Btn · Text Circle Primary",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "A",
+                  "type": "primary",
+                  "shape": "circle"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_pd00ok",
+                "name": "Btn · Search Primary",
+                "width": 100,
+                "height": 32,
+                "inputs": {
+                  "children": "Search",
+                  "icon": "search",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_k1ca6c",
+                "name": "Btn · Search Circle Default",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "search",
+                  "type": "default",
+                  "shape": "circle"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_8s2flw",
+                "name": "Btn · Search Default",
+                "width": 100,
+                "height": 32,
+                "inputs": {
+                  "children": "Search",
+                  "icon": "search",
+                  "type": "default"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_icon_2",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_w4sckp",
+                "name": "Btn · Search Circle Default 2",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "search",
+                  "type": "default",
+                  "shape": "circle"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_je08re",
+                "name": "Btn · Search Circle Dashed",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "search",
+                  "type": "dashed",
+                  "shape": "circle"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_dkih30",
+                "name": "Btn · Search Dashed",
+                "width": 100,
+                "height": 32,
+                "inputs": {
+                  "children": "Search",
+                  "icon": "search",
+                  "type": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_4m9zeq",
+                "name": "Btn · Search Link Circle",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "search",
+                  "type": "link",
+                  "shape": "circle",
+                  "href": "https://www.google.com"
+                }
+              }
+            ]
+          }
+        ],
+        "gap": 12
+      }
+    },
+    {
+      "cardId": "B66IeN",
+      "previewNode": {
+        "type": "frame",
+        "id": "PpMzt",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "gap": 20,
+        "padding": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "sec_large_s5puoq",
+            "name": "Section · large",
+            "layout": "vertical",
+            "gap": 10,
+            "children": [
+              {
+                "type": "text",
+                "id": "tag_wsjjmu",
+                "content": "size=\"large\" · Large (h=40px, fs=16px, r=8px)",
+                "fill": "#1677FF",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "600"
+              },
+              {
+                "type": "frame",
+                "id": "r1_fb3500",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_n20oai",
+                    "name": "Btn · Primary large",
+                    "width": 94,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Primary",
+                      "type": "primary",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_0cc6lg",
+                    "name": "Btn · Default large",
+                    "width": 89,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Default",
+                      "type": "default",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_wwux78",
+                    "name": "Btn · Dashed large",
+                    "width": 87,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Dashed",
+                      "type": "dashed",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_8hnjjr",
+                    "name": "Btn · Link large",
+                    "width": 66,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Link",
+                      "type": "link",
+                      "size": "large"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "r2_j1x6al",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_i91b1y",
+                    "name": "Btn · DL Icon large",
+                    "width": 40,
+                    "height": 40,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_e5p94d",
+                    "name": "Btn · DL Circle large",
+                    "width": 40,
+                    "height": 40,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "circle",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_t0qgjw",
+                    "name": "Btn · DL Round Icon large",
+                    "width": 52,
+                    "height": 40,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_0v4e86",
+                    "name": "Btn · DL Round large",
+                    "width": 131,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "large"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_73e843",
+                    "name": "Btn · DL large",
+                    "width": 131,
+                    "height": 40,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "large"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "sec_middle_pxfhxj",
+            "name": "Section · middle",
+            "layout": "vertical",
+            "gap": 10,
+            "children": [
+              {
+                "type": "text",
+                "id": "tag_aa9is1",
+                "content": "size=\"middle\" · Middle (Default) (h=32px, fs=14px, r=6px)",
+                "fill": "#1677FF",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "600"
+              },
+              {
+                "type": "frame",
+                "id": "r1_betdmk",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_dagjms",
+                    "name": "Btn · Primary middle",
+                    "width": 85,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Primary",
+                      "type": "primary",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_qkuy7i",
+                    "name": "Btn · Default middle",
+                    "width": 81,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Default",
+                      "type": "default",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_n3d12x",
+                    "name": "Btn · Dashed middle",
+                    "width": 80,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Dashed",
+                      "type": "dashed",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_6o4tni",
+                    "name": "Btn · Link middle",
+                    "width": 61,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Link",
+                      "type": "link",
+                      "size": "middle"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "r2_nlnxew",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_qe7izj",
+                    "name": "Btn · DL Icon middle",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_l9yk4t",
+                    "name": "Btn · DL Circle middle",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "circle",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_qgrvt6",
+                    "name": "Btn · DL Round Icon middle",
+                    "width": 44,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_hw1ja4",
+                    "name": "Btn · DL Round middle",
+                    "width": 119,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "middle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_zo4oaq",
+                    "name": "Btn · DL middle",
+                    "width": 119,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "middle"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "sec_small_ppynch",
+            "name": "Section · small",
+            "layout": "vertical",
+            "gap": 10,
+            "children": [
+              {
+                "type": "text",
+                "id": "tag_yanc9j",
+                "content": "size=\"small\" · Small (h=24px, fs=14px, r=4px)",
+                "fill": "#1677FF",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "600"
+              },
+              {
+                "type": "frame",
+                "id": "r1_zsjsuu",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_bkv1ew",
+                    "name": "Btn · Primary small",
+                    "width": 69,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Primary",
+                      "type": "primary",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_8lvy32",
+                    "name": "Btn · Default small",
+                    "width": 65,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Default",
+                      "type": "default",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_unv6ak",
+                    "name": "Btn · Dashed small",
+                    "width": 64,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Dashed",
+                      "type": "dashed",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_d4ob2g",
+                    "name": "Btn · Link small",
+                    "width": 45,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Link",
+                      "type": "link",
+                      "size": "small"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "r2_mt6o6g",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_lf3b09",
+                    "name": "Btn · DL Icon small",
+                    "width": 24,
+                    "height": 24,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_u9fifq",
+                    "name": "Btn · DL Circle small",
+                    "width": 24,
+                    "height": 24,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "circle",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_oelkg7",
+                    "name": "Btn · DL Round Icon small",
+                    "width": 36,
+                    "height": 24,
+                    "inputs": {
+                      "children": "",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_orbo8d",
+                    "name": "Btn · DL Round small",
+                    "width": 99,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "shape": "round",
+                      "size": "small"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_kdgzna",
+                    "name": "Btn · DL small",
+                    "width": 99,
+                    "height": 24,
+                    "inputs": {
+                      "children": "Download",
+                      "icon": "download",
+                      "type": "primary",
+                      "size": "small"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cardId": "dYwZb",
+      "previewNode": {
+        "type": "frame",
+        "id": "aRa2E",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "row_loading_1",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_irl5nk",
+                "name": "Btn · Loading Primary",
+                "width": 107,
+                "height": 32,
+                "inputs": {
+                  "children": "Loading",
+                  "type": "primary",
+                  "loading": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_ijb1xt",
+                "name": "Btn · Loading Small",
+                "width": 87,
+                "height": 24,
+                "inputs": {
+                  "children": "Loading",
+                  "type": "primary",
+                  "size": "small",
+                  "loading": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_9f6kg2",
+                "name": "Btn · Loading Circle",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "type": "primary",
+                  "shape": "circle",
+                  "loading": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_tygou4",
+                "name": "Btn · Loading Icon",
+                "width": 146,
+                "height": 32,
+                "inputs": {
+                  "children": "Loading Icon",
+                  "type": "primary",
+                  "loading": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_loading_2",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_3t96qm",
+                "name": "Btn · Icon Start",
+                "width": 127,
+                "height": 32,
+                "inputs": {
+                  "children": "Icon Start",
+                  "icon": "power",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_e1w3m1",
+                "name": "Btn · Icon End",
+                "width": 117,
+                "height": 32,
+                "inputs": {
+                  "children": "Icon End",
+                  "icon": "power",
+                  "iconPosition": "end",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_q3yapf",
+                "name": "Btn · Icon Replace",
+                "width": 146,
+                "height": 32,
+                "inputs": {
+                  "children": "Icon Replace",
+                  "icon": "power",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_4mj5f4",
+                "name": "Btn · Icon Only",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "power",
+                  "type": "primary",
+                  "shape": "default"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_kplcnu",
+                "name": "Btn · Loading Icon Power",
+                "width": 146,
+                "height": 32,
+                "inputs": {
+                  "children": "Loading Icon",
+                  "icon": "sync",
+                  "type": "primary"
+                }
+              }
+            ]
+          }
+        ],
+        "gap": 12
+      }
+    },
+    {
+      "cardId": "v4Pii3",
+      "previewNode": {
+        "type": "frame",
+        "id": "iJQJr",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "ghost_bg_wrap",
+            "name": "Ghost Wrapper",
+            "fill": "#bec8c8",
+            "cornerRadius": 6,
+            "padding": 16,
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_3h5eo3",
+                "name": "Btn · Primary Ghost",
+                "width": 85,
+                "height": 32,
+                "inputs": {
+                  "children": "Primary",
+                  "type": "primary",
+                  "ghost": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_81k9lo",
+                "name": "Btn · Default Ghost",
+                "width": 81,
+                "height": 32,
+                "inputs": {
+                  "children": "Default",
+                  "type": "default",
+                  "ghost": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_j5jdaf",
+                "name": "Btn · Dashed Ghost",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "type": "dashed",
+                  "ghost": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_cbptv9",
+                "name": "Btn · Danger Ghost",
+                "width": 78,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger",
+                  "type": "primary",
+                  "danger": true,
+                  "ghost": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cardId": "S9apJ",
+      "previewNode": {
+        "type": "frame",
+        "id": "EoDJP",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_bcipgf",
+            "name": "Btn · Primary Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "Primary",
+              "type": "primary",
+              "block": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_9qlm4u",
+            "name": "Btn · Default Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "Default",
+              "type": "default",
+              "block": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_dovtcp",
+            "name": "Btn · Dashed Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "Dashed",
+              "type": "dashed",
+              "block": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_dm6jys",
+            "name": "Btn · Disabled Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "disabled",
+              "type": "default",
+              "disabled": true,
+              "block": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_o06gbu",
+            "name": "Btn · Text Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "text",
+              "type": "text",
+              "block": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_7776h2",
+            "name": "Btn · Link Block",
+            "width": "fill_container",
+            "height": 32,
+            "inputs": {
+              "children": "Link",
+              "type": "link",
+              "block": true
+            }
+          }
+        ],
+        "gap": 8
+      }
+    },
+    {
+      "cardId": "RbSSB",
+      "previewNode": {
+        "type": "frame",
+        "id": "O4ylNl",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_g2y58z",
+            "name": "Btn · Disabled Wave",
+            "width": 90,
+            "height": 32,
+            "inputs": {
+              "children": "Disabled",
+              "type": "primary",
+              "disabled": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_v7mrrn",
+            "name": "Btn · Default Wave",
+            "width": 81,
+            "height": 32,
+            "inputs": {
+              "children": "Default",
+              "type": "primary"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_8lwepd",
+            "name": "Btn · Inset Wave",
+            "width": 70,
+            "height": 32,
+            "inputs": {
+              "children": "Inset",
+              "type": "primary"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_4k2p6l",
+            "name": "Btn · Shake Wave",
+            "width": 72,
+            "height": 32,
+            "inputs": {
+              "children": "Shake",
+              "type": "primary"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_cl2nx9",
+            "name": "Btn · Happy Work Wave",
+            "width": 109,
+            "height": 32,
+            "inputs": {
+              "children": "Happy Work",
+              "type": "primary"
+            }
+          }
+        ],
+        "gap": 16,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "XK6gC",
+      "previewNode": {
+        "type": "frame",
+        "id": "olIwy",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_ks5wso",
+            "name": "Btn · Object Styling",
+            "width": 75,
+            "height": 32,
+            "inputs": {
+              "children": "Object",
+              "type": "default"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_irsrhw",
+            "name": "Btn · Function Styling",
+            "width": 91,
+            "height": 32,
+            "inputs": {
+              "children": "Function",
+              "type": "primary",
+              "color": "default"
+            }
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "a0YriD",
+      "previewNode": {
+        "type": "frame",
+        "id": "W7NryY",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "row_cv_0",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_m3ndqd",
+                "name": "Btn · default Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "default",
+                  "variant": "solid"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_n6gsb6",
+                "name": "Btn · default Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "default",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_sd8wrv",
+                "name": "Btn · default Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "default",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_9y0xyy",
+                "name": "Btn · default Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "default",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_sfkn1g",
+                "name": "Btn · default Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "default",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_hdz9el",
+                "name": "Btn · default Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "default",
+                  "variant": "link"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_cv_1",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_54s0t9",
+                "name": "Btn · primary Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "primary",
+                  "variant": "solid",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_liembr",
+                "name": "Btn · primary Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "primary",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_p4g2gr",
+                "name": "Btn · primary Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "primary",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_6rkjus",
+                "name": "Btn · primary Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "primary",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_t4t5xp",
+                "name": "Btn · primary Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "primary",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_bpdxhk",
+                "name": "Btn · primary Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "primary",
+                  "variant": "link"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_cv_2",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_60o3us",
+                "name": "Btn · danger Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "danger",
+                  "variant": "solid"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_yvzblr",
+                "name": "Btn · danger Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "danger",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_vwywbh",
+                "name": "Btn · danger Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "danger",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_f02wje",
+                "name": "Btn · danger Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "danger",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_3xb32h",
+                "name": "Btn · danger Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "danger",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_fetsfg",
+                "name": "Btn · danger Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "danger",
+                  "variant": "link"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_cv_3",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_s2umq7",
+                "name": "Btn · pink Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "pink",
+                  "variant": "solid"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_2avuwf",
+                "name": "Btn · pink Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "pink",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_avs7eg",
+                "name": "Btn · pink Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "pink",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_zoz2ep",
+                "name": "Btn · pink Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "pink",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_fdk6q8",
+                "name": "Btn · pink Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "pink",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_58cm24",
+                "name": "Btn · pink Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "pink",
+                  "variant": "link"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_cv_4",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_9qap8z",
+                "name": "Btn · purple Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "purple",
+                  "variant": "solid"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_rnfy72",
+                "name": "Btn · purple Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "purple",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_3vc4sk",
+                "name": "Btn · purple Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "purple",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_zgsfqw",
+                "name": "Btn · purple Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "purple",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_vlc7op",
+                "name": "Btn · purple Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "purple",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_lojj8v",
+                "name": "Btn · purple Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "purple",
+                  "variant": "link"
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_cv_5",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_8sqc11",
+                "name": "Btn · cyan Solid",
+                "width": 66,
+                "height": 32,
+                "inputs": {
+                  "children": "Solid",
+                  "color": "cyan",
+                  "variant": "solid"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_70xoft",
+                "name": "Btn · cyan Outlined",
+                "width": 88,
+                "height": 32,
+                "inputs": {
+                  "children": "Outlined",
+                  "color": "cyan",
+                  "variant": "outlined"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_0ba03f",
+                "name": "Btn · cyan Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "color": "cyan",
+                  "variant": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_71fiuk",
+                "name": "Btn · cyan Filled",
+                "width": 71,
+                "height": 32,
+                "inputs": {
+                  "children": "Filled",
+                  "color": "cyan",
+                  "variant": "filled"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_hd9pmt",
+                "name": "Btn · cyan Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "color": "cyan",
+                  "variant": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_m78on0",
+                "name": "Btn · cyan Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "color": "cyan",
+                  "variant": "link"
+                }
+              }
+            ]
+          }
+        ],
+        "gap": 12
+      }
+    },
+    {
+      "cardId": "YQZdm",
+      "previewNode": {
+        "type": "frame",
+        "id": "PVLla",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "gap": 16,
+        "padding": [
+          24,
+          24,
+          24,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "grp_start_qve1qc",
+            "name": "Group · start",
+            "layout": "vertical",
+            "gap": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "tag_vfqui3",
+                "content": "iconPlacement=\"start\" · 图标位于文字之前（默认）",
+                "fill": "#1677FF",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "600"
+              },
+              {
+                "type": "frame",
+                "id": "r1_0gomny",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_bqsmq2",
+                    "name": "Btn · Search Circle Primary",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "primary",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_ksl9zl",
+                    "name": "Btn · Text Circle Primary",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "A",
+                      "type": "primary",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_8nto00",
+                    "name": "Btn · Search Primary",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "primary",
+                      "iconPlacement": "start"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_1bhny6",
+                    "name": "Btn · Search Circle Default",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "default",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_kau0ep",
+                    "name": "Btn · Search Default",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "default",
+                      "iconPlacement": "start"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "r2_5q0f9s",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_76kpoc",
+                    "name": "Btn · Search Circle Default 2",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "default",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_gkd27f",
+                    "name": "Btn · Search Text",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "text",
+                      "iconPlacement": "start"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_6w324j",
+                    "name": "Btn · Search Circle Dashed",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "dashed",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_xhqt7d",
+                    "name": "Btn · Search Dashed",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "dashed",
+                      "iconPlacement": "start"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_y2z0zf",
+                    "name": "Btn · Search Link Circle",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "link",
+                      "shape": "circle",
+                      "href": "https://www.google.com"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_mldt2x",
+                    "name": "Btn · Loading Primary",
+                    "width": 107,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Loading",
+                      "type": "primary",
+                      "loading": true,
+                      "iconPlacement": "start"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "grp_end_2gprj4",
+            "name": "Group · end",
+            "layout": "vertical",
+            "gap": 8,
+            "children": [
+              {
+                "type": "text",
+                "id": "tag_nefyfw",
+                "content": "iconPlacement=\"end\" · 图标位于文字之后",
+                "fill": "#1677FF",
+                "fontSize": 12,
+                "fontFamily": "Inter",
+                "fontWeight": "600"
+              },
+              {
+                "type": "frame",
+                "id": "r1_4zrgvp",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_aty15f",
+                    "name": "Btn · Search Circle Primary",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "primary",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_z84skz",
+                    "name": "Btn · Text Circle Primary",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "A",
+                      "type": "primary",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_gypl1z",
+                    "name": "Btn · Search Primary",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "primary",
+                      "iconPlacement": "end"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_659fcu",
+                    "name": "Btn · Search Circle Default",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "default",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_ir4gtc",
+                    "name": "Btn · Search Default",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "default",
+                      "iconPlacement": "end"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "id": "r2_xjp5s0",
+                "name": "Row",
+                "layout": "horizontal",
+                "gap": 8,
+                "alignItems": "center",
+                "children": [
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_k9g592",
+                    "name": "Btn · Search Circle Default 2",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "default",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_bn50av",
+                    "name": "Btn · Search Text",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "text",
+                      "iconPlacement": "end"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_h5y80q",
+                    "name": "Btn · Search Circle Dashed",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "dashed",
+                      "shape": "circle"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_d5vc5t",
+                    "name": "Btn · Search Dashed",
+                    "width": 100,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Search",
+                      "icon": "search",
+                      "type": "dashed",
+                      "iconPlacement": "end"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_0l7c0s",
+                    "name": "Btn · Search Link Circle",
+                    "width": 32,
+                    "height": 32,
+                    "inputs": {
+                      "children": "",
+                      "icon": "search",
+                      "type": "link",
+                      "shape": "circle",
+                      "href": "https://www.google.com"
+                    }
+                  },
+                  {
+                    "type": "ref",
+                    "ref": "antd-button-live-origin",
+                    "id": "btn_5yy3hg",
+                    "name": "Btn · Loading Primary",
+                    "width": 107,
+                    "height": 32,
+                    "inputs": {
+                      "children": "Loading",
+                      "type": "primary",
+                      "loading": true,
+                      "iconPlacement": "end"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cardId": "DVEtn",
+      "previewNode": {
+        "type": "frame",
+        "id": "x8RKJ",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "vertical",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "frame",
+            "id": "row_dis_1",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_g3ru55",
+                "name": "Btn · Primary",
+                "width": 85,
+                "height": 32,
+                "inputs": {
+                  "children": "Primary",
+                  "type": "primary"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_dmlmyw",
+                "name": "Btn · Primary Disabled",
+                "width": 159,
+                "height": 32,
+                "inputs": {
+                  "children": "Primary(disabled)",
+                  "type": "primary",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_2",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_4byddf",
+                "name": "Btn · Default",
+                "width": 81,
+                "height": 32,
+                "inputs": {
+                  "children": "Default",
+                  "type": "default"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_azqbhl",
+                "name": "Btn · Default Disabled",
+                "width": 155,
+                "height": 32,
+                "inputs": {
+                  "children": "Default(disabled)",
+                  "type": "default",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_3",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_ifnd1f",
+                "name": "Btn · Dashed",
+                "width": 80,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed",
+                  "type": "dashed"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_co7fd8",
+                "name": "Btn · Dashed Disabled",
+                "width": 154,
+                "height": 32,
+                "inputs": {
+                  "children": "Dashed(disabled)",
+                  "type": "dashed",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_4",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_78amgp",
+                "name": "Btn · Text",
+                "width": 62,
+                "height": 32,
+                "inputs": {
+                  "children": "Text",
+                  "type": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_1abckp",
+                "name": "Btn · Text Disabled",
+                "width": 136,
+                "height": 32,
+                "inputs": {
+                  "children": "Text(disabled)",
+                  "type": "text",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_5",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_ifefuu",
+                "name": "Btn · Link",
+                "width": 61,
+                "height": 32,
+                "inputs": {
+                  "children": "Link",
+                  "type": "link"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_f9nqtz",
+                "name": "Btn · Link Disabled",
+                "width": 135,
+                "height": 32,
+                "inputs": {
+                  "children": "Link(disabled)",
+                  "type": "link",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_6",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_97uumc",
+                "name": "Btn · Href Primary",
+                "width": 120,
+                "height": 32,
+                "inputs": {
+                  "children": "Href Primary",
+                  "type": "primary",
+                  "href": "https://ant.design/index-cn"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_mim8ta",
+                "name": "Btn · Href Primary Disabled",
+                "width": 194,
+                "height": 32,
+                "inputs": {
+                  "children": "Href Primary(disabled)",
+                  "type": "primary",
+                  "href": "https://ant.design/index-cn",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_7",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_7mb1j3",
+                "name": "Btn · Danger Default",
+                "width": 134,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Default",
+                  "danger": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_jh4pon",
+                "name": "Btn · Danger Default Disabled",
+                "width": 208,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Default(disabled)",
+                  "danger": true,
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_8",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_1cso2h",
+                "name": "Btn · Danger Text",
+                "width": 115,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Text",
+                  "danger": true,
+                  "type": "text"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_woti9w",
+                "name": "Btn · Danger Text Disabled",
+                "width": 189,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Text(disabled)",
+                  "danger": true,
+                  "type": "text",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "row_dis_9",
+            "name": "Row",
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_f4pvc7",
+                "name": "Btn · Danger Link",
+                "width": 114,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Link",
+                  "danger": true,
+                  "type": "link"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_1r09m1",
+                "name": "Btn · Danger Link Disabled",
+                "width": 188,
+                "height": 32,
+                "inputs": {
+                  "children": "Danger Link(disabled)",
+                  "danger": true,
+                  "type": "link",
+                  "disabled": true
+                }
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "id": "dis_ghost_wrapper",
+            "name": "Ghost Wrapper",
+            "fill": "#bec8c8",
+            "cornerRadius": 6,
+            "padding": [
+              8,
+              12
+            ],
+            "layout": "horizontal",
+            "gap": 8,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_xlpwdz",
+                "name": "Btn · Ghost",
+                "width": 70,
+                "height": 32,
+                "inputs": {
+                  "children": "Ghost",
+                  "ghost": true
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_lxo9s8",
+                "name": "Btn · Ghost Disabled",
+                "width": 144,
+                "height": 32,
+                "inputs": {
+                  "children": "Ghost(disabled)",
+                  "ghost": true,
+                  "disabled": true
+                }
+              }
+            ]
+          }
+        ],
+        "gap": 10
+      }
+    },
+    {
+      "cardId": "p9ga4",
+      "previewNode": {
+        "type": "frame",
+        "id": "gE6Zd",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_j04wer",
+            "name": "Btn · Primary",
+            "width": 83,
+            "height": 32,
+            "inputs": {
+              "children": "primary",
+              "type": "primary"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_0lz2xu",
+            "name": "Btn · Secondary",
+            "width": 100,
+            "height": 32,
+            "inputs": {
+              "children": "secondary",
+              "type": "default"
+            }
+          },
+          {
+            "type": "frame",
+            "id": "compact_actions_ugbweq",
+            "name": "Space.Compact · Actions",
+            "layout": "horizontal",
+            "gap": 0,
+            "alignItems": "center",
+            "children": [
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_vbseit",
+                "name": "Btn · Actions",
+                "width": 83,
+                "height": 32,
+                "inputs": {
+                  "children": "Actions",
+                  "type": "default",
+                  "compactPlacement": "start"
+                }
+              },
+              {
+                "type": "ref",
+                "ref": "antd-button-live-origin",
+                "id": "btn_7iitvd",
+                "name": "Btn · Dropdown Ellipsis",
+                "width": 32,
+                "height": 32,
+                "inputs": {
+                  "children": "",
+                  "icon": "ellipsis",
+                  "type": "default",
+                  "compactPlacement": "end"
+                }
+              }
+            ]
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "ema6A",
+      "previewNode": {
+        "type": "frame",
+        "id": "Y4m28h",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_hwccyy",
+            "name": "Btn · Primary Danger",
+            "width": 85,
+            "height": 32,
+            "inputs": {
+              "children": "Primary",
+              "type": "primary",
+              "danger": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_7sefrn",
+            "name": "Btn · Default Danger",
+            "width": 81,
+            "height": 32,
+            "inputs": {
+              "children": "Default",
+              "danger": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_ibxce2",
+            "name": "Btn · Dashed Danger",
+            "width": 80,
+            "height": 32,
+            "inputs": {
+              "children": "Dashed",
+              "type": "dashed",
+              "danger": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_5vgw8e",
+            "name": "Btn · Text Danger",
+            "width": 62,
+            "height": 32,
+            "inputs": {
+              "children": "Text",
+              "type": "text",
+              "danger": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_puar9l",
+            "name": "Btn · Link Danger",
+            "width": 61,
+            "height": 32,
+            "inputs": {
+              "children": "Link",
+              "type": "link",
+              "danger": true
+            }
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "CodtW",
+      "previewNode": {
+        "type": "frame",
+        "id": "p2oRF",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_jcn248",
+            "name": "Btn · Gradient Large",
+            "width": 181,
+            "height": 40,
+            "inputs": {
+              "children": "Gradient Button",
+              "type": "primary",
+              "size": "large",
+              "icon": "ant-design",
+              "linearGradient": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_ak14e6",
+            "name": "Btn · Normal Large",
+            "width": 83,
+            "height": 40,
+            "inputs": {
+              "children": "Button",
+              "type": "default",
+              "size": "large"
+            }
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    },
+    {
+      "cardId": "nFhIx",
+      "previewNode": {
+        "type": "frame",
+        "id": "Iewxf",
+        "name": "section",
+        "context": "section",
+        "width": "fill_container",
+        "fill": "#ffffff",
+        "cornerRadius": [
+          8,
+          8,
+          0,
+          0
+        ],
+        "stroke": "#0505050f",
+        "strokeWidth": {
+          "bottom": 1
+        },
+        "strokeAlignment": "inner",
+        "layout": "horizontal",
+        "padding": [
+          42,
+          24,
+          51,
+          24
+        ],
+        "children": [
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_qaoz3q",
+            "name": "Btn · Primary Disabled",
+            "width": 136,
+            "height": 32,
+            "inputs": {
+              "children": "Primary Button",
+              "type": "primary",
+              "disabled": true
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_c1cz6n",
+            "name": "Btn · Default Custom Disabled",
+            "width": 132,
+            "height": 32,
+            "inputs": {
+              "children": "Default Button",
+              "type": "default",
+              "disabled": true,
+              "disabledBg": "#0000001A"
+            }
+          },
+          {
+            "type": "ref",
+            "ref": "antd-button-live-origin",
+            "id": "btn_jpok8m",
+            "name": "Btn · Dashed Custom Disabled",
+            "width": 131,
+            "height": 32,
+            "inputs": {
+              "children": "Dashed Button",
+              "type": "dashed",
+              "disabled": true,
+              "disabledBg": "#00000066"
+            }
+          }
+        ],
+        "gap": 8,
+        "alignItems": "center"
+      }
+    }
+  ]
+}

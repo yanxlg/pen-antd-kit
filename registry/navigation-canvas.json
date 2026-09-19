@@ -1,0 +1,768 @@
+{
+  "canonical": {
+    "Anchor": "ca84t",
+    "Breadcrumb": "btoUX",
+    "Dropdown": "ScSFh",
+    "Menu": "jaNIi",
+    "Pagination": "Y9L6l",
+    "Steps": "p8qrv",
+    "Tabs": "acxPC"
+  },
+  "migration": [
+    {
+      "old": "uD0D4",
+      "id": "c7gGU",
+      "component": "Anchor"
+    },
+    {
+      "old": "lxobS",
+      "id": "QIJW4",
+      "component": "Anchor"
+    },
+    {
+      "old": "IkH2u",
+      "id": "s8PRL",
+      "component": "Anchor"
+    },
+    {
+      "old": "w2jwAr",
+      "id": "eGCQV",
+      "component": "Anchor"
+    },
+    {
+      "old": "q9aoyn",
+      "id": "w7yhpa",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "K0AjOH",
+      "id": "smD5F",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "k8cblQ",
+      "id": "lJ0Ou",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "QgBQs",
+      "id": "fbSj8",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "JqAd1",
+      "id": "k2YYcf",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "ycyQR",
+      "id": "c8v6ld",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "yTeEQ",
+      "id": "lfLjt",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "WdMiK",
+      "id": "qUjYB",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "GNXas",
+      "id": "loWsb",
+      "component": "Breadcrumb"
+    },
+    {
+      "old": "Yx9Kl",
+      "id": "nRCAe",
+      "component": "Dropdown"
+    },
+    {
+      "old": "Q55Tw",
+      "id": "uwK3m",
+      "component": "Dropdown"
+    },
+    {
+      "old": "W6yc0q",
+      "id": "A4jpD",
+      "component": "Dropdown"
+    },
+    {
+      "old": "E8YBhq",
+      "id": "qWmMI",
+      "component": "Dropdown"
+    },
+    {
+      "old": "mm5Q7",
+      "id": "MQ4Gt",
+      "component": "Dropdown"
+    },
+    {
+      "old": "BxXfu",
+      "id": "CtuJI",
+      "component": "Dropdown"
+    },
+    {
+      "old": "y0gN1d",
+      "id": "mrInl",
+      "component": "Dropdown"
+    },
+    {
+      "old": "F5WLRx",
+      "id": "wBChz",
+      "component": "Dropdown"
+    },
+    {
+      "old": "ZUttr",
+      "id": "ECO3D",
+      "component": "Dropdown"
+    },
+    {
+      "old": "QVCNP",
+      "id": "rOJHe",
+      "component": "Dropdown"
+    },
+    {
+      "old": "qLnI0",
+      "id": "yhE3x",
+      "component": "Dropdown"
+    },
+    {
+      "old": "kNwld",
+      "id": "CbNjt",
+      "component": "Dropdown"
+    },
+    {
+      "old": "x597Vl",
+      "id": "w8cIE",
+      "component": "Dropdown"
+    },
+    {
+      "old": "CtSwr",
+      "id": "cKXTU",
+      "component": "Dropdown"
+    },
+    {
+      "old": "ci4Mu",
+      "id": "gch0k",
+      "component": "Dropdown"
+    },
+    {
+      "old": "eByw3",
+      "id": "Z1rGg",
+      "component": "Dropdown"
+    },
+    {
+      "old": "Y630mU",
+      "id": "GbX6Z",
+      "component": "Dropdown"
+    },
+    {
+      "old": "MG0wW",
+      "id": "pSLIZ",
+      "component": "Dropdown"
+    },
+    {
+      "old": "N5iwV",
+      "id": "omsWz",
+      "component": "Dropdown"
+    },
+    {
+      "old": "R6ljy",
+      "id": "tkNlN",
+      "component": "Dropdown"
+    },
+    {
+      "old": "rv8jY",
+      "id": "psAe9",
+      "component": "Dropdown"
+    },
+    {
+      "old": "rUOXJ",
+      "id": "Q5P78X",
+      "component": "Dropdown"
+    },
+    {
+      "old": "Kf5vl",
+      "id": "SbJh7",
+      "component": "Dropdown"
+    },
+    {
+      "old": "kVtxj",
+      "id": "tlLDt",
+      "component": "Dropdown"
+    },
+    {
+      "old": "neOKp",
+      "id": "BtjmM",
+      "component": "Dropdown"
+    },
+    {
+      "old": "s7Qgn",
+      "id": "JCuhP",
+      "component": "Dropdown"
+    },
+    {
+      "old": "VJd49",
+      "id": "Ssivq",
+      "component": "Dropdown"
+    },
+    {
+      "old": "C7Gz8",
+      "id": "RYD7M",
+      "component": "Dropdown"
+    },
+    {
+      "old": "B9dxUx",
+      "id": "Z3sfa",
+      "component": "Dropdown"
+    },
+    {
+      "old": "n5tZ2d",
+      "id": "N0eyK",
+      "component": "Dropdown"
+    },
+    {
+      "old": "nWFSa",
+      "id": "OrRsH",
+      "component": "Dropdown"
+    },
+    {
+      "old": "cbip3",
+      "id": "ZTsat",
+      "component": "Dropdown"
+    },
+    {
+      "old": "ib6FO",
+      "id": "CPOFF",
+      "component": "Dropdown"
+    },
+    {
+      "old": "pYrnU",
+      "id": "bLxyj",
+      "component": "Dropdown"
+    },
+    {
+      "old": "qUScT",
+      "id": "BBQ5Y",
+      "component": "Dropdown"
+    },
+    {
+      "old": "Eyh5N",
+      "id": "jgVuj",
+      "component": "Dropdown"
+    },
+    {
+      "old": "kGckc",
+      "id": "R3sMc",
+      "component": "Dropdown"
+    },
+    {
+      "old": "Qm8Vw",
+      "id": "OUEUb",
+      "component": "Dropdown"
+    },
+    {
+      "old": "vM5nb",
+      "id": "fSiLW",
+      "component": "Dropdown"
+    },
+    {
+      "old": "schiY",
+      "id": "DSlXF",
+      "component": "Dropdown"
+    },
+    {
+      "old": "HGdQS",
+      "id": "nyZu0",
+      "component": "Dropdown"
+    },
+    {
+      "old": "FBlBb",
+      "id": "prvt8",
+      "component": "Dropdown"
+    },
+    {
+      "old": "SMjav",
+      "id": "ImmSl",
+      "component": "Dropdown"
+    },
+    {
+      "old": "V9Atp",
+      "id": "J7FGC",
+      "component": "Dropdown"
+    },
+    {
+      "old": "HEZ6G",
+      "id": "we7Jw",
+      "component": "Dropdown"
+    },
+    {
+      "old": "jmGp1",
+      "id": "Nkcq2",
+      "component": "Dropdown"
+    },
+    {
+      "old": "F9NlGN",
+      "id": "nG2XW",
+      "component": "Menu"
+    },
+    {
+      "old": "j3J6DJ",
+      "id": "gCQrv",
+      "component": "Menu"
+    },
+    {
+      "old": "y1iim",
+      "id": "J5eAk",
+      "component": "Menu"
+    },
+    {
+      "old": "HzgOM",
+      "id": "s2RUt",
+      "component": "Menu"
+    },
+    {
+      "old": "qJr9W",
+      "id": "T6tfhJ",
+      "component": "Menu"
+    },
+    {
+      "old": "L4i5M",
+      "id": "XQ3FH",
+      "component": "Menu"
+    },
+    {
+      "old": "HA1j0",
+      "id": "qDhfI",
+      "component": "Menu"
+    },
+    {
+      "old": "p9zP7B",
+      "id": "DmvMY",
+      "component": "Menu"
+    },
+    {
+      "old": "B3axuo",
+      "id": "nQn6Q",
+      "component": "Menu"
+    },
+    {
+      "old": "Jabxs",
+      "id": "uWqQ8",
+      "component": "Menu"
+    },
+    {
+      "old": "J3wzk",
+      "id": "t71Dc",
+      "component": "Menu"
+    },
+    {
+      "old": "j1pQh3",
+      "id": "xj6JU",
+      "component": "Menu"
+    },
+    {
+      "old": "sdBub",
+      "id": "X4LYSl",
+      "component": "Pagination"
+    },
+    {
+      "old": "nIzKw",
+      "id": "ZYEzj",
+      "component": "Pagination"
+    },
+    {
+      "old": "wSglh",
+      "id": "dFyxU",
+      "component": "Pagination"
+    },
+    {
+      "old": "BDVWr",
+      "id": "f2Cl5D",
+      "component": "Pagination"
+    },
+    {
+      "old": "z4C6AH",
+      "id": "g48AW",
+      "component": "Pagination"
+    },
+    {
+      "old": "J1jYN1",
+      "id": "Z7HUO",
+      "component": "Pagination"
+    },
+    {
+      "old": "iKd3t",
+      "id": "nTX1K",
+      "component": "Pagination"
+    },
+    {
+      "old": "EjmH2",
+      "id": "eWPVE",
+      "component": "Pagination"
+    },
+    {
+      "old": "M0xKWg",
+      "id": "vRh7w",
+      "component": "Pagination"
+    },
+    {
+      "old": "J9nda",
+      "id": "vlpNr",
+      "component": "Pagination"
+    },
+    {
+      "old": "fBScA",
+      "id": "P4Rg3",
+      "component": "Pagination"
+    },
+    {
+      "old": "XrAId",
+      "id": "H3TdR6",
+      "component": "Pagination"
+    },
+    {
+      "old": "hSO8i",
+      "id": "rPygA",
+      "component": "Pagination"
+    },
+    {
+      "old": "JFZoo",
+      "id": "DUUvt",
+      "component": "Pagination"
+    },
+    {
+      "old": "PpIxP",
+      "id": "UE4lU",
+      "component": "Pagination"
+    },
+    {
+      "old": "jxDAh",
+      "id": "MXGB2",
+      "component": "Pagination"
+    },
+    {
+      "old": "UdvmM",
+      "id": "vlm48",
+      "component": "Pagination"
+    },
+    {
+      "old": "g6PKd",
+      "id": "uVSiN",
+      "component": "Pagination"
+    },
+    {
+      "old": "b0STy",
+      "id": "cWWZI",
+      "component": "Pagination"
+    },
+    {
+      "old": "wVGs0",
+      "id": "nCjlt",
+      "component": "Pagination"
+    },
+    {
+      "old": "j9DBjI",
+      "id": "kpgeF",
+      "component": "Pagination"
+    },
+    {
+      "old": "GbK6M",
+      "id": "XM67D",
+      "component": "Pagination"
+    },
+    {
+      "old": "tfuUk",
+      "id": "yo2Yv",
+      "component": "Pagination"
+    },
+    {
+      "old": "jPeZt",
+      "id": "d9Tz0",
+      "component": "Pagination"
+    },
+    {
+      "old": "RuOGD",
+      "id": "AAVEV",
+      "component": "Pagination"
+    },
+    {
+      "old": "K09Gh",
+      "id": "se6MD",
+      "component": "Pagination"
+    },
+    {
+      "old": "qkFQE",
+      "id": "obmpa",
+      "component": "Pagination"
+    },
+    {
+      "old": "gB9Wx",
+      "id": "JQaeu",
+      "component": "Pagination"
+    },
+    {
+      "old": "W9tHgw",
+      "id": "GKMyd",
+      "component": "Steps"
+    },
+    {
+      "old": "Ek9CP",
+      "id": "i3krn",
+      "component": "Steps"
+    },
+    {
+      "old": "Hxcyf",
+      "id": "ip1dw",
+      "component": "Steps"
+    },
+    {
+      "old": "l0NDb",
+      "id": "FMG4s",
+      "component": "Steps"
+    },
+    {
+      "old": "kd1RX",
+      "id": "psb22",
+      "component": "Steps"
+    },
+    {
+      "old": "ghzle",
+      "id": "reY6u",
+      "component": "Steps"
+    },
+    {
+      "old": "G2TBV",
+      "id": "v9Gn2",
+      "component": "Steps"
+    },
+    {
+      "old": "r1kWyv",
+      "id": "EFoxt",
+      "component": "Steps"
+    },
+    {
+      "old": "y3pz5n",
+      "id": "F1t0Ph",
+      "component": "Steps"
+    },
+    {
+      "old": "t2E51",
+      "id": "Eco6c",
+      "component": "Steps"
+    },
+    {
+      "old": "zYgb4",
+      "id": "uHV5c",
+      "component": "Steps"
+    },
+    {
+      "old": "zNhwF",
+      "id": "O1wADG",
+      "component": "Steps"
+    },
+    {
+      "old": "LMYFw",
+      "id": "OfKmt",
+      "component": "Steps"
+    },
+    {
+      "old": "R8117",
+      "id": "Ikd3b",
+      "component": "Steps"
+    },
+    {
+      "old": "ZOhsa",
+      "id": "ZMG7d",
+      "component": "Steps"
+    },
+    {
+      "old": "QSoGN",
+      "id": "C7yka",
+      "component": "Steps"
+    },
+    {
+      "old": "mGWPs",
+      "id": "iZXzQ",
+      "component": "Steps"
+    },
+    {
+      "old": "K5MGY",
+      "id": "Z6Xwjz",
+      "component": "Steps"
+    },
+    {
+      "old": "Z4TPa",
+      "id": "btezN",
+      "component": "Steps"
+    },
+    {
+      "old": "JT86a",
+      "id": "hSEvh",
+      "component": "Steps"
+    },
+    {
+      "old": "Dj9R1",
+      "id": "euO81",
+      "component": "Steps"
+    },
+    {
+      "old": "ekqjB",
+      "id": "JhyhC",
+      "component": "Steps"
+    },
+    {
+      "old": "w1SsCk",
+      "id": "ZemAe",
+      "component": "Steps"
+    },
+    {
+      "old": "yAufO",
+      "id": "pVmTK",
+      "component": "Steps"
+    },
+    {
+      "old": "xscsZ",
+      "id": "PXcGm",
+      "component": "Steps"
+    },
+    {
+      "old": "HYttv",
+      "id": "Sv9mv",
+      "component": "Steps"
+    },
+    {
+      "old": "qbycH",
+      "id": "D7hrtl",
+      "component": "Steps"
+    },
+    {
+      "old": "IkVlq",
+      "id": "NC3aF",
+      "component": "Steps"
+    },
+    {
+      "old": "kRugC",
+      "id": "o7g9F",
+      "component": "Steps"
+    },
+    {
+      "old": "O2D0i",
+      "id": "lqOUE",
+      "component": "Steps"
+    },
+    {
+      "old": "NIKhy",
+      "id": "Q4eMBC",
+      "component": "Steps"
+    },
+    {
+      "old": "NWt8u",
+      "id": "d6x7IE",
+      "component": "Steps"
+    },
+    {
+      "old": "fgZNw",
+      "id": "y1buXw",
+      "component": "Tabs"
+    },
+    {
+      "old": "KcASl",
+      "id": "EEvFn",
+      "component": "Tabs"
+    },
+    {
+      "old": "iw7yC",
+      "id": "BtMRj",
+      "component": "Tabs"
+    },
+    {
+      "old": "Ru1v6",
+      "id": "dRUqP",
+      "component": "Tabs"
+    },
+    {
+      "old": "QIRB4",
+      "id": "syzW3",
+      "component": "Tabs"
+    },
+    {
+      "old": "pamQW",
+      "id": "sMkv7",
+      "component": "Tabs"
+    },
+    {
+      "old": "iNw9k",
+      "id": "XguYn",
+      "component": "Tabs"
+    },
+    {
+      "old": "rEvUD",
+      "id": "QrEBg",
+      "component": "Tabs"
+    },
+    {
+      "old": "V99Az",
+      "id": "lnF6E",
+      "component": "Tabs"
+    },
+    {
+      "old": "CQL0M",
+      "id": "vfWP0",
+      "component": "Tabs"
+    },
+    {
+      "old": "YrIhp",
+      "id": "Q0uEFo",
+      "component": "Tabs"
+    },
+    {
+      "old": "d17AG",
+      "id": "s9S51w",
+      "component": "Tabs"
+    },
+    {
+      "old": "lZKVx",
+      "id": "i2NzGE",
+      "component": "Tabs"
+    },
+    {
+      "old": "Oe92o",
+      "id": "Fwt6s",
+      "component": "Tabs"
+    },
+    {
+      "old": "umeM4",
+      "id": "WvGUt",
+      "component": "Tabs"
+    },
+    {
+      "old": "wdkmL",
+      "id": "nW4Ju",
+      "component": "Tabs"
+    },
+    {
+      "old": "XarZ2",
+      "id": "qNoHX",
+      "component": "Tabs"
+    },
+    {
+      "old": "hc9SX",
+      "id": "nMyJ7",
+      "component": "Tabs"
+    },
+    {
+      "old": "k7oRt",
+      "id": "Q1MnI",
+      "component": "Tabs"
+    },
+    {
+      "old": "jyJCe",
+      "id": "t8c9o",
+      "component": "Tabs"
+    }
+  ]
+}

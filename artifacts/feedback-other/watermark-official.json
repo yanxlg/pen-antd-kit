@@ -1,0 +1,195 @@
+{
+  "url": "https://ant.design/components/watermark",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-input",
+      "classes": [
+        "ant-input",
+        "css-19u5a7b",
+        "ant-input-outlined",
+        "css-var-_R_afsua_",
+        "ant-input-css-var"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "4px 11px",
+        "gap": "normal",
+        "width": "263px",
+        "height": "32px"
+      },
+      "width": 263,
+      "height": 32,
+      "demo": "watermark-demo-custom",
+      "title": "Custom configuration",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": "Please enter",
+      "value": "Ant Design"
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Show in Modal",
+      "texts": [
+        "Show in Modal"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "130.156px",
+        "height": "32px"
+      },
+      "width": 130.15625,
+      "height": 32,
+      "demo": "watermark-demo-portal",
+      "title": "Modal or Drawer",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Show in Drawer",
+      "texts": [
+        "Show in Drawer"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "136.25px",
+        "height": "32px"
+      },
+      "width": 136.25,
+      "height": 32,
+      "demo": "watermark-demo-portal",
+      "title": "Modal or Drawer",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Not Show in Drawer",
+      "texts": [
+        "Not Show in Drawer"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "163.531px",
+        "height": "32px"
+      },
+      "width": 163.53125,
+      "height": 32,
+      "demo": "watermark-demo-portal",
+      "title": "Modal or Drawer",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Basic",
+    "",
+    "Multi-line watermark",
+    "",
+    "Image watermark",
+    "",
+    "Custom configuration",
+    "",
+    "Modal or Drawer",
+    ""
+  ]
+}

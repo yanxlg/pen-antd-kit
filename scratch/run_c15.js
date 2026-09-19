@@ -1,0 +1,5 @@
+{
+  const c = Get('nFhIx');
+  Update('nFhIx', { layout: 'vertical' });
+  Replace(c.children[0].id, {"type":"frame","id":"Iewxf","name":"section","context":"section","width":"fill_container","fill":"#ffffff","cornerRadius":[8,8,0,0],"stroke":"#0505050f","strokeWidth":{"bottom":1},"strokeAlignment":"inner","layout":"horizontal","padding":[42,24,51,24],"children":[{"type":"ref","ref":"antd-button-live-origin","id":"btn_lsa7ky","name":"Btn · Primary Disabled","width":126,"height":32,"inputs":{"children":"Primary Button","type":"primary","disabled":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_hnpur9","name":"Btn · Default Custom Disabled","width":124,"height":32,"inputs":{"children":"Default Button","type":"default","disabled":true,"disabledBg":"#0000001A"}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_x6mrfr","name":"Btn · Dashed Custom Disabled","width":126,"height":32,"inputs":{"children":"Dashed Button","type":"dashed","disabled":true,"disabledBg":"#00000066"}}],"gap":8,"alignItems":"center"});
+}

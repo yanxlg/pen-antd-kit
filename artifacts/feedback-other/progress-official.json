@@ -1,0 +1,4416 @@
+{
+  "url": "https://ant.design/components/progress",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "30%",
+      "texts": [
+        "30%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-line",
+      "title": "Progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-active",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-line",
+      "title": "Progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-exception",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14.75px"
+      },
+      "width": 835.984375,
+      "height": 14.75,
+      "demo": "progress-demo-line",
+      "title": "Progress bar",
+      "icons": [
+        "close-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer",
+        "anticon anticon-close-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "70"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14.75px"
+      },
+      "width": 835.984375,
+      "height": 14.75,
+      "demo": "progress-demo-line",
+      "title": "Progress bar",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer",
+        "anticon anticon-check-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "8px"
+      },
+      "width": 835.984375,
+      "height": 8,
+      "demo": "progress-demo-line",
+      "title": "Progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "30%",
+      "texts": [
+        "30%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "180px",
+        "height": "12px"
+      },
+      "width": 180,
+      "height": 12,
+      "demo": "progress-demo-line-mini",
+      "title": "Mini size progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-active",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "180px",
+        "height": "12px"
+      },
+      "width": 180,
+      "height": 12,
+      "demo": "progress-demo-line-mini",
+      "title": "Mini size progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-exception",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "180px",
+        "height": "12.5px"
+      },
+      "width": 180,
+      "height": 12.5,
+      "demo": "progress-demo-line-mini",
+      "title": "Mini size progress bar",
+      "icons": [
+        "close-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer",
+        "anticon anticon-close-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "70"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "180px",
+        "height": "12.5px"
+      },
+      "width": 180,
+      "height": 12.5,
+      "demo": "progress-demo-line-mini",
+      "title": "Mini size progress bar",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer",
+        "anticon anticon-check-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "30%",
+      "texts": [
+        "30%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "80px",
+        "height": "80px"
+      },
+      "width": 80,
+      "height": 80,
+      "demo": "progress-demo-circle-mini",
+      "title": "Mini size circular progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-exception",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "80px",
+        "height": "80px"
+      },
+      "width": 80,
+      "height": 80,
+      "demo": "progress-demo-circle-mini",
+      "title": "Mini size circular progress bar",
+      "icons": [
+        "close"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-close"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "70"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "80px",
+        "height": "80px"
+      },
+      "width": 80,
+      "height": 80,
+      "demo": "progress-demo-circle-mini",
+      "title": "Mini size circular progress bar",
+      "icons": [
+        "check"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-check"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "75 Days",
+      "texts": [
+        "75 Days"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-format",
+      "title": "Custom text format",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "75"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Done",
+      "texts": [
+        "Done"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-format",
+      "title": "Custom text format",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-segment",
+      "title": "Progress bar with success segment",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-track ant-progress-track-success",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-segment",
+      "title": "Progress bar with success segment",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-segment",
+      "title": "Progress bar with success segment",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "99.9%",
+      "texts": [
+        "99.9%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "99"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-active",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "90%",
+      "texts": [
+        "90%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "90"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [
+        "check"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-check"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "93%",
+      "texts": [
+        "93%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "93"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "90%",
+      "texts": [
+        "90%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "90"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [
+        "check"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-check"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "93%",
+      "texts": [
+        "93%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-gradient-line",
+      "title": "Custom line gradient",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-circle-gradient",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "93"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-circle-steps",
+      "title": "Circular progress bar with steps",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-circle-steps",
+      "title": "Circular progress bar with steps",
+      "icons": [
+        "check"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-check"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-center",
+        "ant-progress-line-position-inner",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "0%",
+      "texts": [
+        "0%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "20px"
+      },
+      "width": 835.984375,
+      "height": 20,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-bright ant-progress-indicator-center ant-progress-indicator-inner"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-center",
+        "ant-progress-line-position-inner",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "10%",
+      "texts": [
+        "10%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "20px"
+      },
+      "width": 835.984375,
+      "height": 20,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-center ant-progress-indicator-inner"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "10"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-start",
+        "ant-progress-line-position-inner",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "20px"
+      },
+      "width": 835.984375,
+      "height": 20,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-bright ant-progress-indicator-start ant-progress-indicator-inner"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-inner",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "20px"
+      },
+      "width": 835.984375,
+      "height": 20,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-inner"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-line",
+        "ant-progress-line-align-center",
+        "ant-progress-line-position-inner",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "100%",
+      "texts": [
+        "100%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "20px"
+      },
+      "width": 835.984375,
+      "height": 20,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-center ant-progress-indicator-inner"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-start",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14px"
+      },
+      "width": 835.984375,
+      "height": 14,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-start ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-line",
+        "ant-progress-line-align-start",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "14.75px"
+      },
+      "width": 835.984375,
+      "height": 14.75,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-start ant-progress-indicator-outer",
+        "anticon anticon-check-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-center",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "22px"
+      },
+      "width": 835.984375,
+      "height": 22,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-body-layout-bottom",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-center ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-line",
+        "ant-progress-line-align-center",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "26.75px"
+      },
+      "width": 835.984375,
+      "height": 26.75,
+      "demo": "progress-demo-info-position",
+      "title": "Change progress value position",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body ant-progress-body-layout-bottom",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-center ant-progress-indicator-outer",
+        "anticon anticon-check-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "75%",
+      "texts": [
+        "75%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-circle",
+      "title": "Circular progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "75"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-exception",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-circle",
+      "title": "Circular progress bar",
+      "icons": [
+        "close"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-close"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "70"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-circle",
+      "title": "Circular progress bar",
+      "icons": [
+        "check"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator",
+        "anticon anticon-check"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-inline-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "14px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "14px",
+        "height": "14px"
+      },
+      "width": 14,
+      "height": 14,
+      "demo": "progress-demo-circle-micro",
+      "title": "Responsive circular progress bar",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "0%",
+      "texts": [
+        "0%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-dynamic",
+      "title": "Dynamic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "0%",
+      "texts": [
+        "0%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "120px"
+      },
+      "width": 836,
+      "height": 120,
+      "demo": "progress-demo-dynamic",
+      "title": "Dynamic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "0"
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined",
+        "ant-btn-icon-only",
+        "ant-btn-compact-item",
+        "ant-btn-compact-first-item"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px 0px 0px 6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "32px",
+        "height": "32px"
+      },
+      "width": 32,
+      "height": 32,
+      "demo": "progress-demo-dynamic",
+      "title": "Dynamic",
+      "icons": [
+        "minus"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-minus"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined",
+        "ant-btn-icon-only",
+        "ant-btn-compact-item",
+        "ant-btn-compact-last-item"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "0px 6px 6px 0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "32px",
+        "height": "32px"
+      },
+      "width": 32,
+      "height": 32,
+      "demo": "progress-demo-dynamic",
+      "title": "Dynamic",
+      "icons": [
+        "plus"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-plus"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "30%",
+      "texts": [
+        "30%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "120px"
+      },
+      "width": 836,
+      "height": 120,
+      "demo": "progress-demo-dashboard",
+      "title": "Dashboard",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "75%",
+      "texts": [
+        "75%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-linecap",
+      "title": "Stroke Linecap",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "75"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "75%",
+      "texts": [
+        "75%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-linecap",
+      "title": "Stroke Linecap",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "75"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "75%",
+      "texts": [
+        "75%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-linecap",
+      "title": "Stroke Linecap",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "75"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-steps",
+      "title": "Progress bar with steps",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "30%",
+      "texts": [
+        "30%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-steps",
+      "title": "Progress bar with steps",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-steps-item",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "30"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-success",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14.75px"
+      },
+      "width": 836,
+      "height": 14.75,
+      "demo": "progress-demo-steps",
+      "title": "Progress bar with steps",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-indicator",
+        "anticon anticon-check-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "100"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-steps",
+      "title": "Progress bar with steps",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "300px",
+        "height": "14px"
+      },
+      "width": 300,
+      "height": 14,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "12px",
+        "lineHeight": "18.8571px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "300px",
+        "height": "12px"
+      },
+      "width": 300,
+      "height": 12,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "300px",
+        "height": "20px"
+      },
+      "width": 300,
+      "height": 20,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail",
+        "ant-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "60px",
+        "height": "60px"
+      },
+      "width": 60,
+      "height": 60,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-inline-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "14px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "120px",
+        "height": "120px"
+      },
+      "width": 120,
+      "height": 120,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "60px",
+        "height": "60px"
+      },
+      "width": 60,
+      "height": 60,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-circle",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "20px",
+        "height": "20px"
+      },
+      "width": 20,
+      "height": 20,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-circle",
+        "ant-progress-circle-rail",
+        "ant-progress-circle-path",
+        "ant-progress-circle-path"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "83.6094px",
+        "height": "14px"
+      },
+      "width": 83.609375,
+      "height": 14,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "ant-progress-small",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "47.6094px",
+        "height": "14px"
+      },
+      "width": 47.609375,
+      "height": 14,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "101.609px",
+        "height": "20px"
+      },
+      "width": 101.609375,
+      "height": 20,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-steps",
+        "ant-progress-show-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "50%",
+      "texts": [
+        "50%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "101.609px",
+        "height": "30px"
+      },
+      "width": 101.609375,
+      "height": 30,
+      "demo": "progress-demo-size",
+      "title": "Progress size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-steps-body",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item ant-progress-steps-item-active",
+        "ant-progress-steps-item",
+        "ant-progress-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "50"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "10%",
+      "texts": [
+        "10%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "10"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "20%",
+      "texts": [
+        "20%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "20"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "40%",
+      "texts": [
+        "40%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "40"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "60%",
+      "texts": [
+        "60%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "60"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "80%",
+      "texts": [
+        "80%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "80"
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "demo-progress-root",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "99%",
+      "texts": [
+        "99%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "836px",
+        "height": "14px"
+      },
+      "width": 836,
+      "height": 14,
+      "demo": "progress-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body",
+        "ant-progress-rail demo-progress-rail",
+        "ant-progress-track demo-progress-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "99"
+    },
+    {
+      "kind": "ant-switch",
+      "classes": [
+        "ant-switch",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_"
+      ],
+      "text": "GradientGradient",
+      "texts": [
+        "Gradient",
+        "Gradient"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0.25)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "100px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "81.7656px",
+        "height": "22px"
+      },
+      "width": 81.765625,
+      "height": 22,
+      "demo": "progress-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-switch-handle",
+        "ant-switch-inner",
+        "ant-switch-inner-checked",
+        "ant-switch-inner-unchecked"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": "false",
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-progress",
+      "classes": [
+        "ant-progress",
+        "ant-progress-status-normal",
+        "ant-progress-line",
+        "ant-progress-line-align-end",
+        "ant-progress-line-position-outer",
+        "ant-progress-show-info",
+        "semantic-mark-root",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_"
+      ],
+      "text": "80%",
+      "texts": [
+        "80%"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "1149.66px",
+        "height": "14px"
+      },
+      "width": 1149.65625,
+      "height": 14,
+      "demo": "progress-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-progress-body semantic-mark-body",
+        "ant-progress-rail semantic-mark-rail",
+        "ant-progress-track semantic-mark-track",
+        "ant-progress-indicator ant-progress-indicator-end ant-progress-indicator-outer semantic-mark-indicator"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": "",
+      "ariaNow": "80"
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "progress-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Progress bar",
+    "",
+    "Mini size progress bar",
+    "",
+    "Mini size circular progress bar",
+    "",
+    "Custom text format",
+    "",
+    "Progress bar with success segment",
+    "",
+    "Custom line gradient",
+    "",
+    "Circular progress bar with steps",
+    "",
+    "Change progress value position",
+    "",
+    "Circular progress bar",
+    "",
+    "Responsive circular progress bar",
+    "",
+    "Dynamic",
+    "",
+    "Dashboard",
+    "",
+    "Stroke Linecap",
+    "",
+    "Progress bar with steps",
+    "",
+    "Progress size",
+    "",
+    "Custom semantic dom styling",
+    ""
+  ]
+}

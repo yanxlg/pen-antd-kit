@@ -1,0 +1,309 @@
+{
+  "sections": [
+    "Masonry · 瀑布流",
+    "Splitter · 折叠分割器",
+    "Space · 间距",
+    "Layout · 布局",
+    "Grid · 栅格",
+    "Flex · 弹性布局",
+    "Divider · 分割线"
+  ],
+  "boards": [
+    {
+      "id": "artboard-masonry-components",
+      "width": 1728,
+      "height": 3177
+    },
+    {
+      "id": "artboard-masonry-usage",
+      "width": 1728,
+      "height": 1703
+    },
+    {
+      "id": "artboard-splitter-components",
+      "width": 1728,
+      "height": 2709
+    },
+    {
+      "id": "artboard-splitter-usage",
+      "width": 1728,
+      "height": 2288
+    },
+    {
+      "id": "artboard-space-components",
+      "width": 1728,
+      "height": 2706
+    },
+    {
+      "id": "artboard-space-usage",
+      "width": 1728,
+      "height": 1698
+    },
+    {
+      "id": "artboard-layout-components",
+      "width": 1728,
+      "height": 4273
+    },
+    {
+      "id": "artboard-layout-usage",
+      "width": 1728,
+      "height": 2776
+    },
+    {
+      "id": "artboard-layout-principles",
+      "width": 1728,
+      "height": 2440.3707712226087
+    },
+    {
+      "id": "artboard-grid-components",
+      "width": 1728,
+      "height": 2653
+    },
+    {
+      "id": "artboard-grid-usage",
+      "width": 1728,
+      "height": 1717
+    },
+    {
+      "id": "OPKwJ",
+      "width": 1728,
+      "height": 842
+    },
+    {
+      "id": "artboard-flex-components",
+      "width": 1728,
+      "height": 4315
+    },
+    {
+      "id": "artboard-flex-usage",
+      "width": 1728,
+      "height": 1523
+    },
+    {
+      "id": "artboard-divider-components",
+      "width": 1728,
+      "height": 2019
+    },
+    {
+      "id": "artboard-divider-usage",
+      "width": 1728,
+      "height": 798
+    }
+  ],
+  "dangling": [],
+  "clipping": [],
+  "placeholders": [],
+  "masters": [
+    {
+      "id": "ecuC8",
+      "name": "Antd/Masonry",
+      "scriptUri": "../canvas-components/Masonry.js"
+    },
+    {
+      "id": "JdEBy",
+      "name": "Antd/Splitter",
+      "scriptUri": "../canvas-components/Splitter.js"
+    },
+    {
+      "id": "KBvQW",
+      "name": "Antd/Splitter.Panel",
+      "scriptUri": "../canvas-components/Splitter.Panel.js"
+    },
+    {
+      "id": "J9yjrH",
+      "name": "Antd/Space",
+      "scriptUri": "../canvas-components/Space.js"
+    },
+    {
+      "id": "WgMeY",
+      "name": "Antd/Space.Compact",
+      "scriptUri": "../canvas-components/Space.Compact.js"
+    },
+    {
+      "id": "I89qa",
+      "name": "Antd/Space.Addon",
+      "scriptUri": "../canvas-components/Space.Addon.js"
+    },
+    {
+      "id": "IhPbh",
+      "name": "Antd/Layout",
+      "scriptUri": "../canvas-components/Layout.js"
+    },
+    {
+      "id": "CJtBn",
+      "name": "Antd/Layout.Header",
+      "scriptUri": "../canvas-components/Layout.Header.js"
+    },
+    {
+      "id": "yWarL",
+      "name": "Antd/Layout.Content",
+      "scriptUri": "../canvas-components/Layout.Content.js"
+    },
+    {
+      "id": "Irc01",
+      "name": "Antd/Layout.Footer",
+      "scriptUri": "../canvas-components/Layout.Footer.js"
+    },
+    {
+      "id": "pWBlp",
+      "name": "Antd/Layout.Sider",
+      "scriptUri": "../canvas-components/Layout.Sider.js"
+    },
+    {
+      "id": "k06wGu",
+      "name": "Antd/Layout.DemoItem",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "d7FAW",
+      "name": "Antd/Row",
+      "scriptUri": "../canvas-components/Row.js"
+    },
+    {
+      "id": "hnH2S",
+      "name": "Antd/Col",
+      "scriptUri": "../canvas-components/Col.js"
+    },
+    {
+      "id": "lX74k",
+      "name": "Value/item1",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "AY9CF",
+      "name": "Value/item2",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "Mx5c4",
+      "name": "Value/item3",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "BGLNa",
+      "name": "Value/item4",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "FICxc",
+      "name": "Value/panel1",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "SPO2L",
+      "name": "Value/panel2",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "GsGC5",
+      "name": "Value/panel3",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "Oz6SS",
+      "name": "Value/headerContent",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "XLPP6",
+      "name": "Value/contentContent",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "PEmoj",
+      "name": "Value/footerContent",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "UZRNh",
+      "name": "Value/siderContent",
+      "scriptUri": "../canvas-components/Layout.DemoItem.js"
+    },
+    {
+      "id": "h8QhSf",
+      "name": "Value/primary",
+      "scriptUri": "../canvas-components/Button.js"
+    },
+    {
+      "id": "kjRUT",
+      "name": "Value/default",
+      "scriptUri": "../canvas-components/Button.js"
+    },
+    {
+      "id": "fgaVj",
+      "name": "Value/dashed",
+      "scriptUri": "../canvas-components/Button.js"
+    },
+    {
+      "id": "YF5Od",
+      "name": "Value/link",
+      "scriptUri": "../canvas-components/Button.js"
+    },
+    {
+      "id": "r6zLuM",
+      "name": "Value/col2",
+      "scriptUri": "../canvas-components/Col.js"
+    },
+    {
+      "id": "R7YAR",
+      "name": "Value/col3",
+      "scriptUri": "../canvas-components/Col.js"
+    },
+    {
+      "id": "wvAx9",
+      "name": "Value/col4",
+      "scriptUri": "../canvas-components/Col.js"
+    },
+    {
+      "id": "G41BNr",
+      "name": "Value/panelTwo",
+      "scriptUri": "../canvas-components/Splitter.Panel.js"
+    },
+    {
+      "id": "txiqG",
+      "name": "Value/panelThree",
+      "scriptUri": "../canvas-components/Splitter.Panel.js"
+    },
+    {
+      "id": "T2zbBB",
+      "name": "Value/separator",
+      "scriptUri": "../canvas-components/Divider.js"
+    },
+    {
+      "id": "FWJZP",
+      "name": "Value/input",
+      "scriptUri": "../canvas-components/Input.control.js"
+    },
+    {
+      "id": "Zh9lY",
+      "name": "Value/addon",
+      "scriptUri": "../canvas-components/Space.Addon.js"
+    },
+    {
+      "id": "JC8G5",
+      "name": "Value/nestedFlex",
+      "scriptUri": "../canvas-components/Flex.js"
+    },
+    {
+      "id": "i4VcH",
+      "name": "Value/nestedSplitter",
+      "scriptUri": "../canvas-components/Splitter.js"
+    },
+    {
+      "id": "U42MuP",
+      "name": "Value/nestedPanel",
+      "scriptUri": "../canvas-components/Splitter.Panel.js"
+    },
+    {
+      "id": "u8olE",
+      "name": "Antd/Flex",
+      "scriptUri": "../canvas-components/Flex.js"
+    },
+    {
+      "id": "xi5QX",
+      "name": "Antd/Divider",
+      "scriptUri": "../canvas-components/Divider.js"
+    }
+  ],
+  "instances": 176
+}

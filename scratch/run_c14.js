@@ -1,0 +1,5 @@
+{
+  const c = Get('CodtW');
+  Update('CodtW', { layout: 'vertical' });
+  Replace(c.children[0].id, {"type":"frame","id":"p2oRF","name":"section","context":"section","width":"fill_container","fill":"#ffffff","cornerRadius":[8,8,0,0],"stroke":"#0505050f","strokeWidth":{"bottom":1},"strokeAlignment":"inner","layout":"horizontal","padding":[42,24,51,24],"children":[{"type":"ref","ref":"antd-button-live-origin","id":"btn_6armxl","name":"Btn · Gradient Large","width":171,"height":40,"inputs":{"children":"Gradient Button","type":"primary","size":"large","icon":"ant-design","linearGradient":true}},{"type":"ref","ref":"antd-button-live-origin","id":"btn_f241tl","name":"Btn · Normal Large","width":79,"height":40,"inputs":{"children":"Button","type":"default","size":"large"}}],"gap":8,"alignItems":"center"});
+}

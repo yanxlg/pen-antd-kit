@@ -1,0 +1,2377 @@
+{
+  "url": "https://ant.design/components/notification",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "topLeft",
+      "texts": [
+        "topLeft"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "101.078px",
+        "height": "32px"
+      },
+      "width": 101.078125,
+      "height": 32,
+      "demo": "notification-demo-hooks",
+      "title": "Hooks usage (recommended)",
+      "icons": [
+        "radius-upleft"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-upleft"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "topRight",
+      "texts": [
+        "topRight"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "110.891px",
+        "height": "32px"
+      },
+      "width": 110.890625,
+      "height": 32,
+      "demo": "notification-demo-hooks",
+      "title": "Hooks usage (recommended)",
+      "icons": [
+        "radius-upright"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-upright"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "bottomLeft",
+      "texts": [
+        "bottomLeft"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "127.344px",
+        "height": "32px"
+      },
+      "width": 127.34375,
+      "height": 32,
+      "demo": "notification-demo-hooks",
+      "title": "Hooks usage (recommended)",
+      "icons": [
+        "radius-bottomleft"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-bottomleft"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "bottomRight",
+      "texts": [
+        "bottomRight"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "137.156px",
+        "height": "32px"
+      },
+      "width": 137.15625,
+      "height": 32,
+      "demo": "notification-demo-hooks",
+      "title": "Hooks usage (recommended)",
+      "icons": [
+        "radius-bottomright"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-bottomright"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-green",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Success",
+      "texts": [
+        "Success"
+      ],
+      "style": {
+        "color": "rgb(82, 196, 26)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(82, 196, 26)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "83.9375px",
+        "height": "32px"
+      },
+      "width": 83.9375,
+      "height": 32,
+      "demo": "notification-demo-with-icon",
+      "title": "Notification with icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-blue",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Info",
+      "texts": [
+        "Info"
+      ],
+      "style": {
+        "color": "rgb(22, 119, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(22, 119, 255)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "57.7656px",
+        "height": "32px"
+      },
+      "width": 57.765625,
+      "height": 32,
+      "demo": "notification-demo-with-icon",
+      "title": "Notification with icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-yellow",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Warning",
+      "texts": [
+        "Warning"
+      ],
+      "style": {
+        "color": "rgb(250, 219, 20)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(250, 219, 20)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "87.8594px",
+        "height": "32px"
+      },
+      "width": 87.859375,
+      "height": 32,
+      "demo": "notification-demo-with-icon",
+      "title": "Notification with icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-red",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Error",
+      "texts": [
+        "Error"
+      ],
+      "style": {
+        "color": "rgb(245, 34, 45)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(245, 34, 45)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "64.0938px",
+        "height": "32px"
+      },
+      "width": 64.09375,
+      "height": 32,
+      "demo": "notification-demo-with-icon",
+      "title": "Notification with icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-custom-icon",
+      "title": "Customized Icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-update",
+      "title": "Update Message Content",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Pause on hover",
+      "texts": [
+        "Pause on hover"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "133.766px",
+        "height": "32px"
+      },
+      "width": 133.765625,
+      "height": 32,
+      "demo": "notification-demo-show-with-progress",
+      "title": "Show with progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Don't pause on hover",
+      "texts": [
+        "Don't pause on hover"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "174.078px",
+        "height": "32px"
+      },
+      "width": 174.078125,
+      "height": 32,
+      "demo": "notification-demo-show-with-progress",
+      "title": "Show with progress",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_eekmbjqfsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid",
+        "acss-rprv2j"
+      ],
+      "text": "Show custom progress color",
+      "texts": [
+        "Show custom progress color"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "219.734px",
+        "height": "32px"
+      },
+      "width": 219.734375,
+      "height": 32,
+      "demo": "notification-demo-progress-color",
+      "title": "Customize progress bar color",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-duration",
+      "title": "Duration after which the notification box is closed",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-with-btn",
+      "title": "Custom close button",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "top",
+      "texts": [
+        "top"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "76.2656px",
+        "height": "32px"
+      },
+      "width": 76.265625,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "border-top"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-border-top"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "bottom",
+      "texts": [
+        "bottom"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "102.531px",
+        "height": "32px"
+      },
+      "width": 102.53125,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "border-bottom"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-border-bottom"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "topLeft",
+      "texts": [
+        "topLeft"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "101.078px",
+        "height": "32px"
+      },
+      "width": 101.078125,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "radius-upleft"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-upleft"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "topRight",
+      "texts": [
+        "topRight"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "110.891px",
+        "height": "32px"
+      },
+      "width": 110.890625,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "radius-upright"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-upright"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "bottomLeft",
+      "texts": [
+        "bottomLeft"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "127.344px",
+        "height": "32px"
+      },
+      "width": 127.34375,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "radius-bottomleft"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-bottomleft"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "bottomRight",
+      "texts": [
+        "bottomRight"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "137.156px",
+        "height": "32px"
+      },
+      "width": 137.15625,
+      "height": 32,
+      "demo": "notification-demo-placement",
+      "title": "Placement",
+      "icons": [
+        "radius-bottomright"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-radius-bottomright"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-switch",
+      "classes": [
+        "ant-switch",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-switch-checked"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "100px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "normal",
+        "width": "44px",
+        "height": "22px"
+      },
+      "width": 44,
+      "height": 22,
+      "demo": "notification-demo-stack",
+      "title": "Stack",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-switch-handle",
+        "ant-switch-inner",
+        "ant-switch-inner-checked",
+        "ant-switch-inner-unchecked"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": "true",
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-stack",
+      "title": "Stack",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Open the notification box",
+      "texts": [
+        "Open the notification box"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "200.234px",
+        "height": "32px"
+      },
+      "width": 200.234375,
+      "height": 32,
+      "demo": "notification-demo-basic",
+      "title": "Static Method (deprecated)",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Default Notification",
+      "texts": [
+        "Default Notification"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "160.953px",
+        "height": "32px"
+      },
+      "width": 160.953125,
+      "height": 32,
+      "demo": "notification-demo-style-class",
+      "title": "Custom semantic styles",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Error Notification",
+      "texts": [
+        "Error Notification"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "144.812px",
+        "height": "32px"
+      },
+      "width": 144.8125,
+      "height": 32,
+      "demo": "notification-demo-style-class",
+      "title": "Custom semantic styles",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid",
+        "ant-btn-sm"
+      ],
+      "text": "My Button",
+      "texts": [
+        "My Button"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 7px",
+        "gap": "8px",
+        "width": "82.6094px",
+        "height": "24px"
+      },
+      "width": 82.609375,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "notification-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Hooks usage (recommended)",
+    "",
+    "Notification with icon",
+    "",
+    "Customized Icon",
+    "",
+    "Update Message Content",
+    "",
+    "Show with progress",
+    "",
+    "Customize progress bar color",
+    "",
+    "Duration after which the notification box is closed",
+    "",
+    "Custom close button",
+    "",
+    "Placement",
+    "",
+    "Stack",
+    "",
+    "Static Method (deprecated)",
+    "",
+    "Custom semantic styles",
+    ""
+  ]
+}

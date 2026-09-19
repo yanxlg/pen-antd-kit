@@ -1,0 +1,288 @@
+[
+  {
+    "component": "Menu",
+    "file": "custom-popup-render.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "horizontal.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "inline-collapsed.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "inline.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "sider-current.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "style-class.tsx",
+    "captures": 2,
+    "updated": 2
+  },
+  {
+    "component": "Menu",
+    "file": "submenu-theme.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "switch-mode.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "theme.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "tooltip.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Menu",
+    "file": "vertical.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "arrow-center.tsx",
+    "captures": 6,
+    "updated": 6
+  },
+  {
+    "component": "Dropdown",
+    "file": "arrow.tsx",
+    "captures": 6,
+    "updated": 6
+  },
+  {
+    "component": "Dropdown",
+    "file": "basic.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "context-menu.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "custom-dropdown.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "dropdown-button.tsx",
+    "captures": 6,
+    "updated": 6
+  },
+  {
+    "component": "Dropdown",
+    "file": "event.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "extra.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "item.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "loading.tsx",
+    "captures": 4,
+    "updated": 4
+  },
+  {
+    "component": "Dropdown",
+    "file": "overlay-open.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "placement.tsx",
+    "captures": 12,
+    "updated": 12
+  },
+  {
+    "component": "Dropdown",
+    "file": "selectable.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "style-class.tsx",
+    "captures": 2,
+    "updated": 2
+  },
+  {
+    "component": "Dropdown",
+    "file": "sub-menu.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Dropdown",
+    "file": "trigger.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "basic.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "card.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "centered.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "custom-add-trigger.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "custom-indicator.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "custom-tab-bar-node.tsx",
+    "error": "Unexpected dependency @dnd-kit/core"
+  },
+  {
+    "component": "Tabs",
+    "file": "custom-tab-bar.tsx",
+    "error": "Unexpected dependency react-sticky-box"
+  },
+  {
+    "component": "Tabs",
+    "file": "disabled.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "editable-card.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "extra.tsx",
+    "captures": 2,
+    "updated": 2
+  },
+  {
+    "component": "Tabs",
+    "file": "icon.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "placement.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "size.tsx",
+    "captures": 3,
+    "updated": 3
+  },
+  {
+    "component": "Tabs",
+    "file": "slide.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Tabs",
+    "file": "style-class.tsx",
+    "captures": 2,
+    "updated": 2
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "basic.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "debug-routes.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "overlay.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "separator-component.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "separator.tsx",
+    "captures": 1,
+    "updated": 1
+  },
+  {
+    "component": "Breadcrumb",
+    "file": "style-class.tsx",
+    "captures": 2,
+    "updated": 2
+  }
+]

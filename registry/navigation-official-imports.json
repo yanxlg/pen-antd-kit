@@ -1,0 +1,500 @@
+{
+  "Breadcrumb": {
+    "source": "https://ant.design/components/breadcrumb/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "hP01j",
+    "introduction": "f351R",
+    "columns": 2,
+    "cards": [
+      {
+        "id": "G4wryY",
+        "title": "Basic Usage",
+        "preview": "nWr3u"
+      },
+      {
+        "id": "V4A1u5",
+        "title": "With Params",
+        "preview": "rbUok"
+      },
+      {
+        "id": "sWZ7v",
+        "title": "Bread crumbs with drop down menu",
+        "preview": "QS4sG"
+      },
+      {
+        "id": "kyozB",
+        "title": "Debug Routes",
+        "preview": "wM4Es"
+      },
+      {
+        "id": "xB9Ln",
+        "title": "With an Icon",
+        "preview": "Si29B"
+      },
+      {
+        "id": "LRnaL",
+        "title": "Configuring the Separator",
+        "preview": "agxVW"
+      },
+      {
+        "id": "shKBZ",
+        "title": "Configuring the Separator Independently",
+        "preview": "z3yzZ"
+      },
+      {
+        "id": "tCIm9",
+        "title": "Custom semantic dom styling",
+        "preview": "gQFsi"
+      }
+    ]
+  },
+  "Dropdown": {
+    "source": "https://ant.design/components/dropdown/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "pzbi5",
+    "introduction": "EIQRd",
+    "columns": 2,
+    "cards": [
+      {
+        "id": "d6Je5",
+        "title": "Basic",
+        "preview": "BPKds"
+      },
+      {
+        "id": "pwLoq",
+        "title": "Placement",
+        "preview": "G5gYT"
+      },
+      {
+        "id": "J69kD",
+        "title": "Other elements",
+        "preview": "YJXS7"
+      },
+      {
+        "id": "b5UMCx",
+        "title": "Trigger mode",
+        "preview": "A1pixl"
+      },
+      {
+        "id": "y9GZtn",
+        "title": "Button with dropdown menu",
+        "preview": "PwnXf"
+      },
+      {
+        "id": "V4cVk",
+        "title": "Cascading menu",
+        "preview": "vlYkZ"
+      },
+      {
+        "id": "vx2bK",
+        "title": "Context Menu",
+        "preview": "ESgLh"
+      },
+      {
+        "id": "MVhB2",
+        "title": "Selectable Menu",
+        "preview": "p6KcU"
+      },
+      {
+        "id": "BvSMM",
+        "title": "Custom semantic dom styling",
+        "preview": "yuZNY"
+      },
+      {
+        "id": "dj6zz",
+        "title": "Extra node",
+        "preview": "cecoZ"
+      },
+      {
+        "id": "TPs4m",
+        "title": "Arrow",
+        "preview": "XryJl"
+      },
+      {
+        "id": "x8p9ik",
+        "title": "Arrow pointing at the center",
+        "preview": "lKWDJ"
+      },
+      {
+        "id": "VTrUH",
+        "title": "Click event",
+        "preview": "rolxG"
+      },
+      {
+        "id": "f5dKw",
+        "title": "Custom dropdown",
+        "preview": "la34R"
+      },
+      {
+        "id": "mPdSD",
+        "title": "The way of hiding menu.",
+        "preview": "Oh3B6"
+      },
+      {
+        "id": "kziou",
+        "title": "Loading",
+        "preview": "QZxJ1"
+      },
+      {
+        "id": "DczNv",
+        "title": "Selection actions",
+        "preview": "d8vp8"
+      }
+    ]
+  },
+  "Menu": {
+    "source": "https://ant.design/components/menu/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "GFa79",
+    "introduction": "jrJ3Y",
+    "columns": 1,
+    "cards": [
+      {
+        "id": "QfraH",
+        "title": "Top Navigation",
+        "preview": "g93N7"
+      },
+      {
+        "id": "gLaQB",
+        "title": "Inline menu",
+        "preview": "IBajf"
+      },
+      {
+        "id": "UwUDl",
+        "title": "Collapsed inline menu",
+        "preview": "E0ypq"
+      },
+      {
+        "id": "N4hAJ8",
+        "title": "Menu tooltip",
+        "preview": "yPqOW"
+      },
+      {
+        "id": "x5xyR",
+        "title": "Open current submenu only",
+        "preview": "GUmwm"
+      },
+      {
+        "id": "R37so",
+        "title": "Vertical menu",
+        "preview": "AJaHA"
+      },
+      {
+        "id": "pOE7C",
+        "title": "Menu Themes",
+        "preview": "ouaLT"
+      },
+      {
+        "id": "IfhY7",
+        "title": "Sub-menu theme",
+        "preview": "pBCWg"
+      },
+      {
+        "id": "Y5SZW",
+        "title": "Switch the menu type",
+        "preview": "UO3Co"
+      },
+      {
+        "id": "R1Hyk",
+        "title": "Custom semantic dom styling",
+        "preview": "VDTIK"
+      },
+      {
+        "id": "ocMVZ",
+        "title": "Custom Submenu Render",
+        "preview": "d8S7E"
+      }
+    ]
+  },
+  "Pagination": {
+    "source": "https://ant.design/components/pagination/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "EntzR",
+    "introduction": "Hr9Ya",
+    "columns": 1,
+    "cards": [
+      {
+        "id": "dn4oF",
+        "title": "Basic",
+        "preview": "o94rw"
+      },
+      {
+        "id": "C2myWc",
+        "title": "Align",
+        "preview": "J5js1"
+      },
+      {
+        "id": "L8E1gn",
+        "title": "More",
+        "preview": "guShj"
+      },
+      {
+        "id": "ZYHgh",
+        "title": "Changer",
+        "preview": "ZVwec"
+      },
+      {
+        "id": "EB8ds",
+        "title": "Jumper",
+        "preview": "rkw3S"
+      },
+      {
+        "id": "m4RZM",
+        "title": "Size",
+        "preview": "VLRF2"
+      },
+      {
+        "id": "zJrfc",
+        "title": "Simple mode",
+        "preview": "WUWI2"
+      },
+      {
+        "id": "Uojv1",
+        "title": "Controlled",
+        "preview": "gY5RE"
+      },
+      {
+        "id": "wpPiB",
+        "title": "Total number",
+        "preview": "hdAXg"
+      },
+      {
+        "id": "ovj1n",
+        "title": "Show All",
+        "preview": "amrgh"
+      },
+      {
+        "id": "Wj70L",
+        "title": "Prev and next",
+        "preview": "eeYxs"
+      },
+      {
+        "id": "fOxcy",
+        "title": "Custom component",
+        "preview": "zQhgr"
+      },
+      {
+        "id": "PwC7T",
+        "title": "Custom semantic dom styling",
+        "preview": "z6CDd"
+      }
+    ]
+  },
+  "Steps": {
+    "source": "https://ant.design/components/steps/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "MYHm3",
+    "introduction": "hx5oQ",
+    "columns": 1,
+    "cards": [
+      {
+        "id": "qXYiH",
+        "title": "Basic",
+        "preview": "fnJQh"
+      },
+      {
+        "id": "Ee8su",
+        "title": "Error status",
+        "preview": "l3Mgi"
+      },
+      {
+        "id": "CJwwE",
+        "title": "Vertical",
+        "preview": "iYjvK"
+      },
+      {
+        "id": "uxENd",
+        "title": "Clickable",
+        "preview": "n3LYw"
+      },
+      {
+        "id": "wyP57",
+        "title": "Panel Steps",
+        "preview": "cSn3f"
+      },
+      {
+        "id": "ANQaq",
+        "title": "With icon",
+        "preview": "DXuuw"
+      },
+      {
+        "id": "HQsrU",
+        "title": "Title Placement and Progress",
+        "preview": "i6kJp"
+      },
+      {
+        "id": "Or4uI",
+        "title": "Max Count",
+        "preview": "I34MJ7"
+      },
+      {
+        "id": "kC5L4",
+        "title": "Dot Style",
+        "preview": "J8vZOl"
+      },
+      {
+        "id": "gnCVb",
+        "title": "Navigation Steps",
+        "preview": "FIoly"
+      },
+      {
+        "id": "PNHcF",
+        "title": "Inline Steps",
+        "preview": "XjJ2T"
+      },
+      {
+        "id": "kEHWw",
+        "title": "Inline Style Combination",
+        "preview": "SsxNt"
+      },
+      {
+        "id": "RrwyO",
+        "title": "Custom semantic dom styling",
+        "preview": "VYM0l"
+      }
+    ]
+  },
+  "Tabs": {
+    "source": "https://ant.design/components/tabs/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "bvoGH",
+    "introduction": "c5yiX",
+    "columns": 1,
+    "cards": [
+      {
+        "id": "JmEGM",
+        "title": "Basic",
+        "preview": "Yjr4d"
+      },
+      {
+        "id": "mA3qI",
+        "title": "Disabled",
+        "preview": "tRXEh"
+      },
+      {
+        "id": "BUDCo",
+        "title": "Centered",
+        "preview": "KqxJz"
+      },
+      {
+        "id": "p67fa",
+        "title": "Icon",
+        "preview": "erV3i"
+      },
+      {
+        "id": "iMOyb",
+        "title": "Indicator",
+        "preview": "DU7Xv"
+      },
+      {
+        "id": "h6l1Z3",
+        "title": "Slide",
+        "preview": "vFat4"
+      },
+      {
+        "id": "sMpop",
+        "title": "Extra content",
+        "preview": "tZcqN"
+      },
+      {
+        "id": "Ssuno",
+        "title": "Size",
+        "preview": "RaB76"
+      },
+      {
+        "id": "Zq7l3",
+        "title": "Placement",
+        "preview": "ueFWB"
+      },
+      {
+        "id": "ZxQxx",
+        "title": "Custom Popup Search",
+        "preview": "yriJI"
+      },
+      {
+        "id": "blk5Y",
+        "title": "Card type tab",
+        "preview": "B8rVSg"
+      },
+      {
+        "id": "u51SpZ",
+        "title": "Add & close tab",
+        "preview": "G0xJbk"
+      },
+      {
+        "id": "i5hU08",
+        "title": "Customized trigger of new tab",
+        "preview": "m8t3Kx"
+      },
+      {
+        "id": "hYUXg",
+        "title": "Customized bar of tab",
+        "preview": "afyg5"
+      },
+      {
+        "id": "QrfFc",
+        "title": "Draggable Tabs",
+        "preview": "tpoKo"
+      },
+      {
+        "id": "IMFR4",
+        "title": "Custom semantic dom styling",
+        "preview": "x8hX8"
+      }
+    ]
+  },
+  "Anchor": {
+    "source": "https://ant.design/components/anchor/",
+    "selector": ".demo-wrapper",
+    "importedRoot": "HQaAK",
+    "introduction": "eSUtS",
+    "columns": 1,
+    "cards": [
+      {
+        "id": "mjQnU",
+        "title": "Basic",
+        "preview": "s32c4"
+      },
+      {
+        "id": "jtQjY",
+        "title": "Horizontal Anchor",
+        "preview": "jL3Ne"
+      },
+      {
+        "id": "TZfmw",
+        "title": "Static Anchor",
+        "preview": "BFW8R"
+      },
+      {
+        "id": "d2vjBT",
+        "title": "Customize the onClick event",
+        "preview": "mLrhw"
+      },
+      {
+        "id": "S3gSHN",
+        "title": "Customize the anchor highlight",
+        "preview": "R1Byd9"
+      },
+      {
+        "id": "TVWLa",
+        "title": "Set Anchor scroll offset",
+        "preview": "Q0REn"
+      },
+      {
+        "id": "aO4lg",
+        "title": "Listening for anchor link change",
+        "preview": "Z2Cph"
+      },
+      {
+        "id": "f0U8aS",
+        "title": "Replace href in history",
+        "preview": "R6PWv"
+      },
+      {
+        "id": "cyqbR",
+        "title": "Custom semantic dom styling",
+        "preview": "PNroq"
+      }
+    ]
+  }
+}

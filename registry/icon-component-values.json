@@ -1,0 +1,5953 @@
+{
+  "gXp48": {
+    "name": "StepBackwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X0S3k": {
+    "name": "StepForwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gUrfq": {
+    "name": "FastBackwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z834e": {
+    "name": "FastForwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fXAu7": {
+    "name": "ShrinkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KOn0S": {
+    "name": "ArrowsAltOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s5yd5X": {
+    "name": "DownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Dymj4": {
+    "name": "UpOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "O4RJs9": {
+    "name": "LeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MrYm5": {
+    "name": "RightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rEvzA": {
+    "name": "CaretUpOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "x9SmcH": {
+    "name": "CaretDownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NIiNb": {
+    "name": "CaretLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vbi5l": {
+    "name": "CaretRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fIOqN": {
+    "name": "UpCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G8GxN": {
+    "name": "DownCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WLRzd": {
+    "name": "LeftCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "blBVi": {
+    "name": "RightCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W2xxoQ": {
+    "name": "DoubleRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "moYzx": {
+    "name": "DoubleLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kYcnS": {
+    "name": "VerticalLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Gkask": {
+    "name": "VerticalRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F1GGeb": {
+    "name": "VerticalAlignTopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "h1xLq6": {
+    "name": "VerticalAlignMiddleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "D3ApMa": {
+    "name": "VerticalAlignBottomOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gBiXb": {
+    "name": "ForwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qxfTW": {
+    "name": "BackwardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Yo4xA": {
+    "name": "RollbackOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NTXqH": {
+    "name": "EnterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lPWU9": {
+    "name": "RetweetOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tq3a2": {
+    "name": "SwapOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VqQCP": {
+    "name": "SwapLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "d0ebaT": {
+    "name": "SwapRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I864Oa": {
+    "name": "ArrowUpOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GC4Iu": {
+    "name": "ArrowDownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k680w0": {
+    "name": "ArrowLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zMuAa": {
+    "name": "ArrowRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jc0cH": {
+    "name": "PlayCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "q2Lp3": {
+    "name": "UpSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NW5sz": {
+    "name": "DownSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F2rmWh": {
+    "name": "LeftSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UTDRr": {
+    "name": "RightSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RtztG": {
+    "name": "LoginOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "o72VA": {
+    "name": "LogoutOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "O0rPlj": {
+    "name": "MenuFoldOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tDczE": {
+    "name": "MenuUnfoldOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UtE1B": {
+    "name": "BorderBottomOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BOX93": {
+    "name": "BorderHorizontalOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BvBe7": {
+    "name": "BorderInnerOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DMLLu": {
+    "name": "BorderOuterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PUAwu": {
+    "name": "BorderLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IrAjF": {
+    "name": "BorderRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z4bSgg": {
+    "name": "BorderTopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zNuib": {
+    "name": "BorderVerticleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Czzr8": {
+    "name": "PicCenterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iuwiN": {
+    "name": "PicLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JKl7l": {
+    "name": "PicRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HJk0U": {
+    "name": "RadiusBottomleftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vwZeI": {
+    "name": "RadiusBottomrightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZFX8w": {
+    "name": "RadiusUpleftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yEpcD": {
+    "name": "RadiusUprightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B8IVm": {
+    "name": "FullscreenOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OwSXw": {
+    "name": "FullscreenExitOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tCWlR": {
+    "name": "QuestionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RmcZ2": {
+    "name": "QuestionCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VRAiz": {
+    "name": "PlusOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "v3qiUx": {
+    "name": "PlusCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KkIjG": {
+    "name": "PauseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "t2zOGN": {
+    "name": "PauseCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "A8Pal": {
+    "name": "MinusOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "f7F62": {
+    "name": "MinusCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wrNJX": {
+    "name": "PlusSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bDnBk": {
+    "name": "MinusSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UKUkB": {
+    "name": "InfoOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s79k8": {
+    "name": "InfoCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "g7USV": {
+    "name": "ExclamationOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "C2gRij": {
+    "name": "ExclamationCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hE0fC": {
+    "name": "CloseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yEERT": {
+    "name": "CloseCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R6SrG": {
+    "name": "CloseSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "w7xJG": {
+    "name": "CheckOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M8Owv": {
+    "name": "CheckCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E4eNX": {
+    "name": "CheckSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DuvKM": {
+    "name": "ClockCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r8Z9vS": {
+    "name": "WarningOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JTdCe": {
+    "name": "IssuesCloseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MXjFs": {
+    "name": "StopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "a8UalG": {
+    "name": "EditOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RFHnB": {
+    "name": "FormOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hgsNz": {
+    "name": "CopyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WVINz": {
+    "name": "ScissorOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pE69e": {
+    "name": "DeleteOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G5CCJ": {
+    "name": "SnippetsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "a2Jx7": {
+    "name": "DiffOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xlso8": {
+    "name": "HighlightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fr0YR": {
+    "name": "AlignCenterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N0g0p": {
+    "name": "AlignLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iTc2O": {
+    "name": "AlignRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z3vLxq": {
+    "name": "BgColorsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u1NK9": {
+    "name": "BoldOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bTtoJ": {
+    "name": "ItalicOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "imIjO": {
+    "name": "UnderlineOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LW4aE": {
+    "name": "StrikethroughOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pxTXb": {
+    "name": "RedoOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G2cyNr": {
+    "name": "UndoOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r6Ho1R": {
+    "name": "ZoomInOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N8bgHB": {
+    "name": "ZoomOutOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dARDf": {
+    "name": "FontColorsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SVsVB": {
+    "name": "FontSizeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RXYXy": {
+    "name": "LineHeightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "azr5r": {
+    "name": "DashOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eeldg": {
+    "name": "SmallDashOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LhCW1": {
+    "name": "SortAscendingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dwzMM": {
+    "name": "SortDescendingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fn2lv": {
+    "name": "DragOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mU2go": {
+    "name": "OrderedListOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "m4uUMT": {
+    "name": "UnorderedListOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B9tfKK": {
+    "name": "RadiusSettingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "C9t29": {
+    "name": "ColumnWidthOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "V4QiR": {
+    "name": "ColumnHeightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SLr1r": {
+    "name": "AreaChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BE1Oe": {
+    "name": "PieChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EbTMb": {
+    "name": "BarChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JWW5y": {
+    "name": "DotChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vFxKp": {
+    "name": "LineChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xe32D": {
+    "name": "RadarChartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iPXog": {
+    "name": "HeatMapOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "w34qG3": {
+    "name": "FallOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZB3V7": {
+    "name": "RiseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "waIbP": {
+    "name": "StockOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e7G0D": {
+    "name": "BoxPlotOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N1M6KZ": {
+    "name": "FundOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mOnNx": {
+    "name": "SlidersOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PSSop": {
+    "name": "AndroidOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iCtaf": {
+    "name": "AppleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mHBEo": {
+    "name": "WindowsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B7EGHL": {
+    "name": "IeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ayIZ6": {
+    "name": "ChromeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T7yCar": {
+    "name": "GithubOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Anl4n": {
+    "name": "AliwangwangOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "P5ejU9": {
+    "name": "DingdingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "D9pc76": {
+    "name": "WeiboSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eoQqq": {
+    "name": "WeiboCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Llkfd": {
+    "name": "TaobaoCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k5HjhW": {
+    "name": "Html5Outlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TqtkO": {
+    "name": "WeiboOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W9KI7K": {
+    "name": "TwitterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DIWrp": {
+    "name": "WechatOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y2xHm": {
+    "name": "WhatsAppOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wMW7y": {
+    "name": "YoutubeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NhKHM": {
+    "name": "AlipayCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OD6T3": {
+    "name": "TaobaoOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "A0vEA9": {
+    "name": "DingtalkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Ah9hE": {
+    "name": "SkypeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I0ibe": {
+    "name": "QqOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TjTHq": {
+    "name": "MediumWorkmarkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wXUVy": {
+    "name": "GitlabOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BidUs": {
+    "name": "MediumOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wYTYK": {
+    "name": "LinkedinOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KZkqN": {
+    "name": "GooglePlusOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZEtPJ": {
+    "name": "DropboxOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "msRyN": {
+    "name": "FacebookOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zeP0n": {
+    "name": "CodepenOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "YaHai": {
+    "name": "CodeSandboxOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WZ990": {
+    "name": "AmazonOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EuoGP": {
+    "name": "GoogleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WabOZ": {
+    "name": "CodepenCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T1Cv4": {
+    "name": "AlipayOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "j8DFb": {
+    "name": "AntDesignOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WF43x": {
+    "name": "AntCloudOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wZuPa": {
+    "name": "AliyunOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aFNmk": {
+    "name": "ZhihuOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KNvBU": {
+    "name": "SlackOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "oeF4s": {
+    "name": "SlackSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RfEm9": {
+    "name": "BehanceOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "uykY4": {
+    "name": "BehanceSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I1T5kN": {
+    "name": "DribbbleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bV65r": {
+    "name": "DribbbleSquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "AeW42": {
+    "name": "InstagramOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "govWb": {
+    "name": "YuqueOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Q8bYR": {
+    "name": "AlibabaOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W4LbrW": {
+    "name": "YahooOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hDO7Y": {
+    "name": "RedditOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JM4Fl": {
+    "name": "SketchOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "YTHP6": {
+    "name": "WechatWorkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JdbIB": {
+    "name": "OpenAIOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xpg5u": {
+    "name": "DiscordOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e90HXs": {
+    "name": "XOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DkyZ8": {
+    "name": "BilibiliOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TzzlZ": {
+    "name": "PinterestOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cfStQ": {
+    "name": "TikTokOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LxCgl": {
+    "name": "SpotifyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NY5Hq": {
+    "name": "TwitchOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Qe8Zs": {
+    "name": "LinuxOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PLKGU": {
+    "name": "JavaOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NZOnO": {
+    "name": "JavaScriptOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u4jz1T": {
+    "name": "PythonOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "oHaol": {
+    "name": "RubyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "V2hsho": {
+    "name": "DotNetOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rTwBf": {
+    "name": "KubernetesOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bJ8TT": {
+    "name": "DockerOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vUqYE": {
+    "name": "BaiduOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MXETV": {
+    "name": "HarmonyOSOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "POa8y": {
+    "name": "AccountBookOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "nXpiv": {
+    "name": "AimOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qHjFa": {
+    "name": "AlertOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "d9012": {
+    "name": "ApartmentOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "su8kY": {
+    "name": "ApiOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GGAml": {
+    "name": "AppstoreAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cdndy": {
+    "name": "AppstoreOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SjqWS": {
+    "name": "AudioOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "v3f49P": {
+    "name": "AudioMutedOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wqrbH": {
+    "name": "AuditOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gFwAf": {
+    "name": "BankOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "n9Nvf8": {
+    "name": "BarcodeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sFenq": {
+    "name": "BarsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "REXRN": {
+    "name": "BellOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sGcCl": {
+    "name": "BlockOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "O63q5": {
+    "name": "BookOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cyFSo": {
+    "name": "BorderOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "A8a9Vs": {
+    "name": "BorderlessTableOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fyJwM": {
+    "name": "BranchesOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zASvV": {
+    "name": "BugOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Gcv0C": {
+    "name": "BuildOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HTztN": {
+    "name": "BulbOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tDxTt": {
+    "name": "CalculatorOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y3JIPQ": {
+    "name": "CalendarOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UjlgU": {
+    "name": "CameraOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UPshb": {
+    "name": "CarOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "S8nqkv": {
+    "name": "CarryOutOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sUtBp": {
+    "name": "CiCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JLLRP": {
+    "name": "CiOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Jfd86": {
+    "name": "ClearOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sYOK4": {
+    "name": "CloudDownloadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bkCWo": {
+    "name": "CloudOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PN9IB": {
+    "name": "CloudServerOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EMR2J": {
+    "name": "CloudSyncOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "L4lkPE": {
+    "name": "CloudUploadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dZ8nB": {
+    "name": "ClusterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "nIzhi": {
+    "name": "CodeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "P4kXA": {
+    "name": "CoffeeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "w0iKXy": {
+    "name": "CommentOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SENll": {
+    "name": "CompassOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M0xu46": {
+    "name": "CompressOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fG3Kh": {
+    "name": "ConsoleSqlOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Uea28": {
+    "name": "ContactsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e0VGc1": {
+    "name": "ContainerOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EPbAB": {
+    "name": "ControlOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pIPNI": {
+    "name": "CopyrightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bmIbB": {
+    "name": "CreditCardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NeTlz": {
+    "name": "CrownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fcXIf": {
+    "name": "CustomerServiceOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "og6oU": {
+    "name": "DashboardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r29DK": {
+    "name": "DatabaseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LD7It": {
+    "name": "DeleteColumnOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pRmpe": {
+    "name": "DeleteRowOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B5sgF": {
+    "name": "DeliveredProcedureOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Q3bNGQ": {
+    "name": "DeploymentUnitOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NHLDy": {
+    "name": "DesktopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iDMON": {
+    "name": "DisconnectOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T51tEp": {
+    "name": "DislikeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OeGh4": {
+    "name": "DollarOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jw6iR": {
+    "name": "DownloadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "K4gI2j": {
+    "name": "EllipsisOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WNz7V": {
+    "name": "EnvironmentOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jkI9m": {
+    "name": "EuroCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "h8HNY9": {
+    "name": "EuroOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E5LBY": {
+    "name": "ExceptionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BaYB7": {
+    "name": "ExpandAltOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yc0np": {
+    "name": "ExpandOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GewcO": {
+    "name": "ExperimentOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "huhfB": {
+    "name": "ExportOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lI0g3": {
+    "name": "EyeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DsR8t": {
+    "name": "EyeInvisibleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E9hSip": {
+    "name": "FieldBinaryOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rTRAP": {
+    "name": "FieldNumberOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VysYF": {
+    "name": "FieldStringOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ep3X6": {
+    "name": "FieldTimeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "evxTW": {
+    "name": "FileAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "f8gSO": {
+    "name": "FileDoneOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "j8nnc1": {
+    "name": "FileExcelOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u55XQ": {
+    "name": "FileExclamationOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dKSUe": {
+    "name": "FileOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KZWqz": {
+    "name": "FileGifOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rrCOh": {
+    "name": "FileImageOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ENVM3": {
+    "name": "FileJpgOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KCWxP": {
+    "name": "FileMarkdownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DNKdz": {
+    "name": "FilePdfOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JGkgU": {
+    "name": "FilePptOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Il56M": {
+    "name": "FileProtectOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W6zSS": {
+    "name": "FileSearchOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aaxwQ": {
+    "name": "FileSyncOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jn88O": {
+    "name": "FileTextOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Oc5HF": {
+    "name": "FileUnknownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GCvbV": {
+    "name": "FileWordOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "xCeDf": {
+    "name": "FileZipOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JaeWk": {
+    "name": "FilterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mrHO4": {
+    "name": "FireOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "avNv1": {
+    "name": "FlagOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "grC7C": {
+    "name": "FolderAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eJKSC": {
+    "name": "FolderOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RnqE7": {
+    "name": "FolderOpenOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xj4V9": {
+    "name": "FolderViewOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hyJ52": {
+    "name": "ForkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r9H80": {
+    "name": "FormatPainterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DjGrs": {
+    "name": "FrownOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qsy5p": {
+    "name": "FunctionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yrmuS": {
+    "name": "FundProjectionScreenOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zEl2h": {
+    "name": "FundViewOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "h9mZwG": {
+    "name": "FunnelPlotOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Kjq8s": {
+    "name": "GatewayOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Q5nDt": {
+    "name": "GifOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s1Q1a": {
+    "name": "GiftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CXlbR": {
+    "name": "GlobalOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GjqIA": {
+    "name": "GoldOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "H4vFa": {
+    "name": "GroupOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ukiKX": {
+    "name": "HddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sh4rM": {
+    "name": "HeartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xl98V": {
+    "name": "HistoryOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jftBB": {
+    "name": "HolderOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bDd7N": {
+    "name": "HomeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rEsrB": {
+    "name": "HourglassOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SAW27": {
+    "name": "IdcardOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "izmjs": {
+    "name": "ImportOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BBWU0": {
+    "name": "InboxOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LnPQa": {
+    "name": "InsertRowAboveOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tgpGD": {
+    "name": "InsertRowBelowOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BcAqB": {
+    "name": "InsertRowLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sAAT6": {
+    "name": "InsertRowRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JUBxP": {
+    "name": "InsuranceOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wIE9G": {
+    "name": "InteractionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qDYX2": {
+    "name": "KeyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gdXqH": {
+    "name": "LaptopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wthve": {
+    "name": "LayoutOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RG6qy": {
+    "name": "LikeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tFKLb": {
+    "name": "LineOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r42771": {
+    "name": "LinkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MiRrQ": {
+    "name": "Loading3QuartersOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bDpiJ": {
+    "name": "LoadingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "FbGoe": {
+    "name": "LockOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W09qs": {
+    "name": "MacCommandOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "h7dMKr": {
+    "name": "MailOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Zs21q": {
+    "name": "ManOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hsCsW": {
+    "name": "MedicineBoxOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jKdOG": {
+    "name": "MehOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "uK75o": {
+    "name": "MenuOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lYVtk": {
+    "name": "MergeCellsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "O9k95z": {
+    "name": "MergeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k5Dahf": {
+    "name": "MessageOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vJyNL": {
+    "name": "MobileOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "knD42": {
+    "name": "MoneyCollectOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ODStI": {
+    "name": "MonitorOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "QFaJi": {
+    "name": "MoonOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RFvqq": {
+    "name": "MoreOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EZQRN": {
+    "name": "MutedOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "nOwyl": {
+    "name": "NodeCollapseOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZPWnd": {
+    "name": "NodeExpandOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "a087fq": {
+    "name": "NodeIndexOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "D2jpY7": {
+    "name": "NotificationOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CbYxx": {
+    "name": "NumberOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vhgUJ": {
+    "name": "OneToOneOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T6GqlE": {
+    "name": "PaperClipOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "McciD": {
+    "name": "PartitionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "t2n0gt": {
+    "name": "PayCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I4eXl": {
+    "name": "PercentageOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R9RTbX": {
+    "name": "PhoneOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fabE5": {
+    "name": "PictureOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "L1Hfs": {
+    "name": "PlaySquareOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F4M04": {
+    "name": "PoundCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c8T5wz": {
+    "name": "PoundOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "C3CBC": {
+    "name": "PoweroffOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "xF3DD": {
+    "name": "PrinterOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pV1Ej": {
+    "name": "ProductOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I5nEZ": {
+    "name": "ProfileOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "b83s0D": {
+    "name": "ProjectOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KuiXF": {
+    "name": "PropertySafetyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "A8TNaY": {
+    "name": "PullRequestOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "uMIqT": {
+    "name": "PushpinOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "o7GgNT": {
+    "name": "QrcodeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eP5X4": {
+    "name": "ReadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "l6qhUP": {
+    "name": "ReconciliationOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "b6ARSh": {
+    "name": "RedEnvelopeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PFEtB": {
+    "name": "ReloadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VyW1r": {
+    "name": "RestOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "igfJK": {
+    "name": "RobotOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KAl0b": {
+    "name": "RocketOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xn9ig": {
+    "name": "RotateLeftOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bFQy3": {
+    "name": "RotateRightOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "J8ek1d": {
+    "name": "SafetyCertificateOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fewkN": {
+    "name": "SafetyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yHThS": {
+    "name": "SaveOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "j9pAR": {
+    "name": "ScanOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "x9x4E": {
+    "name": "ScheduleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fbfKF": {
+    "name": "SearchOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MH5x5": {
+    "name": "SecurityScanOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lMcdJ": {
+    "name": "SelectOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KlaKH": {
+    "name": "SendOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cwHvD": {
+    "name": "SettingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ehjKg": {
+    "name": "ShakeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KmVxh": {
+    "name": "ShareAltOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TO3lO": {
+    "name": "ShopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sKSqS": {
+    "name": "ShoppingCartOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PjbFm": {
+    "name": "ShoppingOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UJ3hj": {
+    "name": "SignatureOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VmcWs": {
+    "name": "SisternodeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gia1m": {
+    "name": "SkinOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jHsbv": {
+    "name": "SmileOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LNaVt": {
+    "name": "SolutionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "YxYBt": {
+    "name": "SoundOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ccanc": {
+    "name": "SplitCellsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Nlzpu": {
+    "name": "StarOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZuyNP": {
+    "name": "SubnodeOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "J41fI": {
+    "name": "SunOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CovLv": {
+    "name": "SwitcherOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Dh3c8": {
+    "name": "SyncOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DKAFx": {
+    "name": "TableOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wa5PF": {
+    "name": "TabletOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JZCtL": {
+    "name": "TagOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "uWYjP": {
+    "name": "TagsOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Wg99G": {
+    "name": "TeamOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rvuSQ": {
+    "name": "ThunderboltOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ptCF3": {
+    "name": "ToTopOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tmhq4": {
+    "name": "ToolOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eW8hI": {
+    "name": "TrademarkCircleOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EbClp": {
+    "name": "TrademarkOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M4b5Q": {
+    "name": "TransactionOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hHoUr": {
+    "name": "TranslationOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wWWXb": {
+    "name": "TrophyOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e560y": {
+    "name": "TruckOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "q3kcE9": {
+    "name": "UngroupOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pDabm": {
+    "name": "UnlockOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s2QIB": {
+    "name": "UploadOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XJNBI": {
+    "name": "UsbOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Q06L7": {
+    "name": "UserAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "erAhh": {
+    "name": "UserDeleteOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HYI9v": {
+    "name": "UserOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cgFsw": {
+    "name": "UserSwitchOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vIFdX": {
+    "name": "UsergroupAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SywQl": {
+    "name": "UsergroupDeleteOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZZjJt": {
+    "name": "VerifiedOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IzkeX": {
+    "name": "VideoCameraAddOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "j8bluv": {
+    "name": "VideoCameraOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gL1ws": {
+    "name": "WalletOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WQlmx": {
+    "name": "WifiOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fu2ho": {
+    "name": "WomanOutlined",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kc5PO": {
+    "name": "StepBackwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y2BYX": {
+    "name": "StepForwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GLZw6": {
+    "name": "FastBackwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vAUGT": {
+    "name": "FastForwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wT5A2": {
+    "name": "CaretUpFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Yg5my": {
+    "name": "CaretDownFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Lhzkj": {
+    "name": "CaretLeftFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "p83Vtf": {
+    "name": "CaretRightFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WjaqO": {
+    "name": "UpCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iWXyr": {
+    "name": "DownCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rI3UW": {
+    "name": "LeftCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yf4uM": {
+    "name": "RightCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GuoPf": {
+    "name": "ForwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "P3AtoO": {
+    "name": "BackwardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N2iBk": {
+    "name": "PlayCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "viKf6": {
+    "name": "UpSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aJJrU": {
+    "name": "DownSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pDKEt": {
+    "name": "LeftSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X74z2": {
+    "name": "RightSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "nA9eD": {
+    "name": "QuestionCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dpQz8": {
+    "name": "PlusCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IrGLA": {
+    "name": "PauseCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HrSoK": {
+    "name": "MinusCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XfOkK": {
+    "name": "PlusSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hHq1m": {
+    "name": "MinusSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XSpr3": {
+    "name": "InfoCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vSOSa": {
+    "name": "ExclamationCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SkXhQ": {
+    "name": "CloseCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W5dFmx": {
+    "name": "CloseSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lRiOx": {
+    "name": "CheckCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wPLDa": {
+    "name": "CheckSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ExBI5": {
+    "name": "ClockCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "q1UZmc": {
+    "name": "WarningFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JLTrl": {
+    "name": "StopFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "l17Qt": {
+    "name": "EditFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "se2CZ": {
+    "name": "CopyFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qi7Cm": {
+    "name": "DeleteFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "P47eoc": {
+    "name": "SnippetsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dQLFJ": {
+    "name": "DiffFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PXMeK": {
+    "name": "HighlightFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aaN4i": {
+    "name": "PieChartFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i8gVVs": {
+    "name": "BoxPlotFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "laJPw": {
+    "name": "FundFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X5B6oM": {
+    "name": "SlidersFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iMt8V": {
+    "name": "AndroidFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BZl4r": {
+    "name": "AppleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Ae6da": {
+    "name": "WindowsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "W1ci19": {
+    "name": "IeCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PjmO6": {
+    "name": "IeSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "K8MEK": {
+    "name": "ChromeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "L8dzH": {
+    "name": "GithubFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zOpTW": {
+    "name": "AliwangwangFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SrgbB": {
+    "name": "WeiboSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "n7LU4": {
+    "name": "WeiboCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vA3Ns": {
+    "name": "TaobaoCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ETE36": {
+    "name": "Html5Filled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VDQqU": {
+    "name": "TwitterCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R1BIfG": {
+    "name": "TwitterSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gohaU": {
+    "name": "WechatFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XwPRD": {
+    "name": "YoutubeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I62aaU": {
+    "name": "AlipayCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "slYnW": {
+    "name": "TaobaoSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G9Fm8J": {
+    "name": "DingtalkCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e06RC": {
+    "name": "DingtalkSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qxrgX": {
+    "name": "SkypeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dfEmk": {
+    "name": "QqCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wI6le": {
+    "name": "QqSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s2B4Z": {
+    "name": "GitlabFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "xagOM": {
+    "name": "MediumCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GRMMK": {
+    "name": "MediumSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "x9jTG0": {
+    "name": "LinkedinFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Vkw8t": {
+    "name": "GooglePlusCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Pwm6X": {
+    "name": "GooglePlusSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lQsFQ": {
+    "name": "DropboxCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dNIgP": {
+    "name": "DropboxSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IucQT": {
+    "name": "FacebookFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "grW6R": {
+    "name": "CodepenSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "A7CXPm": {
+    "name": "CodeSandboxSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CBFZD": {
+    "name": "CodeSandboxCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "czTeX": {
+    "name": "AmazonCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yjaqQ": {
+    "name": "AmazonSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IDALt": {
+    "name": "GoogleCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rlWXQ": {
+    "name": "GoogleSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "D2eSva": {
+    "name": "CodepenCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F7rsIQ": {
+    "name": "AlipaySquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MqV2l": {
+    "name": "ZhihuCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bM1gr": {
+    "name": "ZhihuSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iO50X": {
+    "name": "SlackCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BibZF": {
+    "name": "SlackSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "v0PfS": {
+    "name": "BehanceCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I8ss6": {
+    "name": "BehanceSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R3ErF": {
+    "name": "DribbbleCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BCYa9": {
+    "name": "DribbbleSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s00V2": {
+    "name": "InstagramFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JRIO8": {
+    "name": "YuqueFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "l0PBB": {
+    "name": "YahooFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ANOzB": {
+    "name": "RedditCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wkg1v": {
+    "name": "RedditSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "n0fPE": {
+    "name": "SketchCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "U8Moer": {
+    "name": "SketchSquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gfzWO": {
+    "name": "WechatWorkFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "h4KeJ": {
+    "name": "OpenAIFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VD3nE": {
+    "name": "AnthropicFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KHxuZ": {
+    "name": "ClaudeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "J22AiW": {
+    "name": "GeminiFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cB3QN": {
+    "name": "MistralFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vkvYw": {
+    "name": "DeepSeekFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VVGMe": {
+    "name": "QwenFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TFgPl": {
+    "name": "PerplexityFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "d4UQhq": {
+    "name": "HuggingFaceFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "FMVdE": {
+    "name": "OllamaFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G4SIk": {
+    "name": "ReplicateFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RJA59": {
+    "name": "ElevenLabsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fTUPK": {
+    "name": "TelegramFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k9q5WG": {
+    "name": "MastodonFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ADBAJ": {
+    "name": "ThreadsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z90QR": {
+    "name": "SnapchatFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jKFSL": {
+    "name": "DiscordFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qkKPg": {
+    "name": "XFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "q3kyyz": {
+    "name": "BilibiliFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KWfoI": {
+    "name": "PinterestFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MOIn1": {
+    "name": "TikTokFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c5etwU": {
+    "name": "SpotifyFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hAi24": {
+    "name": "TwitchFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IAg8w": {
+    "name": "AccountBookFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dgjpb": {
+    "name": "AlertFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i5v34d": {
+    "name": "ApiFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "D69NA0": {
+    "name": "AppstoreFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T2HyRj": {
+    "name": "AudioFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fnQA1": {
+    "name": "BankFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lR8uf": {
+    "name": "BellFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wEKxH": {
+    "name": "BookFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PKmRF": {
+    "name": "BugFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zUmgi": {
+    "name": "BuildFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "noGXg": {
+    "name": "BulbFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u5PwyS": {
+    "name": "CalculatorFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "v1HO1d": {
+    "name": "CalendarFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mhQTa": {
+    "name": "CameraFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "o9USN": {
+    "name": "CarFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "f8X34": {
+    "name": "CarryOutFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y4QeXP": {
+    "name": "CiCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M7ACz": {
+    "name": "CloudFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "p45r66": {
+    "name": "CodeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Zf4nG": {
+    "name": "CompassFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yeOTg": {
+    "name": "ContactsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "abUzi": {
+    "name": "ContainerFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M4D0qO": {
+    "name": "ControlFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WyQBO": {
+    "name": "CreditCardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E2WdP": {
+    "name": "CrownFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PpUDA": {
+    "name": "CustomerServiceFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "msIew": {
+    "name": "DashboardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "phy5F": {
+    "name": "DatabaseFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Cuqqn": {
+    "name": "DislikeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bFS8o": {
+    "name": "EnvironmentFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KuQ9r": {
+    "name": "EuroCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bRqmc": {
+    "name": "ExperimentFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "INwJI": {
+    "name": "EyeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "z2wRYm": {
+    "name": "EyeInvisibleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dbRGs": {
+    "name": "FileAddFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WYUmW": {
+    "name": "FileExcelFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bZixI": {
+    "name": "FileExclamationFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MQ7XX": {
+    "name": "FileFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ILtfk": {
+    "name": "FileImageFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VvwVV": {
+    "name": "FileMarkdownFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i7uKI": {
+    "name": "FilePdfFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LRij2": {
+    "name": "FilePptFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e1Yn0": {
+    "name": "FileTextFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "APw96": {
+    "name": "FileUnknownFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y3hW4Q": {
+    "name": "FileWordFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rvuuG": {
+    "name": "FileZipFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "FMn3q": {
+    "name": "FilterFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i6dYa": {
+    "name": "FireFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RqQKN": {
+    "name": "FlagFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "sqbbn": {
+    "name": "FolderAddFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XFXct": {
+    "name": "FolderFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zhz1S": {
+    "name": "FolderOpenFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "quu51": {
+    "name": "FormatPainterFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bkO0E": {
+    "name": "FrownFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CUin5": {
+    "name": "FunnelPlotFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "p99A3": {
+    "name": "GiftFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X1YNd": {
+    "name": "GoldFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E0rNkn": {
+    "name": "GoldenFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "s57OF": {
+    "name": "HddFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RGH2E": {
+    "name": "HeartFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N2oXZW": {
+    "name": "HomeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "YDNxo": {
+    "name": "HourglassFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EuXOH": {
+    "name": "IdcardFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BdRSc": {
+    "name": "InsuranceFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ILZza": {
+    "name": "InteractionFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X8oGP": {
+    "name": "LayoutFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E9Mqp": {
+    "name": "LikeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XKOsp": {
+    "name": "LockFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KJtUt": {
+    "name": "MacCommandFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OlJLX": {
+    "name": "MailFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F1RXp": {
+    "name": "MedicineBoxFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R9fUGH": {
+    "name": "MehFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "y3yOL": {
+    "name": "MergeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wIwfp": {
+    "name": "MessageFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Y6s9yi": {
+    "name": "MetaFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "x3hPK": {
+    "name": "MobileFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VaET5": {
+    "name": "MoneyCollectFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cL1ca": {
+    "name": "MoonFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "a7pWA": {
+    "name": "MutedFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c4STXj": {
+    "name": "NetflixFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ysZUO": {
+    "name": "NotificationFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VQHKu": {
+    "name": "PayCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gEGhM": {
+    "name": "PhoneFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Mfqhk": {
+    "name": "PictureFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gVQDZ": {
+    "name": "PlaySquareFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "rumSf": {
+    "name": "PoundCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "g5A9bQ": {
+    "name": "PrinterFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "r7iLt3": {
+    "name": "ProductFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "wX9aK": {
+    "name": "ProfileFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "FFCjr": {
+    "name": "ProjectFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "t9jOk": {
+    "name": "PropertySafetyFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "EDBzv": {
+    "name": "PushpinFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bwHDG": {
+    "name": "ReadFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c0WJuI": {
+    "name": "ReconciliationFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OvHAt": {
+    "name": "RedEnvelopeFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "O8FY9": {
+    "name": "RestFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BPUaO": {
+    "name": "RobotFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "utByH": {
+    "name": "RocketFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "j0ySS": {
+    "name": "SafetyCertificateFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "J7auFH": {
+    "name": "SaveFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TnRmf": {
+    "name": "ScheduleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "AmRDc": {
+    "name": "SecurityScanFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "U6Pugl": {
+    "name": "SettingFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NA0N3": {
+    "name": "ShopFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VQflR": {
+    "name": "ShoppingFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "cG9EO": {
+    "name": "SignalFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hlhiJ": {
+    "name": "SignatureFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c6EXEN": {
+    "name": "SkinFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "U72RXE": {
+    "name": "SmileFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DHdF9": {
+    "name": "SoundFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eINe0": {
+    "name": "StarFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Fdfdj": {
+    "name": "SunFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "comah": {
+    "name": "SwitcherFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IJHbR": {
+    "name": "TabletFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LAZYV": {
+    "name": "TagFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "QoCnS": {
+    "name": "TagsFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c8Ou6": {
+    "name": "ThunderboltFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lOMrc": {
+    "name": "ToolFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E2lxvj": {
+    "name": "TrademarkCircleFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vUhGq": {
+    "name": "TrophyFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qZOJy": {
+    "name": "TruckFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XhpZQ": {
+    "name": "UnlockFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "R2sXL": {
+    "name": "UsbFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "yWGb5": {
+    "name": "VideoCameraFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JOW7e": {
+    "name": "WalletFilled",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VFLAh": {
+    "name": "UpCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xow72": {
+    "name": "DownCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RQkDw": {
+    "name": "LeftCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z7PbV": {
+    "name": "RightCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "e1QhB": {
+    "name": "PlayCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "waGZf": {
+    "name": "UpSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "K0Gst": {
+    "name": "DownSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "LcuYm": {
+    "name": "LeftSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "saDfc": {
+    "name": "RightSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "M622f": {
+    "name": "QuestionCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TOFMJ": {
+    "name": "PlusCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bQ83p": {
+    "name": "PauseCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ELQgs": {
+    "name": "MinusCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "H47hA7": {
+    "name": "PlusSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u7uZJ1": {
+    "name": "MinusSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "nCzWV": {
+    "name": "InfoCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "S8dxB0": {
+    "name": "ExclamationCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "oywYF": {
+    "name": "CloseCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Qp3Hd": {
+    "name": "CloseSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i9ylXw": {
+    "name": "CheckCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TxwN8": {
+    "name": "CheckSquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mOyaK": {
+    "name": "ClockCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i9byw": {
+    "name": "WarningTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NIBIG": {
+    "name": "StopTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aDM7g": {
+    "name": "EditTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "q1bGn": {
+    "name": "CopyTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "d0JyEC": {
+    "name": "DeleteTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "noQC9": {
+    "name": "SnippetsTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kuDVr": {
+    "name": "DiffTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VmHvi": {
+    "name": "HighlightTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UdyLl": {
+    "name": "PieChartTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z6auE": {
+    "name": "BoxPlotTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MEWvB": {
+    "name": "FundTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aT2ew": {
+    "name": "SlidersTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "xUb0u": {
+    "name": "Html5TwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "oreWy": {
+    "name": "AccountBookTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kqdle": {
+    "name": "AlertTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kT4mJ": {
+    "name": "ApiTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Wi9cr": {
+    "name": "AppstoreTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jnDpv": {
+    "name": "AudioTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gZjz5": {
+    "name": "BankTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gU1A7": {
+    "name": "BellTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NPioP": {
+    "name": "BookTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XWzIo": {
+    "name": "BugTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "QnY3o": {
+    "name": "BuildTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WVihh": {
+    "name": "BulbTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "stCKG": {
+    "name": "CalculatorTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jk27c": {
+    "name": "CalendarTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G5eNo": {
+    "name": "CameraTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "E54Fs": {
+    "name": "CarTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "XlsBb": {
+    "name": "CarryOutTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ORwbr": {
+    "name": "CiCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bzOy4": {
+    "name": "CiTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "jjIKO": {
+    "name": "CloudTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ACQ49": {
+    "name": "CodeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Dv2kz": {
+    "name": "CompassTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "RmTVy": {
+    "name": "ContactsTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JoIBy": {
+    "name": "ContainerTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "JTJX0": {
+    "name": "ControlTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eaoWX": {
+    "name": "CopyrightTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T88op": {
+    "name": "CreditCardTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DlEAE": {
+    "name": "CrownTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZrBch": {
+    "name": "CustomerServiceTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "J4uwdc": {
+    "name": "DashboardTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "G3JOZ": {
+    "name": "DatabaseTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "tUK4N": {
+    "name": "DislikeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F2Mxks": {
+    "name": "DollarTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GhgXQ": {
+    "name": "EnvironmentTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k9VQXp": {
+    "name": "EuroCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "BDWFi": {
+    "name": "EuroTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NAi5g": {
+    "name": "ExperimentTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "mFV8z": {
+    "name": "EyeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "V67i6": {
+    "name": "EyeInvisibleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Vl1Jw": {
+    "name": "FileAddTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HDrj9": {
+    "name": "FileExcelTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "C11Ne": {
+    "name": "FileExclamationTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ycJiT": {
+    "name": "FileTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZxcnV": {
+    "name": "FileImageTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "MyQse": {
+    "name": "FileMarkdownTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hTqdn": {
+    "name": "FilePdfTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CWtn4": {
+    "name": "FilePptTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B9eeyr": {
+    "name": "FileTextTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pOZse": {
+    "name": "FileUnknownTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kRrZX": {
+    "name": "FileWordTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qnDTU": {
+    "name": "FileZipTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Xxbtr": {
+    "name": "FilterTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "U1RKu": {
+    "name": "FireTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ETnsX": {
+    "name": "FlagTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "vSajY": {
+    "name": "FolderAddTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "HWIRB": {
+    "name": "FolderTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "i2FBE": {
+    "name": "FolderOpenTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Kmz9K": {
+    "name": "FrownTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z7cK9": {
+    "name": "FunnelPlotTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "eZhg0": {
+    "name": "GiftTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "u0etx": {
+    "name": "GoldTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "oOzJU": {
+    "name": "HddTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "FMrI4": {
+    "name": "HeartTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CELTu": {
+    "name": "HomeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PJkOE": {
+    "name": "HourglassTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "c59Ayx": {
+    "name": "IdcardTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "Z7fuS": {
+    "name": "InsuranceTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "PFAp6": {
+    "name": "InteractionTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "lk6yc": {
+    "name": "LayoutTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OxzZm": {
+    "name": "LikeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k9V334": {
+    "name": "LockTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KRCp6": {
+    "name": "MailTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ZBTkR": {
+    "name": "MedicineBoxTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gact5": {
+    "name": "MehTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ngq93": {
+    "name": "MessageTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "N6m6Xd": {
+    "name": "MobileTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "hgNgq": {
+    "name": "MoneyCollectTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k489Cy": {
+    "name": "NotificationTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "qXIMB": {
+    "name": "PhoneTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "kEjvK": {
+    "name": "PictureTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "S3w4L": {
+    "name": "PlaySquareTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "T0C2Mf": {
+    "name": "PoundCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "KWDlz": {
+    "name": "PrinterTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "OzCOq": {
+    "name": "ProfileTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "DXHqq": {
+    "name": "ProjectTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "pZb4M": {
+    "name": "PropertySafetyTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "p0HQL9": {
+    "name": "PushpinTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "fksIe": {
+    "name": "ReconciliationTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WswZ3": {
+    "name": "RedEnvelopeTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "QoS3v": {
+    "name": "RestTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "bHnrb": {
+    "name": "RocketTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gd8UX": {
+    "name": "SafetyCertificateTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "t2qLu": {
+    "name": "SaveTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TXWr9": {
+    "name": "ScheduleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "VRtYN": {
+    "name": "SecurityScanTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "F0eNK1": {
+    "name": "SettingTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SQaiy": {
+    "name": "ShopTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "P7JExa": {
+    "name": "ShoppingTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "k3oWf": {
+    "name": "SkinTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "iHoBS": {
+    "name": "SmileTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "X8IRg": {
+    "name": "SoundTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "GkvwK": {
+    "name": "StarTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "CpqHa": {
+    "name": "SwitcherTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "ifSzy": {
+    "name": "TabletTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NVrMl": {
+    "name": "TagTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "t8myOH": {
+    "name": "TagsTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "dsxIR": {
+    "name": "ThunderboltTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "WKrNP": {
+    "name": "ToolTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "B3BpV": {
+    "name": "TrademarkCircleTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "aRXpi": {
+    "name": "TrophyTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IyEPa": {
+    "name": "UnlockTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "TTAAK": {
+    "name": "UsbTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "gAN4f": {
+    "name": "VideoCameraTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "NxmQX": {
+    "name": "WalletTwoTone",
+    "fontSize": 36,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "antd-icon-live-origin": {
+    "name": "HeartOutlined",
+    "fontSize": 32,
+    "color": "#000000E0",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "I5LWhb": {
+    "name": "UploadOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "JvzGL": {
+    "name": "CopyOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "nbNyz": {
+    "name": "SearchOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "HMVGV": {
+    "name": "LikeOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "lvynj": {
+    "name": "CommentOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "F3o5Y": {
+    "name": "StarOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "dH2py": {
+    "name": "HeartOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "SNcmw": {
+    "name": "ShareAltOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "tdrrJ": {
+    "name": "DownloadOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  },
+  "hcqrc": {
+    "name": "EllipsisOutlined",
+    "fontSize": 14,
+    "color": "#000000E0"
+  }
+}

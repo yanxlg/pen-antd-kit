@@ -1,0 +1,899 @@
+{
+  "library": "antd",
+  "version": "6.6.4",
+  "components": {
+    "Affix": {
+      "name": "Affix",
+      "category": "Other",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Affix"
+    },
+    "Alert": {
+      "name": "Alert",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Alert"
+    },
+    "Anchor": {
+      "name": "Anchor",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "children"
+      ],
+      "manifest": "antd/Anchor"
+    },
+    "App": {
+      "name": "App",
+      "category": "Other",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/App"
+    },
+    "AutoComplete": {
+      "name": "AutoComplete",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/AutoComplete"
+    },
+    "Avatar": {
+      "name": "Avatar",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Avatar"
+    },
+    "BackTop": {
+      "name": "BackTop",
+      "category": "Other",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/BackTop"
+    },
+    "Badge": {
+      "name": "Badge",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Badge"
+    },
+    "BorderBeam": {
+      "name": "BorderBeam",
+      "category": "Other",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/BorderBeam"
+    },
+    "Breadcrumb": {
+      "name": "Breadcrumb",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "children"
+      ],
+      "manifest": "antd/Breadcrumb"
+    },
+    "Button": {
+      "name": "Button",
+      "category": "General",
+      "props": [
+        "className",
+        "style",
+        "type",
+        "color",
+        "variant",
+        "shape",
+        "size",
+        "danger",
+        "ghost",
+        "block",
+        "loading",
+        "icon",
+        "iconPlacement",
+        "iconPosition",
+        "children",
+        "href",
+        "target",
+        "htmlType",
+        "autoInsertSpace",
+        "disabled",
+        "state",
+        "rootClassName",
+        "prefixCls",
+        "classNames",
+        "styles",
+        "_skipSemantic"
+      ],
+      "manifest": "antd/Button"
+    },
+    "Calendar": {
+      "name": "Calendar",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Calendar"
+    },
+    "Card": {
+      "name": "Card",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Card"
+    },
+    "Carousel": {
+      "name": "Carousel",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Carousel"
+    },
+    "Cascader": {
+      "name": "Cascader",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Cascader"
+    },
+    "Checkbox": {
+      "name": "Checkbox",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Checkbox"
+    },
+    "Col": {
+      "name": "Col",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Col"
+    },
+    "Collapse": {
+      "name": "Collapse",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Collapse"
+    },
+    "ColorPicker": {
+      "name": "ColorPicker",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/ColorPicker"
+    },
+    "DatePicker": {
+      "name": "DatePicker",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "value",
+        "defaultValue",
+        "format",
+        "picker",
+        "showTime",
+        "disabledDate"
+      ],
+      "manifest": "antd/DatePicker"
+    },
+    "Descriptions": {
+      "name": "Descriptions",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Descriptions"
+    },
+    "Divider": {
+      "name": "Divider",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Divider"
+    },
+    "Drawer": {
+      "name": "Drawer",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "open",
+        "title",
+        "onClose",
+        "placement",
+        "width",
+        "size",
+        "footer"
+      ],
+      "manifest": "antd/Drawer"
+    },
+    "Dropdown": {
+      "name": "Dropdown",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "children"
+      ],
+      "manifest": "antd/Dropdown"
+    },
+    "Empty": {
+      "name": "Empty",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Empty"
+    },
+    "Flex": {
+      "name": "Flex",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Flex"
+    },
+    "FloatButton": {
+      "name": "FloatButton",
+      "category": "General",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/FloatButton"
+    },
+    "Form": {
+      "name": "Form",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "name",
+        "layout",
+        "initialValues",
+        "onFinish",
+        "rules",
+        "disabled"
+      ],
+      "manifest": "antd/Form"
+    },
+    "Grid": {
+      "name": "Grid",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Grid"
+    },
+    "Image": {
+      "name": "Image",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Image"
+    },
+    "Input": {
+      "name": "Input",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "placeholder",
+        "allowClear",
+        "prefix",
+        "suffix",
+        "maxLength",
+        "value"
+      ],
+      "manifest": "antd/Input"
+    },
+    "InputNumber": {
+      "name": "InputNumber",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/InputNumber"
+    },
+    "Layout": {
+      "name": "Layout",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Layout"
+    },
+    "List": {
+      "name": "List",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/List"
+    },
+    "Listy": {
+      "name": "Listy",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Listy"
+    },
+    "Masonry": {
+      "name": "Masonry",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Masonry"
+    },
+    "Mentions": {
+      "name": "Mentions",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Mentions"
+    },
+    "Menu": {
+      "name": "Menu",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "items",
+        "mode",
+        "selectedKeys",
+        "openKeys",
+        "onClick"
+      ],
+      "manifest": "antd/Menu"
+    },
+    "Message": {
+      "name": "Message",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Message"
+    },
+    "Modal": {
+      "name": "Modal",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "open",
+        "title",
+        "onOk",
+        "onCancel",
+        "footer",
+        "width",
+        "centered",
+        "destroyOnHidden"
+      ],
+      "manifest": "antd/Modal"
+    },
+    "Notification": {
+      "name": "Notification",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Notification"
+    },
+    "Pagination": {
+      "name": "Pagination",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "children"
+      ],
+      "manifest": "antd/Pagination"
+    },
+    "Popconfirm": {
+      "name": "Popconfirm",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Popconfirm"
+    },
+    "Popover": {
+      "name": "Popover",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Popover"
+    },
+    "Progress": {
+      "name": "Progress",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Progress"
+    },
+    "QRCode": {
+      "name": "QRCode",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/QRCode"
+    },
+    "Radio": {
+      "name": "Radio",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Radio"
+    },
+    "Rate": {
+      "name": "Rate",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Rate"
+    },
+    "Result": {
+      "name": "Result",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Result"
+    },
+    "Row": {
+      "name": "Row",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Row"
+    },
+    "Segmented": {
+      "name": "Segmented",
+      "category": "Data Display",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Segmented"
+    },
+    "Select": {
+      "name": "Select",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "options",
+        "mode",
+        "allowClear",
+        "showSearch",
+        "placeholder",
+        "value"
+      ],
+      "manifest": "antd/Select"
+    },
+    "Skeleton": {
+      "name": "Skeleton",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Skeleton"
+    },
+    "Slider": {
+      "name": "Slider",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Slider"
+    },
+    "Space": {
+      "name": "Space",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Space"
+    },
+    "Spin": {
+      "name": "Spin",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Spin"
+    },
+    "Splitter": {
+      "name": "Splitter",
+      "category": "Layout",
+      "props": [
+        "className",
+        "style",
+        "size",
+        "children"
+      ],
+      "manifest": "antd/Splitter"
+    },
+    "Statistic": {
+      "name": "Statistic",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Statistic"
+    },
+    "Steps": {
+      "name": "Steps",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "children"
+      ],
+      "manifest": "antd/Steps"
+    },
+    "Switch": {
+      "name": "Switch",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Switch"
+    },
+    "Table": {
+      "name": "Table",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "columns",
+        "dataSource",
+        "rowKey",
+        "pagination",
+        "rowSelection",
+        "loading",
+        "scroll",
+        "sticky"
+      ],
+      "manifest": "antd/Table"
+    },
+    "Tabs": {
+      "name": "Tabs",
+      "category": "Navigation",
+      "props": [
+        "className",
+        "style",
+        "disabled",
+        "items",
+        "activeKey",
+        "defaultActiveKey",
+        "type",
+        "onChange"
+      ],
+      "manifest": "antd/Tabs"
+    },
+    "Tag": {
+      "name": "Tag",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Tag"
+    },
+    "TimePicker": {
+      "name": "TimePicker",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/TimePicker"
+    },
+    "Timeline": {
+      "name": "Timeline",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Timeline"
+    },
+    "Tooltip": {
+      "name": "Tooltip",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Tooltip"
+    },
+    "Tour": {
+      "name": "Tour",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "closable",
+        "children"
+      ],
+      "manifest": "antd/Tour"
+    },
+    "Transfer": {
+      "name": "Transfer",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/Transfer"
+    },
+    "Tree": {
+      "name": "Tree",
+      "category": "Data Display",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Tree"
+    },
+    "TreeSelect": {
+      "name": "TreeSelect",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "children"
+      ],
+      "manifest": "antd/TreeSelect"
+    },
+    "Typography": {
+      "name": "Typography",
+      "category": "General",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Typography"
+    },
+    "Upload": {
+      "name": "Upload",
+      "category": "Data Entry",
+      "props": [
+        "size",
+        "disabled",
+        "status",
+        "variant",
+        "action",
+        "fileList",
+        "beforeUpload",
+        "onChange",
+        "multiple",
+        "accept"
+      ],
+      "manifest": "antd/Upload"
+    },
+    "Watermark": {
+      "name": "Watermark",
+      "category": "Feedback",
+      "props": [
+        "className",
+        "style",
+        "children"
+      ],
+      "manifest": "antd/Watermark"
+    }
+  },
+  "tokenBindings": {
+    "colorPrimary": "$antd-colorPrimary",
+    "colorSuccess": "$antd-colorSuccess",
+    "colorWarning": "$antd-colorWarning",
+    "colorError": "$antd-colorError",
+    "colorText": "$antd-colorText",
+    "colorTextSecondary": "$antd-colorTextSecondary",
+    "colorTextTertiary": "$antd-colorTextTertiary",
+    "colorTextPlaceholder": "$antd-colorTextPlaceholder",
+    "colorBgContainer": "$antd-colorBgContainer",
+    "colorFillAlter": "$antd-colorFillAlter",
+    "colorBorder": "$antd-colorBorder",
+    "borderRadius": "$antd-borderRadius",
+    "borderRadiusLG": "$antd-borderRadiusLG",
+    "fontSize": "$antd-fontSize",
+    "controlHeight": "$antd-controlHeight"
+  },
+  "codegen": {
+    "framework": "react-typescript",
+    "package": "antd",
+    "iconsPackage": "@ant-design/icons"
+  }
+}

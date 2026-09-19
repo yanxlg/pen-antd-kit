@@ -1,0 +1,14 @@
+[
+  {
+    "id": "app-demo-basic",
+    "title": "Basic",
+    "html": "<div class=\"css-19u5a7b ant-app css-var-_R_afsua_\"><div class=\"ant-space css-19u5a7b ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_R_afsua_\" style=\"flex-wrap: wrap;\"><div class=\"ant-space-item\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Open message</span></button></div><div class=\"ant-space-item\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Open modal</span></button></div><div class=\"ant-space-item\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Open notification</span></button></div></div></div>",
+    "iframes": []
+  },
+  {
+    "id": "app-demo-config",
+    "title": "Hooks config",
+    "html": "<div class=\"css-19u5a7b ant-app css-var-_R_afsua_\"><div class=\"ant-space css-19u5a7b ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small css-var-_R_afsua_\" style=\"flex-wrap: wrap;\"><div class=\"ant-space-item\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Message for only one</span></button></div><div class=\"ant-space-item\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Notification for bottomLeft</span></button></div></div></div>",
+    "iframes": []
+  }
+]

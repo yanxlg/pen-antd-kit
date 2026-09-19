@@ -1,0 +1,471 @@
+{
+  "version": "2.17",
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ],
+    "density": [
+      "regular",
+      "compact"
+    ]
+  },
+  "children": [
+    {
+      "type": "frame",
+      "id": "user-management-screen",
+      "name": "Screen · 用户管理",
+      "width": 1440,
+      "height": 900,
+      "fill": "$antd-colorBgLayout",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "frame",
+          "id": "page-header",
+          "name": "页面标题",
+          "width": "fill_container",
+          "height": 40,
+          "layout": "horizontal",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "page-title",
+              "name": "Title",
+              "content": "用户管理",
+              "fill": "$antd-colorText",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "add-user",
+              "name": "Antd/Button",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Button",
+                  "version": "6.4.3",
+                  "props": {
+                    "type": "primary"
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "horizontal",
+              "alignItems": "center",
+              "width": 104,
+              "height": 40,
+              "fill": "$antd-colorPrimary",
+              "cornerRadius": "$antd-borderRadius",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "add-user-label",
+                  "name": "Label",
+                  "content": "新增用户",
+                  "fill": "#FFFFFF",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "filter-card",
+          "name": "筛选表单",
+          "width": "fill_container",
+          "height": 96,
+          "fill": "$antd-colorBgContainer",
+          "cornerRadius": "$antd-borderRadiusLG",
+          "padding": 20,
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "user-name-input",
+              "name": "Antd/Input",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Input",
+                  "version": "6.4.3",
+                  "props": {
+                    "placeholder": "请输入姓名",
+                    "allowClear": true
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "horizontal",
+              "alignItems": "center",
+              "width": 220,
+              "height": 32,
+              "fill": "$antd-colorBgContainer",
+              "stroke": "$antd-colorBorder",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                12
+              ],
+              "cornerRadius": "$antd-borderRadius",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "user-name-placeholder",
+                  "name": "Placeholder",
+                  "content": "姓名",
+                  "fill": "$antd-colorText",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "user-status-select",
+              "name": "Antd/Select",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Select",
+                  "version": "6.4.3",
+                  "props": {
+                    "placeholder": "请选择状态",
+                    "options": [
+                      {
+                        "label": "启用",
+                        "value": "active"
+                      },
+                      {
+                        "label": "停用",
+                        "value": "inactive"
+                      }
+                    ]
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "horizontal",
+              "alignItems": "center",
+              "width": 220,
+              "height": 32,
+              "fill": "$antd-colorBgContainer",
+              "stroke": "$antd-colorBorder",
+              "strokeWidth": 1,
+              "padding": [
+                0,
+                12
+              ],
+              "cornerRadius": "$antd-borderRadius",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "user-status-placeholder",
+                  "name": "Placeholder",
+                  "content": "状态",
+                  "fill": "$antd-colorTextPlaceholder",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "search-button",
+              "name": "Antd/Button",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Button",
+                  "version": "6.4.3",
+                  "props": {
+                    "type": "primary"
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "horizontal",
+              "alignItems": "center",
+              "width": 72,
+              "height": 32,
+              "fill": "$antd-colorPrimary",
+              "cornerRadius": "$antd-borderRadius",
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "search-label",
+                  "name": "Label",
+                  "content": "查询",
+                  "fill": "#FFFFFF",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "table-card",
+          "name": "用户表格",
+          "width": "fill_container",
+          "height": 460,
+          "fill": "$antd-colorBgContainer",
+          "cornerRadius": "$antd-borderRadiusLG",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "user-table",
+              "name": "Antd/Table",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Table",
+                  "version": "6.4.3",
+                  "props": {
+                    "rowKey": "id",
+                    "columns": [
+                      {
+                        "title": "姓名",
+                        "dataIndex": "name"
+                      },
+                      {
+                        "title": "邮箱",
+                        "dataIndex": "email"
+                      },
+                      {
+                        "title": "状态",
+                        "dataIndex": "status"
+                      },
+                      {
+                        "title": "操作",
+                        "key": "actions"
+                      }
+                    ],
+                    "dataSource": [
+                      {
+                        "id": 1,
+                        "name": "Ana López",
+                        "email": "ana@example.com",
+                        "status": "启用"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Wei Chen",
+                        "email": "wei@example.com",
+                        "status": "启用"
+                      }
+                    ],
+                    "pagination": false
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "vertical",
+              "alignItems": "start",
+              "width": "fill_container",
+              "height": 360,
+              "fill": "$antd-colorBgContainer",
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "table-content",
+                  "name": "Rows",
+                  "content": "Ana López     ana@example.com     启用     编辑",
+                  "fill": "$antd-colorTextSecondary",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "table-pagination",
+              "name": "Antd/Pagination",
+              "reusable": false,
+              "metadata": {
+                "type": "antd-component",
+                "antd": {
+                  "component": "Pagination",
+                  "version": "6.4.3",
+                  "props": {
+                    "current": 1,
+                    "pageSize": 10,
+                    "total": 42,
+                    "showSizeChanger": true
+                  },
+                  "tokens": {}
+                }
+              },
+              "layout": "horizontal",
+              "alignItems": "center",
+              "width": "fill_container",
+              "height": 48,
+              "justifyContent": "end",
+              "padding": [
+                0,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pagination-label",
+                  "name": "Label",
+                  "content": "1  2  3  …  下一页",
+                  "fill": "$antd-colorTextSecondary",
+                  "fontFamily": "Inter",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "state-notes",
+          "name": "State coverage",
+          "width": "fill_container",
+          "height": 120,
+          "layout": "horizontal",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "state-default",
+              "name": "State · default",
+              "content": "默认：展示用户列表",
+              "fill": "$antd-colorTextSecondary",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "state-loading",
+              "name": "State · loading",
+              "content": "加载：Table.loading=true",
+              "fill": "$antd-colorTextSecondary",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "state-empty",
+              "name": "State · empty",
+              "content": "空数据：Empty",
+              "fill": "$antd-colorTextSecondary",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "state-error",
+              "name": "State · error",
+              "content": "错误：Alert type=error",
+              "fill": "$antd-colorError",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "create-user-modal",
+          "name": "Antd/Modal",
+          "reusable": false,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Modal",
+              "version": "6.4.3",
+              "props": {
+                "open": false,
+                "title": "新增用户",
+                "destroyOnHidden": true
+              },
+              "state": "closed",
+              "tokens": {}
+            }
+          },
+          "layout": "vertical",
+          "alignItems": "start",
+          "width": 480,
+          "height": 220,
+          "fill": "$antd-colorBgContainer",
+          "cornerRadius": "$antd-borderRadiusLG",
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "modal-content",
+              "name": "Slot · children",
+              "content": "姓名、邮箱和角色表单",
+              "fill": "$antd-colorTextSecondary",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "antd-colorPrimary": {
+      "type": "color",
+      "value": "#1677FF"
+    },
+    "antd-colorText": {
+      "type": "color",
+      "value": "rgba(0,0,0,0.88)"
+    },
+    "antd-colorTextSecondary": {
+      "type": "color",
+      "value": "rgba(0,0,0,0.65)"
+    },
+    "antd-colorTextPlaceholder": {
+      "type": "color",
+      "value": "rgba(0,0,0,0.25)"
+    },
+    "antd-colorError": {
+      "type": "color",
+      "value": "#FF4D4F"
+    },
+    "antd-colorBgLayout": {
+      "type": "color",
+      "value": "#F5F5F5"
+    },
+    "antd-colorBgContainer": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "antd-colorBorder": {
+      "type": "color",
+      "value": "#D9D9D9"
+    },
+    "antd-borderRadius": {
+      "type": "number",
+      "value": 6
+    },
+    "antd-borderRadiusLG": {
+      "type": "number",
+      "value": 8
+    }
+  },
+  "fileToken": "antd-6-user-management-example-20260915"
+}

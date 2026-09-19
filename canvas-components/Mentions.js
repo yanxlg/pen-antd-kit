@@ -1,0 +1,40 @@
+/**
+ * @schema 2.18
+ * @input placeholder: string = "使用 @ 提及他人"
+ * @input value: string = "@张三 "
+ * @input size: enum("small", "middle", "large") = "middle"
+ * @input status: enum("default", "error", "warning") = "default"
+ * @input disabled: boolean = false
+ * @input open: boolean = false
+ * @input color: string = ""
+ * @input direction: enum("ltr", "rtl") = "ltr"
+ * @input dirName: string = ""
+ * @input loading: boolean = false
+ * @input maxLength: number = 0
+ * @input minLength: number = 0
+ * @input name: string = ""
+ * @input placement: enum("bottom", "top") = "bottom"
+ * @input silent: boolean = false
+ * @input split: string = ""
+ * @input transitionName: string = ""
+ * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
+ * @input primaryColor: color = #1677FF
+ */
+
+const i = pencil.input;
+const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
+const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
+const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
+const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
+const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
+const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
+const nodes = [];
+const disabled = i.disabled ? "#00000040" : "#000000E0";
+const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
+const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
+const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
+const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+
+  nodes.push(box(0,0,W,H,i.disabled?"#0000000A":bgFill,6,strokeCol));nodes.push(text(i.value||i.placeholder||"Input @ to mention people",12,10,W-24,i.value?disabled:"#00000040",14));
+  if(i.open){nodes.push(box(0,H+4,180,104,"#fff",8,"#f0f0f0"));["afc163","zombieJ","yesmeck"].forEach((o,n)=>nodes.push(text("@"+o,12,H+12+n*30,156,n===0?primary:"#000000e0",13)));}
+return nodes;

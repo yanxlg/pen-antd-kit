@@ -1,0 +1,712 @@
+{
+  "meta": {
+    "source": "https://ant.design/components/overview-cn/",
+    "antd_version": "6.6.4",
+    "base_count": 73,
+    "pro_count": 6
+  },
+  "groups": [
+    {
+      "category_key": "general",
+      "category_cn": "通用",
+      "category_en": "General",
+      "count": 4,
+      "components": [
+        {
+          "name_en": "Button",
+          "name_cn": "按钮",
+          "slug": "button",
+          "url": "https://ant.design/components/button-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "FloatButton",
+          "name_cn": "悬浮按钮",
+          "slug": "float-button",
+          "url": "https://ant.design/components/float-button-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Icon",
+          "name_cn": "图标",
+          "slug": "icon",
+          "url": "https://ant.design/components/icon-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Typography",
+          "name_cn": "排版",
+          "slug": "typography",
+          "url": "https://ant.design/components/typography-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "layout",
+      "category_cn": "布局",
+      "category_en": "Layout",
+      "count": 7,
+      "components": [
+        {
+          "name_en": "Divider",
+          "name_cn": "分割线",
+          "slug": "divider",
+          "url": "https://ant.design/components/divider-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Flex",
+          "name_cn": "弹性布局",
+          "slug": "flex",
+          "url": "https://ant.design/components/flex-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Grid",
+          "name_cn": "栅格",
+          "slug": "grid",
+          "url": "https://ant.design/components/grid-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Layout",
+          "name_cn": "布局",
+          "slug": "layout",
+          "url": "https://ant.design/components/layout-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Masonry",
+          "name_cn": "瀑布流",
+          "slug": "masonry",
+          "url": "https://ant.design/components/masonry-cn",
+          "version_badge": "6.0.0",
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Space",
+          "name_cn": "间距",
+          "slug": "space",
+          "url": "https://ant.design/components/space-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Splitter",
+          "name_cn": "分隔面板",
+          "slug": "splitter",
+          "url": "https://ant.design/components/splitter-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "navigation",
+      "category_cn": "导航",
+      "category_en": "Navigation",
+      "count": 7,
+      "components": [
+        {
+          "name_en": "Anchor",
+          "name_cn": "锚点",
+          "slug": "anchor",
+          "url": "https://ant.design/components/anchor-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Breadcrumb",
+          "name_cn": "面包屑",
+          "slug": "breadcrumb",
+          "url": "https://ant.design/components/breadcrumb-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Dropdown",
+          "name_cn": "下拉菜单",
+          "slug": "dropdown",
+          "url": "https://ant.design/components/dropdown-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Menu",
+          "name_cn": "导航菜单",
+          "slug": "menu",
+          "url": "https://ant.design/components/menu-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Pagination",
+          "name_cn": "分页",
+          "slug": "pagination",
+          "url": "https://ant.design/components/pagination-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Steps",
+          "name_cn": "步骤条",
+          "slug": "steps",
+          "url": "https://ant.design/components/steps-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Tabs",
+          "name_cn": "标签页",
+          "slug": "tabs",
+          "url": "https://ant.design/components/tabs-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "data-entry",
+      "category_cn": "数据录入",
+      "category_en": "Data Entry",
+      "count": 18,
+      "components": [
+        {
+          "name_en": "AutoComplete",
+          "name_cn": "自动完成",
+          "slug": "auto-complete",
+          "url": "https://ant.design/components/auto-complete-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Cascader",
+          "name_cn": "级联选择",
+          "slug": "cascader",
+          "url": "https://ant.design/components/cascader-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Checkbox",
+          "name_cn": "多选框",
+          "slug": "checkbox",
+          "url": "https://ant.design/components/checkbox-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "ColorPicker",
+          "name_cn": "颜色选择器",
+          "slug": "color-picker",
+          "url": "https://ant.design/components/color-picker-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "DatePicker",
+          "name_cn": "日期选择框",
+          "slug": "date-picker",
+          "url": "https://ant.design/components/date-picker-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Form",
+          "name_cn": "表单",
+          "slug": "form",
+          "url": "https://ant.design/components/form-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Input",
+          "name_cn": "输入框",
+          "slug": "input",
+          "url": "https://ant.design/components/input-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "InputNumber",
+          "name_cn": "数字输入框",
+          "slug": "input-number",
+          "url": "https://ant.design/components/input-number-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Mentions",
+          "name_cn": "提及",
+          "slug": "mentions",
+          "url": "https://ant.design/components/mentions-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Radio",
+          "name_cn": "单选框",
+          "slug": "radio",
+          "url": "https://ant.design/components/radio-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Rate",
+          "name_cn": "评分",
+          "slug": "rate",
+          "url": "https://ant.design/components/rate-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Select",
+          "name_cn": "选择器",
+          "slug": "select",
+          "url": "https://ant.design/components/select-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Slider",
+          "name_cn": "滑动输入条",
+          "slug": "slider",
+          "url": "https://ant.design/components/slider-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Switch",
+          "name_cn": "开关",
+          "slug": "switch",
+          "url": "https://ant.design/components/switch-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "TimePicker",
+          "name_cn": "时间选择框",
+          "slug": "time-picker",
+          "url": "https://ant.design/components/time-picker-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Transfer",
+          "name_cn": "穿梭框",
+          "slug": "transfer",
+          "url": "https://ant.design/components/transfer-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "TreeSelect",
+          "name_cn": "树选择",
+          "slug": "tree-select",
+          "url": "https://ant.design/components/tree-select-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Upload",
+          "name_cn": "上传",
+          "slug": "upload",
+          "url": "https://ant.design/components/upload-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "data-display",
+      "category_cn": "数据展示",
+      "category_en": "Data Display",
+      "count": 21,
+      "components": [
+        {
+          "name_en": "Avatar",
+          "name_cn": "头像",
+          "slug": "avatar",
+          "url": "https://ant.design/components/avatar-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Badge",
+          "name_cn": "徽标数",
+          "slug": "badge",
+          "url": "https://ant.design/components/badge-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Calendar",
+          "name_cn": "日历",
+          "slug": "calendar",
+          "url": "https://ant.design/components/calendar-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Card",
+          "name_cn": "卡片",
+          "slug": "card",
+          "url": "https://ant.design/components/card-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Carousel",
+          "name_cn": "走马灯",
+          "slug": "carousel",
+          "url": "https://ant.design/components/carousel-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Collapse",
+          "name_cn": "折叠面板",
+          "slug": "collapse",
+          "url": "https://ant.design/components/collapse-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Descriptions",
+          "name_cn": "描述列表",
+          "slug": "descriptions",
+          "url": "https://ant.design/components/descriptions-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Empty",
+          "name_cn": "空状态",
+          "slug": "empty",
+          "url": "https://ant.design/components/empty-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Image",
+          "name_cn": "图片",
+          "slug": "image",
+          "url": "https://ant.design/components/image-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "List",
+          "name_cn": "列表",
+          "slug": "list",
+          "url": "https://ant.design/components/list-cn",
+          "version_badge": null,
+          "is_deprecated": true
+        },
+        {
+          "name_en": "Listy",
+          "name_cn": "虚拟列表",
+          "slug": "listy",
+          "url": "https://ant.design/components/listy-cn",
+          "version_badge": "6.6.0",
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Popover",
+          "name_cn": "气泡卡片",
+          "slug": "popover",
+          "url": "https://ant.design/components/popover-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "QRCode",
+          "name_cn": "二维码",
+          "slug": "qr-code",
+          "url": "https://ant.design/components/qr-code-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Segmented",
+          "name_cn": "分段控制器",
+          "slug": "segmented",
+          "url": "https://ant.design/components/segmented-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Statistic",
+          "name_cn": "统计数值",
+          "slug": "statistic",
+          "url": "https://ant.design/components/statistic-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Table",
+          "name_cn": "表格",
+          "slug": "table",
+          "url": "https://ant.design/components/table-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Tag",
+          "name_cn": "标签",
+          "slug": "tag",
+          "url": "https://ant.design/components/tag-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Timeline",
+          "name_cn": "时间轴",
+          "slug": "timeline",
+          "url": "https://ant.design/components/timeline-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Tooltip",
+          "name_cn": "文字提示",
+          "slug": "tooltip",
+          "url": "https://ant.design/components/tooltip-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Tour",
+          "name_cn": "漫游式引导",
+          "slug": "tour",
+          "url": "https://ant.design/components/tour-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Tree",
+          "name_cn": "树形控件",
+          "slug": "tree",
+          "url": "https://ant.design/components/tree-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "feedback",
+      "category_cn": "反馈",
+      "category_en": "Feedback",
+      "count": 11,
+      "components": [
+        {
+          "name_en": "Alert",
+          "name_cn": "警告提示",
+          "slug": "alert",
+          "url": "https://ant.design/components/alert-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Drawer",
+          "name_cn": "抽屉",
+          "slug": "drawer",
+          "url": "https://ant.design/components/drawer-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Message",
+          "name_cn": "全局提示",
+          "slug": "message",
+          "url": "https://ant.design/components/message-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Modal",
+          "name_cn": "对话框",
+          "slug": "modal",
+          "url": "https://ant.design/components/modal-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Notification",
+          "name_cn": "通知提醒框",
+          "slug": "notification",
+          "url": "https://ant.design/components/notification-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Popconfirm",
+          "name_cn": "气泡确认框",
+          "slug": "popconfirm",
+          "url": "https://ant.design/components/popconfirm-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Progress",
+          "name_cn": "进度条",
+          "slug": "progress",
+          "url": "https://ant.design/components/progress-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Result",
+          "name_cn": "结果",
+          "slug": "result",
+          "url": "https://ant.design/components/result-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Skeleton",
+          "name_cn": "骨架屏",
+          "slug": "skeleton",
+          "url": "https://ant.design/components/skeleton-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Spin",
+          "name_cn": "加载中",
+          "slug": "spin",
+          "url": "https://ant.design/components/spin-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Watermark",
+          "name_cn": "水印",
+          "slug": "watermark",
+          "url": "https://ant.design/components/watermark-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "other",
+      "category_cn": "其他",
+      "category_en": "Other",
+      "count": 5,
+      "components": [
+        {
+          "name_en": "Affix",
+          "name_cn": "固钉",
+          "slug": "affix",
+          "url": "https://ant.design/components/affix-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "App",
+          "name_cn": "包裹组件",
+          "slug": "app",
+          "url": "https://ant.design/components/app-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "BorderBeam",
+          "name_cn": "边框流光",
+          "slug": "border-beam",
+          "url": "https://ant.design/components/border-beam-cn",
+          "version_badge": "6.4.0",
+          "is_deprecated": false
+        },
+        {
+          "name_en": "ConfigProvider",
+          "name_cn": "全局化配置",
+          "slug": "config-provider",
+          "url": "https://ant.design/components/config-provider-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        },
+        {
+          "name_en": "Util",
+          "name_cn": "工具类",
+          "slug": "_util",
+          "url": "https://ant.design/components/_util-cn",
+          "version_badge": null,
+          "is_deprecated": false
+        }
+      ]
+    },
+    {
+      "category_key": "pro",
+      "category_cn": "重型组件",
+      "category_en": "Pro Components",
+      "count": 6,
+      "components": [
+        {
+          "name_en": "ProLayout",
+          "name_cn": "高级布局",
+          "slug": "layout",
+          "url": "https://procomponents.ant.design/components/layout",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        },
+        {
+          "name_en": "ProForm",
+          "name_cn": "高级表单",
+          "slug": "form",
+          "url": "https://procomponents.ant.design/components/form",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        },
+        {
+          "name_en": "ProTable",
+          "name_cn": "高级表格",
+          "slug": "table",
+          "url": "https://procomponents.ant.design/components/table",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        },
+        {
+          "name_en": "ProDescriptions",
+          "name_cn": "高级定义列表",
+          "slug": "descriptions",
+          "url": "https://procomponents.ant.design/components/descriptions",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        },
+        {
+          "name_en": "ProList",
+          "name_cn": "高级列表",
+          "slug": "list",
+          "url": "https://procomponents.ant.design/components/list",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        },
+        {
+          "name_en": "EditableProTable",
+          "name_cn": "可编辑表格",
+          "slug": "editable-table",
+          "url": "https://procomponents.ant.design/components/editable-table",
+          "version_badge": null,
+          "is_deprecated": false,
+          "is_pro": true
+        }
+      ]
+    }
+  ]
+}

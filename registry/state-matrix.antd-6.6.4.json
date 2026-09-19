@@ -1,0 +1,3071 @@
+{
+  "library": "antd",
+  "version": "6.6.4",
+  "purpose": "browser-rendered state coverage for Pen import and visual regression",
+  "workflow": [
+    "render-real-antd",
+    "import-to-pen",
+    "screenshot",
+    "compare",
+    "fix-source-or-import-rule"
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "category": "General",
+      "states": [
+        "primary",
+        "default",
+        "dashed",
+        "text",
+        "link",
+        "loading",
+        "disabled",
+        "danger"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Button&state=primary",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Button&state=primary",
+        "http://127.0.0.1:4318/?component=Button&state=default",
+        "http://127.0.0.1:4318/?component=Button&state=dashed",
+        "http://127.0.0.1:4318/?component=Button&state=text",
+        "http://127.0.0.1:4318/?component=Button&state=link",
+        "http://127.0.0.1:4318/?component=Button&state=loading",
+        "http://127.0.0.1:4318/?component=Button&state=disabled",
+        "http://127.0.0.1:4318/?component=Button&state=danger"
+      ],
+      "selector": "#sample-Button"
+    },
+    {
+      "name": "FloatButton",
+      "category": "General",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=FloatButton&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=FloatButton&state=default",
+        "http://127.0.0.1:4318/?component=FloatButton&state=disabled",
+        "http://127.0.0.1:4318/?component=FloatButton&state=focus"
+      ],
+      "selector": "#sample-FloatButton"
+    },
+    {
+      "name": "Typography",
+      "category": "General",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Typography&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Typography&state=default",
+        "http://127.0.0.1:4318/?component=Typography&state=disabled",
+        "http://127.0.0.1:4318/?component=Typography&state=focus"
+      ],
+      "selector": "#sample-Typography"
+    },
+    {
+      "name": "Divider",
+      "category": "Layout",
+      "states": [
+        "Orientation and line style: solid · horizontal",
+        "Orientation and line style: solid · vertical",
+        "Orientation and line style: dashed · horizontal",
+        "Orientation and line style: dashed · vertical",
+        "Orientation and line style: dotted · horizontal",
+        "Orientation and line style: dotted · vertical",
+        "Title placement: start",
+        "Title placement: start · plain",
+        "Title placement: center",
+        "Title placement: center · plain",
+        "Title placement: end",
+        "Title placement: end · plain",
+        "Spacing: size = small",
+        "Spacing: size = middle",
+        "Spacing: size = large"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "solid"
+          },
+          "width": 740,
+          "height": 49,
+          "label": "solid · horizontal"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "solid",
+            "orientation": "vertical"
+          },
+          "width": 17,
+          "height": 12.6,
+          "label": "solid · vertical"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "dashed"
+          },
+          "width": 740,
+          "height": 49,
+          "label": "dashed · horizontal"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "dashed",
+            "orientation": "vertical"
+          },
+          "width": 17,
+          "height": 12.6,
+          "label": "dashed · vertical"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "dotted"
+          },
+          "width": 740,
+          "height": 49,
+          "label": "dotted · horizontal"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "variant": "dotted",
+            "orientation": "vertical"
+          },
+          "width": 17,
+          "height": 12.6,
+          "label": "dotted · vertical"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "start"
+          },
+          "width": 740,
+          "height": 58,
+          "label": "start"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "start",
+            "plain": true
+          },
+          "width": 740,
+          "height": 54,
+          "label": "start · plain"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "center"
+          },
+          "width": 740,
+          "height": 58,
+          "label": "center"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "center",
+            "plain": true
+          },
+          "width": 740,
+          "height": 54,
+          "label": "center · plain"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "end"
+          },
+          "width": 740,
+          "height": 58,
+          "label": "end"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "children": "Text",
+            "titlePlacement": "end",
+            "plain": true
+          },
+          "width": 740,
+          "height": 54,
+          "label": "end · plain"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "size": "small"
+          },
+          "width": 740,
+          "height": 17,
+          "label": "size = small"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "size": "middle"
+          },
+          "width": 740,
+          "height": 33,
+          "label": "size = middle"
+        },
+        {
+          "component": "Divider",
+          "props": {
+            "size": "large"
+          },
+          "width": 740,
+          "height": 49,
+          "label": "size = large"
+        }
+      ]
+    },
+    {
+      "name": "Flex",
+      "category": "Layout",
+      "states": [
+        "Orientation: horizontal",
+        "Orientation: vertical",
+        "Main-axis alignment: flex-start",
+        "Main-axis alignment: center",
+        "Main-axis alignment: flex-end",
+        "Main-axis alignment: space-between",
+        "Main-axis alignment: space-around",
+        "Main-axis alignment: space-evenly",
+        "Cross-axis alignment: flex-start",
+        "Cross-axis alignment: center",
+        "Cross-axis alignment: flex-end",
+        "Cross-axis alignment: stretch",
+        "Cross-axis alignment: baseline",
+        "Gap and wrapping: gap small · wrap",
+        "Gap and wrapping: gap middle · wrap",
+        "Gap and wrapping: gap large · wrap",
+        "Gap and wrapping: gap 32 · wrap"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "horizontal"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "gap": "16",
+            "vertical": true
+          },
+          "width": 740,
+          "height": 208,
+          "label": "vertical"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "flex-start",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "flex-start"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "center",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "center"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "flex-end",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "flex-end"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "space-between",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "space-between"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "space-around",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "space-around"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 40,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 40,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "justify": "space-evenly",
+            "gap": "8"
+          },
+          "width": 740,
+          "height": 80,
+          "label": "space-evenly"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "align": "flex-start",
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "flex-start"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "align": "center",
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "center"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "align": "flex-end",
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "flex-end"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "align": "stretch",
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "stretch"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "align": "baseline",
+            "gap": "16"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "baseline"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "gap": "small",
+            "wrap": true
+          },
+          "width": 280,
+          "height": 100,
+          "label": "gap small · wrap"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "gap": "middle",
+            "wrap": true
+          },
+          "width": 280,
+          "height": 100,
+          "label": "gap middle · wrap"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "gap": "large",
+            "wrap": true
+          },
+          "width": 280,
+          "height": 100,
+          "label": "gap large · wrap"
+        },
+        {
+          "component": "Flex",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "gap": "32",
+            "wrap": true
+          },
+          "width": 280,
+          "height": 100,
+          "label": "gap 32 · wrap"
+        }
+      ]
+    },
+    {
+      "name": "Grid",
+      "category": "Layout",
+      "states": [
+        "24-column spans: 12 + 12",
+        "24-column spans: 8 + 8 + 8",
+        "24-column spans: 6 + 6 + 6 + 6",
+        "24-column spans: 24",
+        "Gutter and offset: gutter 0",
+        "Gutter and offset: gutter 8",
+        "Gutter and offset: gutter 16",
+        "Gutter and offset: gutter 24",
+        "Gutter and offset: gutter 32",
+        "Gutter and offset: offset 6",
+        "Justify: start",
+        "Justify: center",
+        "Justify: end",
+        "Justify: space-between",
+        "Justify: space-around",
+        "Justify: space-evenly",
+        "Align and order: top",
+        "Align and order: middle",
+        "Align and order: bottom",
+        "Align and order: stretch",
+        "Align and order: order 3 / 2 / 1 / 0",
+        "Align and order: wrap + vertical gutter"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 12,
+            "span2": 12,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40
+          },
+          "width": 740,
+          "height": 40,
+          "label": "12 + 12"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 8,
+            "span2": 8,
+            "span3": 8,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40
+          },
+          "width": 740,
+          "height": 40,
+          "label": "8 + 8 + 8"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40
+          },
+          "width": 740,
+          "height": 40,
+          "label": "6 + 6 + 6 + 6"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 24,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40
+          },
+          "width": 740,
+          "height": 40,
+          "label": "24"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "gutter": 0
+          },
+          "width": 740,
+          "height": 40,
+          "label": "gutter 0"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "gutter": 8
+          },
+          "width": 740,
+          "height": 40,
+          "label": "gutter 8"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "gutter": 16
+          },
+          "width": 740,
+          "height": 40,
+          "label": "gutter 16"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "gutter": 24
+          },
+          "width": 740,
+          "height": 40,
+          "label": "gutter 24"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "gutter": 32
+          },
+          "width": 740,
+          "height": 40,
+          "label": "gutter 32"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "offset1": 6
+          },
+          "width": 740,
+          "height": 40,
+          "label": "offset 6"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "start"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "start"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "center"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "center"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "end"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "end"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "space-between"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "space-between"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "space-around"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "space-around"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "",
+            "col4": "",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 4,
+            "span2": 4,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "justify": "space-evenly"
+          },
+          "width": 740,
+          "height": 40,
+          "label": "space-evenly"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 80,
+            "height3": 60,
+            "height4": 40,
+            "align": "top",
+            "gutter": 16
+          },
+          "width": 740,
+          "height": 100,
+          "label": "top"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 80,
+            "height3": 60,
+            "height4": 40,
+            "align": "middle",
+            "gutter": 16
+          },
+          "width": 740,
+          "height": 100,
+          "label": "middle"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 80,
+            "height3": 60,
+            "height4": 40,
+            "align": "bottom",
+            "gutter": 16
+          },
+          "width": 740,
+          "height": 100,
+          "label": "bottom"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 80,
+            "height3": 60,
+            "height4": 40,
+            "align": "stretch",
+            "gutter": 16
+          },
+          "width": 740,
+          "height": 100,
+          "label": "stretch"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 6,
+            "span2": 6,
+            "span3": 6,
+            "span4": 6,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "order1": 3,
+            "order2": 2,
+            "order3": 1,
+            "order4": 0
+          },
+          "width": 740,
+          "height": 40,
+          "label": "order 3 / 2 / 1 / 0"
+        },
+        {
+          "component": "Row",
+          "props": {
+            "col1": "hnH2S",
+            "col2": "hnH2S",
+            "col3": "hnH2S",
+            "col4": "hnH2S",
+            "childrenContent1": "lX74k",
+            "childrenContent2": "AY9CF",
+            "childrenContent3": "Mx5c4",
+            "childrenContent4": "BGLNa",
+            "span1": 12,
+            "span2": 12,
+            "span3": 12,
+            "span4": 12,
+            "height1": 40,
+            "height2": 40,
+            "height3": 40,
+            "height4": 40,
+            "verticalGutter": 16
+          },
+          "width": 740,
+          "height": 96,
+          "label": "wrap + vertical gutter"
+        }
+      ]
+    },
+    {
+      "name": "Layout",
+      "category": "Layout",
+      "states": [
+        "Structure: Header / Content / Footer",
+        "Structure: Sider inside",
+        "Structure: Sider end",
+        "Structure: Sider outside",
+        "Collapsed sider: expanded · 200 px",
+        "Collapsed sider: collapsed · 80 px",
+        "Collapsed sider: collapsedWidth = 0",
+        "Sider theme: dark",
+        "Sider theme: light"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": false,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70
+          },
+          "width": 740,
+          "height": 300,
+          "label": "Header / Content / Footer"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70
+          },
+          "width": 740,
+          "height": 300,
+          "label": "Sider inside"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70,
+            "siderPlacement": "end"
+          },
+          "width": 740,
+          "height": 300,
+          "label": "Sider end"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70,
+            "siderOutside": true
+          },
+          "width": 740,
+          "height": 300,
+          "label": "Sider outside"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70,
+            "collapsed": false
+          },
+          "width": 740,
+          "height": 300,
+          "label": "expanded · 200 px"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 80,
+            "headerHeight": 64,
+            "footerHeight": 70,
+            "collapsed": true
+          },
+          "width": 740,
+          "height": 300,
+          "label": "collapsed · 80 px"
+        },
+        {
+          "component": "Layout",
+          "props": {
+            "header": "CJtBn",
+            "content": "yWarL",
+            "footer": "Irc01",
+            "sider": "pWBlp",
+            "hasSider": true,
+            "siderWidth": 200,
+            "collapsedWidth": 0,
+            "headerHeight": 64,
+            "footerHeight": 70,
+            "collapsed": true
+          },
+          "width": 740,
+          "height": 300,
+          "label": "collapsedWidth = 0"
+        },
+        {
+          "component": "Layout.Sider",
+          "props": {
+            "children": "",
+            "width": 200,
+            "theme": "dark",
+            "collapsible": true
+          },
+          "width": 200,
+          "height": 240,
+          "label": "dark"
+        },
+        {
+          "component": "Layout.Sider",
+          "props": {
+            "children": "",
+            "width": 200,
+            "theme": "light",
+            "collapsible": true
+          },
+          "width": 200,
+          "height": 240,
+          "label": "light"
+        }
+      ]
+    },
+    {
+      "name": "Masonry",
+      "category": "Layout",
+      "states": [
+        "Columns: columns 2",
+        "Columns: columns 3",
+        "Columns: columns 4",
+        "Gutter: gutter 0",
+        "Gutter: gutter 8",
+        "Gutter: gutter 16",
+        "Gutter: gutter 24"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 2,
+            "gutter": 16,
+            "verticalGutter": 16
+          },
+          "width": 740,
+          "height": 520,
+          "label": "columns 2"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 3,
+            "gutter": 16,
+            "verticalGutter": 16
+          },
+          "width": 740,
+          "height": 380,
+          "label": "columns 3"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 4,
+            "gutter": 16,
+            "verticalGutter": 16
+          },
+          "width": 740,
+          "height": 380,
+          "label": "columns 4"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 3,
+            "gutter": 0,
+            "verticalGutter": 0
+          },
+          "width": 740,
+          "height": 380,
+          "label": "gutter 0"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 3,
+            "gutter": 8,
+            "verticalGutter": 8
+          },
+          "width": 740,
+          "height": 380,
+          "label": "gutter 8"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 3,
+            "gutter": 16,
+            "verticalGutter": 16
+          },
+          "width": 740,
+          "height": 380,
+          "label": "gutter 16"
+        },
+        {
+          "component": "Masonry",
+          "props": {
+            "item1": "lX74k",
+            "height1": 100,
+            "item2": "AY9CF",
+            "height2": 60,
+            "item3": "Mx5c4",
+            "height3": 140,
+            "item4": "BGLNa",
+            "height4": 80,
+            "item5": "lX74k",
+            "height5": 120,
+            "item6": "AY9CF",
+            "height6": 90,
+            "item7": "Mx5c4",
+            "height7": 160,
+            "item8": "BGLNa",
+            "height8": 70,
+            "columns": 3,
+            "gutter": 24,
+            "verticalGutter": 24
+          },
+          "width": 740,
+          "height": 380,
+          "label": "gutter 24"
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "category": "Layout",
+      "states": [
+        "Size and orientation: small",
+        "Size and orientation: middle",
+        "Size and orientation: large",
+        "Size and orientation: 32",
+        "Size and orientation: vertical",
+        "Alignment: start",
+        "Alignment: center",
+        "Alignment: end",
+        "Alignment: baseline",
+        "Wrap and separator: wrap",
+        "Wrap and separator: separator = Divider",
+        "Compact: small",
+        "Compact: middle",
+        "Compact: large",
+        "Compact: vertical"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "small"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "small"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "middle"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "middle"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "large"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "large"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "32"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "32"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "middle",
+            "vertical": true,
+            "align": "start"
+          },
+          "width": 740,
+          "height": 176,
+          "label": "vertical"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "size": "middle",
+            "align": "start"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "start"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "size": "middle",
+            "align": "center"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "center"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "size": "middle",
+            "align": "end"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "end"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "lX74k",
+            "child1Width": 80,
+            "child1Height": 40,
+            "child2": "AY9CF",
+            "child2Width": 80,
+            "child2Height": 64,
+            "child3": "Mx5c4",
+            "child3Width": 80,
+            "child3Height": 80,
+            "child4": "BGLNa",
+            "child4Width": 80,
+            "child4Height": 40,
+            "size": "middle",
+            "align": "baseline"
+          },
+          "width": 740,
+          "height": 100,
+          "label": "baseline"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "middle",
+            "wrap": true
+          },
+          "width": 240,
+          "height": 100,
+          "label": "wrap"
+        },
+        {
+          "component": "Space",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "large",
+            "separator": "T2zbBB"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "separator = Divider"
+        },
+        {
+          "component": "Space.Compact",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "small"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "small"
+        },
+        {
+          "component": "Space.Compact",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "middle"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "middle"
+        },
+        {
+          "component": "Space.Compact",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "size": "large"
+          },
+          "width": 740,
+          "height": 48,
+          "label": "large"
+        },
+        {
+          "component": "Space.Compact",
+          "props": {
+            "child1": "h8QhSf",
+            "child1Width": 88,
+            "child1Height": 32,
+            "child2": "kjRUT",
+            "child2Width": 87,
+            "child2Height": 32,
+            "child3": "fgaVj",
+            "child3Width": 88,
+            "child3Height": 32,
+            "child4": "YF5Od",
+            "child4Width": 55,
+            "child4Height": 32,
+            "vertical": true
+          },
+          "width": 120,
+          "height": 125,
+          "label": "vertical"
+        }
+      ]
+    },
+    {
+      "name": "Splitter",
+      "category": "Layout",
+      "states": [
+        "Orientation: horizontal",
+        "Orientation: vertical",
+        "Sizes and panels: 30% / 70%",
+        "Sizes and panels: 25% / 50% / 25%",
+        "Resize and collapse: resizable = false",
+        "Resize and collapse: collapsible",
+        "Resize and collapse: collapsed",
+        "Resize and collapse: lazy · released state"
+      ],
+      "source": "scripts/layout/catalog.mjs",
+      "verification": "pnpm verify:layout",
+      "canvasStates": [
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "horizontal"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": true,
+            "vertical": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "vertical"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 30,
+            "size2": 70,
+            "resizable": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "30% / 70%"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 25,
+            "size2": 50,
+            "resizable": true,
+            "panel3": "txiqG",
+            "size3": 25
+          },
+          "width": 740,
+          "height": 240,
+          "label": "25% / 50% / 25%"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": false
+          },
+          "width": 740,
+          "height": 240,
+          "label": "resizable = false"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": true,
+            "collapsible": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "collapsible"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": true,
+            "collapsible": true,
+            "collapsed": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "collapsed"
+        },
+        {
+          "component": "Splitter",
+          "props": {
+            "panel1": "KBvQW",
+            "panel2": "G41BNr",
+            "size1": 50,
+            "size2": 50,
+            "resizable": true,
+            "lazy": true
+          },
+          "width": 740,
+          "height": 240,
+          "label": "lazy · released state"
+        }
+      ]
+    },
+    {
+      "name": "Anchor",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Anchor&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Anchor&state=default",
+        "http://127.0.0.1:4318/?component=Anchor&state=disabled",
+        "http://127.0.0.1:4318/?component=Anchor&state=focus"
+      ],
+      "selector": "#sample-Anchor"
+    },
+    {
+      "name": "Breadcrumb",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Breadcrumb&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Breadcrumb&state=default",
+        "http://127.0.0.1:4318/?component=Breadcrumb&state=disabled",
+        "http://127.0.0.1:4318/?component=Breadcrumb&state=focus"
+      ],
+      "selector": "#sample-Breadcrumb"
+    },
+    {
+      "name": "Dropdown",
+      "category": "Navigation",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Dropdown&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Dropdown&state=closed",
+        "http://127.0.0.1:4318/?component=Dropdown&state=open"
+      ],
+      "selector": "#sample-Dropdown"
+    },
+    {
+      "name": "Menu",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Menu&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Menu&state=default",
+        "http://127.0.0.1:4318/?component=Menu&state=disabled",
+        "http://127.0.0.1:4318/?component=Menu&state=focus"
+      ],
+      "selector": "#sample-Menu"
+    },
+    {
+      "name": "Pagination",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Pagination&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Pagination&state=default",
+        "http://127.0.0.1:4318/?component=Pagination&state=disabled",
+        "http://127.0.0.1:4318/?component=Pagination&state=focus"
+      ],
+      "selector": "#sample-Pagination"
+    },
+    {
+      "name": "Steps",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Steps&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Steps&state=default",
+        "http://127.0.0.1:4318/?component=Steps&state=disabled",
+        "http://127.0.0.1:4318/?component=Steps&state=focus"
+      ],
+      "selector": "#sample-Steps"
+    },
+    {
+      "name": "Tabs",
+      "category": "Navigation",
+      "states": [
+        "default",
+        "active-tab",
+        "disabled-tab"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Tabs&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Tabs&state=default",
+        "http://127.0.0.1:4318/?component=Tabs&state=active-tab",
+        "http://127.0.0.1:4318/?component=Tabs&state=disabled-tab"
+      ],
+      "selector": "#sample-Tabs"
+    },
+    {
+      "name": "AutoComplete",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=AutoComplete&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=AutoComplete&state=default",
+        "http://127.0.0.1:4318/?component=AutoComplete&state=disabled",
+        "http://127.0.0.1:4318/?component=AutoComplete&state=focus"
+      ],
+      "selector": "#sample-AutoComplete"
+    },
+    {
+      "name": "Cascader",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Cascader&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Cascader&state=default",
+        "http://127.0.0.1:4318/?component=Cascader&state=disabled",
+        "http://127.0.0.1:4318/?component=Cascader&state=focus"
+      ],
+      "selector": "#sample-Cascader"
+    },
+    {
+      "name": "Checkbox",
+      "category": "Data Entry",
+      "states": [
+        "checked",
+        "unchecked",
+        "indeterminate",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Checkbox&state=checked",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Checkbox&state=checked",
+        "http://127.0.0.1:4318/?component=Checkbox&state=unchecked",
+        "http://127.0.0.1:4318/?component=Checkbox&state=indeterminate",
+        "http://127.0.0.1:4318/?component=Checkbox&state=disabled"
+      ],
+      "selector": "#sample-Checkbox"
+    },
+    {
+      "name": "ColorPicker",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=ColorPicker&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=ColorPicker&state=default",
+        "http://127.0.0.1:4318/?component=ColorPicker&state=disabled",
+        "http://127.0.0.1:4318/?component=ColorPicker&state=focus"
+      ],
+      "selector": "#sample-ColorPicker"
+    },
+    {
+      "name": "DatePicker",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "open",
+        "disabled",
+        "error"
+      ],
+      "source": "http://127.0.0.1:4318/?component=DatePicker&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=DatePicker&state=default",
+        "http://127.0.0.1:4318/?component=DatePicker&state=open",
+        "http://127.0.0.1:4318/?component=DatePicker&state=disabled",
+        "http://127.0.0.1:4318/?component=DatePicker&state=error"
+      ],
+      "selector": "#sample-DatePicker"
+    },
+    {
+      "name": "Form",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "required-error",
+        "disabled",
+        "success"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Form&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Form&state=default",
+        "http://127.0.0.1:4318/?component=Form&state=required-error",
+        "http://127.0.0.1:4318/?component=Form&state=disabled",
+        "http://127.0.0.1:4318/?component=Form&state=success"
+      ],
+      "selector": "#sample-Form"
+    },
+    {
+      "name": "Input",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "focus",
+        "filled",
+        "disabled",
+        "error"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Input&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Input&state=default",
+        "http://127.0.0.1:4318/?component=Input&state=focus",
+        "http://127.0.0.1:4318/?component=Input&state=filled",
+        "http://127.0.0.1:4318/?component=Input&state=disabled",
+        "http://127.0.0.1:4318/?component=Input&state=error"
+      ],
+      "selector": "#sample-Input"
+    },
+    {
+      "name": "InputNumber",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "hover-controls",
+        "disabled",
+        "error"
+      ],
+      "source": "http://127.0.0.1:4318/?component=InputNumber&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=InputNumber&state=default",
+        "http://127.0.0.1:4318/?component=InputNumber&state=hover-controls",
+        "http://127.0.0.1:4318/?component=InputNumber&state=disabled",
+        "http://127.0.0.1:4318/?component=InputNumber&state=error"
+      ],
+      "selector": "#sample-InputNumber"
+    },
+    {
+      "name": "Mentions",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Mentions&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Mentions&state=default",
+        "http://127.0.0.1:4318/?component=Mentions&state=disabled",
+        "http://127.0.0.1:4318/?component=Mentions&state=focus"
+      ],
+      "selector": "#sample-Mentions"
+    },
+    {
+      "name": "Radio",
+      "category": "Data Entry",
+      "states": [
+        "checked",
+        "unchecked",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Radio&state=checked",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Radio&state=checked",
+        "http://127.0.0.1:4318/?component=Radio&state=unchecked",
+        "http://127.0.0.1:4318/?component=Radio&state=disabled"
+      ],
+      "selector": "#sample-Radio"
+    },
+    {
+      "name": "Rate",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "half",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Rate&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Rate&state=default",
+        "http://127.0.0.1:4318/?component=Rate&state=half",
+        "http://127.0.0.1:4318/?component=Rate&state=disabled"
+      ],
+      "selector": "#sample-Rate"
+    },
+    {
+      "name": "Select",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "open",
+        "multiple",
+        "disabled",
+        "error"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Select&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Select&state=default",
+        "http://127.0.0.1:4318/?component=Select&state=open",
+        "http://127.0.0.1:4318/?component=Select&state=multiple",
+        "http://127.0.0.1:4318/?component=Select&state=disabled",
+        "http://127.0.0.1:4318/?component=Select&state=error"
+      ],
+      "selector": "#sample-Select"
+    },
+    {
+      "name": "Slider",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Slider&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Slider&state=default",
+        "http://127.0.0.1:4318/?component=Slider&state=disabled"
+      ],
+      "selector": "#sample-Slider"
+    },
+    {
+      "name": "Switch",
+      "category": "Data Entry",
+      "states": [
+        "checked",
+        "unchecked",
+        "disabled",
+        "loading"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Switch&state=checked",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Switch&state=checked",
+        "http://127.0.0.1:4318/?component=Switch&state=unchecked",
+        "http://127.0.0.1:4318/?component=Switch&state=disabled",
+        "http://127.0.0.1:4318/?component=Switch&state=loading"
+      ],
+      "selector": "#sample-Switch"
+    },
+    {
+      "name": "TimePicker",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=TimePicker&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=TimePicker&state=default",
+        "http://127.0.0.1:4318/?component=TimePicker&state=disabled",
+        "http://127.0.0.1:4318/?component=TimePicker&state=focus"
+      ],
+      "selector": "#sample-TimePicker"
+    },
+    {
+      "name": "Transfer",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "selected",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Transfer&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Transfer&state=default",
+        "http://127.0.0.1:4318/?component=Transfer&state=selected",
+        "http://127.0.0.1:4318/?component=Transfer&state=disabled"
+      ],
+      "selector": "#sample-Transfer"
+    },
+    {
+      "name": "TreeSelect",
+      "category": "Data Entry",
+      "states": [
+        "default",
+        "open",
+        "multiple",
+        "disabled",
+        "error"
+      ],
+      "source": "http://127.0.0.1:4318/?component=TreeSelect&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=TreeSelect&state=default",
+        "http://127.0.0.1:4318/?component=TreeSelect&state=open",
+        "http://127.0.0.1:4318/?component=TreeSelect&state=multiple",
+        "http://127.0.0.1:4318/?component=TreeSelect&state=disabled",
+        "http://127.0.0.1:4318/?component=TreeSelect&state=error"
+      ],
+      "selector": "#sample-TreeSelect"
+    },
+    {
+      "name": "Upload",
+      "category": "Data Entry",
+      "states": [
+        "empty",
+        "uploading",
+        "done",
+        "error",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Upload&state=empty",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Upload&state=empty",
+        "http://127.0.0.1:4318/?component=Upload&state=uploading",
+        "http://127.0.0.1:4318/?component=Upload&state=done",
+        "http://127.0.0.1:4318/?component=Upload&state=error",
+        "http://127.0.0.1:4318/?component=Upload&state=disabled"
+      ],
+      "selector": "#sample-Upload"
+    },
+    {
+      "name": "Avatar",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Avatar&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Avatar&state=default",
+        "http://127.0.0.1:4318/?component=Avatar&state=disabled",
+        "http://127.0.0.1:4318/?component=Avatar&state=focus"
+      ],
+      "selector": "#sample-Avatar"
+    },
+    {
+      "name": "Badge",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Badge&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Badge&state=default",
+        "http://127.0.0.1:4318/?component=Badge&state=disabled",
+        "http://127.0.0.1:4318/?component=Badge&state=focus"
+      ],
+      "selector": "#sample-Badge"
+    },
+    {
+      "name": "Calendar",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Calendar&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Calendar&state=default",
+        "http://127.0.0.1:4318/?component=Calendar&state=disabled",
+        "http://127.0.0.1:4318/?component=Calendar&state=focus"
+      ],
+      "selector": "#sample-Calendar"
+    },
+    {
+      "name": "Card",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Card&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Card&state=default",
+        "http://127.0.0.1:4318/?component=Card&state=disabled",
+        "http://127.0.0.1:4318/?component=Card&state=focus"
+      ],
+      "selector": "#sample-Card"
+    },
+    {
+      "name": "Carousel",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Carousel&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Carousel&state=default",
+        "http://127.0.0.1:4318/?component=Carousel&state=disabled",
+        "http://127.0.0.1:4318/?component=Carousel&state=focus"
+      ],
+      "selector": "#sample-Carousel"
+    },
+    {
+      "name": "Collapse",
+      "category": "Data Display",
+      "states": [
+        "collapsed",
+        "expanded"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Collapse&state=collapsed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Collapse&state=collapsed",
+        "http://127.0.0.1:4318/?component=Collapse&state=expanded"
+      ],
+      "selector": "#sample-Collapse"
+    },
+    {
+      "name": "Descriptions",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Descriptions&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Descriptions&state=default",
+        "http://127.0.0.1:4318/?component=Descriptions&state=disabled",
+        "http://127.0.0.1:4318/?component=Descriptions&state=focus"
+      ],
+      "selector": "#sample-Descriptions"
+    },
+    {
+      "name": "Empty",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "custom-description"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Empty&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Empty&state=default",
+        "http://127.0.0.1:4318/?component=Empty&state=custom-description"
+      ],
+      "selector": "#sample-Empty"
+    },
+    {
+      "name": "Image",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Image&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Image&state=default",
+        "http://127.0.0.1:4318/?component=Image&state=disabled",
+        "http://127.0.0.1:4318/?component=Image&state=focus"
+      ],
+      "selector": "#sample-Image"
+    },
+    {
+      "name": "List",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=List&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=List&state=default",
+        "http://127.0.0.1:4318/?component=List&state=disabled",
+        "http://127.0.0.1:4318/?component=List&state=focus"
+      ],
+      "selector": "#sample-List"
+    },
+    {
+      "name": "Listy",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "virtual",
+        "grouped"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Listy&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Listy&state=default",
+        "http://127.0.0.1:4318/?component=Listy&state=virtual",
+        "http://127.0.0.1:4318/?component=Listy&state=grouped"
+      ],
+      "selector": "#sample-Listy"
+    },
+    {
+      "name": "Popover",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Popover&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Popover&state=default",
+        "http://127.0.0.1:4318/?component=Popover&state=disabled",
+        "http://127.0.0.1:4318/?component=Popover&state=focus"
+      ],
+      "selector": "#sample-Popover"
+    },
+    {
+      "name": "QRCode",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=QRCode&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=QRCode&state=default",
+        "http://127.0.0.1:4318/?component=QRCode&state=disabled",
+        "http://127.0.0.1:4318/?component=QRCode&state=focus"
+      ],
+      "selector": "#sample-QRCode"
+    },
+    {
+      "name": "Segmented",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Segmented&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Segmented&state=default",
+        "http://127.0.0.1:4318/?component=Segmented&state=disabled",
+        "http://127.0.0.1:4318/?component=Segmented&state=focus"
+      ],
+      "selector": "#sample-Segmented"
+    },
+    {
+      "name": "Statistic",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Statistic&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Statistic&state=default",
+        "http://127.0.0.1:4318/?component=Statistic&state=disabled",
+        "http://127.0.0.1:4318/?component=Statistic&state=focus"
+      ],
+      "selector": "#sample-Statistic"
+    },
+    {
+      "name": "Table",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "loading",
+        "empty",
+        "error",
+        "selected-row",
+        "pagination"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Table&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Table&state=default",
+        "http://127.0.0.1:4318/?component=Table&state=loading",
+        "http://127.0.0.1:4318/?component=Table&state=empty",
+        "http://127.0.0.1:4318/?component=Table&state=error",
+        "http://127.0.0.1:4318/?component=Table&state=selected-row",
+        "http://127.0.0.1:4318/?component=Table&state=pagination"
+      ],
+      "selector": "#sample-Table"
+    },
+    {
+      "name": "Tag",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Tag&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Tag&state=default",
+        "http://127.0.0.1:4318/?component=Tag&state=disabled",
+        "http://127.0.0.1:4318/?component=Tag&state=focus"
+      ],
+      "selector": "#sample-Tag"
+    },
+    {
+      "name": "Timeline",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Timeline&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Timeline&state=default",
+        "http://127.0.0.1:4318/?component=Timeline&state=disabled",
+        "http://127.0.0.1:4318/?component=Timeline&state=focus"
+      ],
+      "selector": "#sample-Timeline"
+    },
+    {
+      "name": "Tooltip",
+      "category": "Data Display",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Tooltip&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Tooltip&state=closed",
+        "http://127.0.0.1:4318/?component=Tooltip&state=open"
+      ],
+      "selector": "#sample-Tooltip"
+    },
+    {
+      "name": "Tour",
+      "category": "Data Display",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Tour&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Tour&state=closed",
+        "http://127.0.0.1:4318/?component=Tour&state=open"
+      ],
+      "selector": "#sample-Tour"
+    },
+    {
+      "name": "Tree",
+      "category": "Data Display",
+      "states": [
+        "default",
+        "expanded",
+        "checked",
+        "disabled"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Tree&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Tree&state=default",
+        "http://127.0.0.1:4318/?component=Tree&state=expanded",
+        "http://127.0.0.1:4318/?component=Tree&state=checked",
+        "http://127.0.0.1:4318/?component=Tree&state=disabled"
+      ],
+      "selector": "#sample-Tree"
+    },
+    {
+      "name": "Alert",
+      "category": "Feedback",
+      "states": [
+        "success",
+        "warning",
+        "error",
+        "info"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Alert&state=success",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Alert&state=success",
+        "http://127.0.0.1:4318/?component=Alert&state=warning",
+        "http://127.0.0.1:4318/?component=Alert&state=error",
+        "http://127.0.0.1:4318/?component=Alert&state=info"
+      ],
+      "selector": "#sample-Alert"
+    },
+    {
+      "name": "Drawer",
+      "category": "Feedback",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Drawer&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Drawer&state=closed",
+        "http://127.0.0.1:4318/?component=Drawer&state=open"
+      ],
+      "selector": "#sample-Drawer"
+    },
+    {
+      "name": "Message",
+      "category": "Feedback",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Message&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Message&state=default",
+        "http://127.0.0.1:4318/?component=Message&state=disabled",
+        "http://127.0.0.1:4318/?component=Message&state=focus"
+      ],
+      "selector": "#sample-Message"
+    },
+    {
+      "name": "Modal",
+      "category": "Feedback",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Modal&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Modal&state=closed",
+        "http://127.0.0.1:4318/?component=Modal&state=open"
+      ],
+      "selector": "#sample-Modal"
+    },
+    {
+      "name": "Notification",
+      "category": "Feedback",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Notification&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Notification&state=default",
+        "http://127.0.0.1:4318/?component=Notification&state=disabled",
+        "http://127.0.0.1:4318/?component=Notification&state=focus"
+      ],
+      "selector": "#sample-Notification"
+    },
+    {
+      "name": "Popconfirm",
+      "category": "Feedback",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Popconfirm&state=closed",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Popconfirm&state=closed",
+        "http://127.0.0.1:4318/?component=Popconfirm&state=open"
+      ],
+      "selector": "#sample-Popconfirm"
+    },
+    {
+      "name": "Progress",
+      "category": "Feedback",
+      "states": [
+        "normal",
+        "success",
+        "exception",
+        "active"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Progress&state=normal",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Progress&state=normal",
+        "http://127.0.0.1:4318/?component=Progress&state=success",
+        "http://127.0.0.1:4318/?component=Progress&state=exception",
+        "http://127.0.0.1:4318/?component=Progress&state=active"
+      ],
+      "selector": "#sample-Progress"
+    },
+    {
+      "name": "Result",
+      "category": "Feedback",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Result&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Result&state=default",
+        "http://127.0.0.1:4318/?component=Result&state=disabled",
+        "http://127.0.0.1:4318/?component=Result&state=focus"
+      ],
+      "selector": "#sample-Result"
+    },
+    {
+      "name": "Skeleton",
+      "category": "Feedback",
+      "states": [
+        "loading",
+        "loaded"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Skeleton&state=loading",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Skeleton&state=loading",
+        "http://127.0.0.1:4318/?component=Skeleton&state=loaded"
+      ],
+      "selector": "#sample-Skeleton"
+    },
+    {
+      "name": "Spin",
+      "category": "Feedback",
+      "states": [
+        "spinning",
+        "loaded"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Spin&state=spinning",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Spin&state=spinning",
+        "http://127.0.0.1:4318/?component=Spin&state=loaded"
+      ],
+      "selector": "#sample-Spin"
+    },
+    {
+      "name": "Watermark",
+      "category": "Feedback",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Watermark&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Watermark&state=default",
+        "http://127.0.0.1:4318/?component=Watermark&state=disabled",
+        "http://127.0.0.1:4318/?component=Watermark&state=focus"
+      ],
+      "selector": "#sample-Watermark"
+    },
+    {
+      "name": "Affix",
+      "category": "Other",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=Affix&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=Affix&state=default",
+        "http://127.0.0.1:4318/?component=Affix&state=disabled",
+        "http://127.0.0.1:4318/?component=Affix&state=focus"
+      ],
+      "selector": "#sample-Affix"
+    },
+    {
+      "name": "App",
+      "category": "Other",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=App&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=App&state=default",
+        "http://127.0.0.1:4318/?component=App&state=disabled",
+        "http://127.0.0.1:4318/?component=App&state=focus"
+      ],
+      "selector": "#sample-App"
+    },
+    {
+      "name": "BackTop",
+      "category": "Other",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=BackTop&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=BackTop&state=default",
+        "http://127.0.0.1:4318/?component=BackTop&state=disabled",
+        "http://127.0.0.1:4318/?component=BackTop&state=focus"
+      ],
+      "selector": "#sample-BackTop"
+    },
+    {
+      "name": "BorderBeam",
+      "category": "Other",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=BorderBeam&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=BorderBeam&state=default",
+        "http://127.0.0.1:4318/?component=BorderBeam&state=disabled",
+        "http://127.0.0.1:4318/?component=BorderBeam&state=focus"
+      ],
+      "selector": "#sample-BorderBeam"
+    }
+  ]
+}

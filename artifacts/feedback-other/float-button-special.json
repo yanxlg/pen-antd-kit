@@ -1,0 +1,114 @@
+[
+  {
+    "id": "float-button-demo-basic",
+    "title": "Basic",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-basic?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-basic?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-shape",
+    "title": "Shape",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-shape?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-shape?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-tooltip",
+    "title": "FloatButton with tooltip",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-tooltip?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-tooltip?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-group-menu",
+    "title": "Menu mode",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-group-menu?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-group-menu?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-placement",
+    "title": "placement",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-placement?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"380\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-placement?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-back-top",
+    "title": "BackTop",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-back-top?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-back-top?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-badge",
+    "title": "badge",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-badge?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-badge?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-type",
+    "title": "Type",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-type?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-type?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-content",
+    "title": "Content",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-content?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-content?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-group",
+    "title": "FloatButton Group",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-group?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-group?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-controlled",
+    "title": "Controlled mode",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-controlled?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-controlled?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-draggable",
+    "title": "draggable",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-draggable?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"380\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-draggable?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-progress-ring",
+    "title": "Progress ring",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-progress-ring?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-progress-ring?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  },
+  {
+    "id": "float-button-demo-style-class",
+    "title": "Custom semantic dom styling",
+    "html": "<div class=\"acss-y31wgj\"><iframe src=\"/~demos/float-button-demo-style-class?routeId=components%2Ffloat-button%2Findex.en-US\" height=\"360\" title=\"demo\" class=\"iframe-demo\"></iframe></div>",
+    "iframes": [
+      "https://ant.design/~demos/float-button-demo-style-class?routeId=components%2Ffloat-button%2Findex.en-US"
+    ]
+  }
+]

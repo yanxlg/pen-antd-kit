@@ -1,0 +1,1805 @@
+{
+  "url": "https://ant.design/components/result",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-success",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Successfully Purchased Cloud Server ECS!Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.Go ConsoleBuy Again",
+      "texts": [
+        "Successfully Purchased Cloud Server ECS!",
+        "Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.",
+        "Go Console",
+        "Buy Again"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "310px"
+      },
+      "width": 1737.984375,
+      "height": 310,
+      "demo": "result-demo-success",
+      "title": "Success",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "Successfully Purchased Cloud Server ECS!",
+        "description": "Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait.",
+        "extra": "Go ConsoleBuy Again",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-check-circle",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Go Console",
+      "texts": [
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.984px",
+        "height": "32px"
+      },
+      "width": 106.984375,
+      "height": 32,
+      "demo": "result-demo-success",
+      "title": "Success",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Buy Again",
+      "texts": [
+        "Buy Again"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "99.4531px",
+        "height": "32px"
+      },
+      "width": 99.453125,
+      "height": 32,
+      "demo": "result-demo-success",
+      "title": "Success",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Your operation has been executedGo Console",
+      "texts": [
+        "Your operation has been executed",
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "280px"
+      },
+      "width": 1737.984375,
+      "height": 280,
+      "demo": "result-demo-info",
+      "title": "Info",
+      "icons": [
+        "exclamation-circle"
+      ],
+      "content": {
+        "title": "Your operation has been executed",
+        "description": "",
+        "extra": "Go Console",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-exclamation-circle",
+        "ant-result-title",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Go Console",
+      "texts": [
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.984px",
+        "height": "32px"
+      },
+      "width": 106.984375,
+      "height": 32,
+      "demo": "result-demo-info",
+      "title": "Info",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-warning",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "There are some problems with your operation.Go Console",
+      "texts": [
+        "There are some problems with your operation.",
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "280px"
+      },
+      "width": 1737.984375,
+      "height": 280,
+      "demo": "result-demo-warning",
+      "title": "Warning",
+      "icons": [
+        "warning"
+      ],
+      "content": {
+        "title": "There are some problems with your operation.",
+        "description": "",
+        "extra": "Go Console",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-warning",
+        "ant-result-title",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Go Console",
+      "texts": [
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.984px",
+        "height": "32px"
+      },
+      "width": 106.984375,
+      "height": 32,
+      "demo": "result-demo-warning",
+      "title": "Warning",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-403",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Unauthorized403Sorry, you are not authorized to access this page.Back Home",
+      "texts": [
+        "Unauthorized",
+        "403",
+        "Sorry, you are not authorized to access this page.",
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "533px"
+      },
+      "width": 1737.984375,
+      "height": 533,
+      "demo": "result-demo-403",
+      "title": "403",
+      "icons": [],
+      "content": {
+        "title": "403",
+        "description": "Sorry, you are not authorized to access this page.",
+        "extra": "Back Home",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon ant-result-image",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Back Home",
+      "texts": [
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.609px",
+        "height": "32px"
+      },
+      "width": 106.609375,
+      "height": 32,
+      "demo": "result-demo-403",
+      "title": "403",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-404",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "No Found404Sorry, the page you visited does not exist.Back Home",
+      "texts": [
+        "No Found",
+        "404",
+        "Sorry, the page you visited does not exist.",
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "533px"
+      },
+      "width": 1737.984375,
+      "height": 533,
+      "demo": "result-demo-404",
+      "title": "404",
+      "icons": [],
+      "content": {
+        "title": "404",
+        "description": "Sorry, the page you visited does not exist.",
+        "extra": "Back Home",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon ant-result-image",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Back Home",
+      "texts": [
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.609px",
+        "height": "32px"
+      },
+      "width": 106.609375,
+      "height": 32,
+      "demo": "result-demo-404",
+      "title": "404",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-500",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Server Error500Sorry, something went wrong.Back Home",
+      "texts": [
+        "Server Error",
+        "500",
+        "Sorry, something went wrong.",
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "533px"
+      },
+      "width": 1737.984375,
+      "height": 533,
+      "demo": "result-demo-500",
+      "title": "500",
+      "icons": [],
+      "content": {
+        "title": "500",
+        "description": "Sorry, something went wrong.",
+        "extra": "Back Home",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon ant-result-image",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Back Home",
+      "texts": [
+        "Back Home"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.609px",
+        "height": "32px"
+      },
+      "width": 106.609375,
+      "height": 32,
+      "demo": "result-demo-500",
+      "title": "500",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-error",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Submission FailedPlease check and modify the following information before resubmitting.Go ConsoleBuy AgainThe content you submitted has the following error:Your account has been frozen. Thaw immediately >Your account is not yet eligible to apply. Apply Unlock >",
+      "texts": [
+        "Submission Failed",
+        "Please check and modify the following information before resubmitting.",
+        "Go Console",
+        "Buy Again",
+        "The content you submitted has the following error:",
+        "Your account has been frozen.",
+        "Thaw immediately >",
+        "Your account is not yet eligible to apply.",
+        "Apply Unlock >"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "493.141px"
+      },
+      "width": 1737.984375,
+      "height": 493.140625,
+      "demo": "result-demo-error",
+      "title": "Error",
+      "icons": [
+        "close-circle",
+        "close-circle",
+        "close-circle"
+      ],
+      "content": {
+        "title": "Submission Failed",
+        "description": "Please check and modify the following information before resubmitting.",
+        "extra": "Go ConsoleBuy Again",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-close-circle",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined",
+        "ant-result-body",
+        "desc",
+        "ant-typography css-19u5a7b css-var-_R_afsua_",
+        "ant-typography css-19u5a7b css-var-_R_afsua_",
+        "ant-typography css-19u5a7b css-var-_R_afsua_",
+        "anticon anticon-close-circle acss-bbq3ar",
+        "ant-typography css-19u5a7b css-var-_R_afsua_",
+        "anticon anticon-close-circle acss-bbq3ar"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Go Console",
+      "texts": [
+        "Go Console"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "106.984px",
+        "height": "32px"
+      },
+      "width": 106.984375,
+      "height": 32,
+      "demo": "result-demo-error",
+      "title": "Error",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Buy Again",
+      "texts": [
+        "Buy Again"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "99.4531px",
+        "height": "32px"
+      },
+      "width": 99.453125,
+      "height": 32,
+      "demo": "result-demo-error",
+      "title": "Error",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "Great, we have done all the operations!Next",
+      "texts": [
+        "Great, we have done all the operations!",
+        "Next"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "280px"
+      },
+      "width": 1737.984375,
+      "height": 280,
+      "demo": "result-demo-customicon",
+      "title": "Custom icon",
+      "icons": [
+        "smile"
+      ],
+      "content": {
+        "title": "Great, we have done all the operations!",
+        "description": "",
+        "extra": "Next",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-smile",
+        "ant-result-title",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Next",
+      "texts": [
+        "Next"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "62.3594px",
+        "height": "32px"
+      },
+      "width": 62.359375,
+      "height": 32,
+      "demo": "result-demo-customicon",
+      "title": "Custom icon",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-info",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "demo-result-root"
+      ],
+      "text": "classNames ObjectThis is a subtitleActionContent area",
+      "texts": [
+        "classNames Object",
+        "This is a subtitle",
+        "Action",
+        "Content area"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "16px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "336px"
+      },
+      "width": 1737.984375,
+      "height": 336,
+      "demo": "result-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [
+        "exclamation-circle"
+      ],
+      "content": {
+        "title": "classNames Object",
+        "description": "This is a subtitle",
+        "extra": "Action",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon demo-result-icon",
+        "anticon anticon-exclamation-circle",
+        "ant-result-title demo-result-title",
+        "ant-result-subtitle demo-result-subtitle",
+        "ant-result-extra demo-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid",
+        "ant-result-body demo-result-body"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "Action",
+      "texts": [
+        "Action"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "74.0781px",
+        "height": "32px"
+      },
+      "width": 74.078125,
+      "height": 32,
+      "demo": "result-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-success",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "demo-result-root--success"
+      ],
+      "text": "classNames FunctionDynamic class namesAction",
+      "texts": [
+        "classNames Function",
+        "Dynamic class names",
+        "Action"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(246, 255, 237)",
+        "borderColor": "rgb(82, 196, 26)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "1737.98px",
+        "height": "310px"
+      },
+      "width": 1737.984375,
+      "height": 310,
+      "demo": "result-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [
+        "check-circle"
+      ],
+      "content": {
+        "title": "classNames Function",
+        "description": "Dynamic class names",
+        "extra": "Action",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon",
+        "anticon anticon-check-circle",
+        "ant-result-title",
+        "ant-result-subtitle",
+        "ant-result-extra",
+        "ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-outlined"
+      ],
+      "text": "Action",
+      "texts": [
+        "Action"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(217, 217, 217)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "74.0781px",
+        "height": "32px"
+      },
+      "width": 74.078125,
+      "height": 32,
+      "demo": "result-demo-style-class",
+      "title": "Custom semantic dom styling",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-result",
+      "classes": [
+        "ant-result",
+        "ant-result-info",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_",
+        "semantic-mark-root"
+      ],
+      "text": "titlesubTitleextraThe Content of Result",
+      "texts": [
+        "title",
+        "subTitle",
+        "extra",
+        "The Content of Result"
+      ],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "0px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "48px 32px",
+        "gap": "normal",
+        "width": "284.766px",
+        "height": "404px"
+      },
+      "width": 284.765625,
+      "height": 404,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "exclamation-circle"
+      ],
+      "content": {
+        "title": "title",
+        "description": "subTitle",
+        "extra": "extra",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-result-icon semantic-mark-icon",
+        "anticon anticon-exclamation-circle",
+        "ant-result-title semantic-mark-title",
+        "ant-result-subtitle semantic-mark-subTitle",
+        "ant-result-extra semantic-mark-extra",
+        "ant-btn css-19u5a7b css-var-_R_1b4mbjqfsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid",
+        "ant-result-body semantic-mark-body"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_1b4mbjqfsua_",
+        "ant-btn-primary",
+        "ant-btn-color-primary",
+        "ant-btn-variant-solid"
+      ],
+      "text": "extra",
+      "texts": [
+        "extra"
+      ],
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(22, 119, 255)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "6px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px 15px",
+        "gap": "8px",
+        "width": "65.2344px",
+        "height": "32px"
+      },
+      "width": 65.234375,
+      "height": 32,
+      "demo": "result-demo-_semantic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": true,
+      "parentKind": "ant-result",
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-default",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "pushpin"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-pushpin"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-btn",
+      "classes": [
+        "ant-btn",
+        "css-19u5a7b",
+        "css-var-_R_afsua_",
+        "ant-btn-text",
+        "ant-btn-color-default",
+        "ant-btn-variant-text",
+        "ant-btn-sm",
+        "ant-btn-icon-only"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "4px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "0px",
+        "gap": "8px",
+        "width": "24px",
+        "height": "24px"
+      },
+      "width": 24,
+      "height": 24,
+      "demo": "result-demo-_semantic",
+      "icons": [
+        "info-circle"
+      ],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [
+        "ant-btn-icon",
+        "anticon anticon-info-circle"
+      ],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Success",
+    "",
+    "Info",
+    "",
+    "Warning",
+    "",
+    "403",
+    "",
+    "404",
+    "",
+    "500",
+    "",
+    "Error",
+    "",
+    "Custom icon",
+    "",
+    "Custom semantic dom styling",
+    ""
+  ]
+}

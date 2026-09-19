@@ -1,0 +1,12 @@
+{
+  "package": "@ant-design/icons",
+  "version": "6.3.4",
+  "usage": "Store the React icon export name in metadata; use icon_font or an SVG only as a visual fallback in Pencil.",
+  "common": [
+    "PlusOutlined", "EditOutlined", "DeleteOutlined", "SearchOutlined", "FilterOutlined", "ReloadOutlined",
+    "SettingOutlined", "DownloadOutlined", "UploadOutlined", "EyeOutlined", "MoreOutlined", "CloseOutlined",
+    "CheckOutlined", "CloseCircleOutlined", "InfoCircleOutlined", "WarningOutlined", "ExclamationCircleOutlined",
+    "LeftOutlined", "RightOutlined", "UpOutlined", "DownOutlined", "ArrowLeftOutlined", "ArrowRightOutlined",
+    "UserOutlined", "TeamOutlined", "HomeOutlined", "MenuOutlined", "CalendarOutlined", "ClockCircleOutlined"
+  ]
+}

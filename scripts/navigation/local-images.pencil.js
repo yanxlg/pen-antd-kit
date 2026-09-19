@@ -1,0 +1,14 @@
+Update("f045U",{fill:{"type": "image", "enabled": true, "url": "images/navigation-dPpWpAhQYzJOWMCeKqhe.png", "mode": "stretch"}});
+Update("vTxIz",{fill:{"type": "image", "enabled": true, "url": "images/navigation-aJypXYetynQcJxohHefp.png", "mode": "stretch"}});
+Update("U9cTb",{fill:{"type": "image", "enabled": true, "url": "images/navigation-QsgJeCmaQkoRLgGRxUim.png", "mode": "stretch"}});
+Update("DVSgQ",{fill:{"type": "image", "enabled": true, "url": "images/navigation-WvnEwzlmauGlKByAxZJH.png", "mode": "stretch"}});
+Update("Epbte",{fill:{"type": "image", "enabled": true, "url": "images/navigation-ugeAGDXQQYkZIbCAGlIP.png", "mode": "stretch"}});
+Update("k6NhDV",{fill:{"type": "image", "enabled": true, "url": "images/navigation-PnDNqhBRyWLLLgQSVwvF.png", "mode": "stretch"}});
+Update("fozgZ",{fill:{"type": "image", "enabled": true, "url": "images/navigation-MlxHpEgkFHhIVaxpaiYJ.png", "mode": "stretch"}});
+Update("wNcAU",{fill:{"type": "image", "enabled": true, "url": "images/navigation-GtIWNdAtogjxXJNuuqTE.png", "mode": "stretch"}});
+Update("V8Oo5",{fill:{"type": "image", "enabled": true, "url": "images/navigation-LCUZrQJyHQXplzEzDrub.png", "mode": "stretch"}});
+Update("Ff69z",{fill:{"type": "image", "enabled": true, "url": "images/navigation-pWbHrSnmicFxcgmWIFst.png", "mode": "stretch"}});
+Update("PGOS4",{fill:{"type": "image", "enabled": true, "url": "images/navigation-VvajPSfjYcVNiNoxZFVH.png", "mode": "stretch"}});
+Update("P4whp",{fill:{"type": "image", "enabled": true, "url": "images/navigation-wbOaUEKPkjzVFNLabvtF.png", "mode": "stretch"}});
+Update("DamdG",{fill:{"type": "image", "enabled": true, "url": "images/navigation-ZeChCVQTCUdghxmwqKIO.png", "mode": "stretch"}});
+Print("13 official illustrations stored locally");

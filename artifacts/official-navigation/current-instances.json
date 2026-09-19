@@ -1,0 +1,3820 @@
+[
+  {
+    "id": "acxPC",
+    "name": "Antd/Tabs",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 740,
+      "height": 120
+    }
+  },
+  {
+    "id": "gTPK8",
+    "name": "Tabs · Line",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "ESF0c",
+    "name": "Tabs · Card",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "card",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "cskcR",
+    "name": "Tabs · Editable card",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "editable-card",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "x48KQ",
+    "name": "Tabs · Centered",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": true,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "deAcl",
+    "name": "Tabs · Small",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "small",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "C3M6C9",
+    "name": "Tabs · Large",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "large",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "e1glx",
+    "name": "Tabs · Bottom",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "bottom",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "nT23o",
+    "name": "Tabs · Start",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "start",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "g4xJe",
+    "name": "Tabs · End",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "end",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 170
+    }
+  },
+  {
+    "id": "y1buXw",
+    "name": "Tabs · Basic",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "EEvFn",
+    "name": "Tabs · Disabled",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": true, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "BtMRj",
+    "name": "Tabs · Centered",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": true,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "dRUqP",
+    "name": "Tabs · Icon",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"icon\": \"AppleOutlined\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false, \"children\": \"\", \"icon\": \"AndroidOutlined\"}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "2",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "syzW3",
+    "name": "Tabs · Indicator",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 82,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "sMkv7",
+    "name": "Tabs · Slide",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab-0\", \"disabled\": false, \"closable\": false}, {\"key\": \"2\", \"label\": \"Tab-1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"3\", \"label\": \"Tab-2\", \"disabled\": false, \"closable\": false}, {\"key\": \"4\", \"label\": \"Tab-3\", \"disabled\": false, \"closable\": false}, {\"key\": \"5\", \"label\": \"Tab-4\", \"disabled\": false, \"closable\": false}, {\"key\": \"6\", \"label\": \"Tab-5\", \"disabled\": false, \"closable\": false}, {\"key\": \"7\", \"label\": \"Tab-6\", \"disabled\": false, \"closable\": false}, {\"key\": \"8\", \"label\": \"Tab-7\", \"disabled\": false, \"closable\": false}, {\"key\": \"9\", \"label\": \"Tab-8\", \"disabled\": false, \"closable\": false}, {\"key\": \"10\", \"label\": \"Tab-9\", \"disabled\": false, \"closable\": false}, {\"key\": \"11\", \"label\": \"Tab-10\", \"disabled\": false, \"closable\": false}, {\"key\": \"12\", \"label\": \"Tab-11\", \"disabled\": false, \"closable\": false}, {\"key\": \"13\", \"label\": \"Tab-12\", \"disabled\": false, \"closable\": false}, {\"key\": \"14\", \"label\": \"Tab-13\", \"disabled\": false, \"closable\": false}, {\"key\": \"15\", \"label\": \"Tab-14\", \"disabled\": false, \"closable\": false}, {\"key\": \"16\", \"label\": \"Tab-15\", \"disabled\": false, \"closable\": false}, {\"key\": \"17\", \"label\": \"Tab-16\", \"disabled\": false, \"closable\": false}, {\"key\": \"18\", \"label\": \"Tab-17\", \"disabled\": false, \"closable\": false}, {\"key\": \"19\", \"label\": \"Tab-18\", \"disabled\": false, \"closable\": false}, {\"key\": \"20\", \"label\": \"Tab-19\", \"disabled\": false, \"closable\": false}, {\"key\": \"21\", \"label\": \"Tab-20\", \"disabled\": false, \"closable\": false}, {\"key\": \"22\", \"label\": \"Tab-21\", \"disabled\": false, \"closable\": false}, {\"key\": \"23\", \"label\": \"Tab-22\", \"disabled\": false, \"closable\": false}, {\"key\": \"24\", \"label\": \"Tab-23\", \"disabled\": false, \"closable\": false}, {\"key\": \"25\", \"label\": \"Tab-24\", \"disabled\": false, \"closable\": false}, {\"key\": \"26\", \"label\": \"Tab-25\", \"disabled\": false, \"closable\": false}, {\"key\": \"27\", \"label\": \"Tab-26\", \"disabled\": false, \"closable\": false}, {\"key\": \"28\", \"label\": \"Tab-27\", \"disabled\": false, \"closable\": false}, {\"key\": \"29\", \"label\": \"Tab-28\", \"disabled\": true, \"closable\": false}, {\"key\": \"30\", \"label\": \"Tab-29\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "2",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 40,
+      "width": 1614,
+      "height": 220
+    }
+  },
+  {
+    "id": "XguYn",
+    "name": "Tabs · Extra content",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "QrEBg",
+    "name": "Tabs · Extra content",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 307,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "lnF6E",
+    "name": "Tabs · Size",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "small",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 48,
+      "width": 1614,
+      "height": 92
+    }
+  },
+  {
+    "id": "vfWP0",
+    "name": "Tabs · Size",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Card Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Card Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Card Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "card",
+      "size": "small",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 156,
+      "width": 1614,
+      "height": 86
+    }
+  },
+  {
+    "id": "Q0uEFo",
+    "name": "Tabs · Size",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": true, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": true}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": true}]",
+      "activeKey": "1",
+      "type": "editable-card",
+      "size": "small",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 258,
+      "width": 1614,
+      "height": 70
+    }
+  },
+  {
+    "id": "s9S51w",
+    "name": "Tabs · Placement",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "start",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 98,
+      "width": 1614,
+      "height": 146
+    }
+  },
+  {
+    "id": "i2NzGE",
+    "name": "Tabs · Custom Popup Search",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab-0\", \"disabled\": false, \"closable\": false}, {\"key\": \"2\", \"label\": \"Tab-1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"3\", \"label\": \"Tab-2\", \"disabled\": false, \"closable\": false}, {\"key\": \"4\", \"label\": \"Tab-3\", \"disabled\": false, \"closable\": false}, {\"key\": \"5\", \"label\": \"Tab-4\", \"disabled\": false, \"closable\": false}, {\"key\": \"6\", \"label\": \"Tab-5\", \"disabled\": false, \"closable\": false}, {\"key\": \"7\", \"label\": \"Tab-6\", \"disabled\": false, \"closable\": false}, {\"key\": \"8\", \"label\": \"Tab-7\", \"disabled\": false, \"closable\": false}, {\"key\": \"9\", \"label\": \"Tab-8\", \"disabled\": false, \"closable\": false}, {\"key\": \"10\", \"label\": \"Tab-9\", \"disabled\": false, \"closable\": false}, {\"key\": \"11\", \"label\": \"Tab-10\", \"disabled\": false, \"closable\": false}, {\"key\": \"12\", \"label\": \"Tab-11\", \"disabled\": false, \"closable\": false}, {\"key\": \"13\", \"label\": \"Tab-12\", \"disabled\": false, \"closable\": false}, {\"key\": \"14\", \"label\": \"Tab-13\", \"disabled\": false, \"closable\": false}, {\"key\": \"15\", \"label\": \"Tab-14\", \"disabled\": false, \"closable\": false}, {\"key\": \"16\", \"label\": \"Tab-15\", \"disabled\": false, \"closable\": false}, {\"key\": \"17\", \"label\": \"Tab-16\", \"disabled\": false, \"closable\": false}, {\"key\": \"18\", \"label\": \"Tab-17\", \"disabled\": false, \"closable\": false}, {\"key\": \"19\", \"label\": \"Tab-18\", \"disabled\": false, \"closable\": false}, {\"key\": \"20\", \"label\": \"Tab-19\", \"disabled\": false, \"closable\": false}, {\"key\": \"21\", \"label\": \"Tab-20\", \"disabled\": false, \"closable\": false}, {\"key\": \"22\", \"label\": \"Tab-21\", \"disabled\": false, \"closable\": false}, {\"key\": \"23\", \"label\": \"Tab-22\", \"disabled\": false, \"closable\": false}, {\"key\": \"24\", \"label\": \"Tab-23\", \"disabled\": false, \"closable\": false}, {\"key\": \"25\", \"label\": \"Tab-24\", \"disabled\": false, \"closable\": false}, {\"key\": \"26\", \"label\": \"Tab-25\", \"disabled\": false, \"closable\": false}, {\"key\": \"27\", \"label\": \"Tab-26\", \"disabled\": false, \"closable\": false}, {\"key\": \"28\", \"label\": \"Tab-27\", \"disabled\": false, \"closable\": false}, {\"key\": \"29\", \"label\": \"Tab-28\", \"disabled\": true, \"closable\": false}, {\"key\": \"30\", \"label\": \"Tab-29\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "2",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "Fwt6s",
+    "name": "Tabs · Card type tab",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "card",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 78
+    }
+  },
+  {
+    "id": "WvGUt",
+    "name": "Tabs · Add & close tab",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": true, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": true}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "editable-card",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 78
+    }
+  },
+  {
+    "id": "nW4Ju",
+    "name": "Tabs · Customized trigger of new tab",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": true, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": true}]",
+      "activeKey": "1",
+      "type": "editable-card",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 48,
+      "width": 1614,
+      "height": 78
+    }
+  },
+  {
+    "id": "qNoHX",
+    "name": "Tabs · Customized bar of tab",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 262
+    }
+  },
+  {
+    "id": "nMyJ7",
+    "name": "Tabs · Draggable Tabs",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 84
+    }
+  },
+  {
+    "id": "t8c9o",
+    "name": "Tabs · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "card",
+      "size": "middle",
+      "tabPlacement": "start",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 140
+    }
+  },
+  {
+    "id": "Q1MnI",
+    "name": "Tabs · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Tabs.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+      "activeKey": "1",
+      "type": "line",
+      "size": "middle",
+      "tabPlacement": "top",
+      "centered": false,
+      "hideAdd": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 166,
+      "width": 1614,
+      "height": 160
+    }
+  },
+  {
+    "id": "p8qrv",
+    "name": "Antd/Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 1400,
+      "height": 86
+    }
+  },
+  {
+    "id": "h0ye3",
+    "name": "Steps · Default",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 86
+    }
+  },
+  {
+    "id": "gbmjT",
+    "name": "Steps · Small",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 86
+    }
+  },
+  {
+    "id": "oSUp6",
+    "name": "Steps · Vertical",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 240
+    }
+  },
+  {
+    "id": "Mg1ZP",
+    "name": "Steps · Error",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\":\"Finished\",\"status\":\"finish\"},{\"title\":\"In Progress\",\"status\":\"error\"},{\"title\":\"Waiting\",\"status\":\"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 86
+    }
+  },
+  {
+    "id": "e0C1D",
+    "name": "Steps · Dot",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "dot"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 130
+    }
+  },
+  {
+    "id": "D95uH",
+    "name": "Steps · Outlined",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "outlined",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 1400,
+      "height": 86
+    }
+  },
+  {
+    "id": "GKMyd",
+    "name": "Steps · Basic",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 54
+    }
+  },
+  {
+    "id": "i3krn",
+    "name": "Steps · Basic",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "outlined",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 78,
+      "width": 1614,
+      "height": 54
+    }
+  },
+  {
+    "id": "ip1dw",
+    "name": "Steps · Basic",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 156,
+      "width": 1614,
+      "height": 46
+    }
+  },
+  {
+    "id": "FMG4s",
+    "name": "Steps · Basic",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "outlined",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 226,
+      "width": 1614,
+      "height": 46
+    }
+  },
+  {
+    "id": "psb22",
+    "name": "Steps · Error status",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content\", \"status\": \"finish\"}, {\"title\": \"In Process\", \"content\": \"This is a content\", \"status\": \"error\"}, {\"title\": \"Waiting\", \"content\": \"This is a content\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 54
+    }
+  },
+  {
+    "id": "reY6u",
+    "name": "Steps · Vertical",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 868.98,
+      "height": 186
+    }
+  },
+  {
+    "id": "v9Gn2",
+    "name": "Steps · Vertical",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "small",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 745.02,
+      "height": 164
+    }
+  },
+  {
+    "id": "EFoxt",
+    "name": "Steps · Clickable",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Step 2\", \"content\": \"This is a content.\", \"status\": \"wait\"}, {\"title\": \"Step 3\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 54
+    }
+  },
+  {
+    "id": "F1t0Ph",
+    "name": "Steps · Clickable",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Step 2\", \"content\": \"This is a content.\", \"status\": \"wait\"}, {\"title\": \"Step 3\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 145,
+      "width": 1614,
+      "height": 186
+    }
+  },
+  {
+    "id": "Eco6c",
+    "name": "Steps · Panel Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is a content.\", \"subTitle\": \"00:00\", \"status\": \"process\"}, {\"title\": \"Step 2\", \"content\": \"This is a content.\", \"status\": \"error\"}, {\"title\": \"Step 3\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "panel"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 74
+    }
+  },
+  {
+    "id": "uHV5c",
+    "name": "Steps · Panel Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is a content.\", \"subTitle\": \"00:00\", \"status\": \"process\"}, {\"title\": \"Step 2\", \"content\": \"This is a content.\", \"status\": \"error\"}, {\"title\": \"Step 3\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "outlined",
+      "type": "panel"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 90,
+      "width": 1614,
+      "height": 64
+    }
+  },
+  {
+    "id": "O1wADG",
+    "name": "Steps · With icon",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Login\", \"content\": \"\", \"status\": \"finish\", \"icon\": \"UserOutlined\"}, {\"title\": \"Verification\", \"content\": \"\", \"status\": \"finish\", \"icon\": \"SolutionOutlined\"}, {\"title\": \"Pay\", \"content\": \"\", \"status\": \"process\", \"icon\": \"LoadingOutlined\"}, {\"title\": \"Done\", \"content\": \"\", \"status\": \"wait\", \"icon\": \"SmileOutlined\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "OfKmt",
+    "name": "Steps · Title Placement and Progress",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 90
+    }
+  },
+  {
+    "id": "Ikd3b",
+    "name": "Steps · Title Placement and Progress",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 154,
+      "width": 1614,
+      "height": 94
+    }
+  },
+  {
+    "id": "ZMG7d",
+    "name": "Steps · Title Placement and Progress",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 270,
+      "width": 1614,
+      "height": 82
+    }
+  },
+  {
+    "id": "C7yka",
+    "name": "Steps · Max Count",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"\", \"status\": \"finish\"}, {\"title\": \"\", \"content\": \"\", \"status\": \"finish\", \"icon\": \"EllipsisOutlined\"}, {\"title\": \"Step 3\", \"content\": \"\", \"status\": \"finish\"}, {\"title\": \"Step 4\", \"content\": \"\", \"status\": \"process\"}, {\"title\": \"Step 5\", \"content\": \"\", \"status\": \"wait\"}, {\"title\": \"\", \"content\": \"\", \"status\": \"wait\", \"icon\": \"EllipsisOutlined\"}, {\"title\": \"Step 7\", \"content\": \"\", \"status\": \"wait\"}]",
+      "current": 3,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 40,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "iZXzQ",
+    "name": "Steps · Dot Style",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "dot"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 68
+    }
+  },
+  {
+    "id": "Z6Xwjz",
+    "name": "Steps · Dot Style",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "outlined",
+      "type": "dot"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 84,
+      "width": 1614,
+      "height": 68
+    }
+  },
+  {
+    "id": "btezN",
+    "name": "Steps · Dot Style",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "dot"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 799,
+      "height": 164
+    }
+  },
+  {
+    "id": "hSEvh",
+    "name": "Steps · Dot Style",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "vertical",
+      "titlePlacement": "horizontal",
+      "variant": "outlined",
+      "type": "dot"
+    },
+    "bounds": {
+      "x": 815,
+      "y": 0,
+      "width": 799,
+      "height": 164
+    }
+  },
+  {
+    "id": "euO81",
+    "name": "Steps · Navigation Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is a content.\", \"subTitle\": \"00:00:05\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is a content.\", \"subTitle\": \"00:01:02\", \"status\": \"process\"}, {\"title\": \"Step 3\", \"content\": \"This is a content.\", \"subTitle\": \"waiting for longlong time\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "navigation"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 70
+    }
+  },
+  {
+    "id": "JhyhC",
+    "name": "Steps · Navigation Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"\", \"status\": \"process\"}, {\"title\": \"Step 3\", \"content\": \"\", \"status\": \"wait\"}, {\"title\": \"Step 4\", \"content\": \"\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "navigation"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 94,
+      "width": 1614,
+      "height": 56
+    }
+  },
+  {
+    "id": "ZemAe",
+    "name": "Steps · Navigation Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"finish 1\", \"content\": \"\", \"status\": \"finish\"}, {\"title\": \"finish 2\", \"content\": \"\", \"status\": \"finish\"}, {\"title\": \"current process\", \"content\": \"\", \"status\": \"process\"}, {\"title\": \"wait\", \"content\": \"\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "small",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "navigation"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 174,
+      "width": 1614,
+      "height": 50
+    }
+  },
+  {
+    "id": "pVmTK",
+    "name": "Steps · Inline Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"status\": \"process\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"status\": \"wait\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"status\": \"wait\"}]",
+      "current": 0,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 1470,
+      "y": 16.5,
+      "width": 144,
+      "height": 45
+    }
+  },
+  {
+    "id": "PXcGm",
+    "name": "Steps · Inline Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"status\": \"error\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 1470,
+      "y": 16.5,
+      "width": 144,
+      "height": 45
+    }
+  },
+  {
+    "id": "Sv9mv",
+    "name": "Steps · Inline Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"status\": \"finish\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"status\": \"process\"}]",
+      "current": 2,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 1470,
+      "y": 16.5,
+      "width": 144,
+      "height": 45
+    }
+  },
+  {
+    "id": "D7hrtl",
+    "name": "Steps · Inline Steps",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"status\": \"process\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 1470,
+      "y": 16,
+      "width": 144,
+      "height": 45
+    }
+  },
+  {
+    "id": "NC3aF",
+    "name": "Steps · Inline Style Combination",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"subTitle\": \"Sub Title\", \"status\": \"process\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"subTitle\": \"Sub Title\", \"status\": \"wait\"}, {\"title\": \"Step 4\", \"content\": \"This is Step 4\", \"subTitle\": \"Sub Title\", \"status\": \"wait\"}, {\"title\": \"Step 5\", \"content\": \"This is Step 5\", \"subTitle\": \"Sub Title\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 65
+    }
+  },
+  {
+    "id": "o7g9F",
+    "name": "Steps · Inline Style Combination",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 1\", \"content\": \"This is Step 1\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 2\", \"content\": \"This is Step 2\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 4\", \"content\": \"This is Step 4\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 5\", \"content\": \"This is Step 5\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}]",
+      "current": 4,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 65,
+      "width": 1614,
+      "height": 65
+    }
+  },
+  {
+    "id": "lqOUE",
+    "name": "Steps · Inline Style Combination",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Step 3\", \"content\": \"This is Step 3\", \"subTitle\": \"Sub Title\", \"status\": \"finish\"}, {\"title\": \"Step 4\", \"content\": \"This is Step 4\", \"subTitle\": \"Sub Title\", \"status\": \"process\"}, {\"title\": \"Step 5\", \"content\": \"This is Step 5\", \"subTitle\": \"Sub Title\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "vertical",
+      "variant": "filled",
+      "type": "inline"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 130,
+      "width": 1614,
+      "height": 65
+    }
+  },
+  {
+    "id": "Q4eMBC",
+    "name": "Steps · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "default"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 90
+    }
+  },
+  {
+    "id": "d6x7IE",
+    "name": "Steps · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Steps.js",
+    "inputs": {
+      "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+      "current": 1,
+      "size": "middle",
+      "orientation": "horizontal",
+      "titlePlacement": "horizontal",
+      "variant": "filled",
+      "type": "navigation"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 106,
+      "width": 1614,
+      "height": 114
+    }
+  },
+  {
+    "id": "Y9L6l",
+    "name": "Antd/Pagination",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "T5vYXu",
+    "name": "Pagination · Default",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "iH96m",
+    "name": "Pagination · More pages",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 6,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "CWiBN",
+    "name": "Pagination · Small",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "P5sGE",
+    "name": "Pagination · Large",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "large",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "l1FBQj",
+    "name": "Pagination · Disabled",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": true,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "cmK7b",
+    "name": "Pagination · Simple",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": true,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "y4qQ0",
+    "name": "Pagination · Quick jumper",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "mVDlA",
+    "name": "Pagination · Total",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 85,
+      "pageSize": 20,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false,
+      "showTotal": "range"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "X4LYSl",
+    "name": "Pagination · Basic",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "ZYEzj",
+    "name": "Pagination · Align",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "dFyxU",
+    "name": "Pagination · Align",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 96,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "f2Cl5D",
+    "name": "Pagination · Align",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 150,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "g48AW",
+    "name": "Pagination · More",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 6,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "Z7HUO",
+    "name": "Pagination · Changer",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 3,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "nTX1K",
+    "name": "Pagination · Changer",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 3,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": true,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 96,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "eWPVE",
+    "name": "Pagination · Jumper",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "vRh7w",
+    "name": "Pagination · Jumper",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": true,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 96,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "vlpNr",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 73.15,
+      "width": 1614,
+      "height": 24
+    }
+  },
+  {
+    "id": "UE4lU",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "large",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 113.15,
+      "width": 1614,
+      "height": 24
+    }
+  },
+  {
+    "id": "H3TdR6",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 153.15,
+      "width": 1614,
+      "height": 24
+    }
+  },
+  {
+    "id": "vlm48",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "large",
+      "disabled": true,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 193.15,
+      "width": 1614,
+      "height": 40
+    }
+  },
+  {
+    "id": "DUUvt",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "large",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 306.29,
+      "width": 1614,
+      "height": 40
+    }
+  },
+  {
+    "id": "P4Rg3",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true
+    },
+    "bounds": {
+      "x": 0,
+      "y": 362.29,
+      "width": 1614,
+      "height": 40
+    }
+  },
+  {
+    "id": "MXGB2",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "large",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 418.29,
+      "width": 1614,
+      "height": 40
+    }
+  },
+  {
+    "id": "rPygA",
+    "name": "Pagination · Size",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 50,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": true,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 474.29,
+      "width": 1614,
+      "height": 39.99999999999994
+    }
+  },
+  {
+    "id": "uVSiN",
+    "name": "Pagination · Simple mode",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": true,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "cWWZI",
+    "name": "Pagination · Simple mode",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": true,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 96,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "nCjlt",
+    "name": "Pagination · Simple mode",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 2,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": true,
+      "simple": true,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 150,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "kpgeF",
+    "name": "Pagination · Controlled",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 3,
+      "total": 50,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": false,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "XM67D",
+    "name": "Pagination · Total number",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 85,
+      "pageSize": 20,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "yo2Yv",
+    "name": "Pagination · Total number",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 85,
+      "pageSize": 20,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false,
+      "showTotal": "range"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 96,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "d9Tz0",
+    "name": "Pagination · Show All",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 85,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": true,
+      "showTotal": "total"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "AAVEV",
+    "name": "Pagination · Prev and next",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false,
+      "previousLabel": "Previous",
+      "nextLabel": "Next"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "se6MD",
+    "name": "Pagination · Custom component",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 3,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 32
+    }
+  },
+  {
+    "id": "JQaeu",
+    "name": "Pagination · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "small",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1614,
+      "height": 52
+    }
+  },
+  {
+    "id": "obmpa",
+    "name": "Pagination · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Pagination.js",
+    "inputs": {
+      "current": 1,
+      "total": 500,
+      "pageSize": 10,
+      "size": "middle",
+      "disabled": false,
+      "simple": false,
+      "showSizeChanger": true,
+      "showQuickJumper": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 68,
+      "width": 1614,
+      "height": 44
+    }
+  },
+  {
+    "id": "jaNIi",
+    "name": "Antd/Menu",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "horizontal",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 1200,
+      "height": 46
+    }
+  },
+  {
+    "id": "VLazT",
+    "name": "Menu · Horizontal",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "horizontal",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 46
+    }
+  },
+  {
+    "id": "wUWs1",
+    "name": "Menu · Inline",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 256,
+      "height": 220
+    }
+  },
+  {
+    "id": "hSi2i",
+    "name": "Menu · Vertical",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "vertical",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 256,
+      "height": 220
+    }
+  },
+  {
+    "id": "dxdoL",
+    "name": "Menu · Dark",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "inline",
+      "theme": "dark",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 256,
+      "height": 220
+    }
+  },
+  {
+    "id": "GUXi4",
+    "name": "Menu · Collapsed",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 80,
+      "height": 220
+    }
+  },
+  {
+    "id": "nG2XW",
+    "name": "Menu · Top Navigation",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[]",
+      "mode": "horizontal",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 47
+    }
+  },
+  {
+    "id": "gCQrv",
+    "name": "Menu · Inline menu",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\", \"children\": [{\"key\": \"1-1\", \"label\": \"Item 1\", \"type\": \"group\", \"children\": [{\"key\": \"1-1-1\", \"label\": \"Option 1\"}, {\"key\": \"1-1-2\", \"label\": \"Option 2\"}]}, {\"key\": \"1-2\", \"label\": \"Item 2\", \"type\": \"group\", \"children\": [{\"key\": \"1-2-1\", \"label\": \"Option 3\"}, {\"key\": \"1-2-2\", \"label\": \"Option 4\"}]}]}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\"}, {\"type\": \"divider\", \"key\": \"3\"}, {\"key\": \"4\", \"label\": \"Navigation Three\", \"icon\": \"SettingOutlined\"}, {\"key\": \"5\", \"label\": \"Group\", \"type\": \"group\", \"children\": [{\"key\": \"5-1\", \"label\": \"Option 13\"}, {\"key\": \"5-2\", \"label\": \"Option 14\"}]}]",
+      "selectedKeys": "[\"1-1-1\"]",
+      "openKeys": "[\"1\"]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 256,
+      "height": 535
+    }
+  },
+  {
+    "id": "J5eAk",
+    "name": "Menu · Collapsed inline menu",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Option 1\", \"icon\": \"PieChartOutlined\"}, {\"key\": \"2\", \"label\": \"Option 2\", \"icon\": \"DesktopOutlined\"}, {\"key\": \"3\", \"label\": \"Option 3\", \"icon\": \"ContainerOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\", \"children\": [{\"key\": \"4-1\", \"label\": \"Option 5\"}, {\"key\": \"4-2\", \"label\": \"Option 6\"}, {\"key\": \"4-3\", \"label\": \"Option 7\"}, {\"key\": \"4-4\", \"label\": \"Option 8\"}]}, {\"key\": \"5\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[\"4\"]",
+      "mode": "inline",
+      "theme": "dark",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 48,
+      "width": 256,
+      "height": 408
+    }
+  },
+  {
+    "id": "s2RUt",
+    "name": "Menu · Menu tooltip",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Option 1\", \"icon\": \"PieChartOutlined\"}, {\"key\": \"2\", \"label\": \"Option 2\", \"icon\": \"DesktopOutlined\"}, {\"key\": \"3\", \"label\": \"Option 3\", \"icon\": \"ContainerOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\", \"children\": [{\"key\": \"4-1\", \"label\": \"Option 5\"}, {\"key\": \"4-2\", \"label\": \"Option 6\"}, {\"key\": \"4-3\", \"label\": \"Option 7\"}, {\"key\": \"4-4\", \"label\": \"Option 8\"}]}, {\"key\": \"5\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[\"4\"]",
+      "mode": "inline",
+      "theme": "dark",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 0,
+      "y": 48,
+      "width": 256,
+      "height": 408
+    }
+  },
+  {
+    "id": "T6tfhJ",
+    "name": "Menu · Open current submenu only",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\", \"children\": [{\"key\": \"2-1\", \"label\": \"Option 1\"}, {\"key\": \"2-2\", \"label\": \"Option 2\"}, {\"key\": \"2-3\", \"label\": \"Submenu\", \"children\": [{\"key\": \"2-3-1\", \"label\": \"Option 1\"}, {\"key\": \"2-3-2\", \"label\": \"Option 2\"}, {\"key\": \"2-3-3\", \"label\": \"Option 3\"}]}, {\"key\": \"2-4\", \"label\": \"Submenu 2\"}]}, {\"key\": \"3\", \"label\": \"Navigation Three\", \"icon\": \"SettingOutlined\"}]",
+      "selectedKeys": "[\"2-3-1\"]",
+      "openKeys": "[\"2-3\", \"2\"]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 256,
+      "height": 460
+    }
+  },
+  {
+    "id": "XQ3FH",
+    "name": "Menu · Vertical menu",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three\", \"icon\": \"SettingOutlined\"}]",
+      "selectedKeys": "[]",
+      "openKeys": "[]",
+      "mode": "vertical",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 256,
+      "height": 136
+    }
+  },
+  {
+    "id": "qDhfI",
+    "name": "Menu · Menu Themes",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\", \"children\": [{\"key\": \"1-1\", \"label\": \"Option 1\"}, {\"key\": \"1-2\", \"label\": \"Option 2\"}, {\"key\": \"1-3\", \"label\": \"Option 3\"}, {\"key\": \"1-4\", \"label\": \"Option 4\"}]}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three\", \"icon\": \"SettingOutlined\"}]",
+      "selectedKeys": "[\"1-1\"]",
+      "openKeys": "[\"1\"]",
+      "mode": "inline",
+      "theme": "dark",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 86,
+      "width": 256,
+      "height": 320
+    }
+  },
+  {
+    "id": "DmvMY",
+    "name": "Menu · Sub-menu theme",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Option 5\"}, {\"key\": \"3\", \"label\": \"Option 6\"}]",
+      "selectedKeys": "[]",
+      "openKeys": "[\"1\"]",
+      "mode": "vertical",
+      "theme": "dark",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 86,
+      "width": 256,
+      "height": 136
+    }
+  },
+  {
+    "id": "nQn6Q",
+    "name": "Menu · Switch the menu type",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"icon\": \"CalendarOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Two\", \"icon\": \"AppstoreOutlined\", \"children\": [{\"key\": \"3-1\", \"label\": \"Option 3\"}, {\"key\": \"3-2\", \"label\": \"Option 4\"}, {\"key\": \"3-3\", \"label\": \"Submenu\"}]}, {\"key\": \"4\", \"label\": \"Navigation Three\", \"icon\": \"SettingOutlined\"}, {\"key\": \"5\", \"label\": \"Ant Design\", \"icon\": \"LinkOutlined\"}]",
+      "selectedKeys": "[\"1\"]",
+      "openKeys": "[\"3\"]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 88.21,
+      "width": 256,
+      "height": 364
+    }
+  },
+  {
+    "id": "uWqQ8",
+    "name": "Menu · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\"}, {\"key\": \"2\", \"label\": \"Navigation Two\"}]",
+      "selectedKeys": "[]",
+      "openKeys": "[]",
+      "mode": "vertical",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 507,
+      "y": 0,
+      "width": 600,
+      "height": 110
+    }
+  },
+  {
+    "id": "t71Dc",
+    "name": "Menu · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Navigation One\"}, {\"key\": \"2\", \"label\": \"Navigation Two\"}]",
+      "selectedKeys": "[]",
+      "openKeys": "[]",
+      "mode": "inline",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 507,
+      "y": 126,
+      "width": 600,
+      "height": 110
+    }
+  },
+  {
+    "id": "xj6JU",
+    "name": "Menu · Custom Submenu Render",
+    "scriptUri": "../canvas-components/Menu.js",
+    "inputs": {
+      "items": "[{\"key\": \"1\", \"label\": \"Home\"}, {\"key\": \"2\", \"label\": \"Features\"}, {\"key\": \"3\", \"label\": \"Resources\"}, {\"key\": \"4\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+      "selectedKeys": "[]",
+      "openKeys": "[]",
+      "mode": "horizontal",
+      "theme": "light",
+      "inlineCollapsed": false
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 1614,
+      "height": 47
+    }
+  },
+  {
+    "id": "ScSFh",
+    "name": "Antd/Dropdown",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 200,
+      "height": 32
+    }
+  },
+  {
+    "id": "QMC5p",
+    "name": "Dropdown · Closed",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "qPKew",
+    "name": "Dropdown · Open",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}",
+      "open": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 152
+    }
+  },
+  {
+    "id": "q8Gfz",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}",
+      "open": true,
+      "arrow": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 152
+    }
+  },
+  {
+    "id": "VwqOy",
+    "name": "Dropdown · Disabled",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}",
+      "disabled": true
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 32
+    }
+  },
+  {
+    "id": "nRCAe",
+    "name": "Dropdown · Basic",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 22
+    }
+  },
+  {
+    "id": "uwK3m",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomLeft",
+      "disabled": false,
+      "triggerWidth": 106,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 106,
+      "height": 32
+    }
+  },
+  {
+    "id": "A4jpD",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottom",
+      "disabled": false,
+      "triggerWidth": 81,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 114,
+      "y": 0,
+      "width": 81,
+      "height": 32
+    }
+  },
+  {
+    "id": "qWmMI",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomRight",
+      "disabled": false,
+      "triggerWidth": 116,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 203,
+      "y": 0,
+      "width": 116,
+      "height": 32
+    }
+  },
+  {
+    "id": "MQ4Gt",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topLeft",
+      "disabled": false,
+      "triggerWidth": 80,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 32
+    }
+  },
+  {
+    "id": "CtuJI",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "top",
+      "disabled": false,
+      "triggerWidth": 55,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 88,
+      "y": 0,
+      "width": 55,
+      "height": 32
+    }
+  },
+  {
+    "id": "mrInl",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topRight",
+      "disabled": false,
+      "triggerWidth": 89,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 151,
+      "y": 0,
+      "width": 89,
+      "height": 32
+    }
+  },
+  {
+    "id": "wBChz",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "leftTop",
+      "disabled": false,
+      "triggerWidth": 78,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 78,
+      "height": 32
+    }
+  },
+  {
+    "id": "ECO3D",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "left",
+      "disabled": false,
+      "triggerWidth": 54,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 86,
+      "y": 0,
+      "width": 54,
+      "height": 32
+    }
+  },
+  {
+    "id": "rOJHe",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "leftBottom",
+      "disabled": false,
+      "triggerWidth": 103,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 148,
+      "y": 0,
+      "width": 103,
+      "height": 32
+    }
+  },
+  {
+    "id": "yhE3x",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "rightTop",
+      "disabled": false,
+      "triggerWidth": 88,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 88,
+      "height": 32
+    }
+  },
+  {
+    "id": "CbNjt",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "right",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 96,
+      "y": 0,
+      "width": 64,
+      "height": 32
+    }
+  },
+  {
+    "id": "w8cIE",
+    "name": "Dropdown · Placement",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "rightBottom",
+      "disabled": false,
+      "triggerWidth": 112,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 168,
+      "y": 0,
+      "width": 112,
+      "height": 32
+    }
+  },
+  {
+    "id": "cKXTU",
+    "name": "Dropdown · Other elements",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 22
+    }
+  },
+  {
+    "id": "gch0k",
+    "name": "Dropdown · Trigger mode",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Click me",
+      "disabled": false,
+      "triggerWidth": 55,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 55,
+      "height": 22
+    }
+  },
+  {
+    "id": "Z1rGg",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 101.16,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "GbX6Z",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 101.15,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "pSLIZ",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": true,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 103,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "psAe9",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 109.53,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "tkNlN",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Button",
+      "disabled": false,
+      "triggerWidth": 97,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 574.85,
+      "y": 0,
+      "width": 97,
+      "height": 32
+    }
+  },
+  {
+    "id": "omsWz",
+    "name": "Dropdown · Button with dropdown menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 79.76,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "Q5P78X",
+    "name": "Dropdown · Cascading menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Cascading menu",
+      "disabled": false,
+      "triggerWidth": 112,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 112,
+      "height": 22
+    }
+  },
+  {
+    "id": "SbJh7",
+    "name": "Dropdown · Context Menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Right Click on here",
+      "disabled": false,
+      "triggerWidth": 827.99,
+      "triggerHeight": 200,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 774,
+      "height": 200
+    }
+  },
+  {
+    "id": "tlLDt",
+    "name": "Dropdown · Selectable Menu",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Selectable",
+      "disabled": false,
+      "triggerWidth": 70,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 70,
+      "height": 22
+    }
+  },
+  {
+    "id": "BtjmM",
+    "name": "Dropdown · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Object Style",
+      "disabled": false,
+      "triggerWidth": 133,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 133,
+      "height": 32
+    }
+  },
+  {
+    "id": "JCuhP",
+    "name": "Dropdown · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Function Style",
+      "disabled": false,
+      "triggerWidth": 148,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 56,
+      "width": 148,
+      "height": 32
+    }
+  },
+  {
+    "id": "Ssivq",
+    "name": "Dropdown · Extra node",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 22
+    }
+  },
+  {
+    "id": "RYD7M",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomLeft",
+      "disabled": false,
+      "triggerWidth": 106,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 106,
+      "height": 32
+    }
+  },
+  {
+    "id": "Z3sfa",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottom",
+      "disabled": false,
+      "triggerWidth": 81,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 114,
+      "y": 0,
+      "width": 81,
+      "height": 32
+    }
+  },
+  {
+    "id": "N0eyK",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomRight",
+      "disabled": false,
+      "triggerWidth": 116,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 203,
+      "y": 0,
+      "width": 116,
+      "height": 32
+    }
+  },
+  {
+    "id": "OrRsH",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topLeft",
+      "disabled": false,
+      "triggerWidth": 80,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 32
+    }
+  },
+  {
+    "id": "ZTsat",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "top",
+      "disabled": false,
+      "triggerWidth": 55,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 88,
+      "y": 0,
+      "width": 55,
+      "height": 32
+    }
+  },
+  {
+    "id": "CPOFF",
+    "name": "Dropdown · Arrow",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topRight",
+      "disabled": false,
+      "triggerWidth": 89,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 151,
+      "y": 0,
+      "width": 89,
+      "height": 32
+    }
+  },
+  {
+    "id": "bLxyj",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomLeft",
+      "disabled": false,
+      "triggerWidth": 106,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 106,
+      "height": 32
+    }
+  },
+  {
+    "id": "BBQ5Y",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottom",
+      "disabled": false,
+      "triggerWidth": 81,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 114,
+      "y": 0,
+      "width": 81,
+      "height": 32
+    }
+  },
+  {
+    "id": "jgVuj",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "bottomRight",
+      "disabled": false,
+      "triggerWidth": 116,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 203,
+      "y": 0,
+      "width": 116,
+      "height": 32
+    }
+  },
+  {
+    "id": "R3sMc",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topLeft",
+      "disabled": false,
+      "triggerWidth": 80,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 80,
+      "height": 32
+    }
+  },
+  {
+    "id": "OUEUb",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "top",
+      "disabled": false,
+      "triggerWidth": 55,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 88,
+      "y": 0,
+      "width": 55,
+      "height": 32
+    }
+  },
+  {
+    "id": "fSiLW",
+    "name": "Dropdown · Arrow pointing at the center",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "topRight",
+      "disabled": false,
+      "triggerWidth": 89,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 151,
+      "y": 0,
+      "width": 89,
+      "height": 32
+    }
+  },
+  {
+    "id": "DSlXF",
+    "name": "Dropdown · Click event",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me, Click menu item",
+      "disabled": false,
+      "triggerWidth": 177,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 177,
+      "height": 22
+    }
+  },
+  {
+    "id": "nyZu0",
+    "name": "Dropdown · Custom dropdown",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 22
+    }
+  },
+  {
+    "id": "prvt8",
+    "name": "Dropdown · The way of hiding menu.",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "Hover me",
+      "disabled": false,
+      "triggerWidth": 64,
+      "triggerHeight": 22,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 22
+    }
+  },
+  {
+    "id": "J7FGC",
+    "name": "Dropdown · Loading",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 31.999999999999986,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 99.77,
+      "y": 0,
+      "width": 31.999999999999986,
+      "height": 32
+    }
+  },
+  {
+    "id": "we7Jw",
+    "name": "Dropdown · Loading",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 24,
+      "triggerHeight": 24,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 83.77,
+      "y": 0,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "id": "Nkcq2",
+    "name": "Dropdown · Loading",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 77.77,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "ImmSl",
+    "name": "Dropdown · Loading",
+    "scriptUri": "../canvas-components/Dropdown.js",
+    "inputs": {
+      "label": "",
+      "disabled": false,
+      "triggerWidth": 32,
+      "triggerHeight": 32,
+      "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+    },
+    "bounds": {
+      "x": 77.77,
+      "y": 0,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "btoUX",
+    "name": "Antd/Breadcrumb",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 740,
+      "height": 22
+    }
+  },
+  {
+    "id": "EUawP",
+    "name": "Breadcrumb · Default",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 22
+    }
+  },
+  {
+    "id": "UVuPv",
+    "name": "Breadcrumb · Custom separator",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": ">"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 22
+    }
+  },
+  {
+    "id": "lF9pg",
+    "name": "Breadcrumb · Icons",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\":\"Home\",\"icon\":\"HomeOutlined\"},{\"title\":\"Application\",\"icon\":\"UserOutlined\"},{\"title\":\"Details\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 22
+    }
+  },
+  {
+    "id": "w7yhpa",
+    "name": "Breadcrumb · Basic Usage",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 776,
+      "height": 22
+    }
+  },
+  {
+    "id": "smD5F",
+    "name": "Breadcrumb · With Params",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Users\"}, {\"title\": \"1\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 774,
+      "height": 22
+    }
+  },
+  {
+    "id": "lJ0Ou",
+    "name": "Breadcrumb · Bread crumbs with drop down menu",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Ant Design\"}, {\"title\": \"Component\"}, {\"title\": \"General\"}, {\"title\": \"Button\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 776,
+      "height": 22
+    }
+  },
+  {
+    "id": "fbSj8",
+    "name": "Breadcrumb · Debug Routes",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"User\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 774,
+      "height": 22
+    }
+  },
+  {
+    "id": "k2YYcf",
+    "name": "Breadcrumb · With an Icon",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"\", \"icon\": \"HomeOutlined\"}, {\"title\": \"Application List\", \"icon\": \"UserOutlined\"}, {\"title\": \"Dashboard\"}, {\"title\": \"Application\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 774,
+      "height": 22
+    }
+  },
+  {
+    "id": "c8v6ld",
+    "name": "Breadcrumb · Configuring the Separator",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": ">"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 776,
+      "height": 22
+    }
+  },
+  {
+    "id": "lfLjt",
+    "name": "Breadcrumb · Configuring the Separator Independently",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Location\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+      "separator": ":"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 42,
+      "width": 776,
+      "height": 22
+    }
+  },
+  {
+    "id": "qUjYB",
+    "name": "Breadcrumb · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Ant Design\"}, {\"title\": \"Component\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 9,
+      "y": 9,
+      "width": 756,
+      "height": 22
+    }
+  },
+  {
+    "id": "loWsb",
+    "name": "Breadcrumb · Custom semantic dom styling",
+    "scriptUri": "../canvas-components/Breadcrumb.js",
+    "inputs": {
+      "items": "[{\"title\": \"Ant Design\"}, {\"title\": \"Component\"}, {\"title\": \"Breadcrumb\"}]",
+      "separator": "/"
+    },
+    "bounds": {
+      "x": 9,
+      "y": 9,
+      "width": 776,
+      "height": 22
+    }
+  },
+  {
+    "id": "ca84t",
+    "name": "Antd/Anchor",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 24,
+      "y": 71,
+      "width": 400,
+      "height": 160
+    }
+  },
+  {
+    "id": "x9tzhi",
+    "name": "Anchor · Vertical",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": "#basic"
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 160
+    }
+  },
+  {
+    "id": "Y0sss",
+    "name": "Anchor · Horizontal",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "horizontal",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 24,
+      "y": 68,
+      "width": 740,
+      "height": 160
+    }
+  },
+  {
+    "id": "rUQGe",
+    "name": "Row",
+    "scriptUri": "../canvas-components/Row.js",
+    "inputs": {
+      "col1": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":16,\"childrenContent\":\"{\\\"type\\\":\\\"frame\\\",\\\"name\\\":\\\"Scroll sections\\\",\\\"width\\\":1108,\\\"height\\\":600,\\\"layout\\\":\\\"vertical\\\",\\\"children\\\":[{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 1\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#ff000005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 2\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#00ff0005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 3\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#0000ff05\\\"}]}\"},\"width\":1108,\"height\":600}",
+      "span1": 16,
+      "height1": 600,
+      "col2": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":8,\"childrenContent\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Anchor\\\",\\\"scriptUri\\\":\\\"../canvas-components/Anchor.js\\\",\\\"inputs\\\":{\\\"items\\\":\\\"[{\\\\\\\"key\\\\\\\":\\\\\\\"part-1\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-1\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 1\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-2\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-2\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 2\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-3\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-3\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 3\\\\\\\"}]\\\",\\\"activeHref\\\":\\\"#part-1\\\",\\\"direction\\\":\\\"vertical\\\",\\\"replace\\\":false,\\\"targetOffset\\\":0,\\\"background\\\":\\\"#00000000\\\"},\\\"width\\\":554,\\\"height\\\":200}\"},\"width\":554,\"height\":200}",
+      "span2": 8,
+      "height2": 200
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1662,
+      "height": 600
+    }
+  },
+  {
+    "id": "xDNbU",
+    "name": "Anchor",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\":\"part-1\",\"href\":\"#part-1\",\"title\":\"Part 1\"},{\"key\":\"part-2\",\"href\":\"#part-2\",\"title\":\"Part 2\"},{\"key\":\"part-3\",\"href\":\"#part-3\",\"title\":\"Part 3\"}]",
+      "activeHref": "#part-1",
+      "direction": "horizontal",
+      "replace": false,
+      "targetOffset": 0,
+      "background": "#00000000"
+    },
+    "bounds": {
+      "x": 20,
+      "y": 20,
+      "width": 1622,
+      "height": 32
+    }
+  },
+  {
+    "id": "c7gGU",
+    "name": "Anchor · Static Anchor",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 0,
+      "y": 4,
+      "width": 1614,
+      "height": 145
+    }
+  },
+  {
+    "id": "QIJW4",
+    "name": "Anchor · Customize the onClick event",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 0,
+      "y": 4,
+      "width": 1614,
+      "height": 145
+    }
+  },
+  {
+    "id": "s8PRL",
+    "name": "Anchor · Customize the anchor highlight",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 0,
+      "y": 4,
+      "width": 1614,
+      "height": 145
+    }
+  },
+  {
+    "id": "CdYMx",
+    "name": "Row",
+    "scriptUri": "../canvas-components/Row.js",
+    "inputs": {
+      "col1": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":16,\"childrenContent\":\"{\\\"type\\\":\\\"frame\\\",\\\"name\\\":\\\"Scroll sections\\\",\\\"width\\\":1108,\\\"height\\\":600,\\\"layout\\\":\\\"vertical\\\",\\\"children\\\":[{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 1\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#ff000005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 2\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#00ff0005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 3\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#0000ff05\\\"}]}\"},\"width\":1108,\"height\":600}",
+      "span1": 16,
+      "height1": 600,
+      "col2": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":8,\"childrenContent\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Anchor\\\",\\\"scriptUri\\\":\\\"../canvas-components/Anchor.js\\\",\\\"inputs\\\":{\\\"items\\\":\\\"[{\\\\\\\"key\\\\\\\":\\\\\\\"part-1\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-1\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 1\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-2\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-2\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 2\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-3\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-3\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 3\\\\\\\"}]\\\",\\\"activeHref\\\":\\\"#part-1\\\",\\\"direction\\\":\\\"vertical\\\",\\\"replace\\\":false,\\\"targetOffset\\\":100,\\\"background\\\":\\\"#00000000\\\"},\\\"width\\\":554,\\\"height\\\":200}\"},\"width\":554,\"height\":200}",
+      "span2": 8,
+      "height2": 200
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1662,
+      "height": 600
+    }
+  },
+  {
+    "id": "eGCQV",
+    "name": "Anchor · Listening for anchor link change",
+    "scriptUri": "../canvas-components/Anchor.js",
+    "inputs": {
+      "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+      "direction": "vertical",
+      "activeHref": ""
+    },
+    "bounds": {
+      "x": 0,
+      "y": 4,
+      "width": 1614,
+      "height": 145
+    }
+  },
+  {
+    "id": "ZZ5fo",
+    "name": "Row",
+    "scriptUri": "../canvas-components/Row.js",
+    "inputs": {
+      "col1": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":16,\"childrenContent\":\"{\\\"type\\\":\\\"frame\\\",\\\"name\\\":\\\"Scroll sections\\\",\\\"width\\\":1108,\\\"height\\\":600,\\\"layout\\\":\\\"vertical\\\",\\\"children\\\":[{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 1\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#ff000005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 2\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#00ff0005\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 3\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#0000ff05\\\"}]}\"},\"width\":1108,\"height\":600}",
+      "span1": 16,
+      "height1": 600,
+      "col2": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":8,\"childrenContent\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Anchor\\\",\\\"scriptUri\\\":\\\"../canvas-components/Anchor.js\\\",\\\"inputs\\\":{\\\"items\\\":\\\"[{\\\\\\\"key\\\\\\\":\\\\\\\"part-1\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-1\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 1\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-2\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-2\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 2\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-3\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-3\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 3\\\\\\\"}]\\\",\\\"activeHref\\\":\\\"#part-1\\\",\\\"direction\\\":\\\"vertical\\\",\\\"replace\\\":true,\\\"targetOffset\\\":0,\\\"background\\\":\\\"#00000000\\\"},\\\"width\\\":554,\\\"height\\\":200}\"},\"width\":554,\"height\":200}",
+      "span2": 8,
+      "height2": 200
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1662,
+      "height": 600
+    }
+  },
+  {
+    "id": "LZdlo",
+    "name": "Row",
+    "scriptUri": "../canvas-components/Row.js",
+    "inputs": {
+      "col1": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":16,\"childrenContent\":\"{\\\"type\\\":\\\"frame\\\",\\\"name\\\":\\\"Scroll sections\\\",\\\"width\\\":1108,\\\"height\\\":600,\\\"layout\\\":\\\"vertical\\\",\\\"children\\\":[{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 1\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#ff000014\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 2\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#00ff0014\\\"},{\\\"type\\\":\\\"rectangle\\\",\\\"name\\\":\\\"Part 3\\\",\\\"width\\\":1108,\\\"height\\\":200,\\\"fill\\\":\\\"#0000ff14\\\"}]}\"},\"width\":1108,\"height\":600}",
+      "span1": 16,
+      "height1": 600,
+      "col2": "{\"type\":\"script\",\"name\":\"Col\",\"scriptUri\":\"../canvas-components/Col.js\",\"inputs\":{\"span\":8,\"childrenContent\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Anchor\\\",\\\"scriptUri\\\":\\\"../canvas-components/Anchor.js\\\",\\\"inputs\\\":{\\\"items\\\":\\\"[{\\\\\\\"key\\\\\\\":\\\\\\\"part-1\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-1\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 1\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-2\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-2\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 2\\\\\\\"},{\\\\\\\"key\\\\\\\":\\\\\\\"part-3\\\\\\\",\\\\\\\"href\\\\\\\":\\\\\\\"#part-3\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"Part 3\\\\\\\"}]\\\",\\\"activeHref\\\":\\\"#part-1\\\",\\\"direction\\\":\\\"vertical\\\",\\\"replace\\\":true,\\\"targetOffset\\\":0,\\\"background\\\":\\\"#ffFBE680\\\"},\\\"width\\\":554,\\\"height\\\":200}\"},\"width\":554,\"height\":200}",
+      "span2": 8,
+      "height2": 200
+    },
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 1662,
+      "height": 600
+    }
+  }
+]

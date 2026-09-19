@@ -1,0 +1,20 @@
+[
+  {
+    "id": "affix-demo-basic",
+    "title": "Basic",
+    "html": "<div class=\"\"><div class=\"\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Affix top</span></button></div></div><br><div class=\"\"><div class=\"\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Affix bottom</span></button></div></div>",
+    "iframes": []
+  },
+  {
+    "id": "affix-demo-target",
+    "title": "Container to scroll.",
+    "html": "<div style=\"width: 100%; height: 100px; overflow: auto; box-shadow: rgb(22, 119, 255) 0px 0px 0px 1px; scrollbar-width: thin; scrollbar-gutter: stable;\"><div style=\"width: 100%; height: 1000px;\"><div class=\"\"><div class=\"\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-primary ant-btn-color-primary ant-btn-variant-solid\"><span>Fixed at the top of container</span></button></div></div></div></div>",
+    "iframes": []
+  },
+  {
+    "id": "affix-demo-on-change",
+    "title": "Callback",
+    "html": "<div class=\"\"><div class=\"\"><button type=\"button\" class=\"ant-btn css-19u5a7b css-var-_R_afsua_ ant-btn-default ant-btn-color-default ant-btn-variant-outlined\"><span>120px to affix top</span></button></div></div>",
+    "iframes": []
+  }
+]

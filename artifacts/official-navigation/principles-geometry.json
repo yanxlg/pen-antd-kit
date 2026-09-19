@@ -1,0 +1,491 @@
+[
+  {
+    "tag": "p",
+    "text": "Broadly speaking, anything telling users where they are, where to go and how to get there can be called navigation. When using navigation or customizing navigational structures, please pay attention to following common pitfalls:",
+    "sourceId": "",
+    "x": 48,
+    "y": 141.734375,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "ul",
+    "text": "Provide visual and contextual cues as many as possible, to prevent users from getting lostMaintain consistency between form and behavior, or reduce the number of items in navigation, to decrease user's learning costMinimize page transitions (i.e. reduce the number of page transitions required by a task from several to just once or twice), to ensure that user travels only a short distance from any page to another",
+    "sourceId": "",
+    "x": 48,
+    "y": 183.734375,
+    "w": 1787.984375,
+    "h": 84
+  },
+  {
+    "tag": "hr",
+    "text": "",
+    "sourceId": "",
+    "x": 48,
+    "y": 291.734375,
+    "w": 1787.984375,
+    "h": 1
+  },
+  {
+    "tag": "h2",
+    "text": "Menu",
+    "sourceId": "menu",
+    "x": 48,
+    "y": 331.125,
+    "w": 1787.984375,
+    "h": 32
+  },
+  {
+    "tag": "p",
+    "text": "Navigation menu is an effective and user-friendly way for representing site structure to users. A proper form of navigation should be utilized, once the information architecture of your site becomes clear and stable.",
+    "sourceId": "",
+    "x": 48,
+    "y": 377.515625,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Top Navigation",
+    "sourceId": "top-navigation",
+    "x": 48,
+    "y": 434.3125,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/pWbHrSnmicFxcgmWIFst.png",
+    "x": 1339.984375,
+    "y": 481.109375,
+    "w": 496,
+    "h": 360.640625
+  },
+  {
+    "tag": "p",
+    "text": "Top navigation menu put hyperlinks in a row and present information in a simple and straightforward way. It is suitable for landing pages and consumer facing web apps. The number of first level menu items should be between 2 and 7. Title for each menu item should contain less than 15 characters.",
+    "sourceId": "",
+    "x": 48,
+    "y": 484.3125,
+    "w": 1787.984375,
+    "h": 56
+  },
+  {
+    "tag": "h3",
+    "text": "Side Navigation",
+    "sourceId": "side-navigation",
+    "x": 48,
+    "y": 911.75,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/VvajPSfjYcVNiNoxZFVH.png",
+    "x": 1339.984375,
+    "y": 958.546875,
+    "w": 496,
+    "h": 360.640625
+  },
+  {
+    "tag": "p",
+    "text": "Vertical navigation is more flexible than horizontal one, menu items are easily extensible downward, and longer labels can be allowed. With help from a scrollbar, unlimited number of menu items can be supported. It is suitable for multi-level, operation intensive and dashboard-like web apps.",
+    "sourceId": "",
+    "x": 48,
+    "y": 961.75,
+    "w": 1787.984375,
+    "h": 56
+  },
+  {
+    "tag": "ul",
+    "text": "More layouts with navigation: Layout.",
+    "sourceId": "",
+    "x": 48,
+    "y": 1031.75,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "hr",
+    "text": "",
+    "sourceId": "",
+    "x": 48,
+    "y": 1389.1875,
+    "w": 1787.984375,
+    "h": 1
+  },
+  {
+    "tag": "h2",
+    "text": "Breadcrumb",
+    "sourceId": "breadcrumb",
+    "x": 48,
+    "y": 1428.578125,
+    "w": 1787.984375,
+    "h": 32
+  },
+  {
+    "tag": "p",
+    "text": "Breadcrumb tell users where they are now among page hierarchy, and parent-child relationships between pages.",
+    "sourceId": "",
+    "x": 48,
+    "y": 1474.96875,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/ZeChCVQTCUdghxmwqKIO.png",
+    "x": 1339.984375,
+    "y": 1516.96875,
+    "w": 496,
+    "h": 184.5625
+  },
+  {
+    "tag": "blockquote",
+    "text": "Notes:When hierarchy is deep, it is recommended to hide certain pages. Depth of pages shown should at best be lower than 3, and should not exceed 5.Avoid using breadcrumb as much as you can, especially when page contains other navigation components sufficiently telling where users are.",
+    "sourceId": "",
+    "x": 48,
+    "y": 1516.96875,
+    "w": 1787.984375,
+    "h": 75.5625
+  },
+  {
+    "tag": "hr",
+    "text": "",
+    "sourceId": "",
+    "x": 48,
+    "y": 1771.53125,
+    "w": 1787.984375,
+    "h": 1
+  },
+  {
+    "tag": "h2",
+    "text": "Tabs",
+    "sourceId": "tabs",
+    "x": 48,
+    "y": 1810.921875,
+    "w": 1787.984375,
+    "h": 32
+  },
+  {
+    "tag": "p",
+    "text": "Tabs categorize content, in order to present large amount of information in a limited space. User can easily switch among tab panels without transitioning from one page to another. Categories can be determined via business logics or states, label for each category should contain less than 15 characters.",
+    "sourceId": "",
+    "x": 48,
+    "y": 1857.3125,
+    "w": 1787.984375,
+    "h": 56
+  },
+  {
+    "tag": "h3",
+    "text": "Basic",
+    "sourceId": "basic",
+    "x": 48,
+    "y": 1942.109375,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/dPpWpAhQYzJOWMCeKqhe.png",
+    "x": 1339.984375,
+    "y": 1988.90625,
+    "w": 496,
+    "h": 186.640625
+  },
+  {
+    "tag": "p",
+    "text": "Control content of the entire page. Usually used for switching among core functionalities.",
+    "sourceId": "",
+    "x": 48,
+    "y": 1992.109375,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Card",
+    "sourceId": "card",
+    "x": 48,
+    "y": 2245.546875,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/aJypXYetynQcJxohHefp.png",
+    "x": 1339.984375,
+    "y": 2292.34375,
+    "w": 496,
+    "h": 205.28125
+  },
+  {
+    "tag": "p",
+    "text": "Control part of page content. Bordered container naturally separate it from other parts of the page.",
+    "sourceId": "",
+    "x": 48,
+    "y": 2295.546875,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Pill",
+    "sourceId": "pill",
+    "x": 48,
+    "y": 2567.625,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "Usually used in a small section, or along with basic and card tabs.",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/QsgJeCmaQkoRLgGRxUim.png",
+    "x": 1339.984375,
+    "y": 2614.421875,
+    "w": 496,
+    "h": 202.5625
+  },
+  {
+    "tag": "p",
+    "text": "Switch among options in a card. Usually used along with other types of tabs, so that user can navigate to intended content via quick tab switching.",
+    "sourceId": "",
+    "x": 48,
+    "y": 2617.625,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Vertical",
+    "sourceId": "vertical",
+    "x": 48,
+    "y": 2886.984375,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/WvnEwzlmauGlKByAxZJH.png",
+    "x": 1339.984375,
+    "y": 2933.78125,
+    "w": 496,
+    "h": 287.09375
+  },
+  {
+    "tag": "p",
+    "text": "Used for large number of tab options. It can be easily extended to contain an unlimited number of categories.",
+    "sourceId": "",
+    "x": 48,
+    "y": 2936.984375,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "hr",
+    "text": "",
+    "sourceId": "",
+    "x": 48,
+    "y": 3290.875,
+    "w": 1787.984375,
+    "h": 1
+  },
+  {
+    "tag": "h2",
+    "text": "Steps",
+    "sourceId": "steps",
+    "x": 48,
+    "y": 3330.265625,
+    "w": 1787.984375,
+    "h": 32
+  },
+  {
+    "tag": "p",
+    "text": "Steps is a navigation bar guiding users to perform a task following a predefined workflow. It gives users a rough estimate about how long the task is going take, tells them which step they are in, and showcases users' progress in an explicit way. It is always a good idea to break complex and procedural task into steps.",
+    "sourceId": "",
+    "x": 48,
+    "y": 3376.65625,
+    "w": 1787.984375,
+    "h": 56
+  },
+  {
+    "tag": "h3",
+    "text": "Horizontal",
+    "sourceId": "horizontal",
+    "x": 48,
+    "y": 3461.453125,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/ugeAGDXQQYkZIbCAGlIP.png",
+    "x": 1339.984375,
+    "y": 3508.25,
+    "w": 496,
+    "h": 157.640625
+  },
+  {
+    "tag": "p",
+    "text": "Used for more than 2 but less than 5 steps. Title for each step should contain less than 12 characters.",
+    "sourceId": "",
+    "x": 48,
+    "y": 3511.453125,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Vertical",
+    "sourceId": "vertical-1",
+    "x": 48,
+    "y": 3735.890625,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/PnDNqhBRyWLLLgQSVwvF.png",
+    "x": 1339.984375,
+    "y": 3782.6875,
+    "w": 496,
+    "h": 309.890625
+  },
+  {
+    "tag": "p",
+    "text": "Usually float at the left side of pages, in a fixed position. Multi-line description can be attached to each step. Suitable for large or dynamic number of steps, i.e. time-based steps with dynamic descriptions.",
+    "sourceId": "",
+    "x": 48,
+    "y": 3785.890625,
+    "w": 1787.984375,
+    "h": 56
+  },
+  {
+    "tag": "hr",
+    "text": "",
+    "sourceId": "",
+    "x": 48,
+    "y": 4162.578125,
+    "w": 1787.984375,
+    "h": 1
+  },
+  {
+    "tag": "h2",
+    "text": "Pagination",
+    "sourceId": "pagination",
+    "x": 48,
+    "y": 4201.96875,
+    "w": 1787.984375,
+    "h": 32
+  },
+  {
+    "tag": "p",
+    "text": "Used for paginating large amount of content. Users can clearly know the total amount of content, how much they have already browsed and how much remains to be browsed.",
+    "sourceId": "",
+    "x": 48,
+    "y": 4248.359375,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Basic",
+    "sourceId": "basic-1",
+    "x": 48,
+    "y": 4305.15625,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "Quick page jumper can be used when there are more than 5 pages",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/MlxHpEgkFHhIVaxpaiYJ.png",
+    "x": 1339.984375,
+    "y": 4351.953125,
+    "w": 496,
+    "h": 194.28125
+  },
+  {
+    "tag": "p",
+    "text": "When there is a large number of rows, page size can be made customizable by users, so that users can query and browse information more flexibly and effectively.",
+    "sourceId": "",
+    "x": 48,
+    "y": 4355.15625,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Mini",
+    "sourceId": "mini",
+    "x": 48,
+    "y": 4616.234375,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/GtIWNdAtogjxXJNuuqTE.png",
+    "x": 1339.984375,
+    "y": 4663.03125,
+    "w": 496,
+    "h": 160.75
+  },
+  {
+    "tag": "p",
+    "text": "Commonly used in a Card or a floating layer.",
+    "sourceId": "",
+    "x": 48,
+    "y": 4666.234375,
+    "w": 1787.984375,
+    "h": 28
+  },
+  {
+    "tag": "h3",
+    "text": "Simple",
+    "sourceId": "simple",
+    "x": 48,
+    "y": 4893.78125,
+    "w": 1787.984375,
+    "h": 36
+  },
+  {
+    "tag": "div",
+    "text": "",
+    "sourceId": "",
+    "image": "https://gw.alipayobjects.com/zos/rmsportal/LCUZrQJyHQXplzEzDrub.png",
+    "x": 1339.984375,
+    "y": 4940.578125,
+    "w": 496,
+    "h": 160.75
+  },
+  {
+    "tag": "p",
+    "text": "Commonly used in a Card or a data table, for no more than 10 pages.",
+    "sourceId": "",
+    "x": 48,
+    "y": 4943.78125,
+    "w": 1787.984375,
+    "h": 28
+  }
+]

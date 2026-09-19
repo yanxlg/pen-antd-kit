@@ -1,0 +1,664 @@
+{
+  "url": "https://ant.design/components/border-beam",
+  "width": 1787.984375,
+  "records": [
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "360px",
+        "height": "149px"
+      },
+      "width": 360,
+      "height": 149,
+      "demo": "border-beam-demo-basic",
+      "title": "Basic",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "127px"
+      },
+      "width": 835.984375,
+      "height": 127,
+      "demo": "border-beam-demo-count",
+      "title": "Multiple beams",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "127px"
+      },
+      "width": 835.984375,
+      "height": 127,
+      "demo": "border-beam-demo-count",
+      "title": "Multiple beams",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "127px"
+      },
+      "width": 835.984375,
+      "height": 127,
+      "demo": "border-beam-demo-count",
+      "title": "Multiple beams",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "127px"
+      },
+      "width": 835.984375,
+      "height": 127,
+      "demo": "border-beam-demo-count",
+      "title": "Multiple beams",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "127px"
+      },
+      "width": 835.984375,
+      "height": 127,
+      "demo": "border-beam-demo-count",
+      "title": "Multiple beams",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "480px",
+        "height": "225px"
+      },
+      "width": 480,
+      "height": 225,
+      "demo": "border-beam-demo-customized-color",
+      "title": "Gradients",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "401.984px",
+        "height": "169px"
+      },
+      "width": 401.984375,
+      "height": 169,
+      "demo": "border-beam-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "402px",
+        "height": "169px"
+      },
+      "width": 402,
+      "height": 169,
+      "demo": "border-beam-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "835.984px",
+        "height": "249px"
+      },
+      "width": 835.984375,
+      "height": 249,
+      "demo": "border-beam-demo-size",
+      "title": "Size",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "360px",
+        "height": "149px"
+      },
+      "width": 360,
+      "height": 149,
+      "demo": "border-beam-demo-hover",
+      "title": "Show on hover",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "420px",
+        "height": "162px"
+      },
+      "width": 420,
+      "height": 162,
+      "demo": "border-beam-demo-custom-container",
+      "title": "Custom container",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "220px",
+        "height": "171px"
+      },
+      "width": 220,
+      "height": 171,
+      "demo": "border-beam-demo-duration",
+      "title": "Duration",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "220px",
+        "height": "171px"
+      },
+      "width": 220,
+      "height": 171,
+      "demo": "border-beam-demo-duration",
+      "title": "Duration",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "1px",
+        "gap": "normal",
+        "width": "220px",
+        "height": "171px"
+      },
+      "width": 220,
+      "height": 171,
+      "demo": "border-beam-demo-duration",
+      "title": "Duration",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "kind": "ant-border-beam",
+      "classes": [
+        "ant-border-beam",
+        "css-19u5a7b",
+        "css-var-_R_afsua_"
+      ],
+      "text": "",
+      "texts": [],
+      "style": {
+        "color": "rgba(0, 0, 0, 0.88)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgba(0, 0, 0, 0.88)",
+        "borderRadius": "8px",
+        "fontSize": "14px",
+        "lineHeight": "22px",
+        "padding": "2px",
+        "gap": "normal",
+        "width": "360px",
+        "height": "151px"
+      },
+      "width": 360,
+      "height": 151,
+      "demo": "border-beam-demo-line-width",
+      "title": "Line width",
+      "icons": [],
+      "content": {
+        "title": "",
+        "description": "",
+        "extra": "",
+        "paragraph": "",
+        "progress": ""
+      },
+      "childClasses": [],
+      "nested": false,
+      "parentKind": null,
+      "checked": null,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "titles": [
+    "Basic",
+    "",
+    "Multiple beams",
+    "",
+    "Gradients",
+    "",
+    "Size",
+    "",
+    "Show on hover",
+    "",
+    "Custom container",
+    "",
+    "Duration",
+    "",
+    "Line width",
+    ""
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Anchor": {
+    "items": "[{\"key\": \"#anchor-demo-basic\", \"href\": \"#anchor-demo-basic\", \"title\": \"Basic demo\"}, {\"key\": \"#anchor-demo-static\", \"href\": \"#anchor-demo-static\", \"title\": \"Static demo\"}, {\"key\": \"#api\", \"href\": \"#api\", \"title\": \"API\", \"children\": [{\"key\": \"#anchor-props\", \"href\": \"#anchor-props\", \"title\": \"Anchor Props\"}, {\"key\": \"#link-props\", \"href\": \"#link-props\", \"title\": \"Link Props\"}]}]",
+    "direction": "vertical",
+    "activeHref": "#anchor-demo-basic",
+    "affix": false,
+    "classNames": "{}",
+    "styles": "{}"
+  },
+  "Breadcrumb": {
+    "items": "[{\"title\": \"Home\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
+    "separator": "/"
+  },
+  "Dropdown": {
+    "label": "Hover me",
+    "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"label\":\"2nd menu item\"},{\"key\":\"3\",\"label\":\"3rd menu item\"}]}"
+  },
+  "Menu": {
+    "items": "[{\"key\": \"1\", \"label\": \"Navigation One\", \"icon\": \"MailOutlined\"}, {\"key\": \"2\", \"label\": \"Navigation Two\", \"disabled\": true, \"icon\": \"AppstoreOutlined\"}, {\"key\": \"3\", \"label\": \"Navigation Three - Submenu\", \"icon\": \"SettingOutlined\"}, {\"key\": \"4\", \"label\": \"Navigation Four - Link\"}, {\"key\": \"5\", \"label\": \"\", \"icon\": \"EllipsisOutlined\"}]",
+    "selectedKeys": "[\"1\"]",
+    "openKeys": "[]",
+    "mode": "horizontal",
+    "theme": "light",
+    "inlineCollapsed": false
+  },
+  "Pagination": {
+    "current": 1,
+    "total": 50,
+    "pageSize": 10,
+    "size": "middle",
+    "disabled": false,
+    "simple": false,
+    "showSizeChanger": false,
+    "showQuickJumper": false
+  },
+  "Steps": {
+    "items": "[{\"title\": \"Finished\", \"content\": \"This is a content.\", \"status\": \"finish\"}, {\"title\": \"In Progress\", \"content\": \"This is a content.\", \"subTitle\": \"Left 00:00:08\", \"status\": \"process\"}, {\"title\": \"Waiting\", \"content\": \"This is a content.\", \"status\": \"wait\"}]",
+    "current": 1,
+    "size": "middle",
+    "orientation": "horizontal",
+    "titlePlacement": "horizontal",
+    "variant": "filled",
+    "type": "default"
+  },
+  "Tabs": {
+    "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false}]",
+    "activeKey": "1",
+    "type": "line",
+    "size": "middle",
+    "tabPlacement": "top",
+    "centered": false,
+    "hideAdd": true
+  }
+}
