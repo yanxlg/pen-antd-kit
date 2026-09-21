@@ -27,4 +27,7 @@ jobs:
           npm run standards:validate
       - name: Publish CLI to npm
         working-directory: pen-prototype-platform
+        env:
+          # OIDC 优先；未登记 Trusted Publisher 时可用 NPM_TOKEN secret 兜底
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: node scripts/publish-cli.mjs --execute

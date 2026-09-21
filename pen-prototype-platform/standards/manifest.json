@@ -2,7 +2,7 @@
   "$schema": "../schemas/standards-manifest.schema.json",
   "schemaVersion": 1,
   "standardsVersion": "0.3.0",
-  "status": "candidate",
+  "status": "passed",
   "entrypoint": "index.md",
   "qualityProfile": "prototype-quality.json",
   "runtimeDocuments": [

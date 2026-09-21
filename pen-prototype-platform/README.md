@@ -154,7 +154,7 @@ npm run release:cli -- --execute --otp 123456   # 账号开启写操作 2FA 时�
 node bin/pen-antd.mjs kit build \
   --source-root .. \
   --output ./dist \
-  --version 2026.09.20 \
+  --version 0.1.0 \   # Kit 版本必须是 SemVer，构建器会校验
   --quality candidate
 ```
 
