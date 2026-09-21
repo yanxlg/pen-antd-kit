@@ -21,12 +21,19 @@ description: Generate or revise Pen prototypes from requirements, Markdown, HTML
 
 # Ant Design Pen prototype bootstrap
 
-1. Run \`pen-antd resolve\` to resolve the active managed Kit.
-2. Run \`pen-antd skill path\` and read the returned \`skillPath\` completely.
-3. Follow that versioned Skill as the source of truth for this task.
-4. Before creating any prototype nodes, run \`pen-antd library prepare\` and obey its import gate.
+This file only carries the stable entry protocol. Component knowledge, standards, and workflow references live in a versioned bundle that is refreshed at the start of every task.
 
-Do not cache or copy the versioned workflow into this bootstrap. The indirection is what allows Kit updates without reinstalling this Skill.
+1. Refresh the bundle. \`npx\` downloads the latest CLI automatically; the command is TTL-cached and safe to rerun:
+
+   \`\`\`sh
+   npx -y @pen-kit/antd@latest references update
+   \`\`\`
+
+2. Read the returned \`skillPath\` completely and follow that versioned Skill as the source of truth for this task.
+3. Run every later CLI command from that Skill with the same runner: \`npx -y @pen-kit/antd <command>\`, or \`pen-antd <command>\` when the CLI is installed globally.
+4. If the update command fails or reports \`"stale": true\`, continue with the local bundle from \`pen-antd skill path\` and mention the stale version in the handoff.
+
+Do not cache or copy the versioned workflow into this bootstrap. The indirection is what lets knowledge updates land without reinstalling this Skill.
 `;
   await writeFile(resolve(target, "SKILL.md"), content, "utf8");
   return { target, skillPath: resolve(target, "SKILL.md"), mode: "bootstrap" };

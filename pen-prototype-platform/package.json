@@ -1,16 +1,32 @@
 {
-  "name": "@internal/pen-antd-prototype-platform",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@pen-kit/antd",
+  "version": "0.1.1",
+  "description": "CLI for the Pen Ant Design prototype platform: reference updates, library preflight, component and template queries.",
   "type": "module",
   "bin": {
-    "pen-antd": "./bin/pen-antd.mjs"
+    "pen-antd": "bin/pen-antd.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanxlg/pen-antd-kit.git",
+    "directory": "pen-prototype-platform"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "bin",
+    "src",
+    "channels",
+    "README.md"
+  ],
   "scripts": {
     "test": "node --test tests/*.test.mjs",
     "doctor": "node bin/pen-antd.mjs doctor",
     "standards:validate": "node bin/pen-antd.mjs standards validate",
-    "release:github": "node scripts/publish-github-release.mjs"
+    "release:github": "node scripts/publish-github-release.mjs",
+    "release:cli": "node scripts/publish-cli.mjs"
   },
   "engines": {
     "node": ">=22.19"

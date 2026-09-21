@@ -1,0 +1,30 @@
+name: Publish Pen Ant Design CLI
+
+on:
+  push:
+    tags:
+      - "cli-v*"
+
+permissions:
+  contents: read
+  id-token: write # npm Trusted Publishing (OIDC)；不需要 NPM_TOKEN
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org/
+      - name: Verify platform
+        working-directory: pen-prototype-platform
+        run: |
+          npm install -g npm@latest # OIDC 需要 npm >= 11.5.1
+          npm --version
+          npm test
+          npm run standards:validate
+      - name: Publish CLI to npm
+        working-directory: pen-prototype-platform
+        run: node scripts/publish-cli.mjs --execute

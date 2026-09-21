@@ -9,7 +9,7 @@ test("installs only the stable bootstrap layer", async () => {
   const root = await mkdtemp(resolve(tmpdir(), "pen-skill-test-"));
   const result = await installBootstrapSkill(root);
   const content = await readFile(result.skillPath, "utf8");
-  assert.match(content, /pen-antd resolve/);
-  assert.match(content, /pen-antd skill path/);
+  assert.match(content, /references update/);
+  assert.match(content, /npx -y @pen-kit\/antd@latest/);
   assert.doesNotMatch(content, /# List page/);
 });

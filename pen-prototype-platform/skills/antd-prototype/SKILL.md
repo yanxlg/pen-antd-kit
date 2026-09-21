@@ -7,9 +7,11 @@ description: Create, revise, normalize, or review standard Ant Design prototypes
 
 Produce a usable product prototype in Pen using the managed Ant Design library. The library is the source of component instances; templates are visual composition references, not code-generation contracts.
 
+CLI commands below are written as `pen-antd <command>`. When the CLI is not installed globally, use `npx -y @pen-kit/antd <command>` instead.
+
 ## Non-negotiable order
 
-1. Resolve the active Kit with `pen-antd resolve` unless the caller supplied an exact Kit root.
+1. Ensure the active Kit with `pen-antd references update` unless the caller supplied an exact Kit root. The command is TTL-cached and safe to rerun; it returns the Kit root and the versioned skill path.
 2. Resolve only the context needed for the task:
 
    ```sh

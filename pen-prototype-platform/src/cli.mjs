@@ -8,10 +8,12 @@ import { prepareLibrary } from "./library-preflight.mjs";
 import { defaultChannelFile, platformRoot } from "./paths.mjs";
 import { inspectComponent, inspectTemplate, listTemplates, matchTemplates } from "./registry.mjs";
 import { readCurrentKit, resolveRelease } from "./release-resolver.mjs";
+import { updateReferences } from "./references-update.mjs";
 import { currentSkillPath, installBootstrapSkill } from "./skill-bootstrap.mjs";
 import { validateStandards } from "./standards-validator.mjs";
 
 const usage = `pen-antd commands:
+  references update [--source PATH] [--repo OWNER/REPO] [--channel-file PATH] [--ttl MINUTES] [--force] [--home PATH]
   resolve [--channel-file PATH] [--home PATH] [--force]
   context resolve --input PATH [--prompt TEXT]
   component inspect NAME [--kit-root PATH]
@@ -39,6 +41,18 @@ export async function main(argv) {
   const [command, action, value] = positional;
   if (!command || options.help || command === "help") {
     process.stdout.write(usage);
+    return;
+  }
+
+  if (command === "references" && action === "update") {
+    output(await updateReferences({
+      source: options.source ? resolve(options.source) : undefined,
+      repo: options.repo,
+      channelFile: options["channel-file"] ? resolve(options["channel-file"]) : undefined,
+      ttl: options.ttl === undefined ? undefined : Number(options.ttl),
+      force: Boolean(options.force),
+      home: options.home,
+    }));
     return;
   }
 

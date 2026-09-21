@@ -1,48 +1,95 @@
 /**
  * @schema 2.18
- * @input color: string = ""
- * @input disabled: boolean = false
- * @input length: number = 0
- * @input size: enum("middle", "medium", "large", "small") = "middle"
- * @input status: enum("", "error", "warning", "success", "validating") = ""
+ * @input length: number = 6
  * @input value: string = ""
- * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
+ * @input size: enum("small", "middle", "large") = "middle"
+ * @input status: enum("default", "error", "warning") = "default"
+ * @input variant: enum("outlined", "filled", "borderless", "underlined") = "outlined"
+ * @input disabled: boolean = false
+ * @input mask: string = ""
+ * @input separator: string = ""
+ * @input separatorAltColors: boolean = false
  * @input primaryColor: color = #1677FF
+ * @input borderColor: string = ""
  */
 
 const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
+const W = Math.max(80, pencil.width);
 const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
+const fontSize = i.size === "small" ? 12 : i.size === "large" ? 16 : 14;
 const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
 
-  const fieldW = Math.max(1, pencil.width);
-  const fieldH = i.multiline ? H : h;
-  if (i.otp) {
-    const count=6,gap=8,bw=(fieldW-gap*(count-1))/count;
-    for(let n=0;n<count;n++){nodes.push(box(n*(bw+gap),0,bw,h,i.disabled?"#0000000A":bgFill,6,strokeCol));if(i.value)nodes.push(text(String(i.value)[n]||"",n*(bw+gap),7,bw,disabled,14,"normal","center"));}
-    return nodes;
+const text = (content, x, y, width, color = "#000000E0", fSize = 14, weight = "normal", align = "center") => ({
+  type: "text",
+  content: String(content),
+  x,
+  y,
+  width,
+  height: Math.max(16, fSize + 4),
+  fill: color,
+  fontFamily: "Inter",
+  fontSize: fSize,
+  fontWeight: weight,
+  textAlign: align,
+});
+
+const box = (x, y, width, height, fill = "#FFFFFF", radius = 6, stroke = "#D9D9D9", strokeWidth = 1) => ({
+  type: "rectangle",
+  x,
+  y,
+  width,
+  height,
+  cornerRadius: radius,
+  fill,
+  stroke,
+  strokeWidth,
+  strokeAlignment: "inner",
+});
+
+const disabledCol = "#00000040";
+const textCol = i.disabled ? disabledCol : "#000000E0";
+const borderCol = i.borderColor || (i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9");
+const bgFill = i.disabled ? "#0000000A" : (i.variant === "filled" ? "#00000005" : "#FFFFFF");
+const strokeCol = i.variant === "borderless" || i.variant === "underlined" ? "#00000000" : borderCol;
+
+const count = Math.max(1, Number(i.length) || 6);
+// 官方几何（antd 6 实测）：格子 26.5×32（含 paddingInline 4 + 边框 1）、columnGap 8；
+// separator 仅在传入时渲染（宽 7×22，颜色 rgba(0,0,0,0.88)），格子与分隔符之间同样隔 8px gap
+const gap = 8;
+const sep = i.separator ? String(i.separator) : "";
+const sepW = sep ? 7 : 0;
+const sepCount = sep ? count - 1 : 0;
+const cellW = i.size === "small" ? 24.5 : i.size === "large" ? 30.5 : 26.5;
+// 根容器按内容宽（inline-flex），不跟随 pencil.width 拉伸
+const totalW = count * cellW + sepCount * sepW + (count - 1 + sepCount) * gap;
+const textY = Math.round((h - (fontSize + 4)) / 2);
+
+let curX = 0;
+for (let n = 0; n < count; n++) {
+  // 格子矩形
+  nodes.push(box(curX, 0, cellW, h, bgFill, i.variant === "underlined" ? 0 : 6, strokeCol));
+  if (i.variant === "underlined") {
+    nodes.push(box(curX, h - 1, cellW, 1, borderCol, 0, borderCol, 0));
   }
-  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
-  let curX = pad;
-  if (i.prefix) {
-    nodes.push(text(i.prefix, curX, (h-18)/2, 20, "#00000040", 13));
-    curX += 20;
+
+  // 字符
+  const charVal = i.value && String(i.value)[n] ? String(i.value)[n] : "";
+  const displayChar = i.mask ? (charVal ? String(i.mask) : "") : charVal;
+  if (displayChar) {
+    nodes.push(text(displayChar, curX, textY, cellW, textCol, fontSize, "normal", "center"));
   }
-  const raw = i.value !== undefined && i.value !== "" ? i.value : (i.placeholder ?? (i.prefix ? "" : "请输入内容"));
-  const val = i.password && i.value ? "•".repeat(Math.max(6,String(i.value).length)) : raw;
-  const col = i.value ? disabled : "#00000040";
-  const center = i.textAlign === "center";
-  const suffixSpace=i.search?44:(i.allowClear?32:pad);
-  nodes.push(text(val, center ? 0 : curX, i.multiline?10:(h-18)/2, center ? fieldW : fieldW - curX - suffixSpace, col, 14, "normal", center ? "center" : "left"));
-  if (i.allowClear && i.value && !i.search) nodes.push(text("✕", fieldW - 24, (h-18)/2, 16, "#00000040", 12));
-  if(i.search){nodes.push(box(fieldW-40,0,40,h,primary,[0,6,6,0],primary));nodes.push(text("⌕",fieldW-40,6,40,"#fff",16,"normal","center"));}
+
+  curX += cellW;
+
+  // 分隔符（官方 demo 自定义函数分隔符按 index 交替蓝/红）
+  if (sep && n < count - 1) {
+    curX += gap;
+    const sepCol = i.separatorAltColors ? (n % 2 === 0 ? "#1677FF" : "#FF4D4F") : "#000000E0";
+    nodes.push(text(sep, curX, Math.round((h - 22) / 2), sepW, sepCol, 14, "normal", "center"));
+    curX += sepW + gap;
+  } else if (n < count - 1) {
+    curX += gap;
+  }
+}
+
 return nodes;
