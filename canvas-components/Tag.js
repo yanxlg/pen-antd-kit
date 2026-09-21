@@ -18,6 +18,6 @@ const lineHeight=s.lineHeight||20;
 const icon=(name,x,sz,color)=>({type:'ref',ref:'antd-icon-live-origin',name:'Icon · '+name,x,y:(H-sz)/2,width:sz,height:sz,inputs:{name,fontSize:sz,color}});
 const left=i.icon?7+size+7:7,right=i.closable?21:7,children=[];
 if(i.icon)children.push(icon(i.icon,7,size,fg));
-children.push({type:'text',name:'children',content:String(i.children??''),x:left,y:-1.5,width:Math.max(1,W-left-right),height:H,textGrowth:'fixed-width-height',textAlignVertical:'middle',fontFamily:'AlibabaSans',fontSize:size,lineHeight:lineHeight/size,fill:fg});
+children.push({type:'text',name:'children',content:String(i.children??''),x:left,y:-1,width:Math.max(1,W-left-right),height:H,textGrowth:'fixed-width-height',textAlignVertical:'middle',fontFamily:'AlibabaSans',fontSize:size,lineHeight:lineHeight/size,fill:fg});
 if(i.closable)children.push(icon(i.closeIcon||'CloseOutlined',W-17,10,s.closeColor||(i.variant==='solid'?'#FFFFFF':'#00000073')));
 return [{type:'frame',name:'Tag root',x:0,y:0,width:W,height:H,layout:'none',cornerRadius:s.borderRadius??4,fill:bg,stroke:border,strokeWidth:s.borderWidth??(i.bordered!==false&&i.variant==='outlined'?1:0),strokeAlignment:'inner',children}];

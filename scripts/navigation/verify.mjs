@@ -62,18 +62,20 @@ for(const group of compactGroups){
  const startSurface=new Function('pencil',buttonSource)({input:pair[0].inputs,width:pair[0].width,height:pair[0].height})[0],endSurface=new Function('pencil',buttonSource)({input:endTrigger.inputs,width:endTrigger.width,height:endTrigger.height})[0];
  const radius=group.inputs.size==='small'?4:6;assert.deepEqual(startSurface.cornerRadius,[radius,0,0,radius]);assert.deepEqual(endSurface.cornerRadius,[0,radius,radius,0]);
 }
-const compactDescriptor=label=>compactGroups.map(n=>[JSON.parse(n.inputs.child1),JSON.parse(n.inputs.child2)]).find(([a])=>a.inputs.children===label);
+const compactChildren=n=>JSON.parse(n.inputs.children);
+const compactDescriptor=label=>compactGroups.map(compactChildren).find(([a])=>a.inputs.children===label);
 for(const [label,iconName,danger] of [['With Tooltip','LoadingOutlined',false],['Danger','EllipsisOutlined',true]]){const pair=compactDescriptor(label),button=JSON.parse(pair[1].inputs.children),icon=JSON.parse(button.inputs.icon);assert.equal(icon.inputs.name,iconName);assert.equal(button.inputs.danger,danger);}
-const loadingPairs=compactGroups.map(n=>[JSON.parse(n.inputs.child1),JSON.parse(n.inputs.child2)]).filter(([a])=>a.inputs.children==='Submit');
+const loadingPairs=compactGroups.map(compactChildren).filter(([a])=>a.inputs.children==='Submit');
 const idlePrimary=loadingPairs.find(([a])=>a.inputs.type==='primary'&&!a.inputs.loading),idleDefault=loadingPairs.find(([a])=>a.inputs.type==='default');
 assert.equal(JSON.parse(JSON.parse(idlePrimary[1].inputs.children).inputs.icon).inputs.name,'EllipsisOutlined');assert.equal(JSON.parse(idlePrimary[1].inputs.children).inputs.type,'primary');
 assert.equal(JSON.parse(JSON.parse(idleDefault[1].inputs.children).inputs.icon).inputs.name,'DownOutlined');assert.equal(JSON.parse(idleDefault[1].inputs.children).inputs.type,'default');
 const parseChildren=n=>{try{return JSON.parse(n.inputs.children||'null')}catch{return null}};
 const dropdownLinks=instances.filter(n=>n.scriptUri.endsWith('/Dropdown.js')).map(n=>[n,parseChildren(n)]).filter(([,t])=>t?.name==='Dropdown link');
-assert(dropdownLinks.every(([,t])=>(t.children||[]).filter(n=>n.scriptUri?.endsWith('/Icon.js')).every(n=>n.inputs.color==='#1677FF')));const clickLink=dropdownLinks.find(([n])=>n.inputs.label==='Click me');assert.equal(clickLink[0].inputs.trigger,'click');assert.equal(clickLink[1].children.filter(n=>n.scriptUri?.endsWith('/Icon.js')).length,1,'Dropdown link must render exactly one arrow icon');
+assert(dropdownLinks.every(([,t])=>(t.children||[]).filter(n=>n.scriptUri?.endsWith('/Icon.js')).every(n=>n.inputs.color==='#1677FF')));const clickLink=dropdownLinks.find(([n])=>n.name==='Dropdown · Trigger mode');assert.equal(clickLink[0].inputs.trigger,'click');assert.equal(clickLink[1].children.filter(n=>n.scriptUri?.endsWith('/Icon.js')).length,1,'Dropdown link must render exactly one arrow icon');
 const styledDropdowns=instances.filter(n=>n.name==='Dropdown · Custom semantic dom styling');
-assert.equal(styledDropdowns.find(n=>n.inputs.label==='Function Style').inputs.trigger,'click');
-for(const n of styledDropdowns){const trigger=new Function('pencil',dropdownSource)({input:n.inputs,width:n.bounds.width,height:n.bounds.height})[0],surface=new Function('pencil',buttonSource)({input:trigger.inputs,width:trigger.width,height:trigger.height}),label=surface.find(x=>x.name==='children'),glyph=surface.find(x=>x.name==='icon');assert(glyph.x>=label.x+label.width+7&&glyph.x+glyph.width<=n.bounds.width-14,`${n.inputs.label} icon must preserve the official 8px content gap and button padding`);}
+assert.equal(styledDropdowns.find(n=>JSON.parse(n.inputs.children).inputs.children==='Function Style').inputs.trigger,'click');
+const findNested=(nodes,predicate)=>{const stack=[...nodes];while(stack.length){const node=stack.shift();if(predicate(node))return node;if(node.children)stack.unshift(...node.children)}};
+for(const n of styledDropdowns){const trigger=new Function('pencil',dropdownSource)({input:n.inputs,width:n.bounds.width,height:n.bounds.height})[0],surface=new Function('pencil',buttonSource)({input:trigger.inputs,width:trigger.width,height:trigger.height}),label=findNested(surface,x=>x.name==='children'),glyph=findNested(surface,x=>String(x.name).toLowerCase()==='icon');assert(glyph.x>=label.x+label.width+7&&glyph.x+glyph.width<=n.bounds.width-14,`${n.name} icon must preserve the official 8px content gap and button padding`);}
 
 const browser=await chromium.launch({channel:'chrome'});let checks=0;
 try{const page=await browser.newPage();await setup(page);await page.addStyleTag({content:'*{transition:none!important;animation:none!important}'});

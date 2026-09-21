@@ -1,5 +1,9 @@
 /**
  * @schema 2.18
+ * @input placeholder: string = "Start date"
+ * @input value: string = ""
+ * @input endValue: string = ""
+ * @input disabled: boolean = false
  * @input bordered: boolean = false
  * @input changeOnBlur: boolean = false
  * @input changeOnScroll: boolean = false
@@ -58,7 +62,7 @@ const iconPath=(geometry,viewBox,x,y,size=14,color="#00000040")=>({type:"path",x
   const val = i.value || i.placeholder || "请选择日期";
   nodes.push(text(val||"Start",pad,(h-18)/2,(W-56)/2,i.value?disabled:"#00000040",14));
   nodes.push(text("→",W/2-10,(h-18)/2,20,"#00000040",13,"normal","center"));
-  nodes.push(text(i.endValue||"End",W/2+14,(h-18)/2,(W-56)/2,"#00000040",14));
+  nodes.push(text(i.endValue||"End",W/2+14,(h-18)/2,(W-56)/2,i.endValue?disabled:"#00000040",14));
   nodes.push(iconPath("M880 184H712V120H640V184H384V120H312V184H144C126.3 184 112 198.3 112 216V880C112 897.7 126.3 912 144 912H880C897.7 912 912 897.7 912 880V216C912 198.3 897.7 184 880 184ZM840 840H184V460H840V840ZM184 392V256H312V304H384V256H640V304H712V256H840V392H184Z",[64,64,896,896],W-26,(h-14)/2,14));
   if (i.open) {
     const pw = Math.max(W, 260), ph = 200;

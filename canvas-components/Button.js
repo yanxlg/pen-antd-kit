@@ -485,7 +485,7 @@ if(hasIcon){
   const isDirectIconName=typeof i.icon==='string'&&/^[A-Z][A-Za-z0-9]+(Outlined|Filled|TwoTone)$/.test(i.icon);
   const iconName=(i.loading||i.state==='loading')?'LoadingOutlined':(selected?.name||(isDirectIconName?i.icon:undefined));
   if(iconObj){
-    nodes.push({...iconObj,x:iconX,y:iconY,width:iconObj.width||iconSize,height:iconObj.height||iconSize,inputs:{fontSize:iconSize,color:textColor,...(iconObj.inputs||{})}});
+    nodes.push({...iconObj,x:iconX,y:iconY,width:iconObj.width||iconSize,height:iconObj.height||iconSize,inputs:{...(iconObj.inputs||{}),fontSize:iconSize,color:textColor}});
   } else if(iconName){
     const {name,...iconInputs}=selected||{};
     nodes.push({type:'ref',name:iconName,context:'prop:icon',ref:'antd-icon-live-origin',x:iconX,y:iconY,width:iconSize,height:iconSize,inputs:{...iconInputs,name:iconName,fontSize:iconSize,color:textColor}});

@@ -8,6 +8,8 @@
  * @input inlineCollapsed: boolean = false
  * @input inlineIndent: number = 24
  * @input dropdownMenu: boolean = false
+ * @input rootWidth: number = 0
+ * @input submenuWidth: number = 0
  * @input selectable: boolean = true
  * @input multiple: boolean = false
  * @input classNames: string = "{}"
@@ -53,22 +55,28 @@ function renderNavigation(component, i, W, H, metrics) {
     });return nodes;
   }
   if(component==='Menu'){
-    const horizontal=i.mode==='horizontal',vertical=i.mode==='vertical',dark=i.theme==='dark',collapsed=!!i.inlineCollapsed,selected=parse(i.selectedKeys,[]),open=parse(i.openKeys,[]),styles=parse(i.styles,{})||{},rootStyle=styles.root||{},itemStyle=styles.item||{},classNames=parse(i.classNames,{})||{},base=dark?'#ffffffa6':(itemStyle.color||fg);
+    const horizontal=i.mode==='horizontal',vertical=i.mode==='vertical',dark=i.theme==='dark',collapsed=!!i.inlineCollapsed,selected=parse(i.selectedKeys,[]),open=parse(i.openKeys,[]),styles=parse(i.styles,{})||{},rootStyle=styles.root||{},itemStyle=styles.item||{},itemTitleStyle=styles.itemTitle||{},itemIconStyle=styles.itemIcon||{},itemContentStyle=styles.itemContent||{},classNames=parse(i.classNames,{})||{},base=dark?'#ffffffa6':(itemStyle.color||fg);
     const rootPad=Number(rootStyle.padding??0),rootBorder=Number(rootStyle.borderWidth??(rootStyle.border?1:0)),rootR=Number(rootStyle.borderRadius??0);
     const borderMatch=String(rootStyle.border||'').match(/#[0-9a-f]{3,8}|rgba?\([^)]+\)/i),rootBorderColor=rootStyle.borderColor||(borderMatch?borderMatch[0]:(rootBorder?border:undefined));
     const bg=rootStyle.backgroundColor||rootStyle.background||(dark?'#001529':'#ffffff');
     const openItem=!collapsed?items.find(it=>it.children&&open.includes(String(it.key))):null;
-    const rootW=vertical&&openItem?Math.min(256,W-164):W;
+    const submenuW=i.dropdownMenu?(Number(i.submenuWidth)||160):160;
+    const rootW=vertical&&openItem?(i.dropdownMenu?Math.min(Number(i.rootWidth)||(W-submenuW+4),W):Math.min(256,W-164)):W;
     const popupPlacement=i.popupPlacement||openItem?.popupPlacement||'rightTop';
     const isRightBottom=vertical&&openItem&&popupPlacement==='rightBottom';
     const popupH=openItem?(openItem.children.length*40+8):0;
     const openIdx=openItem?Math.max(0,items.findIndex(it=>it.key===openItem.key)):0;
+    const itemPadding=String(itemStyle.padding||'').match(/([\d.]+)px(?:\s+([\d.]+)px)?/),dropdownPadY=itemPadding?Number(itemPadding[1]):5,dropdownPadX=itemPadding?Number(itemPadding[2]??itemPadding[1]):12,dropdownItemHeight=itemPadding?22+dropdownPadY*2:32;
+    const dropdownSpan=item=>item.type==='divider'?9:item.type==='group'?32+(item.children||[]).reduce((sum,child)=>sum+dropdownSpan(child),0):dropdownItemHeight;
+    const dropdownOpenY=4+items.slice(0,openIdx).reduce((sum,item)=>sum+dropdownSpan(item),0);
     const triggerY=openIdx*44+4;
     const triggerBottom=triggerY+40;
     const rawPopupY=triggerBottom-popupH;
     const menuOffsetY=isRightBottom?Math.max(0,-rawPopupY):0;
     const menuH=isRightBottom?(H-menuOffsetY):horizontal?46:H;
-    nodes.push(rect('Menu surface',0,menuOffsetY,rootW,menuH,bg,rootR,rootBorderColor,rootBorder||1));
+    const menuSurface=rect('Menu surface',0,menuOffsetY,rootW,menuH,bg,rootR,rootBorderColor,rootBorder||1);
+    if(i.dropdownMenu&&openItem)menuSurface.effect={type:'shadow',shadowType:'outer',color:'#00000026',offset:{x:0,y:6},blur:16};
+    nodes.push(menuSurface);
     if(horizontal)nodes.push(rect('Menu border',0,45,W,1,dark?'rgba(255,255,255,0.12)':border));else if(!dark&&!i.dropdownMenu&&!rootBorderColor)nodes.push(rect('Menu border',rootW-1,menuOffsetY,1,menuH,border));
     let x=rootPad,y=(i.dropdownMenu?4:rootPad)+menuOffsetY,openItemX=rootPad;
     const containsSelected=item=>selected.includes(String(item.key))||(item.children||[]).some(containsSelected);
@@ -77,13 +85,19 @@ function renderNavigation(component, i, W, H, metrics) {
       if(item.type==='divider'){nodes.push(rect('Menu divider',i.dropdownMenu?4:rootPad,y+4,i.dropdownMenu?rootW-8:rootW-rootPad*2-1,1,dark?'rgba(255,255,255,0.12)':border));y+=i.dropdownMenu?9:5;continue;}
       if(item.type==='group'){if(i.dropdownMenu){nodes.push(text('Group label',item.label,12,y,rootW-24,32,dark?'#ffffff73':muted));y+=32;}else{nodes.push(text('Group label',item.label,16+depth*16+rootPad,y+12,rootW-32-depth*16-rootPad*2,22,dark?'#ffffff73':muted));y+=42;}draw(item.children||[],depth);continue;}
       const active=selected.includes(String(item.key)),selectedBranch=containsSelected(item),isOpen=open.includes(String(item.key)),color=item.disabled?disabled:(active||item.children&&selectedBranch)?(dark?'#ffffff':primary):item.danger?'#ff4d4f':(itemStyle.color||base);
-      const title=item.label??item.title??'',hasIcon=!!item.icon,labelWidth=horizontal?measureExact(title):measure(title)+1,iconSpace=hasIcon?24:0,left=collapsed?(rootW-16)/2:horizontal?16:(i.dropdownMenu?12:24)+depth*(i.inlineIndent??24),height=horizontal?46:i.dropdownMenu?32:40,width=horizontal?32+iconSpace+labelWidth:rootW-rootPad*2-(i.dropdownMenu||dark?8:9),px=horizontal?x:4+rootPad,py=horizontal?0:y+(i.dropdownMenu?0:4);
+      const title=item.label??item.title??'',hasIcon=!!item.icon,labelWidth=horizontal?measureExact(title):measure(title)+1,iconGap=Number(itemIconStyle.marginInlineEnd??10),iconSpace=hasIcon?14+iconGap:0,left=collapsed?(rootW-16)/2:horizontal?16:(i.dropdownMenu?dropdownPadX:24)+depth*(i.inlineIndent??24),height=horizontal?46:i.dropdownMenu?dropdownItemHeight:40,width=horizontal?32+iconSpace+labelWidth:rootW-rootPad*2-(i.dropdownMenu||dark?8:9),px=horizontal?x:4+rootPad,py=horizontal?0:y+(i.dropdownMenu?0:4);
       if(openItem&&String(item.key)===String(openItem.key))openItemX=x;
       if(active&&!horizontal)nodes.push(rect('Selected menu item',px,py,width,height,dark?primary:'#e6f4ff',8));
-      if(hasIcon)nodes.push(icon(item.icon,px+left,py+(height-14)/2,14,color));
+      if(hasIcon)nodes.push(icon(item.icon,px+left,py+(height-14)/2,14,itemIconStyle.color||color));
       if(!collapsed){
-        const tx=px+left+iconSpace,tw=horizontal?labelWidth:Math.max(1,width-left-iconSpace-(item.children?34:i.dropdownMenu?12:16));
-        nodes.push(content(title,tx,py+(height-22)/2,tw,22,color));
+        const tx=px+left+iconSpace,tw=horizontal?labelWidth:Math.max(1,width-left-iconSpace-(item.children?24:i.dropdownMenu?12:16));
+        const titleNode=content(title,tx,py+(height-22)/2,tw,22,color);
+        if(titleNode.type==='text'){
+          if(itemTitleStyle.fontWeight!==undefined)titleNode.fontWeight=String(itemTitleStyle.fontWeight);
+          if(itemStyle.fontSize!==undefined)titleNode.fontSize=Number(String(itemStyle.fontSize).replace('px',''))||14;
+          if(itemContentStyle.backgroundColor&&itemContentStyle.backgroundColor!=='transparent')titleNode.fill=itemContentStyle.color||color;
+        }
+        nodes.push(titleNode);
         if(item.extra&&!horizontal){
           const extraW=measureExact(item.extra,12);
           nodes.push(text('Menu item extra',item.extra,rootW-rootPad-extraW-12,py+(height-20)/2,extraW,20,muted,12,'normal','right'));
@@ -106,18 +120,19 @@ function renderNavigation(component, i, W, H, metrics) {
     if(openItem&&vertical){
       const popupTheme=openItem.theme||(dark?'dark':'light');
       const popupDark=popupTheme==='dark';
-      const popupW=160;
+      const popupW=submenuW;
       const subItemH=i.dropdownMenu?32:40;
       const popupH=openItem?(openItem.children.length*subItemH+8):0;
-      const popupY=isRightBottom?(menuOffsetY+rawPopupY):(openIdx*(i.dropdownMenu?32:44)+4);
-      nodes.push({...rect('Vertical popup surface',rootW+4,popupY,popupW,popupH,popupDark?'#001529':'#ffffff',8,'#0000000f',1),effect:{type:'shadow',shadowType:'outer',color:'#00000026',offset:{x:0,y:6},blur:16}});
+      const popupY=isRightBottom?(menuOffsetY+rawPopupY):(i.dropdownMenu?dropdownOpenY:openIdx*44+4);
+      const popupX=i.dropdownMenu?rootW-4:rootW+4;
+      nodes.push({...rect('Vertical popup surface',popupX,popupY,popupW,popupH,popupDark?'#001529':'#ffffff',8,'#0000000f',1),effect:{type:'shadow',shadowType:'outer',color:'#00000026',offset:{x:0,y:6},blur:16}});
       let py=popupY+4;
       for(const sub of openItem.children){
         const subActive=selected.includes(String(sub.key));
         const subColor=sub.disabled?disabled:subActive?(popupDark?'#ffffff':primary):(popupDark?'#ffffffa6':fg);
         const curH=i.dropdownMenu?32:36;
-        if(subActive)nodes.push(rect('Selected popup item',rootW+8,py,popupW-8,curH,popupDark?primary:'#e6f4ff',6));
-        nodes.push(text('Popup item label',sub.label||sub.title,rootW+20,py+(curH-22)/2,popupW-32,22,subColor));
+        if(subActive)nodes.push(rect('Selected popup item',popupX+4,py,popupW-8,curH,popupDark?primary:'#e6f4ff',6));
+        nodes.push(text('Popup item label',sub.label||sub.title,popupX+12,py+(curH-22)/2,popupW-24,22,subColor));
         py+=subItemH;
       }
     } else if(openItem&&horizontal){
@@ -651,15 +666,15 @@ function renderNavigation(component, i, W, H, metrics) {
     return nodes;
   }
   if(component==='Dropdown'){
-    const trigger=parse(i.children,null),tw=i.triggerWidth??120,th=i.triggerHeight??32;
+    const trigger=parse(i.children,null),tw=i.triggerWidth??120,th=i.triggerHeight??32,hideTrigger=!!i.hideTrigger;
     const compactInputs=i.compactPlacement&&i.compactPlacement!=='none'?{compactPlacement:i.compactPlacement,compactOrientation:i.compactOrientation||'horizontal',size:i.size||'middle'}:{};
     const isSplitButton=i.isButton||i.triggerType==='splitButton',isRegularButton=i.triggerType==='button';
     let triggerNode=null;
-    if(trigger?.type)triggerNode={...trigger,name:trigger.name||'Dropdown trigger',x:0,y:0,width:tw,height:th};
-    else if(isSplitButton)triggerNode=script('Dropdown.Button',{children:i.label||'Dropdown',type:i.buttonType||'default',danger:!!i.danger,disabled:!!i.disabled,size:i.size||'middle',icon:i.splitIcon||'DownOutlined'},0,0,tw,th);
+    if(hideTrigger)triggerNode=null;
+    else if(trigger?.type)triggerNode={...trigger,name:trigger.name||'Dropdown trigger',x:0,y:0,width:tw,height:th};
+    else if(isSplitButton)triggerNode=script('Dropdown.Button',{children:i.label||'Dropdown',type:i.buttonType||'default',danger:!!i.danger,disabled:!!i.disabled,loading:!!i.loading,size:i.size||'middle',icon:i.splitIcon||'DownOutlined'},0,0,tw,th);
     else if(isRegularButton){
-      const triggerIcon=i.showTriggerIcon?JSON.stringify(icon('DownOutlined',0,0,12)):'';
-      triggerNode=script('Button',{children:i.label||'Hover me',type:i.buttonType||'default',danger:!!i.danger,disabled:!!i.disabled,size:i.size||'middle',icon:triggerIcon,iconPlacement:'end'},0,0,tw,th);
+      triggerNode=script('Button',{children:i.label||'Hover me',type:i.buttonType||'default',danger:!!i.danger,disabled:!!i.disabled,size:i.size||'middle',icon:i.showTriggerIcon?'DownOutlined':'',iconPlacement:'end'},0,0,tw,th);
     }else{
       const label=i.label||'Hover me',labelW=Math.ceil(measureExact(label)),linkColor=i.disabled?disabled:primary;
       nodes.push(text('Dropdown link',label,0,(th-22)/2,labelW,22,linkColor));
@@ -670,9 +685,9 @@ function renderNavigation(component, i, W, H, metrics) {
       nodes.push(triggerNode);
     }
     if(i.open&&!i.disabled){
-      const menu=parse(i.menu,{items:[]}),naturalWidth=Math.max(tw,...(menu.items||[]).filter(x=>x.type!=='divider').map(x=>measure(x.label??'')+(x.icon?24:0)+(x.extra?measure(x.extra)+10:0)+32));
+      const menu=parse(i.menu,{items:[]}),naturalWidth=Math.max(tw,...(menu.items||[]).filter(x=>x.type!=='divider').map(x=>measure(x.label??'')+(x.icon?22:0)+(x.extra?measure(x.extra)+10:0)+32));
       const mw=Math.max(i.popupWidth??0,naturalWidth),hasFooter=!!menu.footer;
-      const baseH=(menu.items||[]).reduce((sum,item)=>sum+(item.type==='divider'?9:32),8)+(hasFooter?44:0);
+      const baseH=(menu.items||[]).reduce((sum,item)=>sum+(item.type==='divider'?9:32),8)+(hasFooter?49:0);
       const mh=Math.max(i.popupHeight??0,40,baseH);
       const placement=i.placement||'bottomLeft',top=placement.startsWith('top'),right=placement.endsWith('Right'),side=placement.startsWith('left')||placement.startsWith('right');
       const popupGap=i.arrow?12:4;
@@ -684,29 +699,35 @@ function renderNavigation(component, i, W, H, metrics) {
         else if(side&&placement.endsWith('Top'))py=th/2-20;
         else if(side&&placement.endsWith('Bottom'))py=th/2-(mh-20);
       }
-      nodes.push({...rect('Dropdown popup',px,py,mw,mh,'#fff',8),effect:{type:'shadow',shadowType:'outer',color:'#00000026',offset:{x:0,y:6},blur:16}});
-      nodes.push(script('Menu',{...menu,items:JSON.stringify(menu.items||[]),selectedKeys:JSON.stringify(menu.selectedKeys||[]),openKeys:JSON.stringify(menu.openKeys||[]),mode:'vertical',dropdownMenu:true},px,py,mw,hasFooter?mh-44:mh));
+      const hasOpenSubmenu=(menu.items||[]).some(item=>item.children&&(menu.openKeys||[]).map(String).includes(String(item.key)));
+      if(!hasOpenSubmenu)nodes.push({...rect('Dropdown popup',px,py,mw,mh,'#fff',8),effect:{type:'shadow',shadowType:'outer',color:'#00000026',offset:{x:0,y:6},blur:16}});
+      const {footer:menuFooter,...menuInputs}=menu;
+      nodes.push(script('Menu',{...menuInputs,items:JSON.stringify(menu.items||[]),selectedKeys:JSON.stringify(menu.selectedKeys||[]),openKeys:JSON.stringify(menu.openKeys||[]),styles:JSON.stringify(menu.styles||{}),classNames:JSON.stringify(menu.classNames||{}),mode:'vertical',dropdownMenu:true},px,py,mw,hasFooter?mh-49:mh));
       if(hasFooter){
-        nodes.push(rect('Popup footer divider',px,py+mh-44,mw,1,'#0505050f'));
-        nodes.push(script('Button',{children:menu.footer.text||'Click me',type:menu.footer.type||'primary',size:'small'},px+12,py+mh-36,mw-24,28));
+        const footerLabel=menu.footer.text||'Click me',footerW=Math.max(64,Math.ceil(measureExact(footerLabel))+30);
+        nodes.push(rect('Popup footer divider',px,py+mh-49,mw,1,'#0505050f'));
+        nodes.push(script('Button',{children:footerLabel,type:menu.footer.type||'primary'},px+8,py+mh-40,footerW,32));
       }
       if(i.arrow){
-        let arrowX,arrowY,arrowW,arrowH,arrowGeometry,shadowOffset;
-        const arrowUp='M 0 8 A 4 4 0 0 0 2.828 6.828 L 6.586 3.071 A 2 2 0 0 1 9.414 3.071 L 13.172 6.828 A 4 4 0 0 0 16 8 Z';
-        const arrowDown='M 0 0 A 4 4 0 0 1 2.828 1.172 L 6.586 4.929 A 2 2 0 0 0 9.414 4.929 L 13.172 1.172 A 4 4 0 0 1 16 0 Z';
-        const arrowRight='M 0 0 A 4 4 0 0 1 1.172 2.828 L 4.929 6.586 A 2 2 0 0 0 4.929 9.414 L 1.172 13.172 A 4 4 0 0 1 0 16 Z';
-        const arrowLeft='M 8 0 A 4 4 0 0 0 6.828 2.828 L 3.071 6.586 A 2 2 0 0 1 3.071 9.414 L 6.828 13.172 A 4 4 0 0 0 8 16 Z';
+        let arrowX,arrowY,arrowW,arrowH,arrowGeometry,seamX,seamY,seamW,seamH;
+        const arrowUp='M 0 8 A 4 4 0 0 0 2.82843 6.82843 L 6.58579 3.07107 A 2 2 0 0 1 9.41421 3.07107 L 13.1716 6.82843 A 4 4 0 0 0 16 8 Z';
+        const arrowDown='M 0 0 A 4 4 0 0 1 2.82843 1.17157 L 6.58579 4.92893 A 2 2 0 0 0 9.41421 4.92893 L 13.1716 1.17157 A 4 4 0 0 1 16 0 Z';
+        const arrowRight='M 0 0 A 4 4 0 0 1 1.17157 2.82843 L 4.92893 6.58579 A 2 2 0 0 0 4.92893 9.41421 L 1.17157 13.1716 A 4 4 0 0 1 0 16 Z';
+        const arrowLeft='M 8 0 A 4 4 0 0 0 6.82843 2.82843 L 3.07107 6.58579 A 2 2 0 0 1 3.07107 9.41421 L 6.82843 13.1716 A 4 4 0 0 0 8 16 Z';
         if(side){
           const pointsRight=placement.startsWith('left');
-          arrowX=pointsRight?px+mw:px-8;
+          arrowX=pointsRight?px+mw-.25:px-4.75;
           arrowY=placement.endsWith('Top')?py+12:placement.endsWith('Bottom')?py+mh-28:py+(mh-16)/2;
-          arrowW=8;arrowH=16;arrowGeometry=pointsRight?arrowRight:arrowLeft;shadowOffset={x:pointsRight?1:-1,y:0};
+          arrowW=5;arrowH=16;arrowGeometry=pointsRight?arrowRight:arrowLeft;
+          seamX=pointsRight?px+mw-2:px;seamY=arrowY;seamW=2;seamH=16;
         }else{
           arrowX=placement.endsWith('Left')?px+12:placement.endsWith('Right')?px+mw-28:px+(mw-16)/2;
-          arrowY=top?py+mh:py-8;
-          arrowW=16;arrowH=8;arrowGeometry=top?arrowDown:arrowUp;shadowOffset={x:0,y:top?1:-1};
+          arrowY=top?py+mh-.25:py-4.75;
+          arrowW=16;arrowH=5;arrowGeometry=top?arrowDown:arrowUp;
+          seamX=arrowX;seamY=top?py+mh-2:py;seamW=16;seamH=2;
         }
-        nodes.push({type:'path',name:'Popup arrow',x:arrowX,y:arrowY,width:arrowW,height:arrowH,geometry:arrowGeometry,fill:'#fff',stroke:'#0000000f',strokeWidth:.5,effect:{type:'shadow',shadowType:'outer',color:'#0000001f',offset:shadowOffset,blur:2}});
+        nodes.push(rect('Popup arrow seam',seamX,seamY,seamW,seamH,'#fff'));
+        nodes.push({type:'path',name:'Popup arrow',x:arrowX,y:arrowY,width:arrowW,height:arrowH,geometry:arrowGeometry,fill:'#fff'});
       }
     }return nodes;
   }

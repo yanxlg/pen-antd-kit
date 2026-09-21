@@ -29,16 +29,18 @@ const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
   const isChecked = !!i.checked;
   const isMixed = !!i.indeterminate;
   const controlY = (pencil.height-s)/2;
-  const activeFill = i.disabled ? "#F5F5F5" : primary;
-  const activeMark = i.disabled ? "#BFBFBF" : "#FFFFFF";
+  const disabledFill = "#F5F5F5";
+  const disabledMark = "#BFBFBF";
+  const activeFill = i.disabled ? disabledFill : primary;
+  const activeMark = i.disabled ? disabledMark : "#FFFFFF";
   nodes.push({
     type:"rectangle", x:0, y:controlY, width:s, height:s, cornerRadius:4,
-    fill:isChecked ? activeFill : "#FFFFFF",
+    fill:i.disabled ? disabledFill : (isChecked ? activeFill : "#FFFFFF"),
     stroke:i.disabled ? "#D9D9D9" : (isChecked ? primary : "#D9D9D9"),
     strokeWidth:1,
   });
   if (isMixed) {
-    nodes.push({type:"rectangle", x:4, y:controlY+4, width:8, height:8, cornerRadius:1, fill:i.disabled?"#BFBFBF":primary});
+    nodes.push({type:"rectangle", x:4, y:controlY+4, width:8, height:8, cornerRadius:1, fill:i.disabled?disabledMark:primary});
   } else if (isChecked) {
     nodes.push({
       type:"path", x:3, y:controlY+4, width:10, height:8,

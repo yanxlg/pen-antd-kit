@@ -56,8 +56,41 @@ const iconPath=(geometry,viewBox,x,y,size=14,color="#00000040")=>({type:"path",x
 
   nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
   if (i.multiple) {
-    nodes.push(box(6, (h-22)/2, 48, 22, "#F5F5F5", 4, "#D9D9D9"));
-    nodes.push(text("标签", 10, (h-16)/2, 36, "#000000D9", 11));
+    const label = String(i.value || "").trim();
+    if (label) {
+      const tagHeight = i.size === "small" ? 16 : i.size === "large" ? 32 : 24;
+      const tagFontSize = i.size === "small" ? 12 : 14;
+      const labelWidth = Array.from(label).reduce((width, char) => {
+        if (/\s/.test(char)) return width + tagFontSize * 0.25;
+        if (/[ilI|]/.test(char)) return width + tagFontSize * 0.29;
+        if (/[-_./]/.test(char)) return width + tagFontSize * 0.36;
+        if (/\d/.test(char)) return width + tagFontSize * 0.54;
+        if (/[A-Z]/.test(char)) return width + tagFontSize * 0.64;
+        if (char.charCodeAt(0) > 255) return width + tagFontSize;
+        return width + tagFontSize * 0.57;
+      }, tagFontSize * 0.25);
+      const tagWidth = Math.min(W - 38, Math.max(40, Math.ceil(labelWidth + (i.disabled ? 14 : 28))));
+      nodes.push({
+        type:"script",
+        name:"Selection tag",
+        scriptUri:"../canvas-components/Tag.js",
+        x:6,
+        y:(h-tagHeight)/2,
+        width:tagWidth,
+        height:tagHeight,
+        inputs:{
+          children:label,
+          closable:!i.disabled,
+          disabled:!!i.disabled,
+          bordered:false,
+          variant:"filled",
+          styles:JSON.stringify({root:{fontSize:tagFontSize,lineHeight:tagHeight-2,backgroundColor:"#F5F5F5",borderRadius:4}})
+        }
+      });
+    } else {
+      const placeholder = i.placeholder ?? "请选择";
+      nodes.push(text(placeholder, pad, (h-18)/2, W - 32 - pad, "#00000040", 14));
+    }
   } else {
     const val = i.value || (i.placeholder ?? "请选择");
     nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));

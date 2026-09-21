@@ -5,7 +5,7 @@
  * @input vertical: boolean = false
  * @input size: string = "small"
  * @input align: enum("start", "center", "end", "baseline")
- * @input separator: string
+ * @input separator: ref
  * @input wrap: boolean = false
  * @input classNames: string = "{}"
  * @input styles: string = "{}"
@@ -19,7 +19,7 @@ const __output = (() => {
  * @input vertical: boolean = false
  * @input size: string = "small"
  * @input align: enum("start", "center", "end", "baseline")
- * @input separator: string
+ * @input separator: ref
  * @input wrap: boolean = false
  * @input classNames: string = "{}"
  * @input styles: string = "{}"
@@ -31,7 +31,7 @@ const text=(name,content,x,y,width,height,color='#000000E0',size=14,weight='norm
 const rect=(name,x,y,width,height,fill,radius=0)=>({type:'rectangle',name,x,y,width:Math.max(0,width),height:Math.max(0,height),fill,cornerRadius:radius});
 const child=(ref,name,x,y,width,height,inputs)=>({type:'ref',ref,name,x,y,width,height,...(values[ref]||{}),...(inputs?{inputs:{...(values[ref]?.inputs||{}),...inputs}}:{})});
 const parse=(value,fallback)=>{if(value===undefined||value===null||value==='')return fallback;try{return typeof value==='string'?JSON.parse(value):value}catch{return fallback}};
-const raw=parse(i.children,[]),items=(Array.isArray(raw)?raw:[]).map((a,index)=>typeof a==='string'?{k:index+1,ref:a,w:80,h:32}:{k:index+1,ref:a.ref||a.children,w:Math.max(0,a.width??80),h:Math.max(0,a.height??32)});
+const raw=parse(i.children,[]),items=(Array.isArray(raw)?raw:[]).map((a,index)=>typeof a==='string'?{k:index+1,ref:a,w:80,h:32}:a&&a.type?{k:index+1,node:a,w:Math.max(0,a.width??80),h:Math.max(0,a.height??32)}:{k:index+1,ref:a.ref||a.children,w:Math.max(0,a.width??80),h:Math.max(0,a.height??32)});
 const vertical=i.orientation==='vertical'||i.vertical,preset={small:8,middle:16,medium:16,large:24},sizeValue=parse(i.size,i.size),sizePair=Array.isArray(sizeValue)?sizeValue:[sizeValue,sizeValue],gap=preset[sizePair[0]]??Math.max(0,Number(sizePair[0])||0),crossGap=preset[sizePair[1]]??Math.max(0,Number(sizePair[1])||0),limit=vertical?H:W,lines=[[]];let used=0;
 for(const a of items){const main=vertical?a.h:a.w;if(i.wrap&&lines.at(-1).length&&used+gap+main>limit){lines.push([]);used=0;}lines.at(-1).push(a);used+=main+(used?gap:0);}
 let cross=0;for(const line of lines){let total=line.reduce((s,a)=>s+(vertical?a.h:a.w),0)+gap*Math.max(0,line.length-1),free=Math.max(0,limit-total),justify=i.justify||'start',step=gap,main=0;
@@ -39,7 +39,7 @@ if(justify==='center')main=free/2;else if(justify==='end'||justify==='flex-end')
 const maxCross=i.wrap?Math.max(...line.map(a=>vertical?a.w:a.h)):(vertical?W:H);
 for(let index=0;index<line.length;index++){const a=line[index],align=i.align||(vertical?'start':'center');let cw=a.w,ch=a.h,offset=0;if(align==='stretch'||(vertical&&align==='normal')){if(vertical)cw=maxCross;else ch=maxCross;}else if(align==='center'||align==='middle')offset=(maxCross-(vertical?cw:ch))/2;else if(align==='end'||align==='flex-end'||align==='bottom')offset=maxCross-(vertical?cw:ch);
 if(align==='baseline'&&!vertical)offset=Math.max(...line.map(b=>b.h/2+6))-ch/2-6;const x=vertical?cross+offset:main,y=vertical?main:cross+offset;
-nodes.push(child(a.ref,'children['+(a.k-1)+']',x,y,cw,ch,undefined));main+=(vertical?ch:cw)+step;
+if(a.node)nodes.push({...a.node,name:a.node.name||'children['+(a.k-1)+']',x,y,width:cw,height:ch});else nodes.push(child(a.ref,'children['+(a.k-1)+']',x,y,cw,ch,undefined));main+=(vertical?ch:cw)+step;
 if(i.separator&&index<line.length-1)nodes.push(child(i.separator,'separator',vertical?0:main-gap/2-8,vertical?main-gap/2-6.3:(H-12.6)/2,17,12.6));
 }cross+=maxCross+crossGap;}
 return nodes;

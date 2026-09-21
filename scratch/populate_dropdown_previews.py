@@ -13,6 +13,14 @@ const dropdownMenu = JSON.stringify({
   ]
 });
 
+// The imported example columns already have their own fixed width. Horizontal
+// padding here made every card 16px narrower, enlarged the center gutter, and
+// left the fixed-width metadata dividers hanging outside the card.
+Update('vRp8M', { padding: 0 });
+const rightColumn = Get('AXfIF');
+const rightColumnPadding = Array.isArray(rightColumn.padding) ? rightColumn.padding : [0, 0, 0, 0];
+Update('AXfIF', { padding: [0, 0, Number(rightColumnPadding[2]) || 0, 0] });
+
 function dropdownDemo(parent, placement, options = {}) {
   const tileWidth = 248;
   const tileHeight = 168;
@@ -198,7 +206,7 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('ADi4g');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 292, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  Update(p.id, { height: 408, layout: 'vertical', padding: 24, gap: 16, clip: false });
   const buttonMenu = JSON.stringify({
     items: [
       { key: '1', label: '1st menu item', icon: 'UserOutlined' },
@@ -211,7 +219,7 @@ function dropdownGrid(preview, placements, options = {}) {
     type: 'frame',
     name: 'Dropdown button variants · row 1',
     width: 'fill_container',
-    height: 176,
+    height: 172,
     layout: 'none',
     clip: false
   });
@@ -219,7 +227,7 @@ function dropdownGrid(preview, placements, options = {}) {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown button · Ellipsis',
-    x: 0,
+    x: 46,
     y: 0,
     width: 134,
     height: 32,
@@ -228,7 +236,7 @@ function dropdownGrid(preview, placements, options = {}) {
       isButton: true,
       splitIcon: 'EllipsisOutlined',
       open: true,
-      placement: 'bottomLeft',
+      placement: 'bottomRight',
       popupWidth: 180,
       popupHeight: 136,
       triggerWidth: 134,
@@ -239,17 +247,27 @@ function dropdownGrid(preview, placements, options = {}) {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown button · User icon',
-    x: 210,
+    x: 306,
     y: 0,
     width: 134,
     height: 32,
-    inputs: { label: 'Dropdown', isButton: true, splitIcon: 'UserOutlined', triggerWidth: 134, menu: buttonMenu }
+    inputs: {
+      label: 'Dropdown',
+      isButton: true,
+      splitIcon: 'UserOutlined',
+      open: true,
+      placement: 'bottomRight',
+      popupWidth: 180,
+      popupHeight: 136,
+      triggerWidth: 134,
+      menu: buttonMenu
+    }
   });
   Insert(row1, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown button · Disabled',
-    x: 420,
+    x: 566,
     y: 0,
     width: 134,
     height: 32,
@@ -259,33 +277,70 @@ function dropdownGrid(preview, placements, options = {}) {
     type: 'frame',
     name: 'Dropdown button variants · row 2',
     width: 'fill_container',
-    layout: 'horizontal',
-    gap: 76,
+    height: 172,
+    layout: 'none',
     clip: false
   });
   Insert(row2, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown button · Loading icon',
+    x: 46,
+    y: 0,
     width: 143,
     height: 32,
-    inputs: { label: 'With Tooltip', isButton: true, splitIcon: 'LoadingOutlined', triggerWidth: 143, menu: buttonMenu }
+    inputs: {
+      label: 'With Tooltip',
+      isButton: true,
+      splitIcon: 'LoadingOutlined',
+      open: true,
+      placement: 'bottomRight',
+      popupWidth: 180,
+      popupHeight: 136,
+      triggerWidth: 143,
+      menu: buttonMenu
+    }
   });
   Insert(row2, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown · Regular button',
+    x: 306,
+    y: 0,
     width: 96,
     height: 32,
-    inputs: { label: 'Button', triggerType: 'button', showTriggerIcon: true, triggerWidth: 96, menu: buttonMenu }
+    inputs: {
+      label: 'Button',
+      triggerType: 'button',
+      showTriggerIcon: true,
+      open: true,
+      placement: 'bottomLeft',
+      popupWidth: 180,
+      popupHeight: 136,
+      triggerWidth: 96,
+      menu: buttonMenu
+    }
   });
   Insert(row2, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown button · Danger',
+    x: 566,
+    y: 0,
     width: 113,
     height: 32,
-    inputs: { label: 'Danger', isButton: true, splitIcon: 'EllipsisOutlined', danger: true, triggerWidth: 113, menu: buttonMenu }
+    inputs: {
+      label: 'Danger',
+      isButton: true,
+      splitIcon: 'EllipsisOutlined',
+      danger: true,
+      open: true,
+      placement: 'bottomRight',
+      popupWidth: 180,
+      popupHeight: 136,
+      triggerWidth: 113,
+      menu: buttonMenu
+    }
   });
 }
 
@@ -293,27 +348,36 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('JWeW7');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 230, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  Update(p.id, { height: 272, layout: 'vertical', padding: 24, gap: 16, clip: false });
   Insert(p.id, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown instance · Cascading menu',
-    width: 140,
+    width: 315,
     height: 32,
     inputs: {
       label: 'Cascading menu',
       open: true,
-      triggerWidth: 140,
-      popupWidth: 330,
-      popupHeight: 140,
+      triggerWidth: 133,
+      popupWidth: 315,
+      popupHeight: 168,
       menu: JSON.stringify({
         items: [
-          { key: '1', label: '1st menu item' },
-          { key: '2', label: '2nd menu item' },
-          { key: 'sub1', label: 'sub menu', children: [{ key: 'sub1-1', label: '3rd menu item' }, { key: 'sub1-2', label: '4th menu item' }] },
-          { key: 'sub2', label: 'disabled sub menu', disabled: true, children: [{ key: 'sub2-1', label: '5th menu item' }] }
+          {
+            key: '1',
+            type: 'group',
+            label: 'Group title',
+            children: [
+              { key: '1-1', label: '1st menu item' },
+              { key: '1-2', label: '2nd menu item' }
+            ]
+          },
+          { key: '2', label: 'sub menu', children: [{ key: '2-1', label: '3rd menu item' }, { key: '2-2', label: '4th menu item' }] },
+          { key: '3', label: 'disabled sub menu', disabled: true, children: [{ key: '3-1', label: '5d menu item' }, { key: '3-2', label: '6th menu item' }] }
         ],
-        openKeys: ['sub1']
+        openKeys: ['2'],
+        rootWidth: 190,
+        submenuWidth: 129
       })
     }
   });
@@ -323,16 +387,13 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('K67462');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 240, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  Update(p.id, { height: 272, layout: 'vertical', padding: 24, gap: 16, clip: false });
   const box = Insert(p.id, {
     type: 'frame',
     name: 'Context menu trigger box',
-    width: 770,
-    height: 190,
+    width: 'fill_container',
+    height: 200,
     fill: '#F5F5F5',
-    stroke: '#D9D9D9',
-    strokeWidth: 1,
-    cornerRadius: 8,
     layout: 'none',
     clip: false
   });
@@ -345,24 +406,38 @@ function dropdownGrid(preview, placements, options = {}) {
     fontFamily: 'AlibabaSans',
     x: 0,
     y: 0,
-    width: 770,
-    height: 190,
+    width: 756,
+    height: 200,
+    textGrowth: 'fixed-width-height',
     textAlign: 'center',
     textAlignVertical: 'middle'
+  });
+  Insert(box, {
+    type: 'path',
+    name: 'Cursor arrow hint',
+    x: 488,
+    y: 88,
+    width: 16,
+    height: 18,
+    viewBox: [0, 0, 16, 18],
+    geometry: 'M 1 1 L 1 15.2 L 4.9 11.6 L 7.6 17 L 10.4 15.6 L 7.8 10.5 L 14 10.1 Z',
+    fill: '#FFFFFF',
+    stroke: '#00000073',
+    strokeWidth: 1.25
   });
   Insert(box, {
     type: 'script',
     scriptUri: '../canvas-components/Dropdown.js',
     name: 'Dropdown instance · Context Menu Open',
-    x: 80,
-    y: 35,
+    x: 500,
+    y: 100,
     width: 160,
     height: 32,
     inputs: {
-      label: '',
+      hideTrigger: true,
       open: true,
-      triggerWidth: 0,
-      triggerHeight: 0,
+      triggerWidth: 1,
+      triggerHeight: 1,
       popupWidth: 160,
       popupHeight: 104,
       menu: JSON.stringify({
@@ -390,14 +465,16 @@ function dropdownGrid(preview, placements, options = {}) {
     inputs: {
       label: 'Selectable',
       open: true,
-      popupWidth: 180,
+      triggerWidth: 92,
+      popupWidth: 92,
       popupHeight: 104,
       menu: JSON.stringify({
         items: [
-          { key: '1', label: '1st menu item' },
-          { key: '2', label: '2nd menu item' },
-          { key: '3', label: '3rd menu item' }
+          { key: '1', label: 'Item 1' },
+          { key: '2', label: 'Item 2' },
+          { key: '3', label: 'Item 3' }
         ],
+        selectable: true,
         selectedKeys: ['3']
       })
     }
@@ -408,43 +485,82 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('JZ4Os');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 200, layout: 'vertical', padding: 24, gap: 16, clip: false });
-  const row = Insert(p.id, {
+  Update(p.id, { height: 388, layout: 'vertical', padding: 24, gap: 24, clip: false });
+  const semanticItems = [
+    { key: '1', label: 'Profile' },
+    { key: '2', label: 'Settings', icon: 'SettingOutlined' },
+    { type: 'divider' },
+    { key: '3', label: 'Logout', icon: 'LogoutOutlined', danger: true }
+  ];
+  const objectRow = Insert(p.id, {
     type: 'frame',
-    name: 'Style buttons row',
+    name: 'Object semantic style',
     width: 'fill_container',
-    layout: 'horizontal',
-    gap: 16,
+    height: 167,
+    layout: 'none',
     clip: false
   });
-  Insert(row, {
+  Insert(objectRow, {
     type: 'ref',
     ref: 'ScSFh',
     name: 'Dropdown instance · Object Style Open',
-    width: 120,
+    x: 0,
+    y: 0,
+    width: 126,
     height: 32,
     inputs: {
       label: 'Object Style',
+      triggerType: 'button',
+      showTriggerIcon: true,
       open: true,
-      triggerWidth: 120,
-      popupWidth: 180,
-      popupHeight: 104,
+      triggerWidth: 126,
+      popupWidth: 160,
+      popupHeight: 131,
       menu: JSON.stringify({
-        items: [
-          { key: '1', label: '1st menu item' },
-          { key: '2', label: '2nd menu item' },
-          { key: '3', label: '3rd menu item' }
-        ]
+        items: semanticItems,
+        styles: {
+          root: { backgroundColor: '#FFFFFF', border: '1px solid #D9D9D9', borderRadius: 4 },
+          item: { padding: '8px 12px', fontSize: '14px' },
+          itemTitle: { fontWeight: '500' },
+          itemIcon: { color: '#1890FF', marginInlineEnd: 8 },
+          itemContent: { backgroundColor: 'transparent' }
+        }
       })
     }
   });
-  Insert(row, {
-    type: 'script',
-    scriptUri: '../canvas-components/Button.js',
-    name: 'Button · Function Style',
-    width: 120,
+  const functionRow = Insert(p.id, {
+    type: 'frame',
+    name: 'Function semantic style',
+    width: 'fill_container',
+    height: 149,
+    layout: 'none',
+    clip: false
+  });
+  Insert(functionRow, {
+    type: 'ref',
+    ref: 'ScSFh',
+    name: 'Dropdown instance · Function Style Open',
+    x: 0,
+    y: 0,
+    width: 142,
     height: 32,
-    inputs: { children: 'Function Style', type: 'default' }
+    inputs: {
+      label: 'Function Style',
+      triggerType: 'button',
+      buttonType: 'primary',
+      showTriggerIcon: true,
+      trigger: 'click',
+      open: true,
+      triggerWidth: 142,
+      popupWidth: 160,
+      popupHeight: 113,
+      menu: JSON.stringify({
+        items: semanticItems,
+        styles: {
+          root: { backgroundColor: '#FAFAFA', borderColor: '#1890FF', borderWidth: 1, borderRadius: 8 }
+        }
+      })
+    }
   });
 }
 
@@ -532,7 +648,7 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('D0ro0');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 220, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  Update(p.id, { height: 252, layout: 'vertical', padding: 24, gap: 16, clip: false });
   Insert(p.id, {
     type: 'ref',
     ref: 'ScSFh',
@@ -542,14 +658,15 @@ function dropdownGrid(preview, placements, options = {}) {
     inputs: {
       label: 'Hover me',
       open: true,
-      popupWidth: 180,
-      popupHeight: 120,
+      popupWidth: 280,
+      popupHeight: 148,
       menu: JSON.stringify({
         items: [
           { key: '1', label: '1st menu item' },
-          { key: '2', label: '2nd menu item' }
+          { key: '2', label: '2nd menu item (disabled)', disabled: true },
+          { key: '3', label: '3rd menu item (disabled)', disabled: true }
         ],
-        footer: { text: 'Click me', type: 'primary' }
+        footer: { text: 'Click me!', type: 'primary' }
       })
     }
   });
@@ -587,53 +704,63 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('u8Bnr');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 240, layout: 'vertical', padding: 24, gap: 16, clip: false });
-  const row = Insert(p.id, {
+  Update(p.id, { height: 252, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  const loadingMenu = JSON.stringify({
+    items: [{ key: '1', label: 'Submit and continue' }]
+  });
+  const stack = Insert(p.id, {
     type: 'frame',
-    name: 'Loading buttons row',
+    name: 'Loading button variants',
     width: 'fill_container',
-    layout: 'horizontal',
-    gap: 12,
+    height: 144,
+    layout: 'vertical',
+    gap: 8,
     clip: false
   });
-  Insert(row, {
+  Insert(stack, {
     type: 'ref',
     ref: 'ScSFh',
-    name: 'Dropdown.Button instance · Submit Open',
+    name: 'Loading compact · Primary',
+    width: 132,
+    height: 32,
+    inputs: {
+      label: 'Submit', isButton: true, buttonType: 'primary', loading: true,
+      splitIcon: 'EllipsisOutlined', triggerWidth: 132, menu: loadingMenu
+    }
+  });
+  Insert(stack, {
+    type: 'ref',
+    ref: 'ScSFh',
+    name: 'Loading compact · Primary small',
+    width: 108,
+    height: 24,
+    inputs: {
+      label: 'Submit', isButton: true, buttonType: 'primary', loading: true, size: 'small',
+      triggerHeight: 24, splitIcon: 'EllipsisOutlined', triggerWidth: 108, menu: loadingMenu
+    }
+  });
+  Insert(stack, {
+    type: 'ref',
+    ref: 'ScSFh',
+    name: 'Loading compact · Primary interactive',
     width: 110,
     height: 32,
     inputs: {
-      label: 'Submit',
-      isButton: true,
-      open: true,
-      placement: 'bottomLeft',
-      triggerWidth: 110,
-      popupWidth: 180,
-      popupHeight: 104,
-      menu: JSON.stringify({
-        items: [
-          { key: '1', label: 'Submit and continue' },
-          { key: '2', label: 'Save draft' },
-          { key: '3', label: 'Discard changes', danger: true }
-        ]
-      })
+      label: 'Submit', isButton: true, buttonType: 'primary',
+      splitIcon: 'EllipsisOutlined', triggerWidth: 110, menu: loadingMenu
     }
   });
-  Insert(row, {
+  Insert(stack, {
     type: 'ref',
-    ref: 'M3zf3',
-    name: 'Dropdown.Button · Small',
-    width: 96,
-    height: 24,
-    inputs: { children: 'Submit', size: 'small' }
-  });
-  Insert(row, {
-    type: 'ref',
-    ref: 'M3zf3',
-    name: 'Dropdown.Button · Default',
+    ref: 'ScSFh',
+    name: 'Loading compact · Default interactive',
     width: 110,
     height: 32,
-    inputs: { children: 'Submit' }
+    inputs: {
+      label: 'Submit', isButton: true, open: true, placement: 'bottomLeft',
+      splitIcon: 'DownOutlined', triggerWidth: 110, popupWidth: 160, popupHeight: 40,
+      menu: loadingMenu
+    }
   });
 }
 
@@ -641,23 +768,25 @@ function dropdownGrid(preview, placements, options = {}) {
 {
   const p = Get('rmp8y');
   for (const c of p.children || []) Delete(c.id);
-  Update(p.id, { height: 240, layout: 'vertical', padding: 24, gap: 16, clip: false });
+  Update(p.id, { height: 264, layout: 'vertical', padding: 24, gap: 16, clip: false });
   const box = Insert(p.id, {
     type: 'frame',
     name: 'Selection container',
-    width: 770,
-    height: 190,
+    width: 'fill_container',
+    height: 114,
+    fill: '#F5F5F5',
+    cornerRadius: 8,
     layout: 'none',
     clip: false
   });
   Insert(box, {
     type: 'text',
     name: 'Selection paragraph',
-    content: 'Select any text in this paragraph to open a Dropdown menu near the selection. This is useful for actions such as masking sensitive words, marking entities, etc.',
-    x: 0,
-    y: 0,
-    width: 770,
-    height: 60,
+    content: 'Select any text in this paragraph to open a Dropdown menu near the selection. This is useful\\nfor actions such as                                      , marking entities, or searching the selected\\nkeyword. Example data: Alice, phone 13800138000, ID 110101199001011234.',
+    x: 24,
+    y: 24,
+    width: 708,
+    height: 66,
     fontFamily: 'AlibabaSans',
     fontSize: 14,
     lineHeight: 1.5714,
@@ -667,20 +796,20 @@ function dropdownGrid(preview, placements, options = {}) {
   Insert(box, {
     type: 'rectangle',
     name: 'Selection highlight',
-    x: 104,
-    y: 22,
-    width: 172,
+    x: 139,
+    y: 46,
+    width: 154,
     height: 22,
     fill: '#1677FF',
-    cornerRadius: 2
+    cornerRadius: 0
   });
   Insert(box, {
     type: 'text',
     name: 'Highlighted text',
     content: 'masking sensitive words',
-    x: 108,
-    y: 22,
-    width: 164,
+    x: 139,
+    y: 46,
+    width: 154,
     height: 22,
     fontFamily: 'AlibabaSans',
     fontSize: 14,
@@ -693,22 +822,23 @@ function dropdownGrid(preview, placements, options = {}) {
     type: 'script',
     scriptUri: '../canvas-components/Dropdown.js',
     name: 'Dropdown instance · Selection actions open',
-    x: 104,
-    y: 48,
+    x: 216,
+    y: 72,
     width: 140,
     height: 32,
     inputs: {
-      label: '',
+      hideTrigger: true,
       open: true,
-      triggerWidth: 0,
-      triggerHeight: 0,
+      placement: 'bottom',
+      triggerWidth: 1,
+      triggerHeight: 1,
       popupWidth: 140,
       popupHeight: 104,
       menu: JSON.stringify({
         items: [
-          { key: 'copy', label: 'Copy', icon: 'CopyOutlined' },
-          { key: 'search', label: 'Search', icon: 'SearchOutlined' },
-          { key: 'share', label: 'Share', icon: 'ShareAltOutlined' }
+          { key: 'mask', label: 'Mask keyword' },
+          { key: 'mark', label: 'Mark keyword' },
+          { key: 'search', label: 'Search keyword' }
         ]
       })
     }

@@ -3081,9 +3081,9 @@
     "reusable": true,
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"disabled\":true,\"label\":\"2nd menu item (disabled)\",\"icon\":\"SmileOutlined\"},{\"key\":\"3\",\"disabled\":true,\"label\":\"3rd menu item (disabled)\"},{\"key\":\"4\",\"danger\":true,\"label\":\"a danger item\"}]}",
-      "popupHeight": 136
+      "popupHeight": 136,
+      "children": "Hover me"
     },
     "bounds": {
       "x": 24,
@@ -3098,9 +3098,9 @@
     "name": "Dropdown · Closed",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"disabled\":true,\"label\":\"2nd menu item (disabled)\",\"icon\":\"SmileOutlined\"},{\"key\":\"3\",\"disabled\":true,\"label\":\"3rd menu item (disabled)\"},{\"key\":\"4\",\"danger\":true,\"label\":\"a danger item\"}]}",
-      "popupHeight": 136
+      "popupHeight": 136,
+      "children": "Hover me"
     },
     "bounds": {
       "x": 24,
@@ -3115,10 +3115,10 @@
     "name": "Dropdown · Open",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"disabled\":true,\"label\":\"2nd menu item (disabled)\",\"icon\":\"SmileOutlined\"},{\"key\":\"3\",\"disabled\":true,\"label\":\"3rd menu item (disabled)\"},{\"key\":\"4\",\"danger\":true,\"label\":\"a danger item\"}]}",
       "open": true,
-      "popupHeight": 136
+      "popupHeight": 136,
+      "children": "Hover me"
     },
     "bounds": {
       "x": 24,
@@ -3133,11 +3133,11 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"disabled\":true,\"label\":\"2nd menu item (disabled)\",\"icon\":\"SmileOutlined\"},{\"key\":\"3\",\"disabled\":true,\"label\":\"3rd menu item (disabled)\"},{\"key\":\"4\",\"danger\":true,\"label\":\"a danger item\"}]}",
       "open": true,
       "arrow": true,
-      "popupHeight": 136
+      "popupHeight": 136,
+      "children": "Hover me"
     },
     "bounds": {
       "x": 24,
@@ -3152,10 +3152,10 @@
     "name": "Dropdown · Disabled",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "menu": "{\"items\":[{\"key\":\"1\",\"label\":\"1st menu item\"},{\"key\":\"2\",\"disabled\":true,\"label\":\"2nd menu item (disabled)\",\"icon\":\"SmileOutlined\"},{\"key\":\"3\",\"disabled\":true,\"label\":\"3rd menu item (disabled)\"},{\"key\":\"4\",\"danger\":true,\"label\":\"a danger item\"}]}",
       "disabled": true,
-      "popupHeight": 136
+      "popupHeight": 136,
+      "children": "Hover me"
     },
     "bounds": {
       "x": 24,
@@ -3170,7 +3170,6 @@
     "name": "Dropdown · Basic",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 22,
@@ -3192,7 +3191,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomLeft",
       "disabled": false,
       "triggerWidth": 106,
       "triggerHeight": 32,
@@ -3215,7 +3213,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottom",
       "disabled": false,
       "triggerWidth": 81,
       "triggerHeight": 32,
@@ -3238,7 +3235,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomRight",
       "disabled": false,
       "triggerWidth": 116,
       "triggerHeight": 32,
@@ -3261,7 +3257,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topLeft",
       "disabled": false,
       "triggerWidth": 80,
       "triggerHeight": 32,
@@ -3284,7 +3279,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "top",
       "disabled": false,
       "triggerWidth": 55,
       "triggerHeight": 32,
@@ -3307,7 +3301,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topRight",
       "disabled": false,
       "triggerWidth": 89,
       "triggerHeight": 32,
@@ -3330,7 +3323,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "leftTop",
       "disabled": false,
       "triggerWidth": 78,
       "triggerHeight": 32,
@@ -3353,7 +3345,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "left",
       "disabled": false,
       "triggerWidth": 54,
       "triggerHeight": 32,
@@ -3376,7 +3367,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "leftBottom",
       "disabled": false,
       "triggerWidth": 103,
       "triggerHeight": 32,
@@ -3399,7 +3389,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "rightTop",
       "disabled": false,
       "triggerWidth": 88,
       "triggerHeight": 32,
@@ -3422,7 +3411,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "right",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 32,
@@ -3445,7 +3433,6 @@
     "name": "Dropdown · Placement",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "rightBottom",
       "disabled": false,
       "triggerWidth": 112,
       "triggerHeight": 32,
@@ -3468,7 +3455,6 @@
     "name": "Dropdown · Other elements",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 22,
@@ -3490,7 +3476,6 @@
     "name": "Dropdown · Trigger mode",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Click me",
       "disabled": false,
       "triggerWidth": 55,
       "triggerHeight": 22,
@@ -3514,12 +3499,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":103,\"height\":32}",
-      "child1Width": 102.16,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":102.16,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -3536,12 +3516,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":103,\"height\":32}",
-      "child1Width": 102.16,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"UserOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":102.16,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"UserOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -3558,12 +3533,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":true,\"danger\":false},\"width\":103,\"height\":32}",
-      "child1Width": 104,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":true,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": true, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Dropdown\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Dropdown\",\"type\":\"default\",\"disabled\":true,\"danger\":false},\"width\":104,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":true,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": true, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -3580,12 +3550,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 With Tooltip\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"With Tooltip\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":111,\"height\":32}",
-      "child1Width": 110.53000000000003,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Button\\\",\\\"scriptUri\\\":\\\"../canvas-components/Button.js\\\",\\\"inputs\\\":{\\\"children\\\":\\\"\\\",\\\"disabled\\\":false,\\\"type\\\":\\\"default\\\",\\\"danger\\\":false,\\\"icon\\\":\\\"{\\\\\\\"type\\\\\\\":\\\\\\\"script\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Icon\\\\\\\",\\\\\\\"scriptUri\\\\\\\":\\\\\\\"../canvas-components/Icon.js\\\\\\\",\\\\\\\"inputs\\\\\\\":{\\\\\\\"name\\\\\\\":\\\\\\\"LoadingOutlined\\\\\\\",\\\\\\\"fontSize\\\\\\\":14},\\\\\\\"width\\\\\\\":14,\\\\\\\"height\\\\\\\":14}\\\",\\\"iconPlacement\\\":\\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · With Tooltip\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"With Tooltip\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":110.53000000000003,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Button\\\",\\\"scriptUri\\\":\\\"../canvas-components/Button.js\\\",\\\"inputs\\\":{\\\"children\\\":\\\"\\\",\\\"disabled\\\":false,\\\"type\\\":\\\"default\\\",\\\"danger\\\":false,\\\"icon\\\":\\\"{\\\\\\\"type\\\\\\\":\\\\\\\"script\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Icon\\\\\\\",\\\\\\\"scriptUri\\\\\\\":\\\\\\\"../canvas-components/Icon.js\\\\\\\",\\\\\\\"inputs\\\\\\\":{\\\\\\\"name\\\\\\\":\\\\\\\"LoadingOutlined\\\\\\\",\\\\\\\"fontSize\\\\\\\":14},\\\\\\\"width\\\\\\\":14,\\\\\\\"height\\\\\\\":14}\\\",\\\"iconPlacement\\\":\\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -3600,7 +3565,6 @@
     "name": "Dropdown · Button with dropdown menu",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Button",
       "disabled": false,
       "triggerWidth": 97,
       "triggerHeight": 32,
@@ -3624,12 +3588,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Danger\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Danger\",\"type\":\"default\",\"disabled\":false,\"danger\":true},\"width\":81,\"height\":32}",
-      "child1Width": 80.76999999999998,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Button\\\",\\\"scriptUri\\\":\\\"../canvas-components/Button.js\\\",\\\"inputs\\\":{\\\"children\\\":\\\"\\\",\\\"disabled\\\":false,\\\"type\\\":\\\"default\\\",\\\"danger\\\":true,\\\"icon\\\":\\\"{\\\\\\\"type\\\\\\\":\\\\\\\"script\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Icon\\\\\\\",\\\\\\\"scriptUri\\\\\\\":\\\\\\\"../canvas-components/Icon.js\\\\\\\",\\\\\\\"inputs\\\\\\\":{\\\\\\\"name\\\\\\\":\\\\\\\"EllipsisOutlined\\\\\\\",\\\\\\\"fontSize\\\\\\\":14},\\\\\\\"width\\\\\\\":14,\\\\\\\"height\\\\\\\":14}\\\",\\\"iconPlacement\\\":\\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Danger\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Danger\",\"type\":\"default\",\"disabled\":false,\"danger\":true},\"width\":80.76999999999998,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Button with dropdown menu\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"1st menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"2\\\",\\\"label\\\":\\\"2nd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"3\\\",\\\"danger\\\":true,\\\"label\\\":\\\"3rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"},{\\\"key\\\":\\\"4\\\",\\\"disabled\\\":true,\\\"danger\\\":true,\\\"label\\\":\\\"4rd menu item\\\",\\\"icon\\\":\\\"UserOutlined\\\"}]}\",\"children\":\"{\\\"type\\\":\\\"script\\\",\\\"name\\\":\\\"Button\\\",\\\"scriptUri\\\":\\\"../canvas-components/Button.js\\\",\\\"inputs\\\":{\\\"children\\\":\\\"\\\",\\\"disabled\\\":false,\\\"type\\\":\\\"default\\\",\\\"danger\\\":true,\\\"icon\\\":\\\"{\\\\\\\"type\\\\\\\":\\\\\\\"script\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Icon\\\\\\\",\\\\\\\"scriptUri\\\\\\\":\\\\\\\"../canvas-components/Icon.js\\\\\\\",\\\\\\\"inputs\\\\\\\":{\\\\\\\"name\\\\\\\":\\\\\\\"EllipsisOutlined\\\\\\\",\\\\\\\"fontSize\\\\\\\":14},\\\\\\\"width\\\\\\\":14,\\\\\\\"height\\\\\\\":14}\\\",\\\"iconPlacement\\\":\\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\",\"placement\":\"bottomRight\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -3644,7 +3603,6 @@
     "name": "Dropdown · Cascading menu",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Cascading menu",
       "disabled": false,
       "triggerWidth": 112,
       "triggerHeight": 22,
@@ -3666,7 +3624,6 @@
     "name": "Dropdown · Context Menu",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Right Click on here",
       "disabled": false,
       "triggerWidth": 827.99,
       "triggerHeight": 200,
@@ -3688,7 +3645,6 @@
     "name": "Dropdown · Selectable Menu",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Selectable",
       "disabled": false,
       "triggerWidth": 70,
       "triggerHeight": 22,
@@ -3710,7 +3666,6 @@
     "name": "Dropdown · Custom semantic dom styling",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Object Style",
       "disabled": false,
       "triggerWidth": 133,
       "triggerHeight": 32,
@@ -3732,7 +3687,6 @@
     "name": "Dropdown · Custom semantic dom styling",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Function Style",
       "disabled": false,
       "triggerWidth": 148,
       "triggerHeight": 32,
@@ -3754,7 +3708,6 @@
     "name": "Dropdown · Extra node",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 22,
@@ -3776,7 +3729,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomLeft",
       "disabled": false,
       "triggerWidth": 106,
       "triggerHeight": 32,
@@ -3799,7 +3751,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottom",
       "disabled": false,
       "triggerWidth": 81,
       "triggerHeight": 32,
@@ -3822,7 +3773,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomRight",
       "disabled": false,
       "triggerWidth": 116,
       "triggerHeight": 32,
@@ -3845,7 +3795,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topLeft",
       "disabled": false,
       "triggerWidth": 80,
       "triggerHeight": 32,
@@ -3868,7 +3817,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "top",
       "disabled": false,
       "triggerWidth": 55,
       "triggerHeight": 32,
@@ -3891,7 +3839,6 @@
     "name": "Dropdown · Arrow",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topRight",
       "disabled": false,
       "triggerWidth": 89,
       "triggerHeight": 32,
@@ -3914,7 +3861,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomLeft",
       "disabled": false,
       "triggerWidth": 106,
       "triggerHeight": 32,
@@ -3937,7 +3883,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottom",
       "disabled": false,
       "triggerWidth": 81,
       "triggerHeight": 32,
@@ -3960,7 +3905,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "bottomRight",
       "disabled": false,
       "triggerWidth": 116,
       "triggerHeight": 32,
@@ -3983,7 +3927,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topLeft",
       "disabled": false,
       "triggerWidth": 80,
       "triggerHeight": 32,
@@ -4006,7 +3949,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "top",
       "disabled": false,
       "triggerWidth": 55,
       "triggerHeight": 32,
@@ -4029,7 +3971,6 @@
     "name": "Dropdown · Arrow pointing at the center",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "topRight",
       "disabled": false,
       "triggerWidth": 89,
       "triggerHeight": 32,
@@ -4052,7 +3993,6 @@
     "name": "Dropdown · Click event",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me, Click menu item",
       "disabled": false,
       "triggerWidth": 177,
       "triggerHeight": 22,
@@ -4074,7 +4014,6 @@
     "name": "Dropdown · Custom dropdown",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 22,
@@ -4096,7 +4035,6 @@
     "name": "Dropdown · The way of hiding menu.",
     "scriptUri": "../canvas-components/Dropdown.js",
     "inputs": {
-      "label": "Hover me",
       "disabled": false,
       "triggerWidth": 64,
       "triggerHeight": 22,
@@ -4120,12 +4058,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false,\"icon\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Icon\\\", \\\"scriptUri\\\": \\\"../canvas-components/Icon.js\\\", \\\"inputs\\\": {\\\"name\\\": \\\"LoadingOutlined\\\"}, \\\"width\\\": 14, \\\"height\\\": 14}\",\"loading\":true},\"width\":100.77,\"height\":32}",
-      "child1Width": 100.77000000000002,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":31.999999999999986,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":31.999999999999986,\"height\":32}",
-      "child2Width": 31.999999999999986,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false,\"icon\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Icon\\\", \\\"scriptUri\\\": \\\"../canvas-components/Icon.js\\\", \\\"inputs\\\": {\\\"name\\\": \\\"LoadingOutlined\\\"}, \\\"width\\\": 14, \\\"height\\\": 14}\",\"loading\":true},\"width\":100.77000000000002,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":31.999999999999986,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":31.999999999999986,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -4142,12 +4075,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "small",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false,\"icon\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Icon\\\", \\\"scriptUri\\\": \\\"../canvas-components/Icon.js\\\", \\\"inputs\\\": {\\\"name\\\": \\\"LoadingOutlined\\\"}, \\\"width\\\": 14, \\\"height\\\": 14}\",\"size\":\"small\",\"loading\":true},\"width\":84.77,\"height\":24}",
-      "child1Width": 84.77,
-      "child1Height": 24,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":24,\"triggerHeight\":24,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":24,\"height\":24}",
-      "child2Width": 24,
-      "child2Height": 24
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false,\"icon\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Icon\\\", \\\"scriptUri\\\": \\\"../canvas-components/Icon.js\\\", \\\"inputs\\\": {\\\"name\\\": \\\"LoadingOutlined\\\"}, \\\"width\\\": 14, \\\"height\\\": 14}\",\"size\":\"small\",\"loading\":true},\"width\":84.77,\"height\":24},{\"type\":\"script\",\"name\":\"Dropdown · Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":24,\"triggerHeight\":24,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":24,\"height\":24}]"
     },
     "bounds": {
       "x": 0,
@@ -4164,12 +4092,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false},\"width\":79,\"height\":32}",
-      "child1Width": 78.77,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"primary\",\"disabled\":false,\"danger\":false},\"width\":78.77,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"primary\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"EllipsisOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,
@@ -4186,12 +4109,7 @@
     "inputs": {
       "orientation": "horizontal",
       "size": "middle",
-      "child1": "{\"type\":\"script\",\"name\":\"Button \\u00b7 Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":79,\"height\":32}",
-      "child1Width": 78.77,
-      "child1Height": 32,
-      "child2": "{\"type\":\"script\",\"name\":\"Dropdown \\u00b7 Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"label\":\"\",\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"DownOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":32,\"height\":32}",
-      "child2Width": 32,
-      "child2Height": 32
+      "children": "[{\"type\":\"script\",\"name\":\"Button · Submit\",\"scriptUri\":\"../canvas-components/Button.js\",\"inputs\":{\"children\":\"Submit\",\"type\":\"default\",\"disabled\":false,\"danger\":false},\"width\":78.77,\"height\":32},{\"type\":\"script\",\"name\":\"Dropdown · Loading\",\"scriptUri\":\"../canvas-components/Dropdown.js\",\"inputs\":{\"disabled\":false,\"triggerWidth\":32,\"triggerHeight\":32,\"menu\":\"{\\\"items\\\":[{\\\"key\\\":\\\"1\\\",\\\"label\\\":\\\"Submit and continue\\\"}]}\",\"children\":\"{\\\"type\\\": \\\"script\\\", \\\"name\\\": \\\"Button\\\", \\\"scriptUri\\\": \\\"../canvas-components/Button.js\\\", \\\"inputs\\\": {\\\"children\\\": \\\"\\\", \\\"disabled\\\": false, \\\"type\\\": \\\"default\\\", \\\"danger\\\": false, \\\"icon\\\": \\\"{\\\\\\\"type\\\\\\\": \\\\\\\"script\\\\\\\", \\\\\\\"name\\\\\\\": \\\\\\\"Icon\\\\\\\", \\\\\\\"scriptUri\\\\\\\": \\\\\\\"../canvas-components/Icon.js\\\\\\\", \\\\\\\"inputs\\\\\\\": {\\\\\\\"name\\\\\\\": \\\\\\\"DownOutlined\\\\\\\", \\\\\\\"fontSize\\\\\\\": 14}, \\\\\\\"width\\\\\\\": 14, \\\\\\\"height\\\\\\\": 14}\\\", \\\"iconPlacement\\\": \\\"end\\\"}}\",\"arrow\":false,\"trigger\":\"hover\"},\"width\":32,\"height\":32}]"
     },
     "bounds": {
       "x": 0,

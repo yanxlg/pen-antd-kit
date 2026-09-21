@@ -31,7 +31,7 @@
     "generate:navigation": "node scripts/navigation/generate.mjs",
     "verify:navigation": "node scripts/navigation/verify.mjs"
     ,"verify:composition": "node scripts/audit-component-composition.mjs"
-    ,"generate:data-entry": "node scripts/generate-canvas-components.mjs && node scripts/navigation/generate.mjs && node scripts/data-entry/install.mjs && node scripts/build-independent-instances.mjs"
+    ,"generate:data-entry": "node scripts/data-entry/install.mjs && node scripts/build-independent-instances.mjs"
     ,"verify:data-entry": "node scripts/data-entry/verify.mjs"
   },
   "devDependencies": {

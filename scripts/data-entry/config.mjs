@@ -4,9 +4,22 @@ export const dataEntryComponents = [
   'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload',
 ];
 
+const cascaderOptions = JSON.stringify([
+  { value: 'zhejiang', label: 'Zhejiang', children: [
+    { value: 'hangzhou', label: 'Hangzhou', children: [
+      { value: 'west-lake', label: 'West Lake' },
+      { value: 'xiaoshan', label: 'Xiaoshan' },
+    ] },
+  ] },
+  { value: 'jiangsu', label: 'Jiangsu', children: [
+    { value: 'nanjing', label: 'Nanjing' },
+    { value: 'suzhou', label: 'Suzhou' },
+  ] },
+]);
+
 export const componentDefaults = {
   AutoComplete: { placeholder: 'input here', value: '', options: 'Ant Design|AntV|Ant Design Pro' },
-  Cascader: { placeholder: 'Please select', value: '' },
+  Cascader: { placeholder: 'Please select', value: '[]', options: cascaderOptions },
   Checkbox: { children: 'Checkbox', checked: false },
   ColorPicker: { value: '#1677ff', showText: true },
   DatePicker: { placeholder: 'Select date', value: '' },
@@ -14,29 +27,29 @@ export const componentDefaults = {
   Input: { placeholder: 'Basic usage', value: '', allowClear: false },
   InputNumber: { value: 3, min: 0, max: 100 },
   Mentions: { placeholder: 'Input @ to mention people', value: '' },
-  Radio: { label: 'Radio', checked: false },
+  Radio: { children: 'Radio', checked: false },
   Rate: { value: 4, count: 5 },
   Select: { placeholder: 'Select a person', value: '', options: 'Jack|Lucy|Tom' },
   Slider: { value: 40, min: 0, max: 100 },
-  Switch: { label: '', checked: true },
+  Switch: { checked: true },
   TimePicker: { placeholder: 'Select time', value: '' },
   Transfer: { titles: 'Source|Target', showSearch: false },
   TreeSelect: { placeholder: 'Please select', value: '' },
-  Upload: { label: 'Click to Upload' },
+  Upload: { children: 'Click to Upload' },
 };
 
 export const componentSizes = {
-  AutoComplete: [240, 32], Cascader: [240, 32], Checkbox: [160, 32],
+  AutoComplete: [240, 32], Cascader: [184, 32], Checkbox: [160, 32],
   ColorPicker: [160, 32], DatePicker: [240, 32], Form: [360, 132],
   Input: [320, 32], InputNumber: [160, 32], Mentions: [320, 72],
   Radio: [140, 32], Rate: [140, 32], Select: [240, 32], Slider: [320, 32],
-  Switch: [80, 32], TimePicker: [240, 32], Transfer: [520, 220],
+  Switch: [44, 22], TimePicker: [240, 32], Transfer: [520, 220],
   TreeSelect: [240, 32], Upload: [320, 160],
 };
 
 export const componentVariants = {
   AutoComplete: [['Basic', {}], ['Open', { open: true }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }], ['Filled', { variant: 'filled' }]],
-  Cascader: [['Basic', {}], ['Selected', { value: 'Zhejiang / Hangzhou / West Lake' }], ['Open', { open: true }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
+  Cascader: [['Basic', {}], ['Selected', { value: '["zhejiang","hangzhou","west-lake"]' }], ['Open', { value: '["zhejiang","hangzhou","west-lake"]', open: true }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
   Checkbox: [['Unchecked', {}], ['Checked', { checked: true }], ['Indeterminate', { indeterminate: true }], ['Disabled', { disabled: true }]],
   ColorPicker: [['Default', {}], ['Text', { showText: true }], ['Small', { size: 'small' }], ['Large', { size: 'large' }], ['Disabled', { disabled: true }]],
   DatePicker: [['Date', {}], ['Selected', { value: '2026-09-18' }], ['Open', { open: true }], ['Month', { picker: 'month' }], ['Disabled', { disabled: true }]],
@@ -52,7 +65,7 @@ export const componentVariants = {
   TimePicker: [['Basic', {}], ['Selected', { value: '12:30:00' }], ['Open', { open: true }], ['12 hour', { use12Hours: true }], ['Disabled', { disabled: true }]],
   Transfer: [['Basic', {}], ['Search', { showSearch: true }], ['One way', { oneWay: true }], ['Disabled', { disabled: true }]],
   TreeSelect: [['Basic', {}], ['Selected', { value: 'Node 1' }], ['Open', { open: true }], ['Multiple', { multiple: true }], ['Disabled', { disabled: true }]],
-  Upload: [['Button', { mode: 'button' }], ['Drag and drop', { mode: 'dragger' }], ['Picture card', { mode: 'picture-card' }], ['Disabled', { disabled: true }]],
+  Upload: [['Button', {}], ['Multiple', { multiple: true }], ['Directory', { directory: true }], ['Disabled', { disabled: true }]],
 };
 
 export const slugFor = (name) => name.toLowerCase();

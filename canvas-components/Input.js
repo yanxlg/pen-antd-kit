@@ -4,7 +4,7 @@
  * @input value: string = ""
  * @input size: enum("small", "middle", "large") = "middle"
  * @input status: enum("default", "error", "warning") = "default"
- * @input variant: enum("outlined", "filled", "borderless") = "outlined"
+ * @input variant: enum("outlined", "filled", "borderless", "underlined") = "outlined"
  * @input disabled: boolean = false
  * @input allowClear: boolean = true
  * @input prefix: string = ""
@@ -40,7 +40,7 @@ const disabled = i.disabled ? "#00000040" : "#000000E0";
 const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const strokeCol = i.variant === "borderless" || i.variant === "underlined" ? "#00000000" : borderCol;
 const compactRadius = (radius=6) => {
   const placement = i.compactPlacement || "none";
   if (placement === "none") return radius;
@@ -59,7 +59,11 @@ const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
     for(let n=0;n<count;n++){nodes.push(box(n*(bw+gap),0,bw,h,i.disabled?"#0000000A":bgFill,6,strokeCol));if(i.value)nodes.push(text(String(i.value)[n]||"",n*(bw+gap),7,bw,disabled,14,"normal","center"));}
     return nodes;
   }
-  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
+  const fieldFill = i.disabled && i.variant !== "underlined" ? "#F5F5F5" : bgFill;
+  nodes.push(box(0, 0, fieldW, fieldH, fieldFill, i.variant === "underlined" ? 0 : compactRadius(6), strokeCol));
+  if (i.variant === "underlined") {
+    nodes.push(box(0, fieldH - 1, fieldW, 1, borderCol, 0, borderCol, 0));
+  }
   let curX = pad;
   if (i.prefix) {
     nodes.push(text(i.prefix, curX, (h-18)/2, 20, "#00000040", 13));
@@ -69,8 +73,18 @@ const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
   const val = i.password && i.value ? "•".repeat(Math.max(6,String(i.value).length)) : raw;
   const col = i.value ? disabled : "#00000040";
   const center = i.textAlign === "center";
-  const suffixSpace=i.search?44:(i.allowClear?32:pad);
+  const suffixValue = i.suffix ? String(i.suffix) : "";
+  const suffixWidth = suffixValue ? Math.max(16, suffixValue.length * 7) : 0;
+  const suffixRight = i.search ? 40 + pad : pad;
+  const clearVisible = i.allowClear && i.value && !i.search;
+  const suffixSpace = suffixRight + suffixWidth + (suffixValue ? 8 : 0) + (clearVisible ? 20 : 0);
   nodes.push(text(val, center ? 0 : curX, i.multiline?10:(h-18)/2, center ? fieldW : fieldW - curX - suffixSpace, col, 14, "normal", center ? "center" : "left"));
-  if (i.allowClear && i.value && !i.search) nodes.push(text("✕", fieldW - 24, (h-18)/2, 16, "#00000040", 12));
+  if (clearVisible) {
+    const clearX = fieldW - suffixRight - suffixWidth - (suffixValue ? 8 : 0) - 16;
+    nodes.push(text("✕", clearX, (h-18)/2, 16, "#00000040", 12, "normal", "center"));
+  }
+  if (suffixValue) {
+    nodes.push(text(suffixValue, fieldW - suffixRight - suffixWidth, (h-18)/2, suffixWidth, i.disabled ? "#00000040" : "#00000073", 14, "normal", "right"));
+  }
   if(i.search){nodes.push(box(fieldW-40,0,40,h,primary,[0,6,6,0],primary));nodes.push(text("⌕",fieldW-40,6,40,"#fff",16,"normal","center"));}
 return nodes;

@@ -19,21 +19,25 @@ for(const name of config.dataEntryComponents){
  const slug=name.toLowerCase(),section=Get('section-'+slug),board=Get('artboard-'+slug+'-components'),usage=Get('artboard-'+slug+'-usage');
  if(!section||!board||!usage){Print('Missing',name);continue}
  Update(section.id,{placeholder:true});
- for(const n of [...(board.children||[])])Delete(n.id);
- Update(board.id,{name:'Components',y:90,width:1728,height:900,layout:'none'});
- Insert(board.id,{...titleNode('Components','Components',80),x:32,y:32,width:1600});
- const content=Insert(board.id,{type:'frame',name:name+' component definition',x:32,y:160,width:1664,layout:'vertical',gap:24});
- const master=Insert(content,{type:'frame',name:'Canonical '+name,width:1664,layout:'vertical',gap:16,padding:24,stroke:'#f0f0f0',strokeWidth:1,cornerRadius:8});
- Insert(master,titleNode('Definition',name,20));
- const sz=config.componentSizes[name],defaults=config.componentDefaults[name];
- const masterId=Insert(master,definition(name,'Definition',defaults,sz[0],sz[1]));
- for(const pair of config.componentVariants[name]){
-   const label=pair[0],props={...defaults,...pair[1]};
-   let h=sz[1];if(props.open)h=Math.max(h,220);if(name==='Form')h=props.layout==='horizontal'?92:132;if(name==='Upload'&&props.mode==='button')h=40;
-   const card=Insert(content,{type:'frame',name:name+' · '+label,width:1664,layout:'vertical',gap:16,padding:24,stroke:'#f0f0f0',strokeWidth:1,cornerRadius:8});
-   Insert(card,titleNode('State',label,18));Insert(card,instance(masterId,name,label,props,sz[0],h));
+ const existingMaster=Get(board.id,n=>n.type==='script'&&n.reusable&&n.scriptUri&&n.scriptUri.endsWith('/'+name+'.js'))[0];
+ if(!existingMaster){
+   Update(board.id,{name:'Components',y:90,width:1728,height:900,layout:'none'});
+   if(!(board.children||[]).some(n=>n.name==='Components'))Insert(board.id,{...titleNode('Components','Components',80),x:32,y:32,width:1600});
+   const content=Insert(board.id,{type:'frame',name:name+' component definition',x:32,y:160,width:1664,layout:'vertical',gap:24});
+   const master=Insert(content,{type:'frame',name:'Canonical '+name,width:1664,layout:'vertical',gap:16,padding:24,stroke:'#f0f0f0',strokeWidth:1,cornerRadius:8});
+   Insert(master,titleNode('Definition',name,20));
+   const sz=config.componentSizes[name],defaults=config.componentDefaults[name];
+   const masterId=Insert(master,definition(name,'Definition',defaults,sz[0],sz[1]));
+   for(const pair of config.componentVariants[name]){
+     const label=pair[0],props={...defaults,...pair[1]};
+     let h=sz[1];if(props.open)h=Math.max(h,220);if(name==='Form')h=props.layout==='horizontal'?92:132;if(name==='Upload'&&props.mode==='button')h=40;
+     const w=name==='Switch'&&props.size==='small'?28:sz[0];if(name==='Switch')h=props.size==='small'?16:22;
+     const card=Insert(content,{type:'frame',name:name+' · '+label,width:1664,layout:'vertical',gap:16,padding:24,stroke:'#f0f0f0',strokeWidth:1,cornerRadius:8});
+     Insert(card,titleNode('State',label,18));Insert(card,instance(masterId,name,label,props,w,h));
+   }
+   const ch=Get(content,(n,c)=>c.depth===0?c.bounds.height:undefined)[0];Update(board.id,{height:Math.ceil(ch+192)});
  }
- const ch=Get(content,(n,c)=>c.depth===0?c.bounds.height:undefined)[0];Update(board.id,{height:Math.ceil(ch+192)});changed.components++;
+ changed.components++;
  changed.usagePreserved++;
  const principles=(section.children||[]).find(n=>(n.name||'').startsWith('Principles'));
  let boardX=Number(usage.width)+40;
