@@ -7,7 +7,10 @@ const layout = read('registry/layout-composition.json');
 const icons = read('registry/icon-component-values.json');
 export const bindings = {...captured};
 for (const [id, value] of Object.entries(layout.values)) bindings[id] = {...captured[id], ...value, type:value.ref?'ref':'script'};
-for (const [id, inputs] of Object.entries(icons)) bindings[id] = {type:'script',name:'Icon',scriptUri:'../canvas-components/Icon.js',inputs};
+for (const [id, value] of Object.entries(icons)) {
+  const {name, ...inputs} = value;
+  bindings[id] = {type:'script', name, scriptUri:`../canvas-components/icons/${name}.js`, inputs};
+}
 export function buildIndependentInstances() {
   const files = new Set(Object.values(bindings).map(n=>n.scriptUri).filter(Boolean));
   for (const uri of files) {
@@ -16,8 +19,9 @@ export function buildIndependentInstances() {
     const start = '// BEGIN COMPONENT IMPLEMENTATION\n', end = '\n// END COMPONENT IMPLEMENTATION';
     if (source.includes(start)) source = source.split(start)[1].split(end)[0];
     const header = source.match(/^\/\*\*[\s\S]*?\*\//)?.[0] || '';
-    const schema = header.replace(/: ref\b/g, ': string');
-    source = source.replace(/: ref\b/g, ': string');
+    const preserveRefs = /\/Masonry\.js$/.test(uri);
+    const schema = preserveRefs ? header : header.replace(/: ref\b/g, ': string');
+    if (!preserveRefs) source = source.replace(/: ref\b/g, ': string');
     if (!/type:\s*['"]ref['"]/.test(source)) {
       fs.writeFileSync(path,source);
       continue;

@@ -116,7 +116,7 @@ const categoryFor = (name) => {
   if (['Col', 'Divider', 'Flex', 'Grid', 'Layout', 'Masonry', 'Row', 'Space', 'Splitter'].includes(name)) return 'Layout';
   if (['Anchor', 'Breadcrumb', 'Dropdown', 'Menu', 'Pagination', 'Steps', 'Tabs'].includes(name)) return 'Navigation';
   if (['AutoComplete', 'Cascader', 'Checkbox', 'ColorPicker', 'DatePicker', 'Form', 'Input', 'InputNumber', 'Mentions', 'Radio', 'Rate', 'Select', 'Slider', 'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload'].includes(name)) return 'Data Entry';
-  if (['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'List', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'].includes(name)) return 'Data Display';
+  if (['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'].includes(name)) return 'Data Display';
   if (['Alert', 'Drawer', 'Modal', 'Popconfirm', 'Progress', 'Result', 'Skeleton', 'Spin', 'Watermark'].includes(name)) return 'Feedback';
   return 'Other';
 };
@@ -230,12 +230,6 @@ function createCanonicalVisual(name, index) {
     justifyContent = 'center';
     content.push(text(`${id}-head`, 'Header', '卡片标题 · Card Title', '$antd-colorText', 14, '600'));
     content.push(text(`${id}-body`, 'Body', '卡片内容区域，展示结构化业务信息。', '$antd-colorTextSecondary', 12));
-  } else if (name === 'List') {
-    compHeight = 84;
-    layout = 'vertical';
-    justifyContent = 'center';
-    content.push(text(`${id}-i1`, 'Item', '1. Ant Design 规范列表项一', '$antd-colorText', 12));
-    content.push(text(`${id}-i2`, 'Item', '2. Ant Design 规范列表项二', '$antd-colorText', 12));
   } else if (name === 'Descriptions') {
     compHeight = 84;
     layout = 'vertical';
@@ -431,7 +425,7 @@ function buildOverviewArtboard() {
           title: 'Data Display · 数据展示',
           components: [
             'Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions',
-            'Empty', 'Image', 'List', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic',
+            'Empty', 'Image', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic',
             'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree',
           ],
         },
@@ -996,7 +990,7 @@ function buildDataDisplayArtboard() {
   children.push(artboardHeader(
     'dd-header',
     'Ant Design 6 · Data Display Components (数据展示)',
-    'Enterprise data visual showcase: Table with pagination, Card with header & cover, List, Descriptions, Avatar group, Badge & Tag colors, Statistic metrics',
+    'Enterprise data visual showcase: Table with pagination, Card with header & cover, Descriptions, Avatar group, Badge & Tag colors, Statistic metrics',
     [
       { text: 'Data Display', bg: '#E6F4FF', border: '#91CAFF', color: '#1677FF' },
       { text: '20 Components', bg: '#F6FFED', border: '#B7EB8F', color: '#52C41A' },

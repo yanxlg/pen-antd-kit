@@ -47,5 +47,5 @@ const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
       fill:activeMark,
     });
   }
-  nodes.push(text(i.children||"复选框", s+8, (pencil.height-18)/2, W-s-8, disabled));
+  if(i.children)nodes.push(text(i.children, s+8, (pencil.height-18)/2, W-s-8, disabled));
 return nodes;

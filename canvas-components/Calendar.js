@@ -1,33 +1,22 @@
 /**
  * @schema 2.18
- * @input fullscreen: boolean = false
+ * @input fullscreen: boolean = true
  * @input mode: enum("month", "year") = "month"
  * @input showWeek: boolean = false
- * @input value: string = "2026-09-16"
- * @input primaryColor: color = #1677FF
+ * @input value: string = "2026-09-14"
+ * @input cellRender: string = "{}"
+ * @input fullCellRender: string = "{}"
+ * @input headerRender: string = ""
+ * @input styles: string = "{}"
  */
-const i=pencil.input||{},W=Math.max(280,pencil.width),H=Math.max(240,pencil.height),primary=i.primaryColor||'#1677FF';
-const nodes=[];
-const text=(content,x,y,width,height,size=14,color='#000000E0',weight='400',align='left')=>({type:'text',name:String(content),content:String(content),x,y,width,height,textGrowth:'fixed-width-height',textAlign:align,fontFamily:'Inter',fontSize:size,fontWeight:weight,lineHeight:height/size,fill:color});
-const box=(x,y,width,height,fill='#FFF',radius=0,stroke='#00000000')=>({type:'rectangle',name:'Calendar surface',x,y,width,height,fill,cornerRadius:radius,stroke,strokeWidth:stroke==='#00000000'?0:1,strokeAlignment:'inner'});
-nodes.push(box(0,0,W,H,'#FFF',8,i.fullscreen?'#00000000':'#F0F0F0'));
-const date=new Date(i.value||'2026-09-16'),year=date.getUTCFullYear(),month=date.getUTCMonth(),selected=date.getUTCDate(),days=new Date(Date.UTC(year,month+1,0)).getUTCDate(),prevDays=new Date(Date.UTC(year,month,0)).getUTCDate(),offset=(new Date(Date.UTC(year,month,1)).getUTCDay()+6)%7;const headerH=i.fullscreen?64:48;
-nodes.push({type:'rectangle',name:'Header divider',x:0,y:headerH,width:W,height:1,fill:'#F0F0F0'});
-nodes.push(text(String(year),16,14,56,28,14,'#000000E0','500'));
-nodes.push(text(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][month],78,14,52,28,14,'#000000E0','500'));
-const tabW=58;nodes.push(box(W-tabW*2-16,14,tabW,28,i.mode==='month'?'#1677FF':'#FFF',6,'#D9D9D9'));
-nodes.push(text('Month',W-tabW*2-16,14,tabW,28,12,i.mode==='month'?'#FFF':'#000000E0','400','center'));
-nodes.push(box(W-tabW-16,14,tabW,28,i.mode==='year'?'#1677FF':'#FFF',6,'#D9D9D9'));
-nodes.push(text('Year',W-tabW-16,14,tabW,28,12,i.mode==='year'?'#FFF':'#000000E0','400','center'));
-if(i.mode==='year'){
- const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
- const cw=W/3,rh=(H-headerH)/4;
- months.forEach((m,n)=>{const x=(n%3)*cw,y=headerH+Math.floor(n/3)*rh; if(n===month)nodes.push(box(x+cw/2-28,y+rh/2-14,56,28,'#1677FF',6));nodes.push(text(m,x,y,cw,rh,13,n===month?'#FFF':'#000000E0','400','center'));});
-}else{
- const week=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],left=i.showWeek?42:0,cw=(W-left)/7;
- if(i.showWeek)nodes.push(text('Wk',0,headerH+4,left,28,12,'#00000073','400','center'));
- week.forEach((d,n)=>nodes.push(text(d,left+n*cw,headerH+4,cw,28,12,'#00000073','500','center')));
- const top=headerH+32,rh=(H-top)/6;if(i.showWeek)for(let r=0;r<6;r++)nodes.push(text(String(Math.ceil((Date.UTC(year,month,1)-Date.UTC(year,0,1))/86400000/7)+r+1),0,top+r*rh,left,rh,12,'#00000073','400','center'));
- for(let n=0;n<42;n++){const day=n-offset+1;const x=left+(n%7)*cw,y=top+Math.floor(n/7)*rh;const active=day===selected;if(active)nodes.push(box(x+cw/2-14,y+rh/2-14,28,28,primary,14));nodes.push(text(day<1?String(prevDays+day):day>days?String(day-days):String(day),x,y,cw,rh,12,active?'#FFF':(day<1||day>days?'#00000040':'#000000E0'),active?'600':'400','center'));}
- }
-return nodes;
+const i=pencil.input||{},W=Math.max(1,pencil.width),H=Math.max(1,pencil.height),parse=(s,d)=>{try{return JSON.parse(s)}catch{return d}},styles=parse(i.styles,{}),root=styles.root||{},cells=parse(i.cellRender,{}),fullCells=parse(i.fullCellRender,{}),customHeader=parse(i.headerRender,null),nodes=[],date=new Date(i.value),year=date.getUTCFullYear(),month=date.getUTCMonth(),selected=date.getUTCDate(),full=i.fullscreen,pad=Number(root.padding)||0,headerH=customHeader?.height||56;
+const box=(x,y,width,height,fill,r=0)=>({type:'rectangle',x,y,width,height,fill,cornerRadius:r}),text=(s,x,y,w,h,color='#000000E0',align='center',size=14)=>({type:'text',content:String(s),x,y,width:Math.max(1,w),height:h,textGrowth:'fixed-width-height',fontFamily:'Alibaba Sans',fontSize:size,lineHeight:1.57,textAlign:align,fill:color});
+nodes.push({...box(0,0,W,H,root.background||'#FFFFFF',root.borderRadius||0),...(root.borderColor?{stroke:root.borderColor,strokeWidth:1}:{})});
+if(customHeader)nodes.push({...customHeader,x:pad,y:pad,width:W-pad*2});else {let x=W-pad-278;nodes.push({type:'ref',ref:'VoQE7',x,y:pad+12,width:80,height:32,inputs:{value:String(year),allowClear:false,showArrow:true,bordered:true}});nodes.push({type:'ref',ref:'VoQE7',x:x+88,y:pad+12,width:70,height:32,inputs:{value:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][month],allowClear:false,showArrow:true,bordered:true}});nodes.push({type:'ref',ref:'H0DThz',x:x+166,y:pad+12,width:112,height:32,inputs:{optionType:'button',options:'["Month","Year"]',value:i.mode==='year'?'Year':'Month'}});}
+const top=pad+headerH,cols=i.showWeek?8:7,cw=(W-pad*2)/cols,rowH=(H-top-pad-30)/6;
+if(i.mode==='year'){const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];months.forEach((m,n)=>{const w=(W-pad*2)/3,h=(H-top-pad)/4,x=pad+n%3*w,y=top+Math.floor(n/3)*h;if(n===month)nodes.push(box(x+4,y+4,w-8,h-8,full?'#E6F4FF':'#1677FF',4));nodes.push(text(m,x,y+8,w,22,n===month?'#1677FF':'#000000E0'));});return nodes;}
+const week=i.showWeek?['Week','Su','Mo','Tu','We','Th','Fr','Sa']:['Su','Mo','Tu','We','Th','Fr','Sa'];week.forEach((d,n)=>nodes.push(text(d,pad+n*cw,top,cw,22)));
+const offset=new Date(Date.UTC(year,month,1)).getUTCDay();for(let r=0;r<6;r++)for(let col=0;col<cols;col++){const x=pad+col*cw,y=top+30+r*rowH;if(i.showWeek&&col===0){const d=new Date(Date.UTC(year,month,1-offset+r*7));nodes.push(text(Math.ceil((d-new Date(Date.UTC(year,0,1)))/604800000)+1,x,y+8,cw,22,'#00000073'));continue;}const n=r*7+col-(i.showWeek?1:0),d=new Date(Date.UTC(year,month,1-offset+n)),key=d.toISOString().slice(0,10),active=d.getUTCMonth()===month&&d.getUTCDate()===selected,current=d.getUTCMonth()===month,custom=fullCells[key];if(custom){nodes.push({...custom,x,y,width:cw,height:rowH});continue;}
+ if(full){nodes.push(box(x+4,y+4,cw-8,rowH-8,active?'#E6F4FF':'#FFFFFF'));nodes.push(box(x+4,y+4,cw-8,2,active?'#1677FF':'#F0F0F0'));nodes.push(text(String(d.getUTCDate()).padStart(2,'0'),x+8,y+9,cw-20,22,active?'#1677FF':current?'#000000E0':'#00000040','right'));}else {if(active)nodes.push(box(x+cw/2-12,y+8,24,24,'#1677FF',4));nodes.push(text(String(d.getUTCDate()).padStart(2,'0'),x,y+9,cw,22,active?'#FFFFFF':current?'#000000E0':'#00000040'));}
+ const child=cells[key];if(child){const prepared=JSON.parse(JSON.stringify(child));for(const badge of prepared.children||[]){if(badge.ref==='bYmfX'){badge.width=cw-16;Object.assign(badge.descendants.n6rSDv,{width:cw-16,height:22,x:0,y:0});}}nodes.push({...prepared,x:x+8,y:y+(full?34:8),width:cw-16,height:Math.max(1,rowH-38)});}
+}return nodes;

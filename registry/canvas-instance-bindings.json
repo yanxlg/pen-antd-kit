@@ -48,16 +48,14 @@
         "height": 204.09,
         "scriptUri": "../canvas-components/Flex.js",
         "inputs": {
+          "children": "[{\"ref\":\"dLnWh\",\"width\":281,\"height\":128},{\"ref\":\"tGiTO\",\"width\":106.609375,\"height\":32}]",
           "vertical": true,
           "justify": "space-between",
           "align": "flex-end",
-          "child1": "dLnWh",
-          "child1Width": 281,
-          "child1Height": 128,
-          "child2": "tGiTO",
-          "child2Width": 106.609375,
-          "child2Height": 32,
-          "gap": "0"
+          "flex": "",
+          "gap": "0",
+          "wrap": false,
+          "component": "div"
         }
       }
     ]
@@ -5663,13 +5661,19 @@
         "name": "Splitter · official g1Mtx",
         "scriptUri": "../canvas-components/Splitter.js",
         "inputs": {
+          "children": "[{\"ref\":\"mkpYH\",\"size\":50,\"resizable\":true,\"collapsible\":false},{\"ref\":\"R1eTN\",\"size\":50,\"resizable\":true,\"collapsible\":false}]",
           "orientation": "vertical",
-          "resizable": true,
-          "collapsible": false,
-          "panel1": "mkpYH",
-          "size1": 50,
-          "panel2": "R1eTN",
-          "size2": 50
+          "vertical": false,
+          "collapsible": "{}",
+          "destroyOnHidden": false,
+          "onDraggerDoubleClick": "",
+          "onResizeStart": "",
+          "onResize": "",
+          "onResizeEnd": "",
+          "onCollapse": "",
+          "lazy": false,
+          "classNames": "{}",
+          "styles": "{}"
         }
       }
     ]
@@ -15656,25 +15660,14 @@
     "height": 380,
     "scriptUri": "../canvas-components/Masonry.js",
     "inputs": {
-      "item1": "lX74k",
-      "height1": 100,
-      "item2": "AY9CF",
-      "height2": 60,
-      "item3": "Mx5c4",
-      "height3": 140,
-      "item4": "BGLNa",
-      "height4": 80,
-      "item5": "lX74k",
-      "height5": 120,
-      "item6": "AY9CF",
-      "height6": 90,
-      "item7": "Mx5c4",
-      "height7": 160,
-      "item8": "BGLNa",
-      "height8": 70,
-      "columns": 3,
-      "gutter": 16,
-      "verticalGutter": 16
+      "columns": "3",
+      "gutter": "16",
+      "items": "[{\"key\":1,\"height\":100,\"children\":\"lX74k\"},{\"key\":2,\"height\":60,\"children\":\"AY9CF\"},{\"key\":3,\"height\":140,\"children\":\"Mx5c4\"},{\"key\":4,\"height\":80,\"children\":\"BGLNa\"},{\"key\":5,\"height\":120,\"children\":\"lX74k\"},{\"key\":6,\"height\":90,\"children\":\"AY9CF\"},{\"key\":7,\"height\":160,\"children\":\"Mx5c4\"},{\"key\":8,\"height\":70,\"children\":\"BGLNa\"}]",
+      "itemRender": "",
+      "onLayoutChange": "",
+      "classNames": "{}",
+      "styles": "{}",
+      "fresh": false
     }
   },
   "JdEBy": {
@@ -15686,11 +15679,19 @@
     "height": 240,
     "scriptUri": "../canvas-components/Splitter.js",
     "inputs": {
-      "panel1": "KBvQW",
-      "panel2": "G41BNr",
-      "size1": 50,
-      "size2": 50,
-      "resizable": true
+      "children": "[{\"ref\":\"KBvQW\",\"size\":50,\"resizable\":true,\"collapsible\":false},{\"ref\":\"G41BNr\",\"size\":50,\"resizable\":true,\"collapsible\":false}]",
+      "orientation": "horizontal",
+      "vertical": false,
+      "collapsible": "{}",
+      "destroyOnHidden": false,
+      "onDraggerDoubleClick": "",
+      "onResizeStart": "",
+      "onResize": "",
+      "onResizeEnd": "",
+      "onCollapse": "",
+      "lazy": false,
+      "classNames": "{}",
+      "styles": "{}"
     }
   },
   "KBvQW": {
@@ -15718,20 +15719,14 @@
     "height": 48,
     "scriptUri": "../canvas-components/Space.js",
     "inputs": {
-      "child1": "h8QhSf",
-      "child1Width": 88,
-      "child1Height": 32,
-      "child2": "kjRUT",
-      "child2Width": 87,
-      "child2Height": 32,
-      "child3": "fgaVj",
-      "child3Width": 88,
-      "child3Height": 32,
-      "child4": "YF5Od",
-      "child4Width": 55,
-      "child4Height": 32,
+      "children": "[{\"ref\":\"h8QhSf\",\"width\":88,\"height\":32},{\"ref\":\"kjRUT\",\"width\":87,\"height\":32},{\"ref\":\"fgaVj\",\"width\":88,\"height\":32},{\"ref\":\"YF5Od\",\"width\":55,\"height\":32}]",
+      "orientation": "horizontal",
+      "vertical": false,
       "size": "small",
-      "align": "center"
+      "align": "center",
+      "wrap": false,
+      "classNames": "{}",
+      "styles": "{}"
     }
   },
   "WgMeY": {
@@ -15743,14 +15738,11 @@
     "height": 32,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
-      "child1": "h8QhSf",
-      "child2": "kjRUT",
-      "child3": "fgaVj",
-      "child4": "YF5Od",
-      "child1Width": 88,
-      "child2Width": 87,
-      "child3Width": 88,
-      "child4Width": 55
+      "children": "[{\"ref\":\"h8QhSf\",\"width\":88,\"height\":32},{\"ref\":\"kjRUT\",\"width\":87,\"height\":32},{\"ref\":\"fgaVj\",\"width\":88,\"height\":32},{\"ref\":\"YF5Od\",\"width\":55,\"height\":32}]",
+      "orientation": "horizontal",
+      "vertical": false,
+      "size": "middle",
+      "block": false
     }
   },
   "IhPbh": {
@@ -15844,38 +15836,11 @@
     "height": 40,
     "scriptUri": "../canvas-components/Row.js",
     "inputs": {
-      "col1": "hnH2S",
-      "col2": "hnH2S",
-      "col3": "hnH2S",
-      "col4": "hnH2S",
-      "span1": 6,
-      "span2": 6,
-      "span3": 6,
-      "span4": 6,
-      "height1": 40,
-      "height2": 40,
-      "height3": 40,
-      "height4": 40,
-      "children1": "",
-      "childrenContent1": "lX74k",
-      "background1": "#00000000",
-      "color1": "#FFFFFF",
-      "cornerRadius1": 0,
-      "children2": "",
-      "childrenContent2": "AY9CF",
-      "background2": "#00000000",
-      "color2": "#FFFFFF",
-      "cornerRadius2": 0,
-      "children3": "",
-      "childrenContent3": "Mx5c4",
-      "background3": "#00000000",
-      "color3": "#FFFFFF",
-      "cornerRadius3": 0,
-      "children4": "",
-      "childrenContent4": "BGLNa",
-      "background4": "#00000000",
-      "color4": "#FFFFFF",
-      "cornerRadius4": 0
+      "children": "[{\"ref\":\"hnH2S\",\"span\":6,\"offset\":0,\"order\":0,\"height\":40,\"children\":\"\",\"childrenContent\":\"lX74k\",\"background\":\"#00000000\",\"color\":\"#FFFFFF\",\"cornerRadius\":0},{\"ref\":\"hnH2S\",\"span\":6,\"offset\":0,\"order\":1,\"height\":40,\"children\":\"\",\"childrenContent\":\"AY9CF\",\"background\":\"#00000000\",\"color\":\"#FFFFFF\",\"cornerRadius\":0},{\"ref\":\"hnH2S\",\"span\":6,\"offset\":0,\"order\":2,\"height\":40,\"children\":\"\",\"childrenContent\":\"Mx5c4\",\"background\":\"#00000000\",\"color\":\"#FFFFFF\",\"cornerRadius\":0},{\"ref\":\"hnH2S\",\"span\":6,\"offset\":0,\"order\":3,\"height\":40,\"children\":\"\",\"childrenContent\":\"BGLNa\",\"background\":\"#00000000\",\"color\":\"#FFFFFF\",\"cornerRadius\":0}]",
+      "gutter": "0",
+      "justify": "start",
+      "align": "top",
+      "wrap": true
     }
   },
   "xi5QX": {
@@ -15919,22 +15884,14 @@
     "height": 80,
     "scriptUri": "../canvas-components/Flex.js",
     "inputs": {
-      "child1": "lX74k",
-      "child1Width": 80,
-      "child1Height": 40,
-      "child2": "AY9CF",
-      "child2Width": 80,
-      "child2Height": 40,
-      "child3": "Mx5c4",
-      "child3Width": 80,
-      "child3Height": 40,
-      "child4": "BGLNa",
-      "child4Width": 80,
-      "child4Height": 40,
-      "gap": "0",
-      "align": "normal",
+      "children": "[{\"ref\":\"lX74k\",\"width\":80,\"height\":40},{\"ref\":\"AY9CF\",\"width\":80,\"height\":40},{\"ref\":\"Mx5c4\",\"width\":80,\"height\":40},{\"ref\":\"BGLNa\",\"width\":80,\"height\":40}]",
+      "vertical": false,
       "justify": "normal",
-      "rowGap": -1
+      "align": "normal",
+      "flex": "",
+      "gap": "0",
+      "wrap": false,
+      "component": "div"
     }
   },
   "LSKNJ": {
@@ -17904,16 +17861,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"KfecA\",\"width\":137.78,\"height\":34},{\"ref\":\"T7TmU\",\"width\":206.69000000000003,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "KfecA",
-      "child1Width": 137.78,
-      "child1Height": 34,
-      "child2": "T7TmU",
-      "child2Width": 206.69000000000003,
-      "child2Height": 34
+      "block": false
     }
   },
   "p7LUr5": {
@@ -17927,16 +17879,11 @@
     "height": 26,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"b8MqOd\",\"width\":489,\"height\":26},{\"ref\":\"m0oG5\",\"width\":65,\"height\":24}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "b8MqOd",
-      "child1Width": 489,
-      "child1Height": 26,
-      "child2": "m0oG5",
-      "child2Width": 65,
-      "child2Height": 24
+      "block": false
     }
   },
   "POgUO": {
@@ -17950,16 +17897,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"xAm2X\",\"width\":489,\"height\":34},{\"ref\":\"M1OMe\",\"width\":81,\"height\":32}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "xAm2X",
-      "child1Width": 489,
-      "child1Height": 34,
-      "child2": "M1OMe",
-      "child2Width": 81,
-      "child2Height": 32
+      "block": false
     }
   },
   "CZqgb": {
@@ -17973,16 +17915,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"V28wZP\",\"width\":489,\"height\":34},{\"ref\":\"nkylB\",\"width\":32,\"height\":32}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "V28wZP",
-      "child1Width": 489,
-      "child1Height": 34,
-      "child2": "nkylB",
-      "child2Width": 32,
-      "child2Height": 32
+      "block": false
     }
   },
   "ug2oj": {
@@ -17996,16 +17933,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"oMzxx\",\"width\":103.44,\"height\":34},{\"ref\":\"h3frW\",\"width\":344.5,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "oMzxx",
-      "child1Width": 103.44,
-      "child1Height": 34,
-      "child2": "h3frW",
-      "child2Width": 344.5,
-      "child2Height": 34
+      "block": false
     }
   },
   "PtS2E": {
@@ -18019,16 +17951,11 @@
     "height": 36,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"VNRrc\",\"width\":344.5,\"height\":36},{\"ref\":\"aXyle\",\"width\":344.5,\"height\":36}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "VNRrc",
-      "child1Width": 344.5,
-      "child1Height": 36,
-      "child2": "aXyle",
-      "child2Width": 344.5,
-      "child2Height": 36
+      "block": false
     }
   },
   "a1n7N": {
@@ -18042,19 +17969,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"vfDHH\",\"width\":206.69,\"height\":34},{\"ref\":\"CRiGn\",\"width\":344.50000000000006,\"height\":34},{\"ref\":\"gkFu1\",\"width\":138.77999999999997,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "vfDHH",
-      "child1Width": 206.69,
-      "child1Height": 34,
-      "child2": "CRiGn",
-      "child2Width": 344.50000000000006,
-      "child2Height": 34,
-      "child3": "gkFu1",
-      "child3Width": 138.77999999999997,
-      "child3Height": 34
+      "block": false
     }
   },
   "bn84t": {
@@ -18068,19 +17987,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"Rd22b\",\"width\":97.13,\"height\":34},{\"ref\":\"Z801u\",\"width\":344.5,\"height\":34},{\"ref\":\"d175C\",\"width\":90,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "Rd22b",
-      "child1Width": 97.13,
-      "child1Height": 34,
-      "child2": "Z801u",
-      "child2Width": 344.5,
-      "child2Height": 34,
-      "child3": "d175C",
-      "child3Width": 90,
-      "child3Height": 34
+      "block": false
     }
   },
   "GGOUU": {
@@ -18094,16 +18005,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"D7Ubsj\",\"width\":344.5,\"height\":34},{\"ref\":\"fWTpY\",\"width\":344.5,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "D7Ubsj",
-      "child1Width": 344.5,
-      "child1Height": 34,
-      "child2": "fWTpY",
-      "child2Width": 344.5,
-      "child2Height": 34
+      "block": false
     }
   },
   "AloeQ": {
@@ -18117,19 +18023,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"l5SNtG\",\"width\":426.97,\"height\":34},{\"ref\":\"VLsG2\",\"width\":184.77999999999997,\"height\":34},{\"ref\":\"dX5nd\",\"width\":80,\"height\":32}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "l5SNtG",
-      "child1Width": 426.97,
-      "child1Height": 34,
-      "child2": "VLsG2",
-      "child2Width": 184.77999999999997,
-      "child2Height": 34,
-      "child3": "dX5nd",
-      "child3Width": 80,
-      "child3Height": 32
+      "block": false
     }
   },
   "X2ZeE": {
@@ -18143,16 +18041,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"CvmFf\",\"width\":206.69,\"height\":34},{\"ref\":\"t8JTN\",\"width\":482.28000000000003,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "CvmFf",
-      "child1Width": 206.69,
-      "child1Height": 34,
-      "child2": "t8JTN",
-      "child2Width": 482.28000000000003,
-      "child2Height": 34
+      "block": false
     }
   },
   "E3x8v": {
@@ -18166,16 +18059,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"XGE2j\",\"width\":111.34,\"height\":34},{\"ref\":\"ds5zP\",\"width\":111.34,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "XGE2j",
-      "child1Width": 111.34,
-      "child1Height": 34,
-      "child2": "ds5zP",
-      "child2Width": 111.34,
-      "child2Height": 34
+      "block": false
     }
   },
   "l2CjF": {
@@ -18189,22 +18077,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"BS6Jh\",\"width\":101.94,\"height\":34},{\"ref\":\"Jm2lX\",\"width\":100,\"height\":34},{\"ref\":\"OOUyf\",\"width\":30,\"height\":34},{\"ref\":\"J55zC\",\"width\":100,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "BS6Jh",
-      "child1Width": 101.94,
-      "child1Height": 34,
-      "child2": "Jm2lX",
-      "child2Width": 100,
-      "child2Height": 34,
-      "child3": "OOUyf",
-      "child3Width": 30,
-      "child3Height": 34,
-      "child4": "J55zC",
-      "child4Width": 100,
-      "child4Height": 34
+      "block": false
     }
   },
   "yxy1f": {
@@ -18218,16 +18095,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"xS18W\",\"width\":206.69,\"height\":34},{\"ref\":\"lnSlM\",\"width\":482.28000000000003,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "xS18W",
-      "child1Width": 206.69,
-      "child1Height": 34,
-      "child2": "lnSlM",
-      "child2Width": 482.28000000000003,
-      "child2Height": 34
+      "block": false
     }
   },
   "kr17s": {
@@ -18241,16 +18113,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"bl6qN\",\"width\":345,\"height\":34},{\"ref\":\"v4aHKk\",\"width\":345,\"height\":34}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "bl6qN",
-      "child1Width": 345,
-      "child1Height": 34,
-      "child2": "v4aHKk",
-      "child2Width": 345,
-      "child2Height": 34
+      "block": false
     }
   },
   "QGal8": {
@@ -18264,19 +18131,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"t5Hck\",\"width\":231.69,\"height\":34},{\"ref\":\"sJfeJ\",\"width\":378.53000000000003,\"height\":34},{\"ref\":\"LJjrJ\",\"width\":81,\"height\":32}]",
       "orientation": "horizontal",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "t5Hck",
-      "child1Width": 231.69,
-      "child1Height": 34,
-      "child2": "sJfeJ",
-      "child2Width": 378.53000000000003,
-      "child2Height": 34,
-      "child3": "LJjrJ",
-      "child3Width": 81,
-      "child3Height": 32
+      "block": false
     }
   },
   "TljCI": {
@@ -18290,13 +18149,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"X6MKvK\",\"width\":644.13,\"height\":34}]",
       "orientation": "vertical",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "X6MKvK",
-      "child1Width": 644.13,
-      "child1Height": 34
+      "block": false
     }
   },
   "stPTV": {
@@ -18310,13 +18167,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"Vs3Xy\",\"width\":227,\"height\":34}]",
       "orientation": "vertical",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "Vs3Xy",
-      "child1Width": 227,
-      "child1Height": 34
+      "block": false
     }
   },
   "MB6sU": {
@@ -18330,13 +18185,11 @@
     "height": 34,
     "scriptUri": "../canvas-components/Space.Compact.js",
     "inputs": {
+      "children": "[{\"ref\":\"T8qAMu\",\"width\":304.09,\"height\":34}]",
       "orientation": "vertical",
+      "vertical": false,
       "size": "middle",
-      "align": "center",
-      "wrap": false,
-      "child1": "T8qAMu",
-      "child1Width": 304.09,
-      "child1Height": 34
+      "block": false
     }
   },
   "lRDpG": {
@@ -19931,11 +19784,19 @@
     "height": 240,
     "scriptUri": "../canvas-components/Splitter.js",
     "inputs": {
-      "panel1": "KBvQW",
-      "panel2": "G41BNr",
-      "size1": 50,
-      "size2": 50,
-      "vertical": true
+      "children": "[{\"ref\":\"KBvQW\",\"size\":50,\"resizable\":true,\"collapsible\":false},{\"ref\":\"G41BNr\",\"size\":50,\"resizable\":true,\"collapsible\":false}]",
+      "orientation": "vertical",
+      "vertical": true,
+      "collapsible": "{}",
+      "destroyOnHidden": false,
+      "onDraggerDoubleClick": "",
+      "onResizeStart": "",
+      "onResize": "",
+      "onResizeEnd": "",
+      "onCollapse": "",
+      "lazy": false,
+      "classNames": "{}",
+      "styles": "{}"
     }
   },
   "dLnWh": {
@@ -20025,15 +19886,14 @@
     "height": 268.09,
     "scriptUri": "../canvas-components/Flex.js",
     "inputs": {
+      "children": "[{\"ref\":\"a2Yi9f\",\"width\":273,\"height\":268.09},{\"ref\":\"YyKAD\",\"width\":345,\"height\":268.09}]",
+      "vertical": false,
       "justify": "space-between",
       "align": "normal",
-      "child1": "a2Yi9f",
-      "child1Width": 273,
-      "child1Height": 268.09,
-      "child2": "YyKAD",
-      "child2Width": 345,
-      "child2Height": 268.09,
-      "gap": "0"
+      "flex": "",
+      "gap": "0",
+      "wrap": false,
+      "component": "div"
     }
   },
   "ca84t": {

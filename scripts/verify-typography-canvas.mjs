@@ -32,7 +32,7 @@ for(const props of cases){
  assert.equal(text.underline,!!input.underline);assert.equal(text.strikethrough,!!input.delete);
  const paths=actual.filter(n=>n.type==='path');assert.equal(paths.length,expected.icons.length);
  paths.forEach((p,n)=>{for(const [key,val]of [['x',expected.icons[n].x],['y',expected.icons[n].y],['width',expected.icons[n].w]])assert.ok(Math.abs(p[key]-val)<1,`${JSON.stringify(props)} icon ${key}: ${p[key]} != ${val}`);});
- if(expected.bg){const bg=actual.find(n=>n.type==='rectangle');assert.ok(Math.abs(bg.width-expected.bg.w)<.3,`background width ${JSON.stringify(props)}: ${bg.width} != ${expected.bg.w}`);assert.ok(Math.abs(bg.height-expected.bg.h)<1,`background height ${JSON.stringify(props)}`);assert.ok(Math.abs(bg.y-expected.bg.y)<1,`background y ${JSON.stringify(props)}: ${bg.y} != ${expected.bg.y}`);}
+ if(expected.bg){const bg=actual.find(n=>n.type==='rectangle'&&n.name!=='Typography surface');assert.ok(Math.abs(bg.width-expected.bg.w)<.3,`background width ${JSON.stringify(props)}: ${bg.width} != ${expected.bg.w}`);assert.ok(Math.abs(bg.height-expected.bg.h)<1,`background height ${JSON.stringify(props)}`);assert.ok(Math.abs(bg.y-expected.bg.y)<1,`background y ${JSON.stringify(props)}: ${bg.y} != ${expected.bg.y}`);}
  for(const n of actual){assert.ok(!('textDecoration'in n));assert.match(n.fill,/^#[\da-f]{6}([\da-f]{2})?$/i);for(const p of ['x','y','width','height'])if(n[p]!==undefined)assert.ok(Number.isFinite(n[p]));}
  checks++;
 }

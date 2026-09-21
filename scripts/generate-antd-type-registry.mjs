@@ -11,7 +11,7 @@ const dc = discovery.getTypeChecker();
 const source = discovery.getSourceFile(indexFile);
 const exports = dc.getExportsOfModule(dc.getSymbolAtLocation(source));
 const names = exports
-  .filter(s => s.name !== 'ConfigProvider' && /^[A-Z]/.test(s.name) && s.declarations?.some(d => ts.isExportSpecifier(d) && !d.parent.parent.isTypeOnly))
+  .filter(s => /^[A-Z]/.test(s.name) && s.declarations?.some(d => ts.isExportSpecifier(d) && !d.parent.parent.isTypeOnly))
   .map(s => s.name);
 const componentPaths = [];
 function discover(path, type, depth = 0) {

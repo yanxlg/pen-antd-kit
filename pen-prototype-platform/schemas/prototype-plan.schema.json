@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["source", "pages", "assumptions"],
+  "properties": {
+    "source": { "type": "string" },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "goal", "pattern", "states"],
+        "properties": {
+          "id": { "type": "string" },
+          "goal": { "type": "string" },
+          "pattern": { "type": "string" },
+          "templateId": { "type": ["string", "null"] },
+          "states": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "assumptions": { "type": "array", "items": { "type": "string" } }
+  }
+}

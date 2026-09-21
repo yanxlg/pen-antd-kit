@@ -9,7 +9,7 @@ const categories = {
   'Data Entry': ['AutoComplete', 'Cascader', 'Checkbox', 'ColorPicker', 'DatePicker', 'Form', 'Input', 'InputNumber', 'Mentions', 'Radio', 'Rate', 'Select', 'Slider', 'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload'],
   'Data Display': ['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'List', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'],
   Feedback: ['Alert', 'Drawer', 'Message', 'Modal', 'Notification', 'Popconfirm', 'Progress', 'Result', 'Skeleton', 'Spin', 'Watermark'],
-  Other: ['Affix', 'App', 'BackTop', 'BorderBeam'],
+  Other: ['Affix', 'App', 'BackTop', 'BorderBeam', 'ConfigProvider'],
 };
 const treeData = [{ title: '产品研发', key: '0', value: '0', children: [{ title: '设计团队', key: '0-0', value: '0-0' }, { title: '开发团队', key: '0-1', value: '0-1' }] }];
 const options = [{ label: '设计', value: 'design' }, { label: '研发', value: 'dev' }, { label: '产品', value: 'pm' }];
@@ -90,6 +90,7 @@ function Samples({ name, state = 'default' }) {
     case 'Descriptions': return h(A.Descriptions, { title: '用户信息', bordered: true, column: 1, size: 'small', items: [{ key: '1', label: '姓名', children: '张三' }, { key: '2', label: '状态', children: h(A.Badge, { status: 'success', text: '正常' }) }, { key: '3', label: '部门', children: '产品研发部' }] });
     case 'Empty': return h(A.Empty, { description: '暂无数据' });
     case 'Image': return h(A.Image, { width: 240, height: 144, src: 'invalid-local-image', fallback: A.Image.PRESENTED_IMAGE_SIMPLE });
+    case 'List': return h(A.List, { bordered: state === 'bordered', loading: state === 'loading', dataSource: ['Ant Design Title 1', 'Ant Design Title 2', 'Ant Design Title 3'], renderItem: item => h(A.List.Item, null, h(A.List.Item.Meta, { avatar: h(A.Avatar, null, item.slice(-1)), title: item, description: 'Ant Design list item' })) });
     case 'Listy': return h(A.Listy, {
       items: Array.from({ length: state === 'virtual' ? 100 : 6 }, (_, index) => ({ id: index, title: '成员 ' + (index + 1), team: index < 3 ? '设计团队' : '研发团队' })),
       rowKey: 'id',
@@ -98,7 +99,6 @@ function Samples({ name, state = 'default' }) {
       itemRender: item => h('div', { style: { padding: 12 } }, item.title),
       ...(state === 'grouped' ? { group: { key: item => item.team, title: team => team }, sticky: true } : {}),
     });
-    case 'List': return h(A.List, { header: '团队成员', bordered: true, dataSource: ['张三 · 产品设计', '李四 · 前端研发', '王五 · 质量保障'], renderItem: item => h(A.List.Item, null, item) });
     case 'Popover': return h('div', { style: { height: 132, paddingTop: 80, paddingLeft: 96 } }, h(A.Popover, { open: true, title: '提示标题', content: '这里是补充说明内容。', getPopupContainer: popup(name), placement: 'top' }, button('查看说明')));
     case 'QRCode': return h(A.QRCode, { type: 'svg', value: 'https://ant.design/', size: 176 });
     case 'Segmented': return h(A.Segmented, { options: ['每日', '每周', '每月'], defaultValue: '每周' });
@@ -124,6 +124,7 @@ function Samples({ name, state = 'default' }) {
     case 'App': return h(A.App, null, h(A.Alert, { title: '应用上下文中的内容', type: 'info', showIcon: true }), h('div', { style: { marginTop: 12 } }, button('应用操作', { type: 'primary' })));
     case 'BackTop': return h(A.FloatButton.BackTop, { visibilityHeight: 0, style: { position: 'relative', inset: 'auto' } });
     case 'BorderBeam': return h(A.BorderBeam, null, h(A.Card, { style: { width: 320 } }, paragraph('边框流光效果')));
+    case 'ConfigProvider': return h(A.ConfigProvider, { componentSize: state === 'disabled' ? 'small' : 'middle', componentDisabled: state === 'disabled', theme: { token: { colorPrimary: '#1677ff' } } }, button('Configured button', { type: 'primary' }));
     default: throw new Error('Missing real component sample: ' + name);
   }
 }

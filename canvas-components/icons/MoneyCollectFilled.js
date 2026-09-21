@@ -1,0 +1,53 @@
+/**
+ * @schema 2.18
+ * @input fontSize: number = 16
+ * @input color: color = #1677FF
+ * @input twoToneColor: string = "#1677ff"
+ * @input rotate: number = 0
+ */
+// Generated from the official @ant-design/icons export MoneyCollectFilled.
+const definition = {"viewBox":[64,64,896,896],"paths":[{"d":"M911.5 699.7a8 8 0 00-10.3-4.8L840 717.2V179c0-37.6-30.4-68-68-68H252c-37.6 0-68 30.4-68 68v538.2l-61.3-22.3c-.9-.3-1.8-.5-2.7-.5-4.4 0-8 3.6-8 8V762c0 3.3 2.1 6.3 5.3 7.5L501 909.1c7.1 2.6 14.8 2.6 21.9 0l383.8-139.5c3.2-1.2 5.3-4.2 5.3-7.5v-59.6c0-1-.2-1.9-.5-2.8zm-243.8-377L564 514.3h57.6c4.4 0 8 3.6 8 8v27.1c0 4.4-3.6 8-8 8h-76.3v39h76.3c4.4 0 8 3.6 8 8v27.1c0 4.4-3.6 8-8 8h-76.3V703c0 4.4-3.6 8-8 8h-49.9c-4.4 0-8-3.6-8-8v-63.4h-76c-4.4 0-8-3.6-8-8v-27.1c0-4.4 3.6-8 8-8h76v-39h-76c-4.4 0-8-3.6-8-8v-27.1c0-4.4 3.6-8 8-8h57L356.5 322.8c-2.1-3.8-.7-8.7 3.2-10.8 1.2-.7 2.5-1 3.8-1h55.7a8 8 0 017.1 4.4L511 484.2h3.3L599 315.4c1.3-2.7 4.1-4.4 7.1-4.4h54.5c4.4 0 8 3.6 8.1 7.9 0 1.3-.4 2.6-1 3.8z"}]};
+const input = pencil.input || {};
+const fontSize = Number(input.fontSize ?? 16);
+if (!Number.isFinite(fontSize) || fontSize <= 0) throw new Error('fontSize must be a positive pixel value');
+
+const rawTone = input.twoToneColor || '#1677ff';
+const tones = Array.isArray(rawTone)
+  ? rawTone
+  : String(rawTone).trim().startsWith('[')
+    ? JSON.parse(rawTone)
+    : [rawTone];
+const primary = tones[0];
+const lighten = (color) => {
+  const value = String(color).replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(value)) return '#E6F4FF';
+  const channels = [0, 2, 4].map((offset) => parseInt(value.slice(offset, offset + 2), 16));
+  return '#' + channels.map((channel) => Math.round(channel + (255 - channel) * 0.9).toString(16).padStart(2, '0')).join('');
+};
+const secondary = tones[1] || lighten(primary);
+const angle = Number(input.rotate || 0);
+const radians = angle * Math.PI / 180;
+const half = fontSize / 2;
+const x = (Number(pencil.width) || fontSize) / 2 - half * Math.cos(radians) + half * Math.sin(radians);
+const y = (Number(pencil.height) || fontSize) / 2 - half * Math.sin(radians) - half * Math.cos(radians);
+
+return definition.paths.map((attrs, index) => ({
+  type: 'path',
+  name: 'MoneyCollectFilled path ' + (index + 1),
+  x,
+  y,
+  width: fontSize,
+  height: fontSize,
+  viewBox: definition.viewBox,
+  geometry: attrs.d,
+  fill: attrs.fill === '__primary__'
+    ? primary
+    : attrs.fill === '__secondary__'
+      ? secondary
+      : (!attrs.fill || attrs.fill === 'currentColor')
+        ? (input.color || '#1677FF')
+        : attrs.fill,
+  fillRule: attrs['fill-rule'] || 'nonzero',
+  opacity: attrs['fill-opacity'] === undefined ? 1 : Number(attrs['fill-opacity']),
+  rotation: -angle,
+}));

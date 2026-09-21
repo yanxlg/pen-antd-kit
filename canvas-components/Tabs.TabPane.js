@@ -25,7 +25,7 @@ const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
 
-  const items = (i.items || "概览|详情|设置").split("|");
+  const items = (i.items || "Overview|Details|Settings").split("|");
   const tw = Math.min(W / items.length, 90);
   items.forEach((it, n) => {
     const active = n === 0;

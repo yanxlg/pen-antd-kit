@@ -43,5 +43,5 @@ if(i.showProgress){
 let y=(H-inner)/2;
 if(hasIcon)y+=iconSize+(content?2:0);
 for(const text of lines){nodes.push({type:'text',name:'FloatButton content',content:text,x:1,y,width:38,height:lineHeight,textGrowth:'fixed-width-height',textAlign:'center',fontFamily:'Inter',fontSize:12,fontWeight:'400',lineHeight:1.15,fill:fg});y+=lineHeight;}
-if(hasIcon)nodes.push({type:'ref',name:'icon',context:'prop:icon',...(iconValues[i.icon]||i.loading||i.state==='loading'?{scriptUri:'../canvas-components/Icon.js'}:{}),ref:iconValues[i.icon]?'antd-icon-live-origin':i.icon,x:(W-iconSize)/2,y:(H-inner)/2,width:iconSize,height:iconSize,inputs:{...(iconValues[i.icon]||{}),fontSize:iconSize,color:fg}});
+if(hasIcon){const selected=iconValues[i.icon],iconName=(i.loading||i.state==='loading')?'LoadingOutlined':selected?.name;if(iconName){const {name,...iconInputs}=selected||{};nodes.push({type:'script',name:iconName,context:'prop:icon',scriptUri:'../canvas-components/icons/'+iconName+'.js',x:(W-iconSize)/2,y:(H-inner)/2,width:iconSize,height:iconSize,inputs:{...iconInputs,fontSize:iconSize,color:fg}});}else nodes.push({type:'ref',name:'icon',context:'prop:icon',ref:i.icon,x:(W-iconSize)/2,y:(H-inner)/2,width:iconSize,height:iconSize,inputs:{fontSize:iconSize,color:fg}});}
 return nodes;

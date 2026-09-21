@@ -107,7 +107,7 @@
       "tag": "nav",
       "text": "AntDesign/Component/General/Button",
       "props": {
-        "items": "[{\"title\": \"Ant Design\"}, {\"title\": \"Component\"}, {\"title\": \"General\"}, {\"title\": \"Button\"}]",
+        "items": "[{\"title\":\"Ant Design\"},{\"title\":\"Component\",\"href\":\"\"},{\"title\":\"General\",\"href\":\"\",\"menu\":{\"items\":[{\"key\":\"1\",\"label\":\"General\"},{\"key\":\"2\",\"label\":\"Layout\"},{\"key\":\"3\",\"label\":\"Navigation\"}]}},{\"title\":\"Button\"}]",
         "separator": "/"
       },
       "nodeId": "k8cblQ",
@@ -163,8 +163,8 @@
       "tag": "nav",
       "text": "Location:ApplicationCenter/ApplicationList/AnApplication",
       "props": {
-        "items": "[{\"title\": \"Location\"}, {\"title\": \"Application Center\"}, {\"title\": \"Application List\"}, {\"title\": \"An Application\"}]",
-        "separator": ":"
+        "items": "[{\"title\":\"Location\"},{\"type\":\"separator\",\"separator\":\":\"},{\"title\":\"Application Center\",\"href\":\"\"},{\"type\":\"separator\",\"separator\":\"/\"},{\"title\":\"Application List\",\"href\":\"\"},{\"type\":\"separator\",\"separator\":\"/\"},{\"title\":\"An Application\"}]",
+        "separator": ""
       },
       "nodeId": "yTeEQ",
       "preview": "z3yzZ",

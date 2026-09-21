@@ -54,7 +54,7 @@ const colDefinitions = [
         title: 'Data Display · 数据展示',
         components: [
           'Avatar', 'Badge', 'Tag', 'Segmented',
-          'Card', 'Collapse', 'Descriptions', 'List', 'Table',
+          'Card', 'Collapse', 'Descriptions', 'Table',
           'Calendar', 'Carousel', 'Image', 'QRCode', 'Statistic',
           'Timeline', 'Tooltip', 'Tour', 'Tree', 'Empty', 'Popover',
         ],

@@ -161,7 +161,7 @@ function buildOverviewLayer(y) {
           components: [
             'Avatar', 'Badge', 'Calendar', 'Card',
             'Carousel', 'Collapse', 'Descriptions', 'Empty',
-            'Image', 'List', 'Listy', 'Popover', 'QRCode',
+            'Image', 'Listy', 'Popover', 'QRCode',
             'Segmented', 'Statistic', 'Table', 'Tag',
             'Timeline', 'Tooltip', 'Tour', 'Tree',
           ],
@@ -845,14 +845,14 @@ function buildDataDisplayLayer(y) {
   const ARTBOARD_H = 1050;
   const GAP_X = 80;
 
-  const ab1Comps = ['Table', 'Descriptions', 'List', 'Card', 'Segmented', 'Statistic'];
+  const ab1Comps = ['Table', 'Descriptions', 'Card', 'Segmented', 'Statistic'];
   const ab2Comps = ['Avatar', 'Badge', 'Tag', 'Image', 'QRCode', 'Timeline', 'Empty'];
   const ab3Comps = ['Tree', 'Calendar', 'Collapse', 'Carousel', 'Tooltip', 'Popover', 'Tour'];
 
   const ab1 = buildCategoryArtboard(
     'artboard-display-tables',
     'Tables & Structured · 表格与结构化数据',
-    'Table, Descriptions, List, Card, Segmented, Statistic 表格与核心数据容器',
+    'Table, Descriptions, Card, Segmented, Statistic 表格与核心数据容器',
     'Data Display 数据展示',
     '#722ED1',
     ab1Comps,

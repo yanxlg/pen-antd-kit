@@ -50,6 +50,7 @@ const textSize=editing?fs:fs*(i.code?.85:1)*(i.keyboard?.9:1);
 const metric=metrics[[font,weight,italic?1:0].join(':')];
 function measure(s){let w=0,prev='';for(const ch of Array.from(s)){w+=(metric.widths[ch]===undefined?(/\p{Mark}/u.test(ch)?0:ch.codePointAt(0)>255?1:.6):metric.widths[ch])+(metric.pairs[prev+ch]||0);prev=ch;}return w*textSize;}
 const W=Math.max(1,Number(pencil.width)||320);
+const H=Math.max(1,Number(pencil.height)||lh);
 const raw=String(i.content??'Ant Design 界面排版').replace(/\r\n?/g,'\n');
 const actions=[];
 if(i.editable&&i.editTrigger!=='text')actions.push(i.editIcon||'EditOutlined');
@@ -85,6 +86,7 @@ if(!start&&!truncated&&measure(lines[lines.length-1])+actionWidth+labelWidth>ava
 function rect(name,x,y,w,h,fill,stroke,radius=0){nodes.push({type:'rectangle',name,x,y,width:Math.max(0,w),height:Math.max(0,h),fill,cornerRadius:radius,...(stroke?{stroke,strokeWidth:1,strokeAlignment:'inner'}:{})});}
 function text(content,x,y,size=textSize,fill=color,name='Text'){nodes.push({type:'text',name,content,x,y,fontFamily:font,fontSize:size,fontWeight:String(weight),fontStyle:italic?'italic':'normal',lineHeight:lh/size,textGrowth:'auto',fill,underline:!!i.underline,strikethrough:!!i.delete});}
 function icon(name,x,y,size,fill){for(const path of icons[name].paths)nodes.push({type:'path',name,x,y,width:size,height:size,viewBox:icons[name].viewBox,geometry:path,fill});}
+rect('Typography surface',0,0,W,H,t.colorBgContainer);
 if(i.editable&&i.editing){
  const height=Math.max(lh+10,Number(pencil.height)||lh+10);
  rect('Editing surface',0,0,W,height,t.colorBgContainer,t.colorPrimary,6);

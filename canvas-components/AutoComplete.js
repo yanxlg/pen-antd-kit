@@ -7,6 +7,8 @@
  * @input status: enum("default", "error", "warning") = "default"
  * @input disabled: boolean = false
  * @input open: boolean = false
+ * @input compactOrientation: enum("horizontal", "vertical") = "horizontal"
+ * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  * @input animation: string = ""
  * @input autoClearSearchValue: boolean = false
  * @input backfill: boolean = false
@@ -42,8 +44,18 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius = (radius=6) => {
+  const placement = i.compactPlacement || "none";
+  if (placement === "none") return radius;
+  if (placement === "middle") return 0;
+  if (i.compactOrientation === "vertical") return placement === "start" ? [radius,radius,0,0] : [0,0,radius,radius];
+  return placement === "start" ? [radius,0,0,radius] : [0,radius,radius,0];
+};
+const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
+  type:"path", x, y, width:size, height:size, viewBox, geometry, fill:color
+});
 
-  nodes.push(box(0,0,W,h,i.disabled?"#0000000A":bgFill,6,strokeCol));
+  nodes.push(box(0,0,W,h,i.disabled?"#0000000A":bgFill,compactRadius(6),strokeCol));
   nodes.push(text(i.value||i.placeholder||"input here",12,(h-18)/2,W-24,i.value?disabled:"#00000040",14));
   if(i.open){const opts=String(i.options||"Ant Design|AntV|Ant Design Pro").split("|");nodes.push(box(0,h+4,W,opts.length*32+8,"#fff",8,"#f0f0f0"));opts.forEach((o,n)=>{if(n===0)nodes.push(box(4,h+8+n*32,W-8,28,"#e6f4ff",4,"#e6f4ff"));nodes.push(text(o,12,h+12+n*32,W-24,n===0?primary:"#000000e0",13));});}
 return nodes;

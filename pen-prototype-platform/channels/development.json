@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "channel": "development",
+  "releaseUrl": "../releases/development/release.json"
+}

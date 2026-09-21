@@ -1008,20 +1008,6 @@ export function buildCardPreview(compName, pfx, w, h) {
       ];
     }
 
-    case 'List': {
-      return [
-        {
-          type: 'frame', id: `${pfx}-box`, name: 'List Preview',
-          width: 130, layout: 'vertical', gap: 6,
-          children: [
-            { type: 'frame', id: `${pfx}-r1`, layout: 'horizontal', gap: 6, alignItems: 'center', children: [{ type: 'frame', id: `${pfx}-a1`, width: 16, height: 16, cornerRadius: 8, fill: '#BAE0FF' }, { type: 'frame', id: `${pfx}-t1`, width: 80, height: 6, fill: '#8C8C8C', cornerRadius: 2 }] },
-            { type: 'frame', id: `${pfx}-r2`, layout: 'horizontal', gap: 6, alignItems: 'center', children: [{ type: 'frame', id: `${pfx}-a2`, width: 16, height: 16, cornerRadius: 8, fill: '#BAE0FF' }, { type: 'frame', id: `${pfx}-t2`, width: 90, height: 6, fill: '#8C8C8C', cornerRadius: 2 }] },
-            { type: 'frame', id: `${pfx}-r3`, layout: 'horizontal', gap: 6, alignItems: 'center', children: [{ type: 'frame', id: `${pfx}-a3`, width: 16, height: 16, cornerRadius: 8, fill: '#BAE0FF' }, { type: 'frame', id: `${pfx}-t3`, width: 70, height: 6, fill: '#8C8C8C', cornerRadius: 2 }] },
-          ],
-        },
-      ];
-    }
-
     case 'Popover': {
       return [
         {

@@ -9,6 +9,8 @@
  * @input disabled: boolean = false
  * @input open: boolean = false
  * @input allowClear: boolean = true
+ * @input compactOrientation: enum("horizontal", "vertical") = "horizontal"
+ * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  * @input animation: string = ""
  * @input autoClearSearchValue: boolean = false
  * @input bordered: boolean = false
@@ -46,16 +48,29 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius = (radius=6) => {
+  const placement = i.compactPlacement || "none";
+  if (placement === "none") return radius;
+  if (placement === "middle") return 0;
+  if (i.compactOrientation === "vertical") return placement === "start" ? [radius,radius,0,0] : [0,0,radius,radius];
+  return placement === "start" ? [radius,0,0,radius] : [0,radius,radius,0];
+};
+const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
+  type:"path", x, y, width:size, height:size, viewBox, geometry, fill:color
+});
 
-  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
-  if (i.mode === "multiple" || i.mode === "tags") {
-    nodes.push(box(6, (h-22)/2, 48, 22, "#F5F5F5", 4, "#D9D9D9"));
-    nodes.push(text("标签", 10, (h-16)/2, 36, "#000000D9", 11));
+  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
+  if (i.mode === "multiple" || i.mode === "tags" || i.multiple) {
+    const tagLabel=String(i.value||i.placeholder||"Zhejiang").split("|")[0];
+    const tagWidth=Math.min(W-42,Math.max(56,tagLabel.length*8+30));
+    nodes.push(box(4, (h-24)/2, tagWidth, 24, "#F5F5F5", 4, "#D9D9D9"));
+    nodes.push(text(tagLabel, 12, (h-18)/2, tagWidth-28, i.disabled?"#00000040":"#000000E0", 14));
+    nodes.push(iconPath("M799.86 166.31L857.69 224.15L569.93 512L857.69 799.7L799.86 857.69L512 569.93L224.3 857.69L166.31 799.86L454.07 512L166.31 224.15L224.14 166.31L512 454.07Z",[64,64,896,896],tagWidth-14,(h-10)/2,10,"#00000073"));
   } else {
     const val = i.value || i.placeholder || "请选择";
     nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
   }
-  nodes.push(text(i.open ? "⌃" : "⌄", W - 22, (h-18)/2, 16, "#00000073", 14));
+  nodes.push(iconPath("M884 256H809L512 654.2L215 256H140L486.1 754.8C498.9 772.4 525.1 772.4 537.8 754.8Z",[64,64,896,896],W-24,(h-12)/2,12,"#00000040"));
   if (i.open) {
     const opts = (i.options || "选项一|选项二|选项三").split("|");
     nodes.push({type:"rectangle", x:0, y:h+4, width:W, height:opts.length*32+8, cornerRadius:6, fill:"#FFFFFF", stroke:"#F0F0F0", strokeWidth:1, effect:{type:"shadow",shadowType:"outer",blur:8,offset:{x:0,y:4},color:"#00000015"}});

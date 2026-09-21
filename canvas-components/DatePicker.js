@@ -7,6 +7,9 @@
  * @input status: enum("default", "error", "warning") = "default"
  * @input open: boolean = false
  * @input disabled: boolean = false
+ * @input range: boolean = false
+ * @input compactOrientation: enum("horizontal", "vertical") = "horizontal"
+ * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  * @input bordered: boolean = false
  * @input changeOnBlur: boolean = false
  * @input changeOnScroll: boolean = false
@@ -53,11 +56,22 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius = (radius=6) => {
+  const placement = i.compactPlacement || "none";
+  if (placement === "none") return radius;
+  if (placement === "middle") return 0;
+  if (i.compactOrientation === "vertical") return placement === "start" ? [radius,radius,0,0] : [0,0,radius,radius];
+  return placement === "start" ? [radius,0,0,radius] : [0,radius,radius,0];
+};
+const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
+  type:"path", x, y, width:size, height:size, viewBox, geometry, fill:color
+});
 
-  nodes.push(box(0, 0, W, h, bgFill, 6, strokeCol));
+  nodes.push(box(0, 0, W, h, bgFill, compactRadius(6), strokeCol));
   const val = i.value || i.placeholder || "请选择日期";
-  nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
-  nodes.push(text("▣", W - 24, (h-18)/2, 16, "#00000073", 13));
+  if(i.range){nodes.push(text(val||"Start",pad,(h-18)/2,(W-56)/2,i.value?disabled:"#00000040",14));nodes.push(text("→",W/2-10,(h-18)/2,20,"#00000040",13,"normal","center"));nodes.push(text(i.endValue||"End",W/2+14,(h-18)/2,(W-56)/2,"#00000040",14));}
+  else nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
+  nodes.push(iconPath("M880 184H712V120H640V184H384V120H312V184H144C126.3 184 112 198.3 112 216V880C112 897.7 126.3 912 144 912H880C897.7 912 912 897.7 912 880V216C912 198.3 897.7 184 880 184ZM840 840H184V460H840V840ZM184 392V256H312V304H384V256H640V304H712V256H840V392H184Z",[64,64,896,896],W-26,(h-14)/2,14,"#00000040"));
   if (i.open) {
     const pw = Math.max(W, 260), ph = 200;
     nodes.push({type:"rectangle", x:0, y:h+4, width:pw, height:ph, cornerRadius:8, fill:"#FFFFFF", stroke:"#F0F0F0", strokeWidth:1, effect:{type:"shadow",shadowType:"outer",blur:12,offset:{x:0,y:4},color:"#0000001F"}});

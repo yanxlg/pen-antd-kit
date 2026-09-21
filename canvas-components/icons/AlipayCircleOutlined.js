@@ -1,0 +1,53 @@
+/**
+ * @schema 2.18
+ * @input fontSize: number = 16
+ * @input color: color = #1677FF
+ * @input twoToneColor: string = "#1677ff"
+ * @input rotate: number = 0
+ */
+// Generated from the official @ant-design/icons export AlipayCircleOutlined.
+const definition = {"viewBox":[64,64,896,896],"paths":[{"d":"M512 64c247.42 0 448 200.58 448 448S759.42 960 512 960 64 759.42 64 512 264.58 64 512 64m32.5 168c-69.67 0-86.06 16.84-86.72 39.08l-.02 1.43v46.62H291.45c-9.92 0-14.28 23.05-14.27 39.3 0 2.7 2.08 4.93 4.77 4.93h175.81v58.3h-116.5c-9.96 0-14.3 23.76-14.27 39.47a4.77 4.77 0 004.77 4.76h233.45c-4.53 41.06-15.43 77.59-30.72 109.32l-1.22 2.5-.32-.28c-60.24-28.47-120.43-52.57-194.4-52.57l-2.62.01c-84.98 1.11-144.71 56.5-145.91 127.04l-.02 1.22.02 2.13c1.24 70.4 63.56 126.45 148.52 126.45 61.25 0 116.38-16.85 163.46-45.02a138.58 138.58 0 0014.07-7.96 345.6 345.6 0 0050.3-41.16l9.45 6.35 12.46 8.32c57.53 38.26 113.76 72.62 169.86 79.27a142.62 142.62 0 0018.31 1.16c43.02 0 55-52.68 57.39-95.51l.14-2.84c.4-8.46-6.2-15.6-14.65-15.86-75.46-2.37-136.45-22.05-192-46.11l-6.27-2.75c35.15-56.8 56.66-121.81 57.15-186.66l.09-1.08c.4-5.51-4-10.2-9.52-10.2H549.33v-58.3h165.73c9.92 0 14.28-22.12 14.27-39.31a4.85 4.85 0 00-4.78-4.92H549.32v-82.35a4.8 4.8 0 00-4.83-4.78M328 583.85c54.63 0 107.08 22.41 158.1 52.19l5.76 3.4c-103.57 119.84-247.17 95.9-261.72 26.37a66.89 66.89 0 01-1.14-9.83l-.06-2.34.02-.9c.97-40.12 45.33-68.9 99.04-68.9"}]};
+const input = pencil.input || {};
+const fontSize = Number(input.fontSize ?? 16);
+if (!Number.isFinite(fontSize) || fontSize <= 0) throw new Error('fontSize must be a positive pixel value');
+
+const rawTone = input.twoToneColor || '#1677ff';
+const tones = Array.isArray(rawTone)
+  ? rawTone
+  : String(rawTone).trim().startsWith('[')
+    ? JSON.parse(rawTone)
+    : [rawTone];
+const primary = tones[0];
+const lighten = (color) => {
+  const value = String(color).replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(value)) return '#E6F4FF';
+  const channels = [0, 2, 4].map((offset) => parseInt(value.slice(offset, offset + 2), 16));
+  return '#' + channels.map((channel) => Math.round(channel + (255 - channel) * 0.9).toString(16).padStart(2, '0')).join('');
+};
+const secondary = tones[1] || lighten(primary);
+const angle = Number(input.rotate || 0);
+const radians = angle * Math.PI / 180;
+const half = fontSize / 2;
+const x = (Number(pencil.width) || fontSize) / 2 - half * Math.cos(radians) + half * Math.sin(radians);
+const y = (Number(pencil.height) || fontSize) / 2 - half * Math.sin(radians) - half * Math.cos(radians);
+
+return definition.paths.map((attrs, index) => ({
+  type: 'path',
+  name: 'AlipayCircleOutlined path ' + (index + 1),
+  x,
+  y,
+  width: fontSize,
+  height: fontSize,
+  viewBox: definition.viewBox,
+  geometry: attrs.d,
+  fill: attrs.fill === '__primary__'
+    ? primary
+    : attrs.fill === '__secondary__'
+      ? secondary
+      : (!attrs.fill || attrs.fill === 'currentColor')
+        ? (input.color || '#1677FF')
+        : attrs.fill,
+  fillRule: attrs['fill-rule'] || 'nonzero',
+  opacity: attrs['fill-opacity'] === undefined ? 1 : Number(attrs['fill-opacity']),
+  rotation: -angle,
+}));

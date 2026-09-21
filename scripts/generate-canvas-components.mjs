@@ -77,6 +77,16 @@ function getInputs(name, comp) {
       { name: 'password', type: 'boolean', def: 'false' },
       { name: 'otp', type: 'boolean', def: 'false' },
     ],
+    'Input.Search': [
+      { name: 'placeholder', type: 'string', def: '""' },
+      { name: 'value', type: 'string', def: '""' },
+      { name: 'allowClear', type: 'boolean', def: 'false' },
+      { name: 'search', type: 'boolean', def: 'false' },
+      { name: 'size', type: 'enum("small", "middle", "large")', def: '"middle"' },
+      { name: 'status', type: 'enum("default", "error", "warning")', def: '"default"' },
+      { name: 'disabled', type: 'boolean', def: 'false' },
+      { name: 'variant', type: 'enum("outlined", "filled", "borderless", "underlined")', def: '"outlined"' },
+    ],
     InputNumber: [
       { name: 'value', type: 'number', def: '3' },
       { name: 'size', type: 'enum("small", "middle", "large")', def: '"middle"' },
@@ -399,6 +409,16 @@ function getInputs(name, comp) {
     if (name === 'Button') return inputs;
   }
 
+  const compactControlNames = new Set([
+    'Input', 'InputNumber', 'Select', 'TreeSelect', 'Cascader', 'AutoComplete',
+    'DatePicker', 'DatePicker.RangePicker', 'TimePicker', 'TimePicker.RangePicker',
+    'ColorPicker',
+  ]);
+  if (compactControlNames.has(name) || name.startsWith('Input.')) {
+    addInput('compactOrientation', 'enum("horizontal", "vertical")', '"horizontal"');
+    addInput('compactPlacement', 'enum("none", "start", "middle", "end")', '"none"');
+  }
+
   // 2. Add remaining clean visual props from inspector
   for (const prop of comp.props) {
     if (added.has(prop.name) || htmlAndTechnicalProps.has(prop.name)) continue;
@@ -438,7 +458,7 @@ const i = pencil.input;
 const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
 const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
 const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
+const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align, textAlignVertical:"middle", textGrowth:"fixed-width-height"});
 const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
 const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
 const nodes = [];
@@ -447,6 +467,16 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius = (radius=6) => {
+  const placement = i.compactPlacement || "none";
+  if (placement === "none") return radius;
+  if (placement === "middle") return 0;
+  if (i.compactOrientation === "vertical") return placement === "start" ? [radius,radius,0,0] : [0,0,radius,radius];
+  return placement === "start" ? [radius,0,0,radius] : [0,radius,radius,0];
+};
+const iconPath = (geometry, viewBox, x, y, size=14, color="#00000040") => ({
+  type:"path", x, y, width:size, height:size, viewBox, geometry, fill:color
+});
 `;
 
 const comprehensiveRenderer = `
@@ -532,7 +562,7 @@ case "Input": {
     for(let n=0;n<count;n++){nodes.push(box(n*(bw+gap),0,bw,h,i.disabled?"#0000000A":bgFill,6,strokeCol));if(i.value)nodes.push(text(String(i.value)[n]||"",n*(bw+gap),7,bw,disabled,14,"normal","center"));}
     return nodes;
   }
-  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
+  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
   let curX = pad;
   if (i.prefix) {
     nodes.push(text(i.prefix, curX, (h-18)/2, 20, "#00000040", 13));
@@ -549,7 +579,7 @@ case "Input": {
   break;
 }
 case "AutoComplete": {
-  nodes.push(box(0,0,W,h,i.disabled?"#0000000A":bgFill,6,strokeCol));
+  nodes.push(box(0,0,W,h,i.disabled?"#0000000A":bgFill,compactRadius(6),strokeCol));
   nodes.push(text(i.value||i.placeholder||"input here",12,(h-18)/2,W-24,i.value?disabled:"#00000040",14));
   if(i.open){const opts=String(i.options||"Ant Design|AntV|Ant Design Pro").split("|");nodes.push(box(0,h+4,W,opts.length*32+8,"#fff",8,"#f0f0f0"));opts.forEach((o,n)=>{if(n===0)nodes.push(box(4,h+8+n*32,W-8,28,"#e6f4ff",4,"#e6f4ff"));nodes.push(text(o,12,h+12+n*32,W-24,n===0?primary:"#000000e0",13));});}
   break;
@@ -568,14 +598,17 @@ case "InputNumber": {
   const inputBorder=i.disabled?'#D9D9D9':i.status==='error'?'#FF4D4F':i.status==='warning'?'#FAAD14':'#D9D9D9';
   const inputFill=i.disabled?'#0000000A':i.variant==='filled'?'#00000005':'#FFFFFF';
   const inputStroke=i.variant==='borderless'||i.variant==='filled'?'#00000000':inputBorder;
-  nodes.push(box(0,0,W,inputH,inputFill,inputRadius,inputStroke));
+  nodes.push(box(0,0,W,inputH,inputFill,compactRadius(inputRadius),inputStroke));
   if(i.variant==='underlined')nodes.push({type:'rectangle',x:0,y:inputH-1,width:W,height:1,fill:inputBorder});
   if(i.mode==='spinner'&&!i.disabled){
     const actionW=inputH;
     nodes.push({type:'rectangle',x:actionW,y:0,width:1,height:inputH,fill:'#D9D9D9'});
     nodes.push({type:'rectangle',x:W-actionW-1,y:0,width:1,height:inputH,fill:'#D9D9D9'});
-    nodes.push(text('−',0,(inputH-(inputFont+4))/2,actionW,'#000000E0',inputFont,'normal','center'));
-    nodes.push(text('+',W-actionW,(inputH-(inputFont+4))/2,actionW,'#000000E0',inputFont,'normal','center'));
+    const val=Number(i.value??0);
+    const minDisabled=i.min!==undefined&&i.min!==null&&val<=Number(i.min);
+    const maxDisabled=i.max!==undefined&&i.max!==null&&val>=Number(i.max);
+    nodes.push(text('−',0,(inputH-(inputFont+4))/2,actionW,minDisabled?'#00000040':'#000000E0',inputFont,'normal','center'));
+    nodes.push(text('+',W-actionW,(inputH-(inputFont+4))/2,actionW,maxDisabled?'#00000040':'#000000E0',inputFont,'normal','center'));
     nodes.push(text(String(i.value??i.placeholder??''),actionW,(inputH-(inputFont+4))/2,W-actionW*2,disabled,inputFont,'normal','center'));
   }else{
     let textX=inputPad,textRight=W-inputPad;
@@ -587,15 +620,18 @@ case "InputNumber": {
   break;
 }
 case "Select": case "TreeSelect": case "Cascader": {
-  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
-  if (i.mode === "multiple" || i.mode === "tags") {
-    nodes.push(box(6, (h-22)/2, 48, 22, "#F5F5F5", 4, "#D9D9D9"));
-    nodes.push(text("标签", 10, (h-16)/2, 36, "#000000D9", 11));
+  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
+  if (i.mode === "multiple" || i.mode === "tags" || i.multiple) {
+    const tagLabel=String(i.value||i.placeholder||"Zhejiang").split("|")[0];
+    const tagWidth=Math.min(W-42,Math.max(56,tagLabel.length*8+30));
+    nodes.push(box(4, (h-24)/2, tagWidth, 24, "#F5F5F5", 4, "#D9D9D9"));
+    nodes.push(text(tagLabel, 12, (h-18)/2, tagWidth-28, i.disabled?"#00000040":"#000000E0", 14));
+    nodes.push(iconPath("M799.86 166.31L857.69 224.15L569.93 512L857.69 799.7L799.86 857.69L512 569.93L224.3 857.69L166.31 799.86L454.07 512L166.31 224.15L224.14 166.31L512 454.07Z",[64,64,896,896],tagWidth-14,(h-10)/2,10,"#00000073"));
   } else {
     const val = i.value || i.placeholder || "请选择";
     nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
   }
-  nodes.push(text(i.open ? "⌃" : "⌄", W - 22, (h-18)/2, 16, "#00000073", 14));
+  nodes.push(iconPath("M884 256H809L512 654.2L215 256H140L486.1 754.8C498.9 772.4 525.1 772.4 537.8 754.8Z",[64,64,896,896],W-24,(h-12)/2,12,"#00000040"));
   if (i.open) {
     const opts = (i.options || "选项一|选项二|选项三").split("|");
     nodes.push({type:"rectangle", x:0, y:h+4, width:W, height:opts.length*32+8, cornerRadius:6, fill:"#FFFFFF", stroke:"#F0F0F0", strokeWidth:1, effect:{type:"shadow",shadowType:"outer",blur:8,offset:{x:0,y:4},color:"#00000015"}});
@@ -607,12 +643,12 @@ case "Select": case "TreeSelect": case "Cascader": {
   }
   break;
 }
-case "DatePicker": case "TimePicker": {
-  nodes.push(box(0, 0, W, h, bgFill, 6, strokeCol));
+case "DatePicker": {
+  nodes.push(box(0, 0, W, h, bgFill, compactRadius(6), strokeCol));
   const val = i.value || i.placeholder || "请选择日期";
   if(i.range){nodes.push(text(val||"Start",pad,(h-18)/2,(W-56)/2,i.value?disabled:"#00000040",14));nodes.push(text("→",W/2-10,(h-18)/2,20,"#00000040",13,"normal","center"));nodes.push(text(i.endValue||"End",W/2+14,(h-18)/2,(W-56)/2,"#00000040",14));}
   else nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
-  nodes.push(text("◷", W - 24, (h-18)/2, 16, "#00000040", 14));
+  nodes.push(iconPath("M880 184H712V120H640V184H384V120H312V184H144C126.3 184 112 198.3 112 216V880C112 897.7 126.3 912 144 912H880C897.7 912 912 897.7 912 880V216C912 198.3 897.7 184 880 184ZM840 840H184V460H840V840ZM184 392V256H312V304H384V256H640V304H712V256H840V392H184Z",[64,64,896,896],W-26,(h-14)/2,14,"#00000040"));
   if (i.open) {
     const pw = Math.max(W, 260), ph = 200;
     nodes.push({type:"rectangle", x:0, y:h+4, width:pw, height:ph, cornerRadius:8, fill:"#FFFFFF", stroke:"#F0F0F0", strokeWidth:1, effect:{type:"shadow",shadowType:"outer",blur:12,offset:{x:0,y:4},color:"#0000001F"}});
@@ -624,6 +660,20 @@ case "DatePicker": case "TimePicker": {
       if (isToday) nodes.push({type:"rectangle", x:dx, y:dy, width:24, height:24, cornerRadius:4, fill:primary});
       nodes.push(text(String(d), dx+4, dy+3, 20, isToday?"#FFFFFF":"#000000A6", 12));
     }
+  }
+  break;
+}
+case "TimePicker": {
+  nodes.push(box(0, 0, W, h, bgFill, compactRadius(6), strokeCol));
+  const raw=i.value||"", val=raw?(i.use12Hours?raw.replace(/^([0-9]{1,2}):([0-9]{2}).*$/,(_,hh,mm)=>{const h24=Number(hh),h12=h24%12||12;return h12+":"+mm+(h24>=12?" PM":" AM");}):raw):(i.placeholder||"Select time");
+  if(i.range){nodes.push(text(val||"Start",pad,(h-18)/2,(W-56)/2,i.value?disabled:"#00000040",14));nodes.push(text("→",W/2-10,(h-18)/2,20,"#00000040",13,"normal","center"));nodes.push(text(i.endValue||"End",W/2+14,(h-18)/2,(W-56)/2,"#00000040",14));}
+  else nodes.push(text(val,pad,(h-18)/2,W-32-pad,i.value?disabled:"#00000040",14));
+  nodes.push(iconPath("M512 64C264.6 64 64 264.6 64 512S264.6 960 512 960S960 759.4 960 512S759.4 64 512 64ZM512 884C306.6 884 140 717.4 140 512S306.6 140 512 140S884 306.6 884 512S717.4 884 512 884ZM544.1 535.5V288H480V563.4C480 566 481.2 568.4 483.3 569.9L648.7 690.5L688.5 638.8L544.1 535.5Z",[64,64,896,896],W-26,(h-14)/2,14,"#00000040"));
+  if (i.open) {
+    const pw=Math.max(W,i.use12Hours?260:220),ph=184,cols=i.use12Hours?4:3,colW=pw/cols;
+    nodes.push({type:"rectangle",x:0,y:h+4,width:pw,height:ph,cornerRadius:8,fill:"#FFFFFF",stroke:"#F0F0F0",strokeWidth:1,effect:{type:"shadow",shadowType:"outer",blur:12,offset:{x:0,y:4},color:"#0000001F"}});
+    const lists=[i.use12Hours?["01","02","03","04","05"]:["00","01","02","03","04"],["00","15","30","45"],["00","15","30","45"]];if(i.use12Hours)lists.push(["AM","PM"]);
+    lists.forEach((list,col)=>{if(col>0)nodes.push(box(col*colW,h+4,1,ph,"#F0F0F0",0,"#F0F0F0",0));list.forEach((v,row)=>{const active=row===0;if(active)nodes.push(box(col*colW+4,h+10+row*30,colW-8,26,"#E6F4FF",4,"#E6F4FF",0));nodes.push(text(v,col*colW+12,h+15+row*30,colW-24,active?primary:"#000000E0",12));});});
   }
   break;
 }
@@ -670,9 +720,15 @@ case "Rate": {
   break;
 }
 case "ColorPicker": {
-  nodes.push(box(0, 0, W, h, "#FFFFFF", 6, "#D9D9D9"));
-  nodes.push(box(pad, (h-20)/2, 20, 20, i.value||primary, 4, "#0000001F"));
-  nodes.push(text(i.value||primary, pad + 28, (h-18)/2, W - pad*2 - 28, "#000000E0", 13));
+  const controlW=Math.max(1,pencil.width),swatch=h-8,swatchX=4,swatchY=4,swatchRadius=i.size==="small"?2:i.size==="large"?6:4;
+  nodes.push(box(0,0,controlW,h,i.disabled?"#0000000A":"#FFFFFF",compactRadius(6),"#D9D9D9"));
+  if(i.value) nodes.push(box(swatchX,swatchY,swatch,swatch,i.value,swatchRadius,"#00000000",0));
+  else {
+    nodes.push(box(swatchX,swatchY,swatch,swatch,"#00000000",swatchRadius,"#0505050F"));
+    const inset=2,lineSize=swatch-inset*2;
+    nodes.push({type:"path",x:swatchX+inset,y:swatchY+inset,width:lineSize,height:lineSize,viewBox:[0,0,lineSize,lineSize],geometry:`M0 ${lineSize} L${lineSize} 0`,fill:"transparent",stroke:"#F5222D",strokeWidth:2});
+  }
+  if(i.showText){const value=/^#[0-9a-f]+$/i.test(i.value||"")?i.value.toUpperCase():(i.value||"");nodes.push(text(value,swatchX+swatch+8,(h-18)/2,Math.max(0,controlW-swatchX-swatch-12),i.disabled?"#00000040":"#000000E0",14));}
   break;
 }
 case "Transfer": {
@@ -832,16 +888,6 @@ case "Empty": {
 case "Image": {
   nodes.push(box(0, 0, W, H, "#FAFAFA", 6, "#E8E8E8"));
   nodes.push(text("🖼️ 图片预览", 0, (H-18)/2, W, "#00000073", 13));
-  break;
-}
-case "List": {
-  nodes.push(box(0, 0, W, H, "#FFFFFF", 6, "#E8E8E8"));
-  ["列表项一：完成团队配置", "列表项二：审核成员加入申请", "列表项三：发布版本更新"].forEach((it, n) => {
-    const ly = n * 36;
-    if (n > 0) nodes.push({type:"rectangle", x:0, y:ly, width:W, height:1, fill:"#F0F0F0"});
-    nodes.push(circle(12, ly + 14, 6, primary));
-    nodes.push(text(it, 26, ly + 8, W - 32, "#000000E0", 13));
-  });
   break;
 }
 case "QRCode": {
@@ -1064,6 +1110,7 @@ return nodes;
 
 const outDir = new URL('../canvas-components/', import.meta.url);
 await mkdir(outDir, { recursive: true });
+const onlyComponents = new Set(String(process.env.ONLY_COMPONENTS || '').split(',').map(value => value.trim()).filter(Boolean));
 
 // Parse cases from comprehensiveRenderer
 const startIdx = comprehensiveRenderer.indexOf('switch (__COMPONENT__) {');
@@ -1082,6 +1129,7 @@ while ((m = regex.exec(switchBlock)) !== null) {
 }
 
 for (const name of components) {
+  if (onlyComponents.size && !onlyComponents.has(name)) continue;
   if (name === "Button" || name === "FloatButton" || name === "Badge") continue;
   if (["Divider", "Flex", "Row", "Col", "Grid", "Layout", "Masonry", "Space", "Splitter"].some(n => name === n || name.startsWith(n + "."))) continue;
   if (name === "Typography" || name.startsWith("Typography.")) continue;
@@ -1101,8 +1149,8 @@ await writeFile(new URL('README.md', outDir), '# Ant Design canvas components\n\
 
 console.log(`Generated ${components.length} polished canvas components with clean visual @inputs and full custom rendering!`);
 
-await import("./generate-typography-canvas.mjs");
-
-await import("./generate-floatbutton-canvas.mjs");
-
-await import("./generate-badge-canvas.mjs");
+if (!onlyComponents.size) {
+  await import("./generate-typography-canvas.mjs");
+  await import("./generate-floatbutton-canvas.mjs");
+  await import("./generate-badge-canvas.mjs");
+}

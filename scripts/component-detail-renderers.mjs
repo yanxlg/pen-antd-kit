@@ -16,7 +16,7 @@ export const CATEGORY_MAP = {
   Divider: 'Layout', Flex: 'Layout', Grid: 'Layout', Layout: 'Layout', Space: 'Layout', Splitter: 'Layout', Col: 'Layout', Row: 'Layout', Masonry: 'Layout',
   Anchor: 'Navigation', Breadcrumb: 'Navigation', Dropdown: 'Navigation', Menu: 'Navigation', Pagination: 'Navigation', Steps: 'Navigation', Tabs: 'Navigation',
   AutoComplete: 'Data Entry', Cascader: 'Data Entry', Checkbox: 'Data Entry', ColorPicker: 'Data Entry', DatePicker: 'Data Entry', Form: 'Data Entry', Input: 'Data Entry', InputNumber: 'Data Entry', Mentions: 'Data Entry', Radio: 'Data Entry', Rate: 'Data Entry', Select: 'Data Entry', Slider: 'Data Entry', Switch: 'Data Entry', TimePicker: 'Data Entry', Transfer: 'Data Entry', TreeSelect: 'Data Entry', Upload: 'Data Entry',
-  Avatar: 'Data Display', Badge: 'Data Display', Calendar: 'Data Display', Card: 'Data Display', Carousel: 'Data Display', Collapse: 'Data Display', Descriptions: 'Data Display', Empty: 'Data Display', Image: 'Data Display', List: 'Data Display', Listy: 'Data Display', Popover: 'Data Display', QRCode: 'Data Display', Segmented: 'Data Display', Statistic: 'Data Display', Table: 'Data Display', Tag: 'Data Display', Timeline: 'Data Display', Tooltip: 'Data Display', Tour: 'Data Display', Tree: 'Data Display',
+  Avatar: 'Data Display', Badge: 'Data Display', Calendar: 'Data Display', Card: 'Data Display', Carousel: 'Data Display', Collapse: 'Data Display', Descriptions: 'Data Display', Empty: 'Data Display', Image: 'Data Display', Listy: 'Data Display', Popover: 'Data Display', QRCode: 'Data Display', Segmented: 'Data Display', Statistic: 'Data Display', Table: 'Data Display', Tag: 'Data Display', Timeline: 'Data Display', Tooltip: 'Data Display', Tour: 'Data Display', Tree: 'Data Display',
   Alert: 'Feedback', Drawer: 'Feedback', Message: 'Feedback', Modal: 'Feedback', Notification: 'Feedback', Popconfirm: 'Feedback', Progress: 'Feedback', Result: 'Feedback', Skeleton: 'Feedback', Spin: 'Feedback', Watermark: 'Feedback',
   Affix: 'Other', App: 'Other', BackTop: 'Other', BorderBeam: 'Other',
 };
@@ -28,7 +28,7 @@ export const CHINESE_NAME_MAP = {
   Divider: '分割线', Flex: '弹性布局', Grid: '栅格', Layout: '布局', Space: '间距', Splitter: '折叠分割器', Col: '栅格列', Row: '栅格行', Masonry: '瀑布流',
   Anchor: '锚点', Breadcrumb: '面包屑', Dropdown: '下拉菜单', Menu: '导航菜单', Pagination: '分页', Steps: '步骤条', Tabs: '标签页',
   AutoComplete: '自动完成', Cascader: '级联选择', Checkbox: '多选框', ColorPicker: '颜色选择器', DatePicker: '日期选择器', Form: '表单', Input: '输入框', InputNumber: '数字输入框', Mentions: '提及', Radio: '单选框', Rate: '评分', Select: '选择器', Slider: '滑动输入条', Switch: '开关', TimePicker: '时间选择器', Transfer: '穿梭框', TreeSelect: '树选择', Upload: '上传',
-  Avatar: '头像', Badge: '徽标数', Calendar: '日历', Card: '卡片', Carousel: '走马灯', Collapse: '折叠面板', Descriptions: '描述列表', Empty: '空状态', Image: '图片', List: '列表', Listy: '虚拟列表', Popover: '气泡卡片', QRCode: '二维码', Segmented: '分段控制器', Statistic: '统计数值', Table: '表格', Tag: '标签', Timeline: '时间轴', Tooltip: '文字提示', Tour: '漫游式引导', Tree: '树形控件',
+  Avatar: '头像', Badge: '徽标数', Calendar: '日历', Card: '卡片', Carousel: '走马灯', Collapse: '折叠面板', Descriptions: '描述列表', Empty: '空状态', Image: '图片', Listy: '虚拟列表', Popover: '气泡卡片', QRCode: '二维码', Segmented: '分段控制器', Statistic: '统计数值', Table: '表格', Tag: '标签', Timeline: '时间轴', Tooltip: '文字提示', Tour: '漫游式引导', Tree: '树形控件',
   Alert: '警告提示', Drawer: '抽屉', Message: '全局提示', Modal: '对话框', Notification: '通知提醒框', Popconfirm: '气泡确认框', Progress: '进度条', Result: '结果', Skeleton: '骨架屏', Spin: '加载中', Watermark: '水印',
   Affix: '固钉', App: '包裹器', BackTop: '回到顶部', BorderBeam: '发光边框',
 };
@@ -796,20 +796,6 @@ export function renderComponentDetailCard(compName, globalIndex, cardX, cardY, c
           children: [
             text(`${id}-ico`, 'I', '🖼️', '#00000040', 24),
             text(`${id}-lbl`, 'L', '图片预览组件', '#00000073', 11),
-          ],
-        },
-      ];
-      break;
-    }
-
-    case 'List': {
-      compChildren = [
-        text(`${id}-lt`, 'T', '团队成员列表', '#000000E0', 13, '600'),
-        {
-          type: 'frame', id: `${id}-box`, width: innerW, fill: '#FFFFFF', stroke: '#F0F0F0', strokeWidth: 1, cornerRadius: 4, layout: 'vertical',
-          children: [
-            { type: 'frame', id: `${id}-i1`, width: innerW, height: 32, padding: [0, 10], layout: 'horizontal', alignItems: 'center', stroke: '#F0F0F0', strokeWidth: 1, children: [text(`${id}-i1t`, 'T', '●  张三 · 核心组件架构师', '#000000E0', 12)] },
-            { type: 'frame', id: `${id}-i2`, width: innerW, height: 32, padding: [0, 10], layout: 'horizontal', alignItems: 'center', children: [text(`${id}-i2t`, 'T', '●  李四 · 体验设计专家', '#000000A6', 12)] },
           ],
         },
       ];

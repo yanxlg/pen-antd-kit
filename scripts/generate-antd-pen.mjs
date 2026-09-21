@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 
 const components = [
-  'Affix','Alert','Anchor','App','AutoComplete','Avatar','BackTop','Badge','BorderBeam','Breadcrumb','Button','Calendar','Card','Carousel','Cascader','Checkbox','Col','Collapse','ColorPicker','DatePicker','Descriptions','Divider','Drawer','Dropdown','Empty','Flex','FloatButton','Form','Grid','Image','Input','InputNumber','Layout','List','Listy','Masonry','Mentions','Menu','Message','Modal','Notification','Pagination','Popconfirm','Popover','Progress','QRCode','Radio','Rate','Result','Row','Segmented','Select','Skeleton','Slider','Space','Spin','Splitter','Statistic','Steps','Switch','Table','Tabs','Tag','TimePicker','Timeline','Tooltip','Tour','Transfer','Tree','TreeSelect','Typography','Upload','Watermark'
+  'Affix','Alert','Anchor','App','AutoComplete','Avatar','BackTop','Badge','BorderBeam','Breadcrumb','Button','Calendar','Card','Carousel','Cascader','Checkbox','Col','Collapse','ColorPicker','DatePicker','Descriptions','Divider','Drawer','Dropdown','Empty','Flex','FloatButton','Form','Grid','Image','Input','InputNumber','Layout','Listy','Masonry','Mentions','Menu','Message','Modal','Notification','Pagination','Popconfirm','Popover','Progress','QRCode','Radio','Rate','Result','Row','Segmented','Select','Skeleton','Slider','Space','Spin','Splitter','Statistic','Steps','Switch','Table','Tabs','Tag','TimePicker','Timeline','Tooltip','Tour','Transfer','Tree','TreeSelect','Typography','Upload','Watermark'
 ].map((name) => name.trim()).filter(Boolean);
 
 const colors = {
@@ -20,7 +20,7 @@ const categoryFor = (name) => {
   if (['Col', 'Divider', 'Flex', 'Grid', 'Layout', 'Masonry', 'Row', 'Space', 'Splitter'].includes(name)) return 'Layout';
   if (['Anchor', 'Breadcrumb', 'Dropdown', 'Menu', 'Pagination', 'Steps', 'Tabs'].includes(name)) return 'Navigation';
   if (['AutoComplete', 'Cascader', 'Checkbox', 'ColorPicker', 'DatePicker', 'Form', 'Input', 'InputNumber', 'Mentions', 'Radio', 'Rate', 'Select', 'Slider', 'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload'].includes(name)) return 'Data Entry';
-  if (['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'List', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'].includes(name)) return 'Data Display';
+  if (['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'].includes(name)) return 'Data Display';
   if (['Alert', 'Drawer', 'Message', 'Modal', 'Notification', 'Popconfirm', 'Progress', 'Result', 'Skeleton', 'Spin', 'Watermark'].includes(name)) return 'Feedback';
   return 'Other';
 };
@@ -54,7 +54,6 @@ const visualFor = (name, index) => {
   const id = `antd-${name.toLowerCase()}-${index}`;
   const row = (n, label = '列表项') => ({ type: 'frame', id: `${id}-row-${n}`, width: 248, height: 24, layout: 'horizontal', alignItems: 'center', gap: 8, children: [rect(`${id}-row-${n}-dot`, '$antd-colorPrimary', 6, 6, 999), text(`${id}-row-${n}-text`, 'Text', `${label} ${n + 1}`, '$antd-colorText')] });
   if (name === 'Table') return { width: 280, height: 120, layout: 'vertical', gap: 4, padding: 8, children: [text(`${id}-head`, 'Header', '名称          状态          操作', '$antd-colorTextSecondary', 12, '600'), row(0, '数据行'), row(1, '数据行'), row(2, '数据行')] };
-  if (name === 'List') return { width: 280, height: 104, layout: 'vertical', gap: 4, padding: 12, children: [text(`${id}-head`, 'Header', '列表标题', '$antd-colorText', 14, '600'), text(`${id}-items`, 'Items', '列表项一\n列表项二\n列表项三', '$antd-colorTextSecondary')] };
   if (name === 'Descriptions') return { width: 280, height: 104, layout: 'vertical', gap: 6, padding: 12, children: [text(`${id}-title`, 'Title', '详细信息', '$antd-colorText', 14, '600'), text(`${id}-pairs`, 'Pairs', '姓名：张三     状态：正常\n创建时间：今天', '$antd-colorTextSecondary', 12)] };
   if (name === 'Menu') return { width: 280, height: 104, layout: 'vertical', gap: 4, padding: 8, children: [text(`${id}-item1`, 'Item', '▣  首页', '$antd-colorPrimary'), text(`${id}-item2`, 'Item', '▤  数据管理', '$antd-colorText'), text(`${id}-item3`, 'Item', '⚙  设置', '$antd-colorText')] };
   if (name === 'Tree') return { width: 280, height: 104, layout: 'vertical', gap: 4, padding: 12, children: [text(`${id}-nodes`, 'Nodes', '⌄  根节点\n   ├─ 子节点一\n   └─ 子节点二', '$antd-colorText')] };

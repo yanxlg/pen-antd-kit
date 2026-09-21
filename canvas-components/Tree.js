@@ -1,37 +1,26 @@
 /**
  * @schema 2.18
- * @input items: string = "0-0|├── 0-0-0|│   ├── 0-0-0-0|│   └── 0-0-0-1|└── 0-0-1"
- * @input showLine: boolean = false
- * @input autoExpandParent: boolean = false
- * @input blockNode: boolean = false
- * @input checkable: boolean = false
- * @input checkStrictly: boolean = false
+ * @input treeData: string = "[{\"key\":\"0\",\"title\":\"parent 1\",\"children\":[{\"key\":\"0-0\",\"title\":\"leaf\"}]}]"
+ * @input expandedKeys: string = "[]"
+ * @input selectedKeys: string = "[]"
+ * @input checkedKeys: string = "[]"
  * @input defaultExpandAll: boolean = true
- * @input defaultExpandParent: boolean = false
+ * @input checkable: boolean = false
  * @input disabled: boolean = false
- * @input focusable: boolean = false
- * @input height: number = 0
- * @input itemHeight: number = 24
- * @input itemScrollOffset: number = 0
- * @input multiple: boolean = false
- * @input scrollWidth: number = 0
- * @input selectable: boolean = true
+ * @input blockNode: boolean = false
+ * @input switcherIcon: string = ""
  * @input showIcon: boolean = false
- * @input virtual: boolean = false
- * @input primaryColor: color = #1677FF
+ * @input showLine: boolean = false
+ * @input height: number = 0
+ * @input styles: string = "{}"
  */
-const i=pencil.input||{},W=Math.max(120,pencil.width),nodes=[],rowH=i.itemHeight>0?Math.max(24,i.itemHeight):24,primary=i.primaryColor||'#1677FF',muted=i.disabled?'#00000040':'#000000E0';
-const raw=String(i.items||'0-0|├── 0-0-0|│   ├── 0-0-0-0|│   └── 0-0-0-1|└── 0-0-1').split('|');
-const rows=raw.map(s=>{const lead=(s.match(/^(?:(?:│   |    ))*/)||[''])[0].length/4;const branch=/[├└]──/.test(s);return {level:lead+(branch?1:0),label:s.replace(/^[│\s├└─]+/,'')};});
-const text=(content,x,y,width,color=muted,size=14,align='left')=>({type:'text',name:String(content),content:String(content),x,y,width,height:rowH,textGrowth:'fixed-width-height',textAlign:align,fontFamily:'Inter',fontSize:size,fontWeight:'400',lineHeight:rowH/size,fill:color});
-for(let n=0;n<rows.length;n++){
-  const r=rows[n],y=n*rowH,base=8+r.level*24,expandable=n+1<rows.length&&rows[n+1].level>r.level;
-  if(i.blockNode&&n===0)nodes.push({type:'rectangle',name:'Selected row',x:0,y,width:W,height:rowH,cornerRadius:4,fill:'#E6F4FF'});
-  if(i.showLine&&r.level>0){for(let l=1;l<=r.level;l++)nodes.push({type:'rectangle',name:'Tree guide',x:8+l*24-13,y:y-(n?rowH:0),width:1,height:rowH+(n?rowH:0),fill:'#D9D9D9'});nodes.push({type:'rectangle',name:'Tree branch',x:base-13,y:y+rowH/2,width:10,height:1,fill:'#D9D9D9'});}
-  if(expandable)nodes.push(text('⌄',base-18,y,16,'#00000073',14,'center'));
-  let x=base;
-  if(i.checkable){nodes.push({type:'rectangle',name:'Checkbox',x,y:y+4,width:16,height:16,cornerRadius:2,fill:n===2?primary:'#FFFFFF',stroke:n===2?primary:'#D9D9D9',strokeWidth:1,strokeAlignment:'inner'});if(n===2)nodes.push(text('✓',x,y,16,'#FFFFFF',11,'center'));x+=24;}
-  if(i.showIcon){nodes.push({type:'rectangle',name:expandable?'Folder icon':'File icon',x,y:y+6,width:15,height:12,cornerRadius:2,fill:expandable?'#E6F4FF':'#FAFAFA',stroke:'#91CAFF',strokeWidth:1,strokeAlignment:'inner'});x+=22;}
-  nodes.push(text(r.label,x,y,Math.max(40,W-x-8),i.blockNode&&n===0?primary:muted,14));
-}
+const i=pencil.input||{},parse=(s,d)=>{try{return JSON.parse(s)}catch{return d}},data=parse(i.treeData,[]),expanded=parse(i.expandedKeys,[]),selected=parse(i.selectedKeys,[]),checked=parse(i.checkedKeys,[]),styles=parse(i.styles,{}),W=Math.max(1,pencil.width),rows=[],nodes=[];
+const walk=(items,level)=>items.forEach(o=>{rows.push({...o,level});if(o.children&&(i.defaultExpandAll||expanded.includes(o.key)))walk(o.children,level+1)});walk(data,0);
+const bg=styles.root?.background||'#FFFFFF',padding=styles.root?.padding||0;nodes.push({type:'rectangle',x:0,y:0,width:W,height:pencil.height,fill:bg,cornerRadius:styles.root?.borderRadius||0});
+for(let n=0;n<rows.length;n++){const o=rows[n],h=28,y=padding+n*h,disabled=i.disabled||o.disabled,color=disabled?'#00000040':styles.title?.color||'#000000E0',isSelected=selected.includes(o.key),base=padding+o.level*24;let x=base+24;const icon=(name,x,color)=>{const custom=parse(name,null);nodes.push(custom?.type?{...custom,x,y:y+5,width:14,height:14}:{type:'ref',ref:'antd-icon-live-origin',x,y:y+5,width:14,height:14,inputs:{name,fontSize:14,color}});};
+if(i.height>0&&y>=i.height)break;if(i.showLine&&o.level)nodes.push({type:'rectangle',x:base-12,y,width:1,height:h,fill:'#D9D9D9'});if(o.children?.length||o.isLeaf===false)icon(i.switcherIcon||(o.children?.length&&(i.defaultExpandAll||expanded.includes(o.key))?'CaretDownOutlined':'CaretRightOutlined'),base+5,color);else if(i.showLine)icon('FileOutlined',base+5,color);
+if(i.checkable&&o.checkable!==false){nodes.push({type:'ref',ref:'cpj9Y',x,y:y+4,width:16,height:16,inputs:{children:'',checked:checked.includes(o.key),indeterminate:!!o.indeterminate,disabled:!!(disabled||o.disableCheckbox)}});x+=24;}
+if(isSelected)nodes.push({type:'rectangle',x:i.blockNode?0:x,y,width:i.blockNode?W:Math.min(W-x,String(o.title).length*8+8),height:24,cornerRadius:4,fill:styles.node?.background||'#E6F4FF'});
+if(i.showIcon){const name=o.icon||((o.children?.length||o.isLeaf===false)?'FolderOpenOutlined':'FileOutlined');icon(name,x,disabled?'#00000040':isSelected&&styles.node?.color?styles.node.color:color);x+=22;}
+const title=parse(o.title,null);nodes.push(title?.type?{...title,x:x+4,y,width:W-x-4,height:24}:{type:'text',content:o.title??'',x:x+4,y,width:Math.max(1,W-x-4),height:24,textGrowth:'fixed-width-height',fontFamily:'Alibaba Sans',fontSize:14,lineHeight:1.71,fill:isSelected&&styles.node?.color?styles.node.color:color});}
 return nodes;

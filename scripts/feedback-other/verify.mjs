@@ -1,0 +1,20 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const names=['Alert','Alert.ErrorBoundary','Drawer','Message','Modal','Notification','Popconfirm','Progress','Result','Skeleton','Skeleton.Button','Skeleton.Avatar','Skeleton.Input','Skeleton.Image','Skeleton.Node','Spin','Watermark','Affix','App','BackTop','FloatButton.BackTop','BorderBeam'];
+function render(name,inputs={},width=400,height=160){const s=fs.readFileSync('canvas-components/'+name+'.js','utf8');const defaults={};for(const [,key,raw] of s.matchAll(/@input (\w+): .*? = (.+)/g)){try{defaults[key]=JSON.parse(raw)}catch{defaults[key]=raw}}const out=new Function('pencil',s)({input:{...defaults,...inputs},width,height});assert(Array.isArray(out),name+' returns array');for(const n of out){for(const k of ['x','y','width','height'])if(typeof n[k]==='number')assert(Number.isFinite(n[k])&&(!['width','height'].includes(k)||n[k]>=0),name+' valid '+k)}return out;}
+for(const name of names)render(name);
+assert(!render('Progress',{percent:0}).some(x=>x.name==='Progress value'));
+assert.equal(render('Progress',{percent:0}).find(x=>x.type==='text').content,'0%');
+assert.equal(render('Progress',{percent:75,type:'circle'}).filter(x=>x.type==='ellipse').length,2);
+assert.equal(render('Drawer',{open:false}).length,0);
+assert.equal(render('Modal',{open:false}).length,0);
+const left=render('Drawer',{placement:'left',width:200},500,360).find(x=>x.type==='rectangle'&&x.fill==='#FFFFFF');assert.equal(left.x,0);assert.equal(left.width,200);
+const right=render('Drawer',{placement:'right',width:200},500,360).find(x=>x.type==='rectangle'&&x.fill==='#FFFFFF');assert.equal(right.x,300);
+assert.equal(render('Skeleton',{paragraph:'{"rows":5}',title:false}).filter(x=>x.type==='rectangle').length,5);
+assert.equal(render('Skeleton',{loading:false,children:''}).length,0);
+assert(render('Alert',{showIcon:true}).some(x=>x.type==='ref'&&x.ref==='antd-icon-live-origin'));
+assert(render('Modal').some(x=>x.type==='ref'&&x.ref==='DQZzq'));
+for(const name of ['Affix','App','BorderBeam'])assert(render(name,{children:JSON.stringify({type:'ref',ref:'DQZzq',inputs:{children:'Example'}})}).some(x=>x.ref==='DQZzq'));
+assert.equal(render('FloatButton.BackTop')[0].ref,'AhZRS');
+assert.equal(JSON.parse(render('FloatButton.BackTop')[0].inputs.icon).ref,'antd-icon-live-origin');
+for(const code of [403,404,500])assert(fs.statSync('libraries/images/antd-result-'+code+'.png').size>1000);
+console.log('Feedback/Other: 22 renderer contracts and focused regression assertions passed.');

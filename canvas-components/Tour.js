@@ -1,38 +1,17 @@
 /**
  * @schema 2.18
- * @input title: string = "新功能引导"
- * @input description: string = "点击此处可以切换深浅色主题模式与紧凑排版。"
- * @input current: number = 1
- * @input total: number = 3
- * @input defaultCurrent: number = 0
- * @input defaultOpen: boolean = false
- * @input disabledInteraction: boolean = false
- * @input keyboard: boolean = false
+ * @input steps: string = "[{\"title\":\"Upload File\",\"description\":\"Put your files here.\"},{\"title\":\"Save\",\"description\":\"Save your changes.\"},{\"title\":\"Other Actions\",\"description\":\"Click to see other actions.\"}]"
+ * @input current: number = 0
  * @input open: boolean = false
- * @input placement: enum("bottomLeft", "bottomRight", "topLeft", "topRight", "center", "left", "right", "bottom", "top", "leftTop", "leftBottom", "rightTop", "rightBottom") = "bottomLeft"
+ * @input defaultOpen: boolean = false
+ * @input placement: enum("bottomLeft", "bottomRight", "topLeft", "topRight", "center", "left", "right", "bottom", "top", "leftTop", "leftBottom", "rightTop", "rightBottom") = "bottom"
  * @input type: enum("default", "primary") = "default"
- * @input zIndex: number = 0
- * @input primaryColor: color = #1677FF
+ * @input arrow: boolean = true
+ * @input indicatorsRender: string = ""
  */
-
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
-const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
-
-  nodes.push(box(0, 0, W, H, i.type==="primary"?primary:"#FFFFFF", 8, "#E8E8E8", 1));
-  nodes.push(text((i.title||"新功能引导"), 12, 12, W-24, i.type==="primary"?"#FFFFFF":"#000000E0", 14, "600"));
-  nodes.push(text(i.description||"点击此处可以快速开始项目。", 12, 36, W-24, i.type==="primary"?"#FFFFFF":"#000000A6", 12));
-  nodes.push(text((i.current||1) + "/" + (i.total||3), 12, H - 24, 40, "#00000073", 11));
-  nodes.push(box(W - 64, H - 28, 52, 22, primary, 4, primary));
-  nodes.push(text(i.current>=i.total?"Finish":"Next", W - 56, H - 24, 40, "#FFFFFF", 11));
-return nodes;
+const i=pencil.input||{},parse=(s,d)=>{try{return JSON.parse(s)}catch{return d}},steps=parse(i.steps,[]),current=Math.max(0,Math.min(steps.length-1,Number(i.current)||0)),step=steps[current]||{},W=Math.max(1,pencil.width),H=Math.max(1,pencil.height),primary=i.type==='primary',fg=primary?'#FFFFFF':'#000000E0',nodes=[];if(!i.open&&!i.defaultOpen)return nodes;
+nodes.push({type:'rectangle',x:0,y:0,width:W,height:H,fill:primary?'#1677FF':'#FFFFFF',cornerRadius:8,effect:{type:'shadow',shadowType:'outer',color:'#00000026',blur:16,offset:{x:0,y:5}}});
+const add=(v,x,y,w,h,weight='400')=>{const node=parse(v,null);nodes.push(node?.type?{...node,x,y,width:w,height:h}:{type:'text',content:v??'',x,y,width:w,height:h,textGrowth:'fixed-width-height',fontFamily:'Alibaba Sans',fontSize:14,fontWeight:weight,lineHeight:1.57,fill:fg});};
+const cover=parse(step.cover,null),coverH=cover?.type?Math.min(Number(cover.height)||120,H-110):0;if(coverH)nodes.push({...cover,x:12,y:12,width:W-24,height:coverH});add(step.title,12,12+coverH,W-48,22,'600');add(step.description,12,42+coverH,W-24,Math.max(22,H-90-coverH));nodes.push({type:'ref',ref:'antd-icon-live-origin',x:W-26,y:14,width:14,height:14,inputs:{name:'CloseOutlined',fontSize:14,color:fg}});
+const indicator=parse(i.indicatorsRender,null);if(indicator?.type)nodes.push({...indicator,x:12,y:H-34,width:Math.max(30,W-160),height:22});else for(let n=0;n<steps.length;n++)nodes.push({type:'ellipse',x:12+n*12,y:H-25,width:6,height:6,fill:n===current?(primary?'#FFFFFF':'#1677FF'):(primary?'#FFFFFF66':'#00000026')});
+if(current>0)nodes.push({type:'ref',ref:'DQZzq',x:W-136,y:H-36,width:68,height:24,inputs:{children:'Previous',size:'small'}});nodes.push({type:'ref',ref:'DQZzq',x:W-60,y:H-36,width:48,height:24,inputs:{children:current===steps.length-1?'Finish':'Next',size:'small',type:primary?'default':'primary'}});return nodes;

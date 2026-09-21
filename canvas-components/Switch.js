@@ -25,8 +25,15 @@ const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
 
 // Navigation nested controls
-const sh=i.size==='small'?16:22,dot=sh-4,label=i.checked?i.checkedChildren:i.unCheckedChildren,sw=Math.max(i.size==='small'?28:44,label?pencil.width:0),y=(pencil.height-sh)/2;
+const sh=i.size==='small'?16:22,dot=sh-4,label=i.checked?i.checkedChildren:i.unCheckedChildren;
+const textMinWidth=label?Math.ceil(label.length*8+28):0;
+const minSw=i.size==='small'?28:44;
+const sw=Math.max(minSw,textMinWidth,pencil.width||0),y=(pencil.height-sh)/2;
 nodes.push({type:'rectangle',name:'Switch track',x:0,y,width:sw,height:sh,cornerRadius:sh/2,fill:i.checked?primary:'#00000040',opacity:i.disabled?.65:1});
 nodes.push({type:'ellipse',name:'Switch handle',x:i.checked?sw-dot-2:2,y:y+2,width:dot,height:dot,fill:'#fff'});
-if(label)nodes.push({type:'text',name:'Switch label',content:label,x:i.checked?7:dot+7,y,width:sw-dot-14,height:sh,textGrowth:'fixed-width-height',fontFamily:'Inter',fontSize:12,lineHeight:1,textAlign:'center',textAlignVertical:'middle',fill:'#fff'});
+if(label){
+  const labelW=sw-dot-10;
+  const labelX=i.checked?7:dot+5;
+  nodes.push({type:'text',name:'Switch label',content:label,x:labelX,y,width:labelW,height:sh,textGrowth:'fixed-width-height',fontFamily:'Inter',fontSize:12,lineHeight:1,textAlign:'center',textAlignVertical:'middle',fill:'#fff'});
+}
 return nodes;

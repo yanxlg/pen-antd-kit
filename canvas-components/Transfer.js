@@ -1,5 +1,7 @@
 /**
  * @schema 2.18
+ * @input dataSource: string = ""
+ * @input locale: string = "{}"
  * @input titles: string = "可选项|已选项"
  * @input showSearch: boolean = true
  * @input oneWay: boolean = false
@@ -24,6 +26,7 @@ const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
 
+if(i.dataSource==='[]'){let locale={};try{locale=JSON.parse(i.locale||'{}')}catch{};const pw=(W-40)/2;for(const x of [0,pw+40]){nodes.push(box(x,0,pw,H,'#FFFFFF',6,'#D9D9D9'));nodes.push({type:'ref',ref:'cpj9Y',name:'Select all',x:x+12,y:12,width:16,height:16,inputs:{checked:false,disabled:true,children:''}});nodes.push(text('0 items',x+36,9,pw-48,'#000000E0',14));nodes.push(box(x,40,pw,1,'#F0F0F0',0,'#00000000',0));const empty=locale.notFoundContent||{type:'ref',ref:'b0w4Mx',name:'Empty',width:pw,height:70,inputs:{image:'simple'}};nodes.push({...empty,x:x+(pw-(empty.width||pw))/2,y:40+(H-40-(empty.height||70))/2});}for(const [j,icon]of ['MrYm5','O4RJs9'].entries())nodes.push({type:'ref',ref:'DQZzq',scriptUri:'../canvas-components/Button.js',name:'Transfer action',x:pw+8,y:H/2-26+j*28,width:24,height:24,inputs:{children:'',icon,disabled:true,size:'small'}});return nodes;}
   const titles=String(i.titles||"Source|Target").split("|"),gap=56,pw=(W-gap)/2,rightX=pw+gap,itemY=i.showSearch?82:48,alpha=i.disabled?0.45:1;
   nodes.push({...box(0,0,pw,H,"#FFFFFF",6,"#D9D9D9"),opacity:alpha});
   nodes.push(text("☐  3 items",12,12,pw-100,"#000000A6",12));

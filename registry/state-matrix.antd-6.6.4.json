@@ -2642,14 +2642,14 @@
       "category": "Data Display",
       "states": [
         "default",
-        "disabled",
-        "focus"
+        "bordered",
+        "loading"
       ],
       "source": "http://127.0.0.1:4318/?component=List&state=default",
       "stateUrls": [
         "http://127.0.0.1:4318/?component=List&state=default",
-        "http://127.0.0.1:4318/?component=List&state=disabled",
-        "http://127.0.0.1:4318/?component=List&state=focus"
+        "http://127.0.0.1:4318/?component=List&state=bordered",
+        "http://127.0.0.1:4318/?component=List&state=loading"
       ],
       "selector": "#sample-List"
     },
@@ -3066,6 +3066,22 @@
         "http://127.0.0.1:4318/?component=BorderBeam&state=focus"
       ],
       "selector": "#sample-BorderBeam"
+    },
+    {
+      "name": "ConfigProvider",
+      "category": "Other",
+      "states": [
+        "default",
+        "disabled",
+        "focus"
+      ],
+      "source": "http://127.0.0.1:4318/?component=ConfigProvider&state=default",
+      "stateUrls": [
+        "http://127.0.0.1:4318/?component=ConfigProvider&state=default",
+        "http://127.0.0.1:4318/?component=ConfigProvider&state=disabled",
+        "http://127.0.0.1:4318/?component=ConfigProvider&state=focus"
+      ],
+      "selector": "#sample-ConfigProvider"
     }
   ]
 }

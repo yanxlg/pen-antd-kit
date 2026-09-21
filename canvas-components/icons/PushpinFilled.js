@@ -1,0 +1,53 @@
+/**
+ * @schema 2.18
+ * @input fontSize: number = 16
+ * @input color: color = #1677FF
+ * @input twoToneColor: string = "#1677ff"
+ * @input rotate: number = 0
+ */
+// Generated from the official @ant-design/icons export PushpinFilled.
+const definition = {"viewBox":[64,64,896,896],"paths":[{"d":"M878.3 392.1L631.9 145.7c-6.5-6.5-15-9.7-23.5-9.7s-17 3.2-23.5 9.7L423.8 306.9c-12.2-1.4-24.5-2-36.8-2-73.2 0-146.4 24.1-206.5 72.3-15.4 12.3-16.6 35.4-2.7 49.4l181.7 181.7-215.4 215.2a15.8 15.8 0 00-4.6 9.8l-3.4 37.2c-.9 9.4 6.6 17.4 15.9 17.4.5 0 1 0 1.5-.1l37.2-3.4c3.7-.3 7.2-2 9.8-4.6l215.4-215.4 181.7 181.7c6.5 6.5 15 9.7 23.5 9.7 9.7 0 19.3-4.2 25.9-12.4 56.3-70.3 79.7-158.3 70.2-243.4l161.1-161.1c12.9-12.8 12.9-33.8 0-46.8z"}]};
+const input = pencil.input || {};
+const fontSize = Number(input.fontSize ?? 16);
+if (!Number.isFinite(fontSize) || fontSize <= 0) throw new Error('fontSize must be a positive pixel value');
+
+const rawTone = input.twoToneColor || '#1677ff';
+const tones = Array.isArray(rawTone)
+  ? rawTone
+  : String(rawTone).trim().startsWith('[')
+    ? JSON.parse(rawTone)
+    : [rawTone];
+const primary = tones[0];
+const lighten = (color) => {
+  const value = String(color).replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(value)) return '#E6F4FF';
+  const channels = [0, 2, 4].map((offset) => parseInt(value.slice(offset, offset + 2), 16));
+  return '#' + channels.map((channel) => Math.round(channel + (255 - channel) * 0.9).toString(16).padStart(2, '0')).join('');
+};
+const secondary = tones[1] || lighten(primary);
+const angle = Number(input.rotate || 0);
+const radians = angle * Math.PI / 180;
+const half = fontSize / 2;
+const x = (Number(pencil.width) || fontSize) / 2 - half * Math.cos(radians) + half * Math.sin(radians);
+const y = (Number(pencil.height) || fontSize) / 2 - half * Math.sin(radians) - half * Math.cos(radians);
+
+return definition.paths.map((attrs, index) => ({
+  type: 'path',
+  name: 'PushpinFilled path ' + (index + 1),
+  x,
+  y,
+  width: fontSize,
+  height: fontSize,
+  viewBox: definition.viewBox,
+  geometry: attrs.d,
+  fill: attrs.fill === '__primary__'
+    ? primary
+    : attrs.fill === '__secondary__'
+      ? secondary
+      : (!attrs.fill || attrs.fill === 'currentColor')
+        ? (input.color || '#1677FF')
+        : attrs.fill,
+  fillRule: attrs['fill-rule'] || 'nonzero',
+  opacity: attrs['fill-opacity'] === undefined ? 1 : Number(attrs['fill-opacity']),
+  rotation: -angle,
+}));

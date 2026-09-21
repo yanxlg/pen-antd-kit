@@ -29,6 +29,8 @@
  * @input transitionName: string = ""
  * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
  * @input primaryColor: color = #1677FF
+ * @input compactOrientation: enum("horizontal", "vertical") = "horizontal"
+ * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  */
 
 const i = pencil.input;
@@ -44,16 +46,18 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius=(r=6)=>i.compactPlacement==="middle"?0:i.compactPlacement==="start"?(i.compactOrientation==="vertical"?[r,r,0,0]:[r,0,0,r]):i.compactPlacement==="end"?(i.compactOrientation==="vertical"?[0,0,r,r]:[0,r,r,0]):r;
+const iconPath=(geometry,viewBox,x,y,size=14,color="#00000040")=>({type:"path",x,y,width:size,height:size,viewBox,geometry,fill:color});
 
-  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
+  nodes.push(box(0, 0, W, h, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
   if (i.multiple) {
     nodes.push(box(6, (h-22)/2, 48, 22, "#F5F5F5", 4, "#D9D9D9"));
     nodes.push(text("标签", 10, (h-16)/2, 36, "#000000D9", 11));
   } else {
-    const val = i.value || i.placeholder || "请选择";
+    const val = i.value || (i.placeholder ?? "请选择");
     nodes.push(text(val, pad, (h-18)/2, W - 32 - pad, i.value ? disabled : "#00000040", 14));
   }
-  nodes.push(text(i.open ? "⌃" : "⌄", W - 22, (h-18)/2, 16, "#00000073", 14));
+  nodes.push(iconPath("M884 256H809L512 654.2L215 256H140L486.1 754.8C498.9 772.4 525.1 772.4 537.8 754.8Z",[64,64,896,896],W-24,(h-12)/2,12));
   if (i.open) {
     const pw=Math.max(360,W),ph=132,colW=pw/3,labels=(i.options||"Zhejiang|Hangzhou|West Lake").split("|");
     nodes.push({type:"rectangle",x:0,y:h+4,width:pw,height:ph,cornerRadius:6,fill:"#FFFFFF",stroke:"#F0F0F0",strokeWidth:1,effect:{type:"shadow",shadowType:"outer",blur:8,offset:{x:0,y:4},color:"#00000015"}});

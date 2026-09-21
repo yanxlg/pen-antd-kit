@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "kitVersion": "development",
+  "antdVersion": "6.6.4",
+  "quality": {
+    "status": "candidate"
+  },
+  "library": {
+    "id": "antd-6",
+    "path": "libraries/antd-6.lib.pen"
+  },
+  "standards": {
+    "version": "0.1.0",
+    "path": "standards/index.md",
+    "manifest": "standards/manifest.json"
+  },
+  "artifact": {
+    "type": "directory",
+    "url": "../../.."
+  }
+}

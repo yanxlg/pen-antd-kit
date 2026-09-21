@@ -1,34 +1,23 @@
 /**
  * @schema 2.18
- * @input children: string = "Ant Design"
- * @input color: enum("default", "processing", "success", "warning", "error", "magenta", "orange") = "processing"
+ * @input children: string = "Tag"
+ * @input color: string = "default"
  * @input bordered: boolean = true
- * @input closable: boolean = true
+ * @input closable: boolean = false
  * @input disabled: boolean = false
- * @input href: string = ""
- * @input variant: enum("outlined", "filled", "solid") = "outlined"
- * @input primaryColor: color = #1677FF
+ * @input icon: string = ""
+ * @input closeIcon: string = "CloseOutlined"
+ * @input variant: enum("outlined", "filled", "solid") = "filled"
+ * @input styles: string = "{}"
  */
-
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
-const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
-
-  const tw = Math.max(52, (i.children||"Tag").length*10 + 20);
-  const tagBg = i.color === "success" ? "#F6FFED" : i.color === "error" ? "#FFF2F0" : i.color === "warning" ? "#FFFBE6" : i.color === "processing" ? "#E6F4FF" : "#FAFAFA";
-  const tagBorder = i.color === "success" ? "#B7EB8F" : i.color === "error" ? "#FFCCC7" : i.color === "warning" ? "#FFE58F" : i.color === "processing" ? "#91CAFF" : "#D9D9D9";
-  const tagCol = i.color === "success" ? "#52C41A" : i.color === "error" ? "#FF4D4F" : i.color === "warning" ? "#FAAD14" : i.color === "processing" ? primary : "#000000E0";
-  nodes.push({type:"rectangle", x:0, y:0, width:tw, height:22, cornerRadius:4, fill:tagBg, stroke:i.bordered?tagBorder:"#00000000", strokeWidth:1});
-  nodes.push(text(i.children||"标签", 8, 2, tw - (i.closable?22:16), tagCol, 12));
-  if (i.closable) nodes.push(text("✕", tw - 16, 3, 10, "#00000073", 10));
-return nodes;
+const i=pencil.input||{},W=Math.max(1,pencil.width),H=Math.max(1,pencil.height);
+let styles={};try{styles=JSON.parse(i.styles||'{}')}catch{}const s=styles.root||{};
+const palette={default:['#F5F5F5','#D9D9D9','#000000E0'],success:['#F6FFED','#B7EB8F','#389E0D'],processing:['#E6F4FF','#91CAFF','#0958D9'],error:['#FFF2F0','#FFCCC7','#CF1322'],warning:['#FFFBE6','#FFE58F','#D48806'],magenta:['#FFF0F6','#FFADD2','#C41D7F'],red:['#FFF1F0','#FFA39E','#CF1322'],volcano:['#FFF2E8','#FFBB96','#D4380D'],orange:['#FFF7E6','#FFD591','#D46B08'],gold:['#FFFBE6','#FFE58F','#D48806'],lime:['#FCFFE6','#EAFF8F','#7CB305'],green:['#F6FFED','#B7EB8F','#389E0D'],cyan:['#E6FFFB','#87E8DE','#08979C'],blue:['#E6F4FF','#91CAFF','#0958D9'],geekblue:['#F0F5FF','#ADC6FF','#1D39C4'],purple:['#F9F0FF','#D3ADF7','#531DAB']};
+const p=palette[i.color]||[i.color,i.color,'#FFFFFF'],fg=s.color||(i.disabled?'#00000040':i.variant==='solid'?'#FFFFFF':p[2]),bg=s.backgroundColor||(i.variant==='solid'?p[2]:p[0]),border=s.borderColor||p[1],size=s.fontSize||12;
+const lineHeight=s.lineHeight||20;
+const icon=(name,x,sz,color)=>({type:'ref',ref:'antd-icon-live-origin',name:'Icon · '+name,x,y:(H-sz)/2,width:sz,height:sz,inputs:{name,fontSize:sz,color}});
+const left=i.icon?7+size+7:7,right=i.closable?21:7,children=[];
+if(i.icon)children.push(icon(i.icon,7,size,fg));
+children.push({type:'text',name:'children',content:String(i.children??''),x:left,y:-1.5,width:Math.max(1,W-left-right),height:H,textGrowth:'fixed-width-height',textAlignVertical:'middle',fontFamily:'AlibabaSans',fontSize:size,lineHeight:lineHeight/size,fill:fg});
+if(i.closable)children.push(icon(i.closeIcon||'CloseOutlined',W-17,10,s.closeColor||(i.variant==='solid'?'#FFFFFF':'#00000073')));
+return [{type:'frame',name:'Tag root',x:0,y:0,width:W,height:H,layout:'none',cornerRadius:s.borderRadius??4,fill:bg,stroke:border,strokeWidth:s.borderWidth??(i.bordered!==false&&i.variant==='outlined'?1:0),strokeAlignment:'inner',children}];

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "requiredReviewDimensions": [
+    "task-completeness",
+    "component-provenance",
+    "information-hierarchy",
+    "state-completeness",
+    "content-resilience",
+    "responsive-intent",
+    "accessibility"
+  ],
+  "requiredPageStates": [
+    "initial-loading",
+    "data",
+    "query-empty",
+    "request-failure"
+  ],
+  "conditionalStates": [
+    "editing",
+    "validation-failure",
+    "submitting",
+    "success",
+    "save-failure",
+    "disabled",
+    "unauthorized"
+  ],
+  "hardFailures": [
+    "missing-primary-task",
+    "hand-drawn-existing-library-component",
+    "unreachable-full-value",
+    "unmodeled-destructive-confirmation",
+    "color-only-state",
+    "clipped-primary-action",
+    "unresolved-placeholder",
+    "accidental-overlap"
+  ],
+  "reviewViewports": [
+    { "name": "desktop", "width": 1440 },
+    { "name": "narrow", "width": 760 }
+  ]
+}

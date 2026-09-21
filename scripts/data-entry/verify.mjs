@@ -44,6 +44,17 @@ assert.equal(mixed[1].width, 8, 'Indeterminate Checkbox uses the official center
 const disabledChecked = renderCheckbox({ input: { children: 'Checkbox', checked: true, disabled: true }, width: 160, height: 32 });
 assert.equal(disabledChecked[0].fill, '#F5F5F5', 'Disabled checked Checkbox uses the official disabled fill');
 
+const colorPickerSource = fs.readFileSync(new URL('../../canvas-components/ColorPicker.js', import.meta.url), 'utf8');
+const renderColorPicker = new Function('pencil', colorPickerSource);
+const clearColor = renderColorPicker({ input: { value: '', showText: false, size: 'middle' }, width: 32, height: 32 });
+assert.equal(clearColor[0].width, 32, 'ColorPicker must use its actual canvas width');
+assert.deepEqual([clearColor[1].x, clearColor[1].y, clearColor[1].width, clearColor[1].height], [4, 4, 24, 24], 'ColorPicker clear swatch matches the official inset');
+assert.equal(clearColor[2].stroke, '#F5222D', 'ColorPicker clear mark uses the official red');
+const largeColor = renderColorPicker({ input: { value: '#1677ff', showText: false, size: 'large' }, width: 40, height: 40 });
+assert.deepEqual([largeColor[1].x, largeColor[1].y, largeColor[1].width, largeColor[1].height, largeColor[1].cornerRadius], [4, 4, 32, 32, 6], 'Large ColorPicker swatch matches official geometry');
+const textColor = renderColorPicker({ input: { value: '#1677ff', showText: true, size: 'middle' }, width: 101, height: 32 });
+assert.equal(textColor.at(-1).content, '#1677FF', 'Hex ColorPicker text uses the official uppercase display');
+
 const inputNumberSource = fs.readFileSync(new URL('../../canvas-components/InputNumber.js', import.meta.url), 'utf8');
 const renderInputNumber = new Function('pencil', inputNumberSource);
 const basicNumber = renderInputNumber({ input: { value: 3, size: 'middle', variant: 'outlined' }, width: 160, height: 32 });

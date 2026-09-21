@@ -20,6 +20,7 @@ const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
 
+  nodes.push(box(0, 0, W, H, "#FFFFFF", 4, "#00000000", 0));
   nodes.push(box(0, 0, 2, H, "#F0F0F0"));
   nodes.push(box(0, 8, 2, 20, primary));
   nodes.push(text("API 核心接口", 12, 8, W - 16, primary, 13, "600"));

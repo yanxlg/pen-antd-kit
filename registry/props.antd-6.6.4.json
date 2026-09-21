@@ -23726,6 +23726,1082 @@
         }
       ]
     },
+    "ConfigProvider": {
+      "name": "ConfigProvider",
+      "manifest": "antd/ConfigProvider",
+      "kind": "component",
+      "parent": null,
+      "propsType": "GetProps<typeof ConfigProvider>",
+      "props": [
+        {
+          "name": "affix",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "alert",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").AlertConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "anchor",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").AnchorStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "app",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "autoInsertSpaceInButton",
+          "type": "boolean | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "boolean",
+            "editable": true
+          },
+          "deprecated": "Please use `{ button: { autoInsertSpace: boolean }}` instead"
+        },
+        {
+          "name": "avatar",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "badge",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").BadgeConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "borderBeam",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "breadcrumb",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").BreadcrumbConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "button",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ButtonConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "calendar",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CalendarConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "card",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CardConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "cardMeta",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CardMetaConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "carousel",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "cascader",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CascaderConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "checkbox",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CheckboxConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "children",
+          "type": "any",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "slot",
+            "editable": true,
+            "encoding": "json-or-text"
+          }
+        },
+        {
+          "name": "collapse",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CollapseConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "colorPicker",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ColorPickerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "componentDisabled",
+          "type": "boolean | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "boolean",
+            "editable": true
+          }
+        },
+        {
+          "name": "componentSize",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/SizeContext\").SizeType",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "enum",
+            "editable": true,
+            "options": [
+              "middle",
+              "medium",
+              "large",
+              "small"
+            ]
+          }
+        },
+        {
+          "name": "csp",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").CSPConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "datePicker",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DatePickerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "descriptions",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DescriptionsConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "direction",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DirectionType",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "enum",
+            "editable": true,
+            "options": [
+              "ltr",
+              "rtl"
+            ]
+          }
+        },
+        {
+          "name": "divider",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DividerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "drawer",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DrawerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "dropdown",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").DropdownConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "dropdownMatchSelectWidth",
+          "type": "boolean | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "boolean",
+            "editable": true
+          },
+          "deprecated": "Please use `popupMatchSelectWidth` instead"
+        },
+        {
+          "name": "empty",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").EmptyConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "flex",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").FlexConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "floatButton",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").FloatButtonConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "floatButtonGroup",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").FloatButtonGroupConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "form",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").FormConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "runtime",
+            "editable": false,
+            "binding": "runtime"
+          }
+        },
+        {
+          "name": "getPopupContainer",
+          "type": "((triggerNode?: HTMLElement) => HTMLElement | ShadowRoot) | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "runtime",
+            "editable": false,
+            "binding": "callback"
+          }
+        },
+        {
+          "name": "getTargetContainer",
+          "type": "(() => HTMLElement | Window | ShadowRoot) | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "runtime",
+            "editable": false,
+            "binding": "callback"
+          }
+        },
+        {
+          "name": "iconPrefixCls",
+          "type": "string | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "string",
+            "editable": true
+          }
+        },
+        {
+          "name": "image",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ImageConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "input",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").InputConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "inputNumber",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").InputNumberConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "inputPassword",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").InputPasswordConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "inputSearch",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").InputSearchConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "layout",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "list",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ListConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "listy",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ListyConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "locale",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/locale/index\").Locale | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "masonry",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").MasonryConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "mentions",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").MentionsConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "menu",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").MenuConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "message",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").MessageConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "modal",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ModalConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "notification",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").NotificationConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "otp",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").OTPConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "pagination",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").PaginationConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "popconfirm",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").PopconfirmConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "popover",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").PopoverConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "popupMatchSelectWidth",
+          "type": "boolean | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "boolean",
+            "editable": true
+          }
+        },
+        {
+          "name": "popupOverflow",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").PopupOverflow | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "enum",
+            "editable": true,
+            "options": [
+              "scroll",
+              "viewport"
+            ]
+          }
+        },
+        {
+          "name": "prefixCls",
+          "type": "string | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "string",
+            "editable": true
+          }
+        },
+        {
+          "name": "progress",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ProgressConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "qrcode",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").QRcodeConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "radio",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").RadioConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "rangePicker",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").RangePickerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "rate",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "renderEmpty",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/defaultRenderEmpty\").RenderEmptyHandler | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "runtime",
+            "editable": false,
+            "binding": "callback"
+          }
+        },
+        {
+          "name": "result",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ResultConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "ribbon",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").RibbonConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "segmented",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SegmentedConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "select",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SelectConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "skeleton",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SkeletonConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "slider",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SliderConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "space",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SpaceConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "spin",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SpinConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "splitter",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SplitterConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "statistic",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").StatisticConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "steps",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").StepsConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "switch",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").SwitchStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "table",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TableConfig<import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/_util/type\").AnyObject> | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "tabs",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TabsConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "tag",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TagConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "textArea",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TextAreaConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "theme",
+          "type": "A.ThemeConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "timeline",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TimelineConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "timePicker",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TimePickerConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "tooltip",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TooltipConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "tour",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TourConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "transfer",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TransferConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "tree",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TreeConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "treeSelect",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TreeSelectConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "typography",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").TypographyConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "upload",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").UploadConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "variant",
+          "type": "\"outlined\" | \"borderless\" | \"filled\" | \"underlined\" | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "enum",
+            "editable": true,
+            "options": [
+              "outlined",
+              "borderless",
+              "filled",
+              "underlined"
+            ]
+          }
+        },
+        {
+          "name": "virtual",
+          "type": "boolean | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "boolean",
+            "editable": true
+          }
+        },
+        {
+          "name": "warning",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/_util/warning\").WarningContextProps | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "watermark",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").ComponentStyleConfig | undefined",
+          "required": false,
+          "description": "",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        },
+        {
+          "name": "wave",
+          "type": "import(\"/Users/yanxianliang/overseas/pen-antd-kit/node_modules/.pnpm/antd@6.6.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/antd/es/config-provider/context\").WaveConfig | undefined",
+          "required": false,
+          "description": "Wave is special component which only patch on the effect of component interaction.",
+          "control": {
+            "type": "structured",
+            "editable": true,
+            "encoding": "json"
+          }
+        }
+      ]
+    },
     "DatePicker": {
       "name": "DatePicker",
       "manifest": "antd/DatePicker",
@@ -169156,8 +170232,8 @@
             "type": "enum",
             "editable": true,
             "options": [
-              "line",
               "card",
+              "line",
               "editable-card"
             ]
           }
@@ -192116,9 +193192,10 @@
               "label",
               "span",
               "header",
+              "select",
+              "image",
               "pattern",
               "footer",
-              "image",
               "cite",
               "data",
               "summary",
@@ -192188,7 +193265,6 @@
               "s",
               "samp",
               "script",
-              "select",
               "source",
               "strong",
               "sup",
@@ -195292,9 +196368,10 @@
               "label",
               "span",
               "header",
+              "select",
+              "image",
               "pattern",
               "footer",
-              "image",
               "cite",
               "data",
               "summary",
@@ -195364,7 +196441,6 @@
               "s",
               "samp",
               "script",
-              "select",
               "source",
               "strong",
               "sup",
@@ -198587,9 +199663,10 @@
               "label",
               "span",
               "header",
+              "select",
+              "image",
               "pattern",
               "footer",
-              "image",
               "cite",
               "data",
               "summary",
@@ -198659,7 +199736,6 @@
               "s",
               "samp",
               "script",
-              "select",
               "source",
               "strong",
               "sup",
@@ -201964,9 +203040,10 @@
               "label",
               "span",
               "header",
+              "select",
+              "image",
               "pattern",
               "footer",
-              "image",
               "cite",
               "data",
               "summary",
@@ -202036,7 +203113,6 @@
               "s",
               "samp",
               "script",
-              "select",
               "source",
               "strong",
               "sup",
@@ -205266,9 +206342,10 @@
               "label",
               "span",
               "header",
+              "select",
+              "image",
               "pattern",
               "footer",
-              "image",
               "cite",
               "data",
               "summary",
@@ -205338,7 +206415,6 @@
               "s",
               "samp",
               "script",
-              "select",
               "source",
               "strong",
               "sup",

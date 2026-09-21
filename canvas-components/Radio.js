@@ -36,5 +36,5 @@ if(i.optionType==='button'){
   const isChecked = i.checked;
   nodes.push({type:"ellipse", x:0, y:(h-s)/2, width:s, height:s, fill:"#FFFFFF", stroke:i.disabled?"#00000040":(isChecked?primary:"#D9D9D9"), strokeWidth:1});
   if (isChecked) nodes.push({type:"ellipse", x:4, y:(h-s)/2+4, width:8, height:8, fill:primary});
-  nodes.push(text(i.children||"单选框", s+8, (h-18)/2, W-s-8, disabled));
+  if(i.children)nodes.push(text(i.children, s+8, (h-18)/2, W-s-8, disabled));
 return nodes;

@@ -1,7 +1,7 @@
 /**
  * @schema 2.18
  * @input children: string = ""
- * @input color: color = #1677FF
+ * @input color: string = "#1677FF"
  * @input count: number = 1
  * @input duration: number = 6
  * @input lineWidth: number = 1
@@ -15,9 +15,10 @@ const size=Math.max(24,Math.min(i.size||100,Math.max(W,H)*0.7));
 const outset=Number(i.outset||0), count=Math.max(1,Math.min(8,Math.floor(i.count||1)));
 const nodes=[];
 if(i.children){let child;try{child=JSON.parse(i.children)}catch{child={type:'ref',ref:i.children}}nodes.push({...child,x:0,y:0,width:W,height:H});}
-const gradient=(rotation)=>({type:"gradient",gradientType:"linear",rotation,colors:[{color:c+"00",position:0},{color:c,position:0.5},{color:c+"00",position:1}]});
+let stops;try{const colors=JSON.parse(c);if(Array.isArray(colors))stops=colors.map((v,k)=>({color:typeof v==='string'?v:v.color,position:typeof v==='string'?k/Math.max(1,colors.length-1):(v.percent||0)/100}));}catch{}
+const gradient=(rotation)=>({type:'gradient',gradientType:'linear',rotation,colors:stops||[{color:c+'00',position:0},{color:c,position:.7},{color:c+'00',position:1}]});
 for(let n=0;n<count;n++){
-  const side=n%4;
+  const side=Math.floor(n*4/count)%4;
   const shift=Math.floor(n/4)*18;
   if(side===0) nodes.push({type:"rectangle",name:"Beam "+(n+1),x:Math.max(8,(W-size)/2-shift),y:-outset,width:Math.min(size,W-16),height:line,fill:gradient(90),cornerRadius:line});
   if(side===1) nodes.push({type:"rectangle",name:"Beam "+(n+1),x:W-line+outset,y:Math.max(8,(H-size)/2-shift),width:line,height:Math.min(size,H-16),fill:gradient(180),cornerRadius:line});

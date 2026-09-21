@@ -60,7 +60,7 @@ CATEGORIES = {
     'Layout': ['Divider', 'Flex', 'Grid', 'Layout', 'Space', 'Splitter', 'Col', 'Row', 'Masonry'],
     'Navigation': ['Anchor', 'Breadcrumb', 'Dropdown', 'Menu', 'Pagination', 'Steps', 'Tabs'],
     'Data Entry': ['AutoComplete', 'Cascader', 'Checkbox', 'ColorPicker', 'DatePicker', 'Form', 'Input', 'InputNumber', 'Mentions', 'Radio', 'Rate', 'Select', 'Slider', 'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload'],
-    'Data Display': ['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'List', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'],
+    'Data Display': ['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'],
     'Feedback': ['Alert', 'Drawer', 'Message', 'Modal', 'Notification', 'Popconfirm', 'Progress', 'Result', 'Skeleton', 'Spin', 'Watermark'],
     'Other': ['Affix', 'App', 'BackTop', 'BorderBeam'],
 }
@@ -80,7 +80,7 @@ CHINESE_NAMES = {
     'Divider': '分割线', 'Flex': '弹性布局', 'Grid': '栅格', 'Layout': '布局', 'Space': '间距', 'Splitter': '折叠分割器', 'Col': '栅格列', 'Row': '栅格行', 'Masonry': '瀑布流',
     'Anchor': '锚点', 'Breadcrumb': '面包屑', 'Dropdown': '下拉菜单', 'Menu': '导航菜单', 'Pagination': '分页', 'Steps': '步骤条', 'Tabs': '标签页',
     'AutoComplete': '自动完成', 'Cascader': '级联选择', 'Checkbox': '多选框', 'ColorPicker': '颜色选择器', 'DatePicker': '日期选择器', 'Form': '表单', 'Input': '输入框', 'InputNumber': '数字输入框', 'Mentions': '提及', 'Radio': '单选框', 'Rate': '评分', 'Select': '选择器', 'Slider': '滑动输入条', 'Switch': '开关', 'TimePicker': '时间选择器', 'Transfer': '穿梭框', 'TreeSelect': '树选择', 'Upload': '上传',
-    'Avatar': '头像', 'Badge': '徽标数', 'Calendar': '日历', 'Card': '卡片', 'Carousel': '走马灯', 'Collapse': '折叠面板', 'Descriptions': '描述列表', 'Empty': '空状态', 'Image': '图片', 'List': '列表', 'Listy': '虚拟列表', 'Popover': '气泡卡片', 'QRCode': '二维码', 'Segmented': '分段控制器', 'Statistic': '统计数值', 'Table': '表格', 'Tag': '标签', 'Timeline': '时间轴', 'Tooltip': '文字提示', 'Tour': '漫游式引导', 'Tree': '树形控件',
+    'Avatar': '头像', 'Badge': '徽标数', 'Calendar': '日历', 'Card': '卡片', 'Carousel': '走马灯', 'Collapse': '折叠面板', 'Descriptions': '描述列表', 'Empty': '空状态', 'Image': '图片', 'Listy': '虚拟列表', 'Popover': '气泡卡片', 'QRCode': '二维码', 'Segmented': '分段控制器', 'Statistic': '统计数值', 'Table': '表格', 'Tag': '标签', 'Timeline': '时间轴', 'Tooltip': '文字提示', 'Tour': '漫游式引导', 'Tree': '树形控件',
     'Alert': '警告提示', 'Drawer': '抽屉', 'Message': '全局提示', 'Modal': '对话框', 'Notification': '通知提醒框', 'Popconfirm': '气泡确认框', 'Progress': '进度条', 'Result': '结果', 'Skeleton': '骨架屏', 'Spin': '加载中', 'Watermark': '水印',
     'Affix': '固钉', 'App': '包裹器', 'BackTop': '回到顶部', 'BorderBeam': '发光边框',
 }
@@ -132,7 +132,6 @@ DESCRIPTIONS = {
     'Descriptions': '成组展示多个字段信息的描述列表，支持表格样式与斑马底纹。',
     'Empty': '空状态时的展示占位图，提示用户当前无数据并引导后续动作。',
     'Image': '提供图片预览、缩放、旋转与错误兜底图的多功能图片组件。',
-    'List': '最基础的列表展示组件，支持竖排图文、操作按钮组与分页集成。',
     'Popover': '气泡卡片，悬停或点击时弹出承载复杂结构化信息的卡片浮层。',
     'QRCode': '二维码生成器，将文本或网址渲染为清晰的矢量二维码，支持中心图标。',
     'Segmented': '分段控制器，用于展示多个互斥选项的线性滑动切换控件。',

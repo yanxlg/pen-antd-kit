@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.internal/pen-antd/release.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "kitVersion", "quality", "library", "standards"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kitVersion": { "type": "string", "minLength": 1 },
+    "antdVersion": { "type": "string" },
+    "quality": {
+      "type": "object",
+      "required": ["status"],
+      "properties": { "status": { "enum": ["candidate", "passed"] } }
+    },
+    "library": {
+      "type": "object",
+      "required": ["id", "path"],
+      "properties": {
+        "id": { "type": "string" },
+        "path": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "standards": {
+      "type": "object",
+      "required": ["version", "path", "manifest"],
+      "properties": {
+        "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-[0-9A-Za-z.-]+)?$" },
+        "path": { "type": "string", "minLength": 1 },
+        "manifest": { "type": "string", "minLength": 1 }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "required": ["type", "url"],
+      "properties": {
+        "type": { "enum": ["tar.gz", "directory"] },
+        "url": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

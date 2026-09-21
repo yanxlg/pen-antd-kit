@@ -1,0 +1,51 @@
+{
+  "$schema": "../schemas/standards-manifest.schema.json",
+  "schemaVersion": 1,
+  "standardsVersion": "0.3.0",
+  "status": "candidate",
+  "entrypoint": "index.md",
+  "qualityProfile": "prototype-quality.json",
+  "runtimeDocuments": [
+    {
+      "id": "foundation.environment-layout",
+      "path": "foundations/environment-layout.md",
+      "appliesTo": ["all"]
+    },
+    {
+      "id": "pattern.admin-app-shell",
+      "path": "patterns/admin-app-shell.md",
+      "appliesTo": ["admin-app-shell", "standalone-app"]
+    },
+    {
+      "id": "pattern.page-templates",
+      "path": "patterns/page-templates.md",
+      "appliesTo": ["list-page", "split-tabs-page", "detail-drawer", "form-drawer"]
+    },
+    {
+      "id": "pattern.list-query",
+      "path": "patterns/list-query.md",
+      "appliesTo": ["list-page", "settings-page"]
+    },
+    {
+      "id": "pattern.forms-overlays",
+      "path": "patterns/forms-overlays.md",
+      "appliesTo": ["form-page", "detail-page", "settings-page"]
+    },
+    {
+      "id": "state.feedback-permissions",
+      "path": "states/feedback-permissions.md",
+      "appliesTo": ["all"]
+    },
+    {
+      "id": "quality.review-checklist",
+      "path": "quality/review-checklist.md",
+      "appliesTo": ["all"]
+    }
+  ],
+  "provenanceDocuments": [
+    {
+      "id": "reference.fintechgrowthui-evidence",
+      "path": "reference/fintechgrowthui-evidence.md"
+    }
+  ]
+}

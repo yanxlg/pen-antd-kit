@@ -2,8 +2,11 @@
   "meta": {
     "source": "https://ant.design/components/overview-cn/",
     "antd_version": "6.6.4",
-    "base_count": 73,
-    "pro_count": 6
+    "base_count": 72,
+    "pro_count": 6,
+    "excluded_components": [
+      "List"
+    ]
   },
   "groups": [
     {
@@ -330,7 +333,7 @@
       "category_key": "data-display",
       "category_cn": "数据展示",
       "category_en": "Data Display",
-      "count": 21,
+      "count": 20,
       "components": [
         {
           "name_en": "Avatar",
@@ -403,14 +406,6 @@
           "url": "https://ant.design/components/image-cn",
           "version_badge": null,
           "is_deprecated": false
-        },
-        {
-          "name_en": "List",
-          "name_cn": "列表",
-          "slug": "list",
-          "url": "https://ant.design/components/list-cn",
-          "version_badge": null,
-          "is_deprecated": true
         },
         {
           "name_en": "Listy",

@@ -62,7 +62,7 @@ if (i.src) {
   if (i.icon) {
     nodes.push({type:'ref',ref:'antd-icon-live-origin',name:'icon · Icon',x:s*.2,y:s*.2,width:s*.6,height:s*.6,inputs:{name:(/Outlined|Filled|TwoTone$/.test(i.icon)?i.icon:'UserOutlined'),fontSize:s*.6,color:i.textColor||'#FFFFFF'}});
   } else {
-    const raw = String(i.text || "A");
+    const raw = String(i.text ?? "A");
     const gap = Math.max(0, Number(i.gap ?? 4));
     const maxWidth = Math.max(8, s - gap * 2);
     const estimated = Math.max(1, raw.length) * s * 0.5;

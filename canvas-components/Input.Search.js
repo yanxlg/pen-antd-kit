@@ -13,11 +13,16 @@
  * @input multiple: boolean = false
  * @input name: string = ""
  * @input placeholder: string = ""
+ * @input value: string = ""
+ * @input allowClear: boolean = false
+ * @input search: boolean = false
  * @input size: enum("middle", "medium", "large", "small") = "middle"
  * @input src: string = ""
  * @input status: enum("", "error", "warning", "success", "validating") = ""
  * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
  * @input primaryColor: color = #1677FF
+ * @input compactOrientation: enum("horizontal", "vertical") = "horizontal"
+ * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  */
 
 const i = pencil.input;
@@ -33,6 +38,7 @@ const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
 const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
 const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
 const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const compactRadius=(r=6)=>i.compactPlacement==="middle"?0:i.compactPlacement==="start"?(i.compactOrientation==="vertical"?[r,r,0,0]:[r,0,0,r]):i.compactPlacement==="end"?(i.compactOrientation==="vertical"?[0,0,r,r]:[0,r,r,0]):r;
 
   const fieldW = Math.max(1, pencil.width);
   const fieldH = i.multiline ? H : h;
@@ -41,7 +47,7 @@ const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
     for(let n=0;n<count;n++){nodes.push(box(n*(bw+gap),0,bw,h,i.disabled?"#0000000A":bgFill,6,strokeCol));if(i.value)nodes.push(text(String(i.value)[n]||"",n*(bw+gap),7,bw,disabled,14,"normal","center"));}
     return nodes;
   }
-  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
+  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, compactRadius(6), strokeCol));
   let curX = pad;
   if (i.prefix) {
     nodes.push(text(i.prefix, curX, (h-18)/2, 20, "#00000040", 13));

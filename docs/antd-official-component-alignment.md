@@ -12,7 +12,7 @@
 - **Data Entry 的 18 个组件均已建立唯一 Live 定义。** 每个官方组件页先通过 Pen 浏览器的 `Import to Canvas` 导入 `.demo-wrapper`；Usage 保留官网示例卡、标题、说明和双栏顺序，预览控件再替换为唯一 Live 定义的 `ref` 实例。Components 中除唯一 `reusable: true` 定义外，所有状态展示也使用该定义的 `ref` 实例。
 - **总览分组错误：Affix 放在导航，Masonry 放在其他。** 详情区和 Registry 的这两项分类已正确。
 - **本地多出的一级项：BackTop。** Row/Col 已作为 Grid 的内部资产呈现；BackTop 不属于当前官网一级目录，回到顶部能力归入 FloatButton。
-- **版本差异：Listy 自 6.6.0 提供；当前官网将 List 标为废弃。** 运行时版本门槛已满足，Pen 已完成 Listy；当前目录中仍保留 List 并标记其状态。[Listy 文档](https://ant.design/components/listy-cn/) · [List 文档](https://ant.design/components/list-cn/)
+- **版本差异：Listy 自 6.6.0 提供；当前官网将 List 标为废弃。** 运行时版本门槛已满足，Pen 已完成 Listy；Library 排除已废弃的 List 及其子组件。[Listy 文档](https://ant.design/components/listy-cn/) · [List 文档](https://ant.design/components/list-cn/)
 
 Data Entry 已完成 Pen 运行态导入、实例结构和画板尺寸核对。General、Layout、Navigation、Data Display、Feedback 与 Other 已按同一流程导入官网 Usage 并将预览替换为组件实例。Data Display、Feedback 与 Other 的旧静态变体矩阵已收敛为每项一个 Live 定义；Table 的 43 张官网示例卡统一引用唯一的 Live Table 定义。Principles 内容只以当前 Ant Design 官网 Design 页面为准；社区 Figma 仅用于确定最低覆盖范围。Figma 明确包含 Principles 的 17 项已经全部覆盖，官网共享 Design 页面中具有明确组件章节的内容也已经补入。ConfigProvider 与 Util 不在本项目范围内。
 
@@ -24,6 +24,7 @@ Data Entry 已完成 Pen 运行态导入、实例结构和画板尺寸核对。G
 4. 导入后的示例预览必须替换为对应可复用组件的 `ref` 实例；不得用矩形、文本或一次性脚本重新描画组件。
 5. Components 只保留该组件的规范定义；状态和属性组合全部引用定义并通过属性配置。官方确有子组件时（如 Grid.Row/Col、Layout.Header/Content/Footer/Sider、Space.Compact）允许保留对应子定义。
 6. 生成脚本只维护 Components 定义和实例，不覆盖已经从官网导入并完成实例化的 Usage。
+   Components 需要按有意义的 props 交叉分组展示实际实例（如尺寸 × 形状 × 状态），不能只列孤立的默认、小、大几个状态；不额外显示 API 属性矩阵表。官方子组件也需要配置展示。
 7. 每次更新后检查 Usage 的实例数、直接脚本残留、Example 底部操作区、标题编辑按钮、标题分割线、标题外框对齐、标题文字光学中心对齐、容器裁切、画板高度与分组横向排布。Example 底部操作区、标题编辑按钮、缺失分割线、标题外框错位和标题文字错位必须均为 0。
 8. Figma 只用于确定组件是否需要 Principles，不能作为 Principles 的内容来源。Figma 已有 Principles 的组件不得缺失；所有 Principles 的结构、文字、图片和顺序必须与当前 Ant Design 官网 `/docs/spec` 页面一致，不得摘要、改写或使用占位内容。官网共享 Design 页面可以带来额外 Principles；远程插图必须保存为项目资产后引用。
 9. 每个组件详情区的横向 Frame 顺序固定为 `Principles → Usage → Components`，相邻 Frame 间距为 `40px`。没有 Principles 的组件使用 `Usage → Components`。新增或重新导入 Principles 时必须重排整个详情区，禁止把 Principles 直接追加在 Components 之后。可执行 `scripts/normalize-detail-frame-order.pencil.js` 统一修复并验收。
@@ -78,7 +79,7 @@ Data Entry 已完成 Pen 运行态导入、实例结构和画板尺寸核对。G
 | 组件 / 官方文档 | Pen 现状 | 后续最小检查范围 |
 | --- | --- | --- |
 | [Anchor 锚点](https://ant.design/components/anchor-cn/) | 静态；待验收 | 横向、纵向、当前项、滚动定位示意 |
-| [Breadcrumb 面包屑](https://ant.design/components/breadcrumb-cn/) | 静态；待验收 | 基本路径、自定义分隔、下拉路径 |
+| [Breadcrumb 面包屑](https://ant.design/components/breadcrumb-cn/) | Live；官网 Usage 已实例化 | 基本路径、自定义分隔、下拉路径、图标与语义样式 |
 | [Dropdown 下拉菜单](https://ant.design/components/dropdown-cn/) | 静态；待验收 | 触发器、展开浮层、选项、禁用项 |
 | [Menu 导航菜单](https://ant.design/components/menu-cn/) | 静态；待验收 | 水平、垂直、内嵌、子菜单、选中与折叠 |
 | [Pagination 分页](https://ant.design/components/pagination-cn/) | 静态；待验收 | 基础、简洁、尺寸切换、跳页、总数 |
@@ -112,7 +113,7 @@ Data Entry 验收基线：每个 Components 画板只有一个 `reusable: true` 
 
 ### 05 数据展示 / Data Display
 
-Components 的状态范围、实例约束和验证命令见 [Data Display Components](./data-display-components.md)。当前 21 个画板包含 119 个状态和 37 个唯一主/子组件定义；该状态覆盖不等于完整官网 Usage 或所有交互 API 的验收。
+Components 的状态范围、实例约束和验证命令见 [Data Display Components](./data-display-components.md)。当前 20 个画板包含 304 个属性组合实例和 35 个唯一主/子组件定义；交叉展示规则见 [Components 属性交叉展示](./components-props-cross-showcase.md)，不等于完整官网 Usage 或所有交互 API 的验收。
 
 | 组件 / 官方文档 | Pen 现状 | 后续最小检查范围 |
 | --- | --- | --- |
@@ -125,7 +126,6 @@ Components 的状态范围、实例约束和验证命令见 [Data Display Compon
 | [Descriptions 描述列表](https://ant.design/components/descriptions-cn/) | Live；唯一组件定义 | 横/纵布局、边框、列数、跨列 |
 | [Empty 空状态](https://ant.design/components/empty-cn/) | Live；含官网 Principles | 默认、简洁、自定义说明与操作 |
 | [Image 图片](https://ant.design/components/image-cn/) | Live；唯一组件定义 | 加载、失败、单图预览、多图预览 |
-| [List 列表](https://ant.design/components/list-cn/) | Live；含官网 Principles；官网已废弃 | 保留官网废弃标记；既有列表样例待评估 |
 | [Listy 虚拟列表](https://ant.design/components/listy-cn/) | Live；7 张官网 Usage 已实例化 | 固定高度、虚拟滚动、分组、吸顶；版本门槛 6.6.0 |
 | [Popover 气泡卡片](https://ant.design/components/popover-cn/) | Live；唯一组件定义 | 触发器、标题与内容、位置、展开 |
 | [QRCode 二维码](https://ant.design/components/qr-code-cn/) | Live；唯一组件定义 | 默认、加载、过期、扫描完成 |
@@ -244,7 +244,7 @@ ConfigProvider 的详情区、总览卡、可复用定义和独立脚本已删�
 - [ ] 修正总览 Affix、Masonry 分类，组内顺序与第 3 节一致。
 - [x] Row、Col 已收进 Grid；BackTop 暂作为本地额外一级项保留。
 - [x] Icon、Message、Notification、Listy 已补齐目录、唯一组件定义和官网 Usage 实例；ConfigProvider、Util 按项目范围排除。
-- [ ] List 标注官网废弃状态，不混淆运行时版本与既有 Pen 资产状态。
+- [x] 已废弃的 List、List.Item、List.Item.Meta 排除于 Library、目录与生成配置，保留独立 Listy。
 
 ### P1：补实际可用的组件与状态
 
@@ -298,6 +298,13 @@ ConfigProvider 的详情区、总览卡、可复用定义和独立脚本已删�
 - 官方复合 API 使用独立定义：`DatePicker.RangePicker`、`TimePicker.RangePicker`、`Checkbox.Group`、`Radio.Group`、`Radio.Button` 分开实现，基础组件不再承担这些渲染模式。
 - 有内容插槽的控件使用官方属性名。Checkbox、Radio、Tag、Dropdown 的文字通过 `children` 传入；图标和结构化内容仍使用可识别的组件属性。
 - Usage 通过真实实例组合。Message、Notification 的静态官网示例使用 Button 实例作为触发器；Badge 定义直接包含被包裹的子组件实例和独立指示器，不再把 FloatButton 序列化到 Badge 的字符串属性中。
-- Data Display、Feedback、Other 的 Usage 必须保留官网 `.demo-wrapper` 导入根、卡片标题、说明、顺序和双列结构。导入后的预览内容按官网初始态替换：Message、Notification、Modal、Drawer、Popover、Popconfirm、Tooltip、Tour 使用 Button 实例作为触发器；Badge 使用 Avatar/Card 与 Badge 的嵌套实例；BorderBeam、Affix、App 使用 `children` 组件引用。不得为了让示例可见而把所有浮层强制设为打开态。
+- Data Display、Feedback、Other 的 Usage 不照搬官网完整功能目录，只保留对设计有直接价值的交互场景；纯调用方式、生命周期、挂载位置或编程接口示例不进入设计资源。Drawer Usage 保留基础、可调整尺寸、额外操作、表单、多层抽屉和详情预览；Modal Usage 保留基础、自定义页脚、确认场景和可拖拽内容。位置、尺寸、Mask、Loading、Footer、关闭入口和操作文案等 UI 属性集中在 Components 交叉展示，避免与 Usage 重复。
+- Drawer、Modal 的组件定义、Components 状态示例以及 Usage Example 默认使用 `open: true`。示例容器视为页面视口，先呈现底层页面结构，再由半透明 Mask 覆盖整个容器，最后在遮罩上呈现抽屉或弹窗；不得只绘制孤立弹窗或抽屉面板。打开态需包含对应的标题栏、关闭入口、内容区与页脚。`open: false` 仍是必须支持的运行状态，但不作为默认预览态；Components 中用于说明 `mask: false` 等 UI 属性的对照状态除外。
+- Message、Notification、Popover、Popconfirm、Tooltip、Tour 按其设计展示需要选择触发态或展开态。Badge 使用 Avatar/Card 与 Badge 的嵌套实例；BorderBeam、Affix、App 使用 `children` 组件引用。
 - 实例替换后必须重新校正预览容器尺寸。绝对布局的实例使用官网预览区内边距，自动布局的实例不得写入无效的 `x/y`；组件宽高不得沿用超出示例卡的定义尺寸。除 Overflow 专页外，Usage 不显示组件版本标签。
 - 修改渲染器或生成器后运行 `npm run verify:composition`。该检查会拒绝已确认的私有渲染选择器，并验证必要的官方子组件定义已经登记。
+
+
+## Feedback / Other 当前审核记录
+
+这两个分组的结构规则、官网导入范围和验证结果见 [Feedback / Other 审核](feedback-other-audit.md)。其中明确记录了静态画布验收范围和尚未通过的旧 FloatButton 验证脚本，不以截图代替交互验证。

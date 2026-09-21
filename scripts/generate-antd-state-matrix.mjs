@@ -8,12 +8,13 @@ const groups = {
   'Data Entry': ['AutoComplete', 'Cascader', 'Checkbox', 'ColorPicker', 'DatePicker', 'Form', 'Input', 'InputNumber', 'Mentions', 'Radio', 'Rate', 'Select', 'Slider', 'Switch', 'TimePicker', 'Transfer', 'TreeSelect', 'Upload'],
   'Data Display': ['Avatar', 'Badge', 'Calendar', 'Card', 'Carousel', 'Collapse', 'Descriptions', 'Empty', 'Image', 'List', 'Listy', 'Popover', 'QRCode', 'Segmented', 'Statistic', 'Table', 'Tag', 'Timeline', 'Tooltip', 'Tour', 'Tree'],
   Feedback: ['Alert', 'Drawer', 'Message', 'Modal', 'Notification', 'Popconfirm', 'Progress', 'Result', 'Skeleton', 'Spin', 'Watermark'],
-  Other: ['Affix', 'App', 'BackTop', 'BorderBeam'],
+  Other: ['Affix', 'App', 'BackTop', 'BorderBeam', 'ConfigProvider'],
 };
 
 const common = ['default', 'disabled', 'focus'];
 const stateOverrides = {
   Listy: ['default', 'virtual', 'grouped'],
+  List: ['default', 'bordered', 'loading'],
   Alert: ['success', 'warning', 'error', 'info'],
   Button: ['primary', 'default', 'dashed', 'text', 'link', 'loading', 'disabled', 'danger'],
   Checkbox: ['checked', 'unchecked', 'indeterminate', 'disabled'],

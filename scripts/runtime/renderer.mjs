@@ -3,9 +3,9 @@ export function createRenderer(React, A, dayjs, bindings = {}) {
   const callbacks = {
     preventUpload: () => false,
     title: item => item.title,
-    listItem: item => h(A.List.Item, null, String(item)),
     masonryItem: ({data,index}) => h('div',{style:{height:data,background:'#e6f4ff',padding:12}},String(index+1)),
     formList: fields => fields.map(field=>h(A.Form.Item,{...field,key:field.key,name:[field.name,'name']},h(A.Input))),
+    listItem: item => h(A.List.Item,null,h(A.List.Item.Meta,{title:item.title,description:'Ant Design list item'})),
     ...bindings,
   };
   function resolve(name) {
@@ -62,7 +62,7 @@ export function createRenderer(React, A, dayjs, bindings = {}) {
       'Breadcrumb.Item':'Breadcrumb','Breadcrumb.Separator':'Breadcrumb',
       'Tabs.TabPane':'Tabs','Timeline.Item':'Timeline',
       'Splitter.Panel':'Splitter','Mentions.Option':'Mentions',
-      'Anchor.Link':'Anchor','List.Item':'List','List.Item.Meta':'List',
+      'Anchor.Link':'Anchor',
       'Table.Column':'Table','Table.ColumnGroup':'Table',
     };
     if (wrappers[name]) element=h(resolve(wrappers[name]),{...(base==='Table'?{dataSource:[{key:'1',name:'张三'}],pagination:false}:{}),...(base==='Splitter'?{style:{height:160}}:{}),...(base==='Collapse'?{defaultActiveKey:['preview']}:{}),...(base==='Anchor'?{affix:false}:{})},React.cloneElement(element,{key:'preview'}));

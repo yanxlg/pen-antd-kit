@@ -8,6 +8,10 @@
  * @input bordered: boolean = true
  * @input errorLevel: enum("L", "M", "Q", "H") = "M"
  * @input type: enum("canvas", "svg") = "canvas"
+ * @input icon: string = ""
+ * @input iconSize: number = 40
+ * @input statusRender: string = ""
+ * @input styles: string = "{}"
  * @input primaryColor: color = #1677FF
  */
 const _defineProperty=(target,key,value)=>{Object.defineProperty(target,key,{value,writable:true,enumerable:true,configurable:true});};
@@ -993,8 +997,14 @@ class QrCode {
   [-1, 1, 1, 2, 4, 4, 4, 5, 6, 8, 8, 11, 11, 16, 16, 18, 16, 19, 21, 25, 25, 25, 34, 30, 32, 35, 37, 40, 42, 45, 48, 51, 54, 57, 60, 63, 66, 70, 74, 77, 81] // High
   ];
 }
-const i=pencil.input||{},s=Math.min(pencil.width,pencil.height),pad=12,nodes=[],qr=QrCode.encodeText(String(i.value||'https://ant.design'),({L:Ecc.LOW,M:Ecc.MEDIUM,Q:Ecc.QUARTILE,H:Ecc.HIGH})[i.errorLevel]||Ecc.MEDIUM),n=qr.size,cell=(s-pad*2)/n;
-nodes.push({type:'rectangle',name:'QR surface',x:0,y:0,width:s,height:s,fill:i.bgColor||'#FFFFFF',cornerRadius:8,stroke:i.bordered===false?'#00000000':'#F0F0F0',strokeWidth:1});
+const i=pencil.input||{},parse=(v,d)=>{try{return JSON.parse(v)}catch{return d}},styles=parse(i.styles,{}),root=styles.root||{},s=Math.min(pencil.width,pencil.height),pad=Number(root.padding)||12,nodes=[],qr=QrCode.encodeText(String(i.value||'https://ant.design'),({L:Ecc.LOW,M:Ecc.MEDIUM,Q:Ecc.QUARTILE,H:Ecc.HIGH})[i.errorLevel]||Ecc.MEDIUM),n=qr.size,cell=(s-pad*2)/n;
+nodes.push({type:'rectangle',name:'QR surface',x:0,y:0,width:s,height:s,fill:root.backgroundColor||i.bgColor||'#FFFFFF',cornerRadius:root.borderRadius||8,stroke:i.bordered===false?'#00000000':root.borderColor||'#F0F0F0',strokeWidth:root.borderWidth||1});
 for(let r=0;r<n;r++)for(let c=0;c<n;c++)if(qr.getModule(c,r))nodes.push({type:'rectangle',name:'QR module',x:pad+c*cell,y:pad+r*cell,width:cell+.02,height:cell+.02,fill:i.color||'#000000'});
-if(i.status!=='active'){nodes.push({type:'rectangle',name:'QR status mask',x:pad,y:pad,width:s-pad*2,height:s-pad*2,fill:'#FFFFFFD9'});nodes.push({type:'text',name:'QR status',content:i.status==='expired'?'Expired':i.status==='loading'?'Loading…':'Scanned',x:pad,y:s/2-10,width:s-pad*2,height:20,textGrowth:'fixed-width-height',textAlign:'center',fontFamily:'Inter',fontSize:13,fontWeight:'600',fill:'#000000E0'});}
+if(i.icon){const z=Math.min(s-24,Number(i.iconSize)||40);nodes.push({type:'rectangle',x:(s-z)/2,y:(s-z)/2,width:z,height:z,fill:i.bgColor||'#FFFFFF'});nodes.push({type:'rectangle',name:'QRCode icon',x:(s-z)/2,y:(s-z)/2,width:z,height:z,fill:{type:'image',url:i.icon,mode:'fit'}});}
+if(i.status&&i.status!=='active'){
+ nodes.push({type:'rectangle',name:'QR status mask',x:1,y:1,width:s-2,height:s-2,fill:styles.cover?.backgroundColor||'#FFFFFFF5'});
+ const custom=parse(i.statusRender,null);if(custom?.type)nodes.push({...custom,x:(s-Number(custom.width||s))/2,y:(s-Number(custom.height||60))/2});
+ else if(i.status==='loading')nodes.push({type:'ref',ref:'puR2r',x:(s-20)/2,y:(s-20)/2,width:20,height:20});
+ else {nodes.push({type:'text',content:i.status==='expired'?'QR code expired':'Scanned',x:8,y:s/2-(i.status==='expired'?28:11),width:s-16,height:22,textGrowth:'fixed-width-height',textAlign:'center',textAlignVertical:'middle',fontFamily:'Alibaba Sans',fontSize:14,fill:'#000000E0'});if(i.status==='expired')nodes.push({type:'ref',ref:'DQZzq',x:(s-100)/2,y:s/2,width:100,height:32,inputs:{children:'Refresh',type:'link',icon:JSON.stringify({type:'ref',ref:'antd-icon-live-origin',width:14,height:14,inputs:{name:'ReloadOutlined',fontSize:14,color:'#1677FF'}})}});}
+}
 return nodes;

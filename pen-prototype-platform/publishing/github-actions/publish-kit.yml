@@ -1,0 +1,37 @@
+name: Publish Pen Ant Design Kit
+
+on:
+  push:
+    tags:
+      - "kit-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify platform
+        working-directory: pen-prototype-platform
+        run: |
+          npm test
+          npm run standards:validate
+      - name: Publish immutable GitHub Release
+        working-directory: pen-prototype-platform
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#kit-v}"
+          node scripts/publish-github-release.mjs \
+            --source-root .. \
+            --output ./dist/github-release \
+            --version "$VERSION" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --execute

@@ -1,5953 +1,5938 @@
 {
-  "gXp48": {
+  "WzGp2": {
     "name": "StepBackwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X0S3k": {
+  "F8pJ6": {
     "name": "StepForwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gUrfq": {
+  "yrWQG": {
     "name": "FastBackwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z834e": {
+  "vuuV1": {
     "name": "FastForwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fXAu7": {
+  "Xevpf": {
     "name": "ShrinkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KOn0S": {
+  "NCS7I": {
     "name": "ArrowsAltOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s5yd5X": {
+  "GnOcY": {
     "name": "DownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Dymj4": {
+  "zmRnR": {
     "name": "UpOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "O4RJs9": {
+  "Vn4jB": {
     "name": "LeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MrYm5": {
+  "Q7wxnj": {
     "name": "RightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rEvzA": {
+  "D0mg3": {
     "name": "CaretUpOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "x9SmcH": {
+  "g7TfUP": {
     "name": "CaretDownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NIiNb": {
+  "a6S02e": {
     "name": "CaretLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vbi5l": {
+  "gPlF3": {
     "name": "CaretRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fIOqN": {
+  "B23LC": {
     "name": "UpCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G8GxN": {
+  "aAjy5": {
     "name": "DownCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WLRzd": {
+  "JDLFs": {
     "name": "LeftCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "blBVi": {
+  "sWkWp": {
     "name": "RightCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W2xxoQ": {
+  "aLtcq": {
     "name": "DoubleRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "moYzx": {
+  "f1kup": {
     "name": "DoubleLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kYcnS": {
+  "TADHo": {
     "name": "VerticalLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Gkask": {
+  "j8QK6S": {
     "name": "VerticalRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F1GGeb": {
+  "iBBtz": {
     "name": "VerticalAlignTopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "h1xLq6": {
+  "jX2uY": {
     "name": "VerticalAlignMiddleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "D3ApMa": {
+  "V4N7C2": {
     "name": "VerticalAlignBottomOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gBiXb": {
+  "UNzbU": {
     "name": "ForwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qxfTW": {
+  "lBZGz": {
     "name": "BackwardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Yo4xA": {
+  "AOHaQ": {
     "name": "RollbackOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NTXqH": {
+  "BbGzg": {
     "name": "EnterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lPWU9": {
+  "QZ7NL": {
     "name": "RetweetOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tq3a2": {
+  "K9fGT": {
     "name": "SwapOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VqQCP": {
+  "J3KQu": {
     "name": "SwapLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "d0ebaT": {
+  "lFpIT": {
     "name": "SwapRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I864Oa": {
+  "bBVK0": {
     "name": "ArrowUpOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GC4Iu": {
+  "Zww46": {
     "name": "ArrowDownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k680w0": {
+  "DxZTo": {
     "name": "ArrowLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zMuAa": {
+  "OxB6a": {
     "name": "ArrowRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jc0cH": {
+  "ASeN3": {
     "name": "PlayCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "q2Lp3": {
+  "uMHqR": {
     "name": "UpSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NW5sz": {
+  "AK2Hh": {
     "name": "DownSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F2rmWh": {
+  "Ny5pk": {
     "name": "LeftSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UTDRr": {
+  "M0Y3ys": {
     "name": "RightSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RtztG": {
+  "X95KQ1": {
     "name": "LoginOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "o72VA": {
+  "dRgwG": {
     "name": "LogoutOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "O0rPlj": {
+  "nPyM8": {
     "name": "MenuFoldOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tDczE": {
+  "S0LjoV": {
     "name": "MenuUnfoldOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UtE1B": {
+  "J1cYH": {
     "name": "BorderBottomOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BOX93": {
+  "kzKZz": {
     "name": "BorderHorizontalOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BvBe7": {
+  "k8ui7": {
     "name": "BorderInnerOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DMLLu": {
+  "SgFd1": {
     "name": "BorderOuterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PUAwu": {
+  "VDkI7": {
     "name": "BorderLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IrAjF": {
+  "b7O696": {
     "name": "BorderRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z4bSgg": {
+  "r2Z8ZV": {
     "name": "BorderTopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zNuib": {
+  "Y5m19T": {
     "name": "BorderVerticleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Czzr8": {
+  "sX36a": {
     "name": "PicCenterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iuwiN": {
+  "r3IU1J": {
     "name": "PicLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JKl7l": {
+  "hLdVH": {
     "name": "PicRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HJk0U": {
+  "T9r1bs": {
     "name": "RadiusBottomleftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vwZeI": {
+  "L1Lbb": {
     "name": "RadiusBottomrightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZFX8w": {
+  "dVXcy": {
     "name": "RadiusUpleftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yEpcD": {
+  "KZe9X": {
     "name": "RadiusUprightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B8IVm": {
+  "bnh8x": {
     "name": "FullscreenOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OwSXw": {
+  "bVeMJ": {
     "name": "FullscreenExitOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tCWlR": {
+  "Hjqz6": {
     "name": "QuestionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RmcZ2": {
+  "A5nKsr": {
     "name": "QuestionCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VRAiz": {
+  "in5h9": {
     "name": "PlusOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "v3qiUx": {
+  "pmuhA": {
     "name": "PlusCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KkIjG": {
+  "wsH95": {
     "name": "PauseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "t2zOGN": {
+  "oaMod": {
     "name": "PauseCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "A8Pal": {
+  "BtOZR": {
     "name": "MinusOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "f7F62": {
+  "Kw0bP": {
     "name": "MinusCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wrNJX": {
+  "iwQyt": {
     "name": "PlusSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bDnBk": {
+  "bnqqG": {
     "name": "MinusSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UKUkB": {
+  "azIIK": {
     "name": "InfoOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s79k8": {
+  "T3ZojS": {
     "name": "InfoCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "g7USV": {
+  "uhKic": {
     "name": "ExclamationOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "C2gRij": {
+  "K3tnj6": {
     "name": "ExclamationCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hE0fC": {
+  "nR9w3": {
     "name": "CloseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yEERT": {
+  "CNN25": {
     "name": "CloseCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R6SrG": {
+  "oxuVa": {
     "name": "CloseSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "w7xJG": {
+  "B9yLO": {
     "name": "CheckOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M8Owv": {
+  "pbkvk": {
     "name": "CheckCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E4eNX": {
+  "f6cXGd": {
     "name": "CheckSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DuvKM": {
+  "ITCGp": {
     "name": "ClockCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r8Z9vS": {
+  "p2wD1": {
     "name": "WarningOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JTdCe": {
+  "aTNyh": {
     "name": "IssuesCloseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MXjFs": {
+  "XRZ8x": {
     "name": "StopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "a8UalG": {
+  "Z8xoae": {
     "name": "EditOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RFHnB": {
+  "U4HKq6": {
     "name": "FormOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hgsNz": {
+  "JtXI4": {
     "name": "CopyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WVINz": {
+  "v8coKg": {
     "name": "ScissorOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pE69e": {
+  "jawIU": {
     "name": "DeleteOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G5CCJ": {
+  "s3F9ac": {
     "name": "SnippetsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "a2Jx7": {
+  "fk7L7": {
     "name": "DiffOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xlso8": {
+  "gIJIr": {
     "name": "HighlightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fr0YR": {
+  "Q23dU": {
     "name": "AlignCenterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N0g0p": {
+  "dDp7W": {
     "name": "AlignLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iTc2O": {
+  "ICQ5R": {
     "name": "AlignRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z3vLxq": {
+  "CCecT": {
     "name": "BgColorsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u1NK9": {
+  "YLic0": {
     "name": "BoldOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bTtoJ": {
+  "XRDvv": {
     "name": "ItalicOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "imIjO": {
+  "YPSw6": {
     "name": "UnderlineOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LW4aE": {
+  "T8ROks": {
     "name": "StrikethroughOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pxTXb": {
+  "xoes7": {
     "name": "RedoOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G2cyNr": {
+  "Nj6GM": {
     "name": "UndoOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r6Ho1R": {
+  "nXXlr": {
     "name": "ZoomInOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N8bgHB": {
+  "uEsaz": {
     "name": "ZoomOutOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dARDf": {
+  "AaGuj": {
     "name": "FontColorsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SVsVB": {
+  "JSFU1": {
     "name": "FontSizeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RXYXy": {
+  "n0Bl5D": {
     "name": "LineHeightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "azr5r": {
+  "XxGWc": {
     "name": "DashOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eeldg": {
+  "TZYaT": {
     "name": "SmallDashOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LhCW1": {
+  "f44gG": {
     "name": "SortAscendingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dwzMM": {
+  "y5Gcw8": {
     "name": "SortDescendingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fn2lv": {
+  "W3ESKx": {
     "name": "DragOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mU2go": {
+  "fG3e8": {
     "name": "OrderedListOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "m4uUMT": {
+  "VX2ir": {
     "name": "UnorderedListOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B9tfKK": {
+  "vxcwB": {
     "name": "RadiusSettingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "C9t29": {
+  "k0sQ8L": {
     "name": "ColumnWidthOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "V4QiR": {
+  "zvkCi": {
     "name": "ColumnHeightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SLr1r": {
+  "J94FII": {
     "name": "AreaChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BE1Oe": {
+  "R9Jdw": {
     "name": "PieChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EbTMb": {
+  "ATm8w": {
     "name": "BarChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JWW5y": {
+  "BnayD": {
     "name": "DotChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vFxKp": {
+  "i5LJ97": {
     "name": "LineChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xe32D": {
+  "hGR0D": {
     "name": "RadarChartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iPXog": {
+  "EC3B1": {
     "name": "HeatMapOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "w34qG3": {
+  "AVLn7": {
     "name": "FallOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZB3V7": {
+  "VYP77": {
     "name": "RiseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "waIbP": {
+  "J4bQxx": {
     "name": "StockOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e7G0D": {
+  "Rz4oI": {
     "name": "BoxPlotOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N1M6KZ": {
+  "tZEUF": {
     "name": "FundOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mOnNx": {
+  "OL1US": {
     "name": "SlidersOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PSSop": {
+  "bYBCn": {
     "name": "AndroidOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iCtaf": {
+  "VpC9Z": {
     "name": "AppleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mHBEo": {
+  "qNEmi": {
     "name": "WindowsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B7EGHL": {
+  "rNmP3": {
     "name": "IeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ayIZ6": {
+  "odZ5L": {
     "name": "ChromeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T7yCar": {
+  "tm3BF": {
     "name": "GithubOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Anl4n": {
+  "g2HUm": {
     "name": "AliwangwangOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "P5ejU9": {
+  "g550R": {
     "name": "DingdingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "D9pc76": {
+  "bKvG3": {
     "name": "WeiboSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eoQqq": {
+  "YQpnZ": {
     "name": "WeiboCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Llkfd": {
+  "Y5VxS": {
     "name": "TaobaoCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k5HjhW": {
+  "soMHL": {
     "name": "Html5Outlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TqtkO": {
+  "aywGI": {
     "name": "WeiboOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W9KI7K": {
+  "L1v8S": {
     "name": "TwitterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DIWrp": {
+  "FhzWv": {
     "name": "WechatOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y2xHm": {
+  "BPymk": {
     "name": "WhatsAppOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wMW7y": {
+  "LAocY": {
     "name": "YoutubeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NhKHM": {
+  "qRNQW": {
     "name": "AlipayCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OD6T3": {
+  "dQelz": {
     "name": "TaobaoOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "A0vEA9": {
+  "oqyjn": {
     "name": "DingtalkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Ah9hE": {
+  "NYNOO": {
     "name": "SkypeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I0ibe": {
+  "T7HVC7": {
     "name": "QqOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TjTHq": {
+  "cTTOu": {
     "name": "MediumWorkmarkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wXUVy": {
+  "cE1Ie": {
     "name": "GitlabOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BidUs": {
+  "RwtQZ": {
     "name": "MediumOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wYTYK": {
+  "DOrT6": {
     "name": "LinkedinOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KZkqN": {
+  "KXU4d": {
     "name": "GooglePlusOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZEtPJ": {
+  "o1yEMS": {
     "name": "DropboxOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "msRyN": {
+  "YiZLw": {
     "name": "FacebookOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zeP0n": {
+  "l1KvX": {
     "name": "CodepenOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "YaHai": {
+  "Qwpfm": {
     "name": "CodeSandboxOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WZ990": {
+  "Zbaht": {
     "name": "AmazonOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EuoGP": {
+  "a21SON": {
     "name": "GoogleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WabOZ": {
+  "oC6uY": {
     "name": "CodepenCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T1Cv4": {
+  "b91Ho": {
     "name": "AlipayOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "j8DFb": {
+  "HCPt8": {
     "name": "AntDesignOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WF43x": {
+  "P2yr3": {
     "name": "AntCloudOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wZuPa": {
+  "ljxSl": {
     "name": "AliyunOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aFNmk": {
+  "HSxxJ": {
     "name": "ZhihuOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KNvBU": {
+  "w8Y89o": {
     "name": "SlackOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "oeF4s": {
+  "XsF4K": {
     "name": "SlackSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RfEm9": {
+  "k7f2q": {
     "name": "BehanceOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "uykY4": {
+  "leSMO": {
     "name": "BehanceSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I1T5kN": {
+  "pdohX": {
     "name": "DribbbleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bV65r": {
+  "LvOlr": {
     "name": "DribbbleSquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "AeW42": {
+  "o1SAwh": {
     "name": "InstagramOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "govWb": {
+  "kpYKq": {
     "name": "YuqueOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Q8bYR": {
+  "LkjoK": {
     "name": "AlibabaOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W4LbrW": {
+  "s7G5t": {
     "name": "YahooOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hDO7Y": {
+  "cwiiG": {
     "name": "RedditOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JM4Fl": {
+  "WJ5V2": {
     "name": "SketchOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "YTHP6": {
+  "ZpwWr": {
     "name": "WechatWorkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JdbIB": {
+  "q5TXR": {
     "name": "OpenAIOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xpg5u": {
+  "L4HuGg": {
     "name": "DiscordOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e90HXs": {
+  "PvZgw": {
     "name": "XOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DkyZ8": {
+  "WEVsX": {
     "name": "BilibiliOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TzzlZ": {
+  "DcOwd": {
     "name": "PinterestOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cfStQ": {
+  "YM1Hv": {
     "name": "TikTokOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LxCgl": {
+  "AJi3W": {
     "name": "SpotifyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NY5Hq": {
+  "vfCo1": {
     "name": "TwitchOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Qe8Zs": {
+  "P57aYv": {
     "name": "LinuxOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PLKGU": {
+  "c0yvQr": {
     "name": "JavaOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NZOnO": {
+  "F4Q6wo": {
     "name": "JavaScriptOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u4jz1T": {
+  "ePLXT": {
     "name": "PythonOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "oHaol": {
+  "LAIzr": {
     "name": "RubyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "V2hsho": {
+  "fg9eL": {
     "name": "DotNetOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rTwBf": {
+  "R01Ix": {
     "name": "KubernetesOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bJ8TT": {
+  "J5FqN": {
     "name": "DockerOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vUqYE": {
+  "T0z9n": {
     "name": "BaiduOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MXETV": {
+  "VlFec": {
     "name": "HarmonyOSOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "POa8y": {
+  "hlL9n": {
     "name": "AccountBookOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "nXpiv": {
+  "mkWas": {
     "name": "AimOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qHjFa": {
+  "vEepf": {
     "name": "AlertOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "d9012": {
+  "c8g3S": {
     "name": "ApartmentOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "su8kY": {
+  "hrwuG": {
     "name": "ApiOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GGAml": {
+  "l8sm7c": {
     "name": "AppstoreAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cdndy": {
+  "GucpM": {
     "name": "AppstoreOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SjqWS": {
+  "e5H7kr": {
     "name": "AudioOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "v3f49P": {
+  "yK5i0": {
     "name": "AudioMutedOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wqrbH": {
+  "qqPi8": {
     "name": "AuditOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gFwAf": {
+  "zYrqv": {
     "name": "BankOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "n9Nvf8": {
+  "bresv": {
     "name": "BarcodeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sFenq": {
+  "e8nZq": {
     "name": "BarsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "REXRN": {
+  "A2P3Hk": {
     "name": "BellOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sGcCl": {
+  "J2V8j9": {
     "name": "BlockOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "O63q5": {
+  "KpRVO": {
     "name": "BookOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cyFSo": {
+  "nNwB2": {
     "name": "BorderOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "A8a9Vs": {
+  "dMN4P": {
     "name": "BorderlessTableOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fyJwM": {
+  "Dyqqu": {
     "name": "BranchesOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zASvV": {
+  "TrsnO": {
     "name": "BugOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Gcv0C": {
+  "c8zf9a": {
     "name": "BuildOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HTztN": {
+  "YCizV": {
     "name": "BulbOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tDxTt": {
+  "O8CsWr": {
     "name": "CalculatorOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y3JIPQ": {
+  "j6lnf8": {
     "name": "CalendarOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UjlgU": {
+  "K6NVG8": {
     "name": "CameraOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UPshb": {
+  "dQAjS": {
     "name": "CarOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "S8nqkv": {
+  "OPia2": {
     "name": "CarryOutOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sUtBp": {
+  "K1o5t": {
     "name": "CiCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JLLRP": {
+  "jneA2": {
     "name": "CiOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Jfd86": {
+  "IxdoT": {
     "name": "ClearOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sYOK4": {
+  "pSqb3": {
     "name": "CloudDownloadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bkCWo": {
+  "lmvgy": {
     "name": "CloudOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PN9IB": {
+  "R4Oud": {
     "name": "CloudServerOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EMR2J": {
+  "fWPwK": {
     "name": "CloudSyncOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "L4lkPE": {
+  "IX8n2": {
     "name": "CloudUploadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dZ8nB": {
+  "Y7XdSn": {
     "name": "ClusterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "nIzhi": {
+  "QklHp": {
     "name": "CodeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "P4kXA": {
+  "t8ZEI": {
     "name": "CoffeeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "w0iKXy": {
+  "KZr90": {
     "name": "CommentOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SENll": {
+  "w7jSnJ": {
     "name": "CompassOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M0xu46": {
+  "uKvJR": {
     "name": "CompressOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fG3Kh": {
+  "pfCmI": {
     "name": "ConsoleSqlOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Uea28": {
+  "FhmJs": {
     "name": "ContactsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e0VGc1": {
+  "TdP0H": {
     "name": "ContainerOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EPbAB": {
+  "k7yNPh": {
     "name": "ControlOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pIPNI": {
+  "FMeOv": {
     "name": "CopyrightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bmIbB": {
+  "yiebm": {
     "name": "CreditCardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NeTlz": {
+  "HDP3g": {
     "name": "CrownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fcXIf": {
+  "EGfoK": {
     "name": "CustomerServiceOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "og6oU": {
+  "H8jZQ": {
     "name": "DashboardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r29DK": {
+  "dgNeb": {
     "name": "DatabaseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LD7It": {
+  "x0cAU": {
     "name": "DeleteColumnOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pRmpe": {
+  "Cr91v": {
     "name": "DeleteRowOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B5sgF": {
+  "eFV8n": {
     "name": "DeliveredProcedureOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Q3bNGQ": {
+  "Sxj2y": {
     "name": "DeploymentUnitOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NHLDy": {
+  "SO5Rx": {
     "name": "DesktopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iDMON": {
+  "tKzMr": {
     "name": "DisconnectOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T51tEp": {
+  "acQ37": {
     "name": "DislikeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OeGh4": {
+  "uwdQI": {
     "name": "DollarOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jw6iR": {
+  "HgKkk": {
     "name": "DownloadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "K4gI2j": {
+  "xBqb9": {
     "name": "EllipsisOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WNz7V": {
+  "ygp8c": {
     "name": "EnvironmentOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jkI9m": {
+  "iqZjg": {
     "name": "EuroCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "h8HNY9": {
+  "XYWzj": {
     "name": "EuroOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E5LBY": {
+  "UPw3r": {
     "name": "ExceptionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BaYB7": {
+  "fSTa9": {
     "name": "ExpandAltOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yc0np": {
+  "vawb3": {
     "name": "ExpandOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GewcO": {
+  "chZav": {
     "name": "ExperimentOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "huhfB": {
+  "oUevM": {
     "name": "ExportOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lI0g3": {
+  "r758A": {
     "name": "EyeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DsR8t": {
+  "NHJGD": {
     "name": "EyeInvisibleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E9hSip": {
+  "Ohqzq": {
     "name": "FieldBinaryOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rTRAP": {
+  "q4WV6": {
     "name": "FieldNumberOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VysYF": {
+  "q1B87c": {
     "name": "FieldStringOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ep3X6": {
+  "IFmZD": {
     "name": "FieldTimeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "evxTW": {
+  "pHWrM": {
     "name": "FileAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "f8gSO": {
+  "CRzxo": {
     "name": "FileDoneOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "j8nnc1": {
+  "on0h0": {
     "name": "FileExcelOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u55XQ": {
+  "psaIB": {
     "name": "FileExclamationOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dKSUe": {
+  "vVUBH": {
     "name": "FileOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KZWqz": {
+  "hTu5s": {
     "name": "FileGifOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rrCOh": {
+  "O4m85": {
     "name": "FileImageOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ENVM3": {
+  "cecib": {
     "name": "FileJpgOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KCWxP": {
+  "XpvLq": {
     "name": "FileMarkdownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DNKdz": {
+  "BUu7E": {
     "name": "FilePdfOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JGkgU": {
+  "LI7vT": {
     "name": "FilePptOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Il56M": {
+  "cYO8k": {
     "name": "FileProtectOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W6zSS": {
+  "KHdUS": {
     "name": "FileSearchOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aaxwQ": {
+  "s3a29E": {
     "name": "FileSyncOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jn88O": {
+  "u2bpr6": {
     "name": "FileTextOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Oc5HF": {
+  "JNHZR": {
     "name": "FileUnknownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GCvbV": {
+  "l60Udi": {
     "name": "FileWordOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "xCeDf": {
+  "UamFt": {
     "name": "FileZipOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JaeWk": {
+  "WXNGg": {
     "name": "FilterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mrHO4": {
+  "Z6duj": {
     "name": "FireOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "avNv1": {
+  "O4aYN": {
     "name": "FlagOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "grC7C": {
+  "ZyvA5": {
     "name": "FolderAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eJKSC": {
+  "Ec2Qo": {
     "name": "FolderOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RnqE7": {
+  "vu7qd": {
     "name": "FolderOpenOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xj4V9": {
+  "BSHJ0": {
     "name": "FolderViewOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hyJ52": {
+  "m5BM9n": {
     "name": "ForkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r9H80": {
+  "Py6b9": {
     "name": "FormatPainterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DjGrs": {
+  "E9MQy": {
     "name": "FrownOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qsy5p": {
+  "htMn6": {
     "name": "FunctionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yrmuS": {
+  "W4tLUo": {
     "name": "FundProjectionScreenOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zEl2h": {
+  "TxnOF": {
     "name": "FundViewOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "h9mZwG": {
+  "SqsBe": {
     "name": "FunnelPlotOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Kjq8s": {
+  "bqOkk": {
     "name": "GatewayOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Q5nDt": {
+  "WiNfA": {
     "name": "GifOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s1Q1a": {
+  "UBBKr": {
     "name": "GiftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CXlbR": {
+  "t4kpT": {
     "name": "GlobalOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GjqIA": {
+  "p9lax": {
     "name": "GoldOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "H4vFa": {
+  "JoKJw": {
     "name": "GroupOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ukiKX": {
+  "KtjY8": {
     "name": "HddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sh4rM": {
+  "zaEZi": {
     "name": "HeartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xl98V": {
+  "y1qhFk": {
     "name": "HistoryOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jftBB": {
+  "KzSVS": {
     "name": "HolderOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bDd7N": {
+  "bhtdc": {
     "name": "HomeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rEsrB": {
+  "n77Ek": {
     "name": "HourglassOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SAW27": {
+  "V2Rk6X": {
     "name": "IdcardOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "izmjs": {
+  "xr4ey": {
     "name": "ImportOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BBWU0": {
+  "nYsoL": {
     "name": "InboxOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LnPQa": {
+  "x4cOf": {
     "name": "InsertRowAboveOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tgpGD": {
+  "hrrSr": {
     "name": "InsertRowBelowOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BcAqB": {
+  "mQ8Fn": {
     "name": "InsertRowLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sAAT6": {
+  "Y6aJ6": {
     "name": "InsertRowRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JUBxP": {
+  "l7HWF7": {
     "name": "InsuranceOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wIE9G": {
+  "n6dZL": {
     "name": "InteractionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qDYX2": {
+  "Q7QhZT": {
     "name": "KeyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gdXqH": {
+  "pgYTr": {
     "name": "LaptopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wthve": {
+  "LwpXS": {
     "name": "LayoutOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RG6qy": {
+  "MqeaI": {
     "name": "LikeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tFKLb": {
+  "t8dpG": {
     "name": "LineOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r42771": {
+  "D3rXXb": {
     "name": "LinkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MiRrQ": {
+  "JxI4v": {
     "name": "Loading3QuartersOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bDpiJ": {
+  "X9QUDE": {
     "name": "LoadingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "FbGoe": {
+  "Aoqec": {
     "name": "LockOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W09qs": {
+  "P1fJn": {
     "name": "MacCommandOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "h7dMKr": {
+  "z6skc": {
     "name": "MailOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Zs21q": {
+  "ezmv2": {
     "name": "ManOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hsCsW": {
+  "Nqqve": {
     "name": "MedicineBoxOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jKdOG": {
+  "GiIVw": {
     "name": "MehOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "uK75o": {
+  "M2j1tt": {
     "name": "MenuOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lYVtk": {
+  "BYEAR": {
     "name": "MergeCellsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "O9k95z": {
+  "R81nBf": {
     "name": "MergeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k5Dahf": {
+  "v1Wdnp": {
     "name": "MessageOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vJyNL": {
+  "c4rm0P": {
     "name": "MobileOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "knD42": {
+  "o8ftL3": {
     "name": "MoneyCollectOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ODStI": {
+  "IO7ig": {
     "name": "MonitorOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "QFaJi": {
+  "MpuGw": {
     "name": "MoonOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RFvqq": {
+  "kcFQ3": {
     "name": "MoreOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EZQRN": {
+  "RbXUx": {
     "name": "MutedOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "nOwyl": {
+  "S2Vj5": {
     "name": "NodeCollapseOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZPWnd": {
+  "d262qq": {
     "name": "NodeExpandOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "a087fq": {
+  "f3ZbeM": {
     "name": "NodeIndexOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "D2jpY7": {
+  "HuEXh": {
     "name": "NotificationOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CbYxx": {
+  "w4ud8": {
     "name": "NumberOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vhgUJ": {
+  "Bo54t": {
     "name": "OneToOneOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T6GqlE": {
+  "yl9bU": {
     "name": "PaperClipOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "McciD": {
+  "XGWYO": {
     "name": "PartitionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "t2n0gt": {
+  "QlAtx": {
     "name": "PayCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I4eXl": {
+  "s5YJ9f": {
     "name": "PercentageOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R9RTbX": {
+  "eN86i": {
     "name": "PhoneOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fabE5": {
+  "dbHFX": {
     "name": "PictureOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "L1Hfs": {
+  "aKQuz": {
     "name": "PlaySquareOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F4M04": {
+  "e3VxT": {
     "name": "PoundCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c8T5wz": {
+  "ymXPn": {
     "name": "PoundOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "C3CBC": {
+  "k9MZPk": {
     "name": "PoweroffOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "xF3DD": {
+  "aRw7P": {
     "name": "PrinterOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pV1Ej": {
+  "w2qTX": {
     "name": "ProductOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I5nEZ": {
+  "fFo2p": {
     "name": "ProfileOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "b83s0D": {
+  "v40yl": {
     "name": "ProjectOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KuiXF": {
+  "R1Ih0": {
     "name": "PropertySafetyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "A8TNaY": {
+  "O5xrko": {
     "name": "PullRequestOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "uMIqT": {
+  "P0wD9F": {
     "name": "PushpinOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "o7GgNT": {
+  "npZ8a": {
     "name": "QrcodeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eP5X4": {
+  "k9zYFE": {
     "name": "ReadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "l6qhUP": {
+  "H8r4QK": {
     "name": "ReconciliationOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "b6ARSh": {
+  "Kn5qt": {
     "name": "RedEnvelopeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PFEtB": {
+  "sinzN": {
     "name": "ReloadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VyW1r": {
+  "WeyCD": {
     "name": "RestOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "igfJK": {
+  "zHpdN": {
     "name": "RobotOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KAl0b": {
+  "JHG76": {
     "name": "RocketOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xn9ig": {
+  "b4sZC": {
     "name": "RotateLeftOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bFQy3": {
+  "amWlO": {
     "name": "RotateRightOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "J8ek1d": {
+  "e9vz08": {
     "name": "SafetyCertificateOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fewkN": {
+  "r4t047": {
     "name": "SafetyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yHThS": {
+  "wWWVh": {
     "name": "SaveOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "j9pAR": {
+  "x8wzQc": {
     "name": "ScanOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "x9x4E": {
+  "moQ9s": {
     "name": "ScheduleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fbfKF": {
+  "N0w9OP": {
     "name": "SearchOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MH5x5": {
+  "JZcc7": {
     "name": "SecurityScanOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lMcdJ": {
+  "BUlnu": {
     "name": "SelectOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KlaKH": {
+  "t9r9Zz": {
     "name": "SendOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cwHvD": {
+  "S4dkcd": {
     "name": "SettingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ehjKg": {
+  "q7cfV": {
     "name": "ShakeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KmVxh": {
+  "aqfZe": {
     "name": "ShareAltOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TO3lO": {
+  "hv5Hu": {
     "name": "ShopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sKSqS": {
+  "o5nlt": {
     "name": "ShoppingCartOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PjbFm": {
+  "fLQrQ": {
     "name": "ShoppingOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UJ3hj": {
+  "WRaKP": {
     "name": "SignatureOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VmcWs": {
+  "bN3h7": {
     "name": "SisternodeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gia1m": {
+  "Uqoxn": {
     "name": "SkinOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jHsbv": {
+  "AgKuU": {
     "name": "SmileOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LNaVt": {
+  "bYfhG": {
     "name": "SolutionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "YxYBt": {
+  "sXI1p": {
     "name": "SoundOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ccanc": {
+  "V3wZ8": {
     "name": "SplitCellsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Nlzpu": {
+  "BbQqO": {
     "name": "StarOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZuyNP": {
+  "CpcCJ": {
     "name": "SubnodeOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "J41fI": {
+  "NfXJH": {
     "name": "SunOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CovLv": {
+  "omXan": {
     "name": "SwitcherOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Dh3c8": {
+  "Og9I6": {
     "name": "SyncOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DKAFx": {
+  "exZ59": {
     "name": "TableOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wa5PF": {
+  "eAisG": {
     "name": "TabletOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JZCtL": {
+  "jqy1E": {
     "name": "TagOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "uWYjP": {
+  "MrhNj": {
     "name": "TagsOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Wg99G": {
+  "r0QzQV": {
     "name": "TeamOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rvuSQ": {
+  "Y4uggD": {
     "name": "ThunderboltOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ptCF3": {
+  "T6sGV": {
     "name": "ToTopOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tmhq4": {
+  "HQwjS": {
     "name": "ToolOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eW8hI": {
+  "WpQxq": {
     "name": "TrademarkCircleOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EbClp": {
+  "IBOeq": {
     "name": "TrademarkOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M4b5Q": {
+  "gqg9X": {
     "name": "TransactionOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hHoUr": {
+  "L6MjE": {
     "name": "TranslationOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wWWXb": {
+  "jWYVV": {
     "name": "TrophyOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e560y": {
+  "IFDOm": {
     "name": "TruckOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "q3kcE9": {
+  "r4hUF": {
     "name": "UngroupOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pDabm": {
+  "OG5nW": {
     "name": "UnlockOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s2QIB": {
+  "S824Se": {
     "name": "UploadOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XJNBI": {
+  "kPbDa": {
     "name": "UsbOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Q06L7": {
+  "v6OE6O": {
     "name": "UserAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "erAhh": {
+  "Ds4Ld": {
     "name": "UserDeleteOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HYI9v": {
+  "ZpEDl": {
     "name": "UserOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cgFsw": {
+  "yDrkc": {
     "name": "UserSwitchOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vIFdX": {
+  "Nf4ry": {
     "name": "UsergroupAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SywQl": {
+  "X65BD": {
     "name": "UsergroupDeleteOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZZjJt": {
+  "iQAP4": {
     "name": "VerifiedOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IzkeX": {
+  "Y6V3x": {
     "name": "VideoCameraAddOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "j8bluv": {
+  "BO2ag": {
     "name": "VideoCameraOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gL1ws": {
+  "AaOp1": {
     "name": "WalletOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WQlmx": {
+  "rp13M": {
     "name": "WifiOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fu2ho": {
+  "xEsgH": {
     "name": "WomanOutlined",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kc5PO": {
+  "qP7a6": {
+    "name": "CopyrightCircleOutlined",
+    "fontSize": 24,
+    "color": "#1677FF",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "UmjGi": {
+    "name": "DollarCircleOutlined",
+    "fontSize": 24,
+    "color": "#1677FF",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "IAcGD": {
     "name": "StepBackwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y2BYX": {
+  "xjURS": {
     "name": "StepForwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GLZw6": {
+  "R2k4nw": {
     "name": "FastBackwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vAUGT": {
+  "R11nKF": {
     "name": "FastForwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wT5A2": {
+  "hJim6": {
     "name": "CaretUpFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Yg5my": {
+  "tgdx8": {
     "name": "CaretDownFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Lhzkj": {
+  "BinRF": {
     "name": "CaretLeftFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "p83Vtf": {
+  "oZwwS": {
     "name": "CaretRightFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WjaqO": {
+  "KIvHq": {
     "name": "UpCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iWXyr": {
+  "UAFgF": {
     "name": "DownCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rI3UW": {
+  "FW4QQ": {
     "name": "LeftCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yf4uM": {
+  "F7Nqvl": {
     "name": "RightCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GuoPf": {
+  "v8iNnr": {
     "name": "ForwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "P3AtoO": {
+  "e4dp1": {
     "name": "BackwardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N2iBk": {
+  "hzz71": {
     "name": "PlayCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "viKf6": {
+  "p3F5s": {
     "name": "UpSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aJJrU": {
+  "lcnBz": {
     "name": "DownSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pDKEt": {
+  "pIrS7": {
     "name": "LeftSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X74z2": {
+  "lwfwG": {
     "name": "RightSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "nA9eD": {
+  "hGd5l": {
     "name": "QuestionCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dpQz8": {
+  "WIl9Q": {
     "name": "PlusCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IrGLA": {
+  "Vp4hp": {
     "name": "PauseCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HrSoK": {
+  "ksMiO": {
     "name": "MinusCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XfOkK": {
+  "oR5uB": {
     "name": "PlusSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hHq1m": {
+  "eOUoj": {
     "name": "MinusSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XSpr3": {
+  "MLILC": {
     "name": "InfoCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vSOSa": {
+  "B3ol0k": {
     "name": "ExclamationCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SkXhQ": {
+  "AP6fR": {
     "name": "CloseCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W5dFmx": {
+  "IXXGJ": {
     "name": "CloseSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lRiOx": {
+  "MTPqi": {
     "name": "CheckCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wPLDa": {
+  "lQh3W": {
     "name": "CheckSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ExBI5": {
+  "VJFu4": {
     "name": "ClockCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "q1UZmc": {
+  "SaGUO": {
     "name": "WarningFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JLTrl": {
+  "OTD2i": {
     "name": "StopFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "l17Qt": {
+  "r39Tr": {
     "name": "EditFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "se2CZ": {
+  "G2FfG": {
     "name": "CopyFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qi7Cm": {
+  "bwjjq": {
     "name": "DeleteFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "P47eoc": {
+  "lA0UQ": {
     "name": "SnippetsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dQLFJ": {
+  "ISXkM": {
     "name": "DiffFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PXMeK": {
+  "R23iI5": {
     "name": "HighlightFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aaN4i": {
+  "PpaJB": {
     "name": "PieChartFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i8gVVs": {
+  "q4E2Kr": {
     "name": "BoxPlotFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "laJPw": {
+  "WSpa0": {
     "name": "FundFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X5B6oM": {
+  "dx2BZ": {
     "name": "SlidersFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iMt8V": {
+  "S7jqv": {
     "name": "AndroidFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BZl4r": {
+  "wAxcI": {
     "name": "AppleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Ae6da": {
+  "U3twx": {
     "name": "WindowsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "W1ci19": {
+  "iMN7X": {
     "name": "IeCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PjmO6": {
+  "y7ARt": {
     "name": "IeSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "K8MEK": {
+  "zAebM": {
     "name": "ChromeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "L8dzH": {
+  "L7H2x": {
     "name": "GithubFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zOpTW": {
+  "S2aRP": {
     "name": "AliwangwangFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SrgbB": {
+  "N0dfK": {
     "name": "WeiboSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "n7LU4": {
+  "CV7nl": {
     "name": "WeiboCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vA3Ns": {
+  "gdf5h": {
     "name": "TaobaoCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ETE36": {
+  "gu5kQ": {
     "name": "Html5Filled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VDQqU": {
+  "esyek": {
     "name": "TwitterCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R1BIfG": {
+  "JlQRo": {
     "name": "TwitterSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gohaU": {
+  "A1giq": {
     "name": "WechatFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XwPRD": {
+  "TLwzL": {
     "name": "YoutubeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I62aaU": {
+  "RpdgC": {
     "name": "AlipayCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "slYnW": {
+  "UaSKr": {
     "name": "TaobaoSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G9Fm8J": {
+  "ItagR": {
     "name": "DingtalkCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e06RC": {
+  "dfyJQ": {
     "name": "DingtalkSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qxrgX": {
+  "EV5el": {
     "name": "SkypeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dfEmk": {
+  "cWXQk": {
     "name": "QqCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wI6le": {
+  "F7Bjan": {
     "name": "QqSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s2B4Z": {
+  "JbOsX": {
     "name": "GitlabFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "xagOM": {
+  "z3iG0U": {
     "name": "MediumCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GRMMK": {
+  "rdnwg": {
     "name": "MediumSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "x9jTG0": {
+  "iCrfb": {
     "name": "LinkedinFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Vkw8t": {
+  "xmQVf": {
     "name": "GooglePlusCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Pwm6X": {
+  "bFKzW": {
     "name": "GooglePlusSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lQsFQ": {
+  "FZ9KD": {
     "name": "DropboxCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dNIgP": {
+  "JGyh1": {
     "name": "DropboxSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IucQT": {
+  "P4Bl2": {
     "name": "FacebookFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "grW6R": {
+  "sYI8l": {
     "name": "CodepenSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "A7CXPm": {
+  "DLB5G": {
     "name": "CodeSandboxSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CBFZD": {
+  "fbVkC": {
     "name": "CodeSandboxCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "czTeX": {
+  "r1YMIe": {
     "name": "AmazonCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yjaqQ": {
+  "YF5c1": {
     "name": "AmazonSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IDALt": {
+  "T1DzE1": {
     "name": "GoogleCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rlWXQ": {
+  "E25wK3": {
     "name": "GoogleSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "D2eSva": {
+  "VdtIM": {
     "name": "CodepenCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F7rsIQ": {
+  "odhYY": {
     "name": "AlipaySquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MqV2l": {
+  "l4Wmq0": {
     "name": "ZhihuCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bM1gr": {
+  "vMj4c": {
     "name": "ZhihuSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iO50X": {
+  "fet94": {
     "name": "SlackCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BibZF": {
+  "o6TJu": {
     "name": "SlackSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "v0PfS": {
+  "Al9x8": {
     "name": "BehanceCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I8ss6": {
+  "PMIY3": {
     "name": "BehanceSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R3ErF": {
+  "w1dQX4": {
     "name": "DribbbleCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BCYa9": {
+  "sGmY2": {
     "name": "DribbbleSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s00V2": {
+  "F2veUX": {
     "name": "InstagramFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JRIO8": {
+  "Rf5MW": {
     "name": "YuqueFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "l0PBB": {
+  "Y7nXi0": {
     "name": "YahooFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ANOzB": {
+  "L1mccK": {
     "name": "RedditCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wkg1v": {
+  "DhEWm": {
     "name": "RedditSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "n0fPE": {
+  "Q74TG": {
     "name": "SketchCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "U8Moer": {
+  "giXty": {
     "name": "SketchSquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gfzWO": {
+  "bjiv6": {
     "name": "WechatWorkFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "h4KeJ": {
+  "Eo7zs": {
     "name": "OpenAIFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VD3nE": {
+  "qdvGU": {
     "name": "AnthropicFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KHxuZ": {
+  "LnYbH": {
     "name": "ClaudeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "J22AiW": {
+  "xohWz": {
     "name": "GeminiFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cB3QN": {
+  "xrnrN": {
     "name": "MistralFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vkvYw": {
+  "p65WN": {
     "name": "DeepSeekFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VVGMe": {
+  "wnP7J": {
     "name": "QwenFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TFgPl": {
+  "kjAO7": {
     "name": "PerplexityFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "d4UQhq": {
+  "lshKW": {
     "name": "HuggingFaceFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "FMVdE": {
+  "l0ptbv": {
     "name": "OllamaFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G4SIk": {
+  "AcldQ": {
     "name": "ReplicateFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RJA59": {
+  "DgWsQ": {
     "name": "ElevenLabsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fTUPK": {
+  "r27hh": {
     "name": "TelegramFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k9q5WG": {
+  "qZ9XM": {
     "name": "MastodonFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ADBAJ": {
+  "BJMCp": {
     "name": "ThreadsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z90QR": {
+  "NKbQR": {
     "name": "SnapchatFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jKFSL": {
+  "Mwmus": {
     "name": "DiscordFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qkKPg": {
+  "jelxm": {
     "name": "XFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "q3kyyz": {
+  "BFrdJ": {
     "name": "BilibiliFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KWfoI": {
+  "IBzM9": {
     "name": "PinterestFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MOIn1": {
+  "CgMAT": {
     "name": "TikTokFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c5etwU": {
+  "y5xXXb": {
     "name": "SpotifyFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hAi24": {
+  "jsQKw": {
     "name": "TwitchFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IAg8w": {
+  "AgtEf": {
     "name": "AccountBookFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dgjpb": {
+  "MMR4R": {
     "name": "AlertFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i5v34d": {
+  "vO758": {
     "name": "ApiFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "D69NA0": {
+  "g5wI97": {
     "name": "AppstoreFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T2HyRj": {
+  "Uqc0P": {
     "name": "AudioFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fnQA1": {
+  "sLuuc": {
     "name": "BankFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lR8uf": {
+  "g3ilU": {
     "name": "BellFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wEKxH": {
+  "rbD1S": {
     "name": "BookFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PKmRF": {
+  "XmQg6": {
     "name": "BugFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zUmgi": {
+  "XkVHL": {
     "name": "BuildFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "noGXg": {
+  "qBpHJ": {
     "name": "BulbFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u5PwyS": {
+  "O3MxT": {
     "name": "CalculatorFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "v1HO1d": {
+  "rYfr9": {
     "name": "CalendarFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mhQTa": {
+  "f3yTZb": {
     "name": "CameraFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "o9USN": {
+  "DxovK": {
     "name": "CarFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "f8X34": {
+  "i9aj9": {
     "name": "CarryOutFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y4QeXP": {
+  "KJJ2z": {
     "name": "CiCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M7ACz": {
+  "gsklI": {
     "name": "CloudFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "p45r66": {
+  "ZgPhO": {
     "name": "CodeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Zf4nG": {
+  "fcn7k": {
     "name": "CompassFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yeOTg": {
+  "kafdH": {
     "name": "ContactsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "abUzi": {
+  "s88vQj": {
     "name": "ContainerFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M4D0qO": {
+  "cgVqb": {
     "name": "ControlFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WyQBO": {
+  "b1Czx": {
     "name": "CreditCardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E2WdP": {
+  "z8pW5F": {
     "name": "CrownFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PpUDA": {
+  "X2H67": {
     "name": "CustomerServiceFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "msIew": {
+  "f4SzB": {
     "name": "DashboardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "phy5F": {
+  "VMqAX": {
     "name": "DatabaseFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Cuqqn": {
+  "QksCS": {
     "name": "DislikeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bFS8o": {
+  "Q6y4fq": {
     "name": "EnvironmentFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KuQ9r": {
+  "C0xme": {
     "name": "EuroCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bRqmc": {
+  "rhgvd": {
     "name": "ExperimentFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "INwJI": {
+  "E3lVOi": {
     "name": "EyeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "z2wRYm": {
+  "W9wzTS": {
     "name": "EyeInvisibleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dbRGs": {
+  "ioUIK": {
     "name": "FileAddFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WYUmW": {
+  "iMhOh": {
     "name": "FileExcelFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bZixI": {
+  "WDpXj": {
     "name": "FileExclamationFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MQ7XX": {
+  "oiiYS": {
     "name": "FileFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ILtfk": {
+  "ed02r": {
     "name": "FileImageFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VvwVV": {
+  "Ovez5": {
     "name": "FileMarkdownFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i7uKI": {
+  "Yd4zL": {
     "name": "FilePdfFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LRij2": {
+  "s9Mgw": {
     "name": "FilePptFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e1Yn0": {
+  "AQfon": {
     "name": "FileTextFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "APw96": {
+  "fCTlQ": {
     "name": "FileUnknownFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y3hW4Q": {
+  "C1gIW": {
     "name": "FileWordFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rvuuG": {
+  "R9es9": {
     "name": "FileZipFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "FMn3q": {
+  "u1IrL": {
     "name": "FilterFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i6dYa": {
+  "V3GIO2": {
     "name": "FireFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RqQKN": {
+  "sQpg6": {
     "name": "FlagFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "sqbbn": {
+  "YN9eQ": {
     "name": "FolderAddFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XFXct": {
+  "hpOeP": {
     "name": "FolderFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "zhz1S": {
+  "fRrxE": {
     "name": "FolderOpenFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "quu51": {
+  "Q5XDAb": {
     "name": "FormatPainterFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bkO0E": {
+  "Mn5tr": {
     "name": "FrownFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CUin5": {
+  "t2S16K": {
     "name": "FunnelPlotFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "p99A3": {
+  "aujrN": {
     "name": "GiftFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X1YNd": {
+  "ER80X": {
     "name": "GoldFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E0rNkn": {
+  "cyBmP": {
     "name": "GoldenFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "s57OF": {
+  "r2fPho": {
     "name": "HddFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RGH2E": {
+  "wo2Mr": {
     "name": "HeartFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N2oXZW": {
+  "NJVeE": {
     "name": "HomeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "YDNxo": {
+  "eunpN": {
     "name": "HourglassFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EuXOH": {
+  "Lx0t6": {
     "name": "IdcardFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BdRSc": {
+  "G93XVm": {
     "name": "InsuranceFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ILZza": {
+  "VKLlh": {
     "name": "InteractionFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X8oGP": {
+  "dxNSB": {
     "name": "LayoutFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E9Mqp": {
+  "d6ng0T": {
     "name": "LikeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XKOsp": {
+  "o7AoE": {
     "name": "LockFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KJtUt": {
+  "PwA7a": {
     "name": "MacCommandFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OlJLX": {
+  "z7tif": {
     "name": "MailFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F1RXp": {
+  "gLM2N": {
     "name": "MedicineBoxFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R9fUGH": {
+  "xdd3P": {
     "name": "MehFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "y3yOL": {
+  "Siumu": {
     "name": "MergeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wIwfp": {
+  "H44pUo": {
     "name": "MessageFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Y6s9yi": {
+  "LQPis": {
     "name": "MetaFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "x3hPK": {
+  "VQHqx": {
     "name": "MobileFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VaET5": {
+  "i8hzjf": {
     "name": "MoneyCollectFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cL1ca": {
+  "Q1XBd": {
     "name": "MoonFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "a7pWA": {
+  "dejxm": {
     "name": "MutedFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c4STXj": {
+  "CUZ7h": {
     "name": "NetflixFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ysZUO": {
+  "OBMm9": {
     "name": "NotificationFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VQHKu": {
+  "OZUxS": {
     "name": "PayCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gEGhM": {
+  "K4vCu": {
     "name": "PhoneFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Mfqhk": {
+  "v8RAC": {
     "name": "PictureFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gVQDZ": {
+  "yg2o7": {
     "name": "PlaySquareFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "rumSf": {
+  "ApMyI": {
     "name": "PoundCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "g5A9bQ": {
+  "EAGSq": {
     "name": "PrinterFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "r7iLt3": {
+  "eB8lh": {
     "name": "ProductFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "wX9aK": {
+  "a0h8kI": {
     "name": "ProfileFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "FFCjr": {
+  "oUE4o": {
     "name": "ProjectFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "t9jOk": {
+  "gJAQa": {
     "name": "PropertySafetyFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "EDBzv": {
+  "Vds9D": {
     "name": "PushpinFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bwHDG": {
+  "ohqA5": {
     "name": "ReadFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c0WJuI": {
+  "AJO3G": {
     "name": "ReconciliationFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OvHAt": {
+  "V6VdB": {
     "name": "RedEnvelopeFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "O8FY9": {
+  "k0nCT": {
     "name": "RestFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BPUaO": {
+  "DR1Qj": {
     "name": "RobotFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "utByH": {
+  "M8EKY8": {
     "name": "RocketFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "j0ySS": {
+  "pF2pe": {
     "name": "SafetyCertificateFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "J7auFH": {
+  "c5BMLa": {
     "name": "SaveFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TnRmf": {
+  "gVyGT": {
     "name": "ScheduleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "AmRDc": {
+  "n83yw": {
     "name": "SecurityScanFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "U6Pugl": {
+  "qPd5R": {
     "name": "SettingFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NA0N3": {
+  "StjXJ": {
     "name": "ShopFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VQflR": {
+  "PWHlH": {
     "name": "ShoppingFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "cG9EO": {
+  "kKeD5": {
     "name": "SignalFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hlhiJ": {
+  "yavLZ": {
     "name": "SignatureFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c6EXEN": {
+  "H5KPS": {
     "name": "SkinFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "U72RXE": {
+  "Oxtbq": {
     "name": "SmileFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DHdF9": {
+  "B7n84J": {
     "name": "SoundFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eINe0": {
+  "RumXf": {
     "name": "StarFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Fdfdj": {
+  "tUxwi": {
     "name": "SunFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "comah": {
+  "e5lABO": {
     "name": "SwitcherFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IJHbR": {
+  "SUqiC": {
     "name": "TabletFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LAZYV": {
+  "eYrhZ": {
     "name": "TagFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "QoCnS": {
+  "JME24": {
     "name": "TagsFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c8Ou6": {
+  "Kn2VA": {
     "name": "ThunderboltFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lOMrc": {
+  "EGnGa": {
     "name": "ToolFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E2lxvj": {
+  "M1drAy": {
     "name": "TrademarkCircleFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vUhGq": {
+  "fgnD0": {
     "name": "TrophyFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qZOJy": {
+  "y0rcZf": {
     "name": "TruckFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XhpZQ": {
+  "hrBzy": {
     "name": "UnlockFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "R2sXL": {
+  "fnQ94": {
     "name": "UsbFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "yWGb5": {
+  "z4NNRd": {
     "name": "VideoCameraFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JOW7e": {
+  "z90Xi": {
     "name": "WalletFilled",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VFLAh": {
+  "qIPjw": {
+    "name": "CopyrightCircleFilled",
+    "fontSize": 24,
+    "color": "#1677FF",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "SylNp": {
+    "name": "DollarCircleFilled",
+    "fontSize": 24,
+    "color": "#1677FF",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
+  },
+  "zuoTh": {
     "name": "UpCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xow72": {
+  "N2rUW": {
     "name": "DownCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RQkDw": {
+  "Sxq6Y": {
     "name": "LeftCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z7PbV": {
+  "VGb7A": {
     "name": "RightCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "e1QhB": {
+  "zp69r": {
     "name": "PlayCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "waGZf": {
+  "X5JONM": {
     "name": "UpSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "K0Gst": {
+  "nXQ4w": {
     "name": "DownSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "LcuYm": {
+  "ZsT0l": {
     "name": "LeftSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "saDfc": {
+  "R3a2qJ": {
     "name": "RightSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "M622f": {
+  "nHDC2": {
     "name": "QuestionCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TOFMJ": {
+  "x633UW": {
     "name": "PlusCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bQ83p": {
+  "Bn2Gl": {
     "name": "PauseCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ELQgs": {
+  "yVewu": {
     "name": "MinusCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "H47hA7": {
+  "H5U2jR": {
     "name": "PlusSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u7uZJ1": {
+  "TggBG": {
     "name": "MinusSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "nCzWV": {
+  "syboX": {
     "name": "InfoCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "S8dxB0": {
+  "KI0Zd": {
     "name": "ExclamationCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "oywYF": {
+  "oPyjy": {
     "name": "CloseCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Qp3Hd": {
+  "lcquP": {
     "name": "CloseSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i9ylXw": {
+  "V5uJO": {
     "name": "CheckCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TxwN8": {
+  "puaEr": {
     "name": "CheckSquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mOyaK": {
+  "lGFbQ": {
     "name": "ClockCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i9byw": {
+  "sLovQ": {
     "name": "WarningTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NIBIG": {
+  "MEKXJ": {
     "name": "StopTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aDM7g": {
+  "zZKjj": {
     "name": "EditTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "q1bGn": {
+  "SmpsJ": {
     "name": "CopyTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "d0JyEC": {
+  "M6NkFC": {
     "name": "DeleteTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "noQC9": {
+  "iTpEf": {
     "name": "SnippetsTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kuDVr": {
+  "nBOBo": {
     "name": "DiffTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VmHvi": {
+  "s9JOI": {
     "name": "HighlightTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "UdyLl": {
+  "rTLCv": {
     "name": "PieChartTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z6auE": {
+  "a56EM": {
     "name": "BoxPlotTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MEWvB": {
+  "exfkM": {
     "name": "FundTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aT2ew": {
+  "A1xZi": {
     "name": "SlidersTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "xUb0u": {
+  "cNmxS": {
     "name": "Html5TwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "oreWy": {
+  "Akuqw": {
     "name": "AccountBookTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kqdle": {
+  "ey5YB": {
     "name": "AlertTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kT4mJ": {
+  "fMI3y": {
     "name": "ApiTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Wi9cr": {
+  "GAiyS": {
     "name": "AppstoreTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jnDpv": {
+  "EFnSs": {
     "name": "AudioTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gZjz5": {
+  "lS5UR": {
     "name": "BankTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gU1A7": {
+  "A4m2w6": {
     "name": "BellTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NPioP": {
+  "uGcot": {
     "name": "BookTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XWzIo": {
+  "L0bPym": {
     "name": "BugTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "QnY3o": {
+  "fOXCA": {
     "name": "BuildTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WVihh": {
+  "DtGxZ": {
     "name": "BulbTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "stCKG": {
+  "fqlNW": {
     "name": "CalculatorTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jk27c": {
+  "CfWJn": {
     "name": "CalendarTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G5eNo": {
+  "yUpam": {
     "name": "CameraTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "E54Fs": {
+  "WP4PB": {
     "name": "CarTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "XlsBb": {
+  "u4Jp8i": {
     "name": "CarryOutTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ORwbr": {
+  "qtWPO": {
     "name": "CiCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bzOy4": {
+  "Tbm0T": {
     "name": "CiTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "jjIKO": {
+  "k1WOV": {
     "name": "CloudTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ACQ49": {
+  "F3kmWk": {
     "name": "CodeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Dv2kz": {
+  "oBXdi": {
     "name": "CompassTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "RmTVy": {
+  "Rtu6j": {
     "name": "ContactsTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JoIBy": {
+  "g8NYr": {
     "name": "ContainerTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "JTJX0": {
+  "FabBa": {
     "name": "ControlTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eaoWX": {
+  "hOkre": {
     "name": "CopyrightTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T88op": {
+  "dpkz2": {
     "name": "CreditCardTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DlEAE": {
+  "L0wq7": {
     "name": "CrownTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZrBch": {
+  "rloNi": {
     "name": "CustomerServiceTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "J4uwdc": {
+  "Fcv4G": {
     "name": "DashboardTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "G3JOZ": {
+  "N9PYtq": {
     "name": "DatabaseTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "tUK4N": {
+  "kisac": {
     "name": "DislikeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F2Mxks": {
+  "CgSiG": {
     "name": "DollarTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GhgXQ": {
+  "sSLWR": {
     "name": "EnvironmentTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k9VQXp": {
+  "ubphq": {
     "name": "EuroCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "BDWFi": {
+  "SSm3W": {
     "name": "EuroTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NAi5g": {
+  "pGkDV": {
     "name": "ExperimentTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "mFV8z": {
+  "totRy": {
     "name": "EyeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "V67i6": {
+  "wp3zw": {
     "name": "EyeInvisibleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Vl1Jw": {
+  "va9aL": {
     "name": "FileAddTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HDrj9": {
+  "wKaNL": {
     "name": "FileExcelTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "C11Ne": {
+  "sNsvQ": {
     "name": "FileExclamationTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ycJiT": {
+  "VmIQm": {
     "name": "FileTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZxcnV": {
+  "t0Zqbn": {
     "name": "FileImageTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "MyQse": {
+  "rnphJ": {
     "name": "FileMarkdownTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hTqdn": {
+  "M7gHWq": {
     "name": "FilePdfTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CWtn4": {
+  "ntmz1": {
     "name": "FilePptTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B9eeyr": {
+  "E4hnuf": {
     "name": "FileTextTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pOZse": {
+  "J2d6P3": {
     "name": "FileUnknownTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kRrZX": {
+  "pM5K8": {
     "name": "FileWordTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qnDTU": {
+  "CstOB": {
     "name": "FileZipTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Xxbtr": {
+  "A7jGg": {
     "name": "FilterTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "U1RKu": {
+  "du1mP": {
     "name": "FireTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ETnsX": {
+  "SSM1Q": {
     "name": "FlagTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "vSajY": {
+  "XtJnN": {
     "name": "FolderAddTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "HWIRB": {
+  "h7IdL": {
     "name": "FolderTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "i2FBE": {
+  "DzauN": {
     "name": "FolderOpenTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Kmz9K": {
+  "ZS3H6": {
     "name": "FrownTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z7cK9": {
+  "ooZDy": {
     "name": "FunnelPlotTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "eZhg0": {
+  "rbk5Y": {
     "name": "GiftTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "u0etx": {
+  "TB0OO": {
     "name": "GoldTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "oOzJU": {
+  "f8eJ30": {
     "name": "HddTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "FMrI4": {
+  "rgNDL": {
     "name": "HeartTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CELTu": {
+  "w2h6g": {
     "name": "HomeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PJkOE": {
+  "FUu2q": {
     "name": "HourglassTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "c59Ayx": {
+  "PVKpK": {
     "name": "IdcardTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "Z7fuS": {
+  "easwK": {
     "name": "InsuranceTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "PFAp6": {
+  "n6722": {
     "name": "InteractionTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "lk6yc": {
+  "QSQxZ": {
     "name": "LayoutTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OxzZm": {
+  "FE6cx": {
     "name": "LikeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k9V334": {
+  "NfDnX": {
     "name": "LockTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KRCp6": {
+  "skxyh": {
     "name": "MailTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ZBTkR": {
+  "hl3PE": {
     "name": "MedicineBoxTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gact5": {
+  "CvKeS": {
     "name": "MehTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ngq93": {
+  "asqCB": {
     "name": "MessageTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "N6m6Xd": {
+  "X3ZAh": {
     "name": "MobileTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "hgNgq": {
+  "rqeAn": {
     "name": "MoneyCollectTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k489Cy": {
+  "YwCHq": {
     "name": "NotificationTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "qXIMB": {
+  "GgLLM": {
     "name": "PhoneTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "kEjvK": {
+  "OA8iz": {
     "name": "PictureTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "S3w4L": {
+  "kt4u6": {
     "name": "PlaySquareTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "T0C2Mf": {
+  "pNmPO": {
     "name": "PoundCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "KWDlz": {
+  "gTQCh": {
     "name": "PrinterTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "OzCOq": {
+  "s6ZaW": {
     "name": "ProfileTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "DXHqq": {
+  "lqykG": {
     "name": "ProjectTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "pZb4M": {
+  "vWhpI": {
     "name": "PropertySafetyTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "p0HQL9": {
+  "TvthR": {
     "name": "PushpinTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "fksIe": {
+  "buMiV": {
     "name": "ReconciliationTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WswZ3": {
+  "o8LUBs": {
     "name": "RedEnvelopeTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "QoS3v": {
+  "C58v9": {
     "name": "RestTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "bHnrb": {
+  "JZQjz": {
     "name": "RocketTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gd8UX": {
+  "ezVCm": {
     "name": "SafetyCertificateTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "t2qLu": {
+  "P7f8NJ": {
     "name": "SaveTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TXWr9": {
+  "dfVIe": {
     "name": "ScheduleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "VRtYN": {
+  "DLBwy": {
     "name": "SecurityScanTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "F0eNK1": {
+  "Mt6nf": {
     "name": "SettingTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "SQaiy": {
+  "I3f7z": {
     "name": "ShopTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "P7JExa": {
+  "Y8Oox": {
     "name": "ShoppingTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "k3oWf": {
+  "fOi97": {
     "name": "SkinTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "iHoBS": {
+  "d1DRRZ": {
     "name": "SmileTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "X8IRg": {
+  "WhCG1": {
     "name": "SoundTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "GkvwK": {
+  "rG914": {
     "name": "StarTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "CpqHa": {
+  "a2XSZ": {
     "name": "SwitcherTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "ifSzy": {
+  "afOXC": {
     "name": "TabletTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NVrMl": {
+  "N36j9v": {
     "name": "TagTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "t8myOH": {
+  "R99CF": {
     "name": "TagsTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "dsxIR": {
+  "JKq0A": {
     "name": "ThunderboltTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "WKrNP": {
+  "RB0NK": {
     "name": "ToolTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "B3BpV": {
+  "gnAyg": {
     "name": "TrademarkCircleTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "aRXpi": {
+  "G5AyT": {
     "name": "TrophyTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "IyEPa": {
+  "I9wrPv": {
     "name": "UnlockTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "TTAAK": {
+  "SyeHa": {
     "name": "UsbTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "gAN4f": {
+  "UPOU0": {
     "name": "VideoCameraTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "NxmQX": {
+  "MPrdR": {
     "name": "WalletTwoTone",
-    "fontSize": 36,
-    "color": "#000000E0",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "antd-icon-live-origin": {
-    "name": "HeartOutlined",
-    "fontSize": 32,
-    "color": "#000000E0",
+  "V9ZDv": {
+    "name": "CopyrightCircleTwoTone",
+    "fontSize": 24,
+    "color": "#1677FF",
     "twoToneColor": "#1677ff",
     "rotate": 0
   },
-  "I5LWhb": {
-    "name": "UploadOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "JvzGL": {
-    "name": "CopyOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "nbNyz": {
-    "name": "SearchOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "HMVGV": {
-    "name": "LikeOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "lvynj": {
-    "name": "CommentOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "F3o5Y": {
-    "name": "StarOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "dH2py": {
-    "name": "HeartOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "SNcmw": {
-    "name": "ShareAltOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "tdrrJ": {
-    "name": "DownloadOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
-  },
-  "hcqrc": {
-    "name": "EllipsisOutlined",
-    "fontSize": 14,
-    "color": "#000000E0"
+  "wj8Aa": {
+    "name": "DollarCircleTwoTone",
+    "fontSize": 24,
+    "color": "#1677FF",
+    "twoToneColor": "#1677ff",
+    "rotate": 0
   }
 }

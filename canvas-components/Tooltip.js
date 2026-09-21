@@ -1,39 +1,14 @@
 /**
  * @schema 2.18
+ * @input title: string = "Prompt text"
  * @input color: color = #000000D9
- * @input title: string = "提示信息内容"
- * @input placement: enum("top", "bottom", "left", "right") = "top"
- * @input defaultOpen: boolean = false
- * @input destroyOnHidden: boolean = false
- * @input disabled: boolean = false
- * @input forceRender: boolean = false
- * @input fresh: boolean = false
- * @input mouseEnterDelay: number = 0
- * @input mouseLeaveDelay: number = 0
+ * @input placement: enum("top", "topLeft", "topRight", "bottom", "bottomLeft", "bottomRight", "left", "leftTop", "leftBottom", "right", "rightTop", "rightBottom") = "top"
  * @input open: boolean = false
- * @input openClassName: string = ""
- * @input overlayClassName: string = ""
- * @input popupVisible: boolean = false
- * @input unique: boolean = false
- * @input zIndex: number = 0
- * @input primaryColor: color = #1677FF
+ * @input defaultOpen: boolean = false
+ * @input arrow: boolean = true
+ * @input styles: string = "{}"
  */
-
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
-const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
-
-  nodes.push({type:"rectangle", name:"Tooltip surface", x:0, y:0, width:W, height:H-6, cornerRadius:6, fill:i.color||"#000000D9"});
-  nodes.push(text(i.title || i.content || "气泡提示内容", 12, Math.max(4,(H-24)/2), W - 24, "#FFFFFF", 12));
-  nodes.push({type:"path",name:"Tooltip arrow",x:W/2-6,y:H-7,width:12,height:7,geometry:"M 0 0 L 12 0 L 6 7 Z",fill:i.color||"#000000D9"});
-return nodes;
+const i=pencil.input||{},W=Math.max(1,pencil.width),H=Math.max(1,pencil.height),nodes=[],parse=(s,d)=>{try{return JSON.parse(s)}catch{return d}};if((!i.open&&!i.defaultOpen)||!i.title)return nodes;const st=parse(i.styles,{}),body=st.container||{},bg=body.background||i.color||'#000000D9',child=parse(i.title,null),p=i.placement||'top',a=i.arrow?8:0,left=p.startsWith('left'),right=p.startsWith('right'),bottom=p.startsWith('bottom'),vertical=!left&&!right,bx=right?a:0,by=bottom?a:0,bw=W-(vertical?0:a),bh=H-(vertical?a:0);
+nodes.push({type:'rectangle',name:'Tooltip surface',x:bx,y:by,width:bw,height:bh,cornerRadius:body.borderRadius??6,fill:bg,effect:{type:'shadow',shadowType:'outer',color:'#0000001F',blur:12,offset:{x:0,y:3}}});
+if(child?.type)nodes.push({...child,name:child.name||'Tooltip content',x:bx+8,y:by+6,width:bw-16,height:bh-12});else nodes.push({type:'text',name:'Tooltip title',content:i.title??'',x:bx+8,y:by+6,width:bw-16,height:Math.max(22,bh-12),textGrowth:'fixed-width-height',fontFamily:body.fontFamily||'Alibaba Sans',fontSize:body.fontSize||14,lineHeight:22/14,fill:body.color||'#FFFFFF'});
+if(a){let x,y,w,h,geometry,viewBox;if(vertical){w=16;h=8;x=p.endsWith('Left')?12:p.endsWith('Right')?bw-28:(bw-16)/2;y=bottom?0:bh;viewBox=[0,0,16,8];geometry=bottom?'M8 0 L16 8 L0 8 Z':'M0 0 L16 0 L8 8 Z';}else{w=8;h=16;x=right?0:bw;y=p.endsWith('Top')?8:p.endsWith('Bottom')?bh-24:(bh-16)/2;viewBox=[0,0,8,16];geometry=right?'M8 0 L8 16 L0 8 Z':'M0 0 L8 8 L0 16 Z';}nodes.push({type:'path',name:'Tooltip arrow',x,y,width:w,height:h,viewBox,geometry,fill:bg});}return nodes;

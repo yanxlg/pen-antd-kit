@@ -1,27 +1,15 @@
 /**
  * @schema 2.18
- * @input collapsible: enum("icon", "disabled", "header") = "icon"
+ * @input header: string = "Panel header"
+ * @input children: string = "Panel content"
+ * @input extra: string = ""
+ * @input collapsible: enum("icon", "disabled", "header") = "header"
  * @input forceRender: boolean = false
- * @input showArrow: boolean = false
- * @input primaryColor: color = #1677FF
+ * @input showArrow: boolean = true
  */
-
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
-const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
-
-  nodes.push(box(0, 0, W, 36, "#FAFAFA", 6, "#D9D9D9"));
-  nodes.push(text("⌄  折叠面板标题", 12, 10, W - 24, "#000000E0", 13, "600"));
-  nodes.push(box(0, 36, W, 48, "#FFFFFF", 0, "#D9D9D9"));
-  nodes.push(text("折叠面板的内容区域，放置详细说明文本。", 12, 46, W - 24, "#000000A6", 12));
+const i=pencil.input||{},W=Math.max(1,pencil.width),H=Math.max(46,pencil.height),nodes=[{type:'rectangle',x:0,y:0,width:W,height:46,fill:'#00000005',cornerRadius:[8,8,0,0]}];
+if(i.showArrow!==false)nodes.push({type:'ref',ref:'antd-icon-live-origin',x:16,y:17,width:12,height:12,inputs:{name:'DownOutlined',fontSize:12,color:i.collapsible==='disabled'?'#00000040':'#000000E0'}});
+nodes.push({type:'text',content:i.header||'',x:i.showArrow===false?16:40,y:0,width:W-56,height:46,textGrowth:'fixed-width-height',fontFamily:'Alibaba Sans',fontSize:14,fill:'#000000E0',textAlignVertical:'middle'});
+let child;try{child=JSON.parse(i.children)}catch{}
+if(child?.type)nodes.push({...child,x:16,y:62,width:W-32});else nodes.push({type:'text',content:i.children||'',x:16,y:62,width:W-32,height:Math.max(22,H-78),textGrowth:'fixed-width-height',fontFamily:'Alibaba Sans',fontSize:14,fill:'#000000E0'});
 return nodes;

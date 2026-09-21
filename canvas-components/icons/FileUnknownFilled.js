@@ -1,0 +1,53 @@
+/**
+ * @schema 2.18
+ * @input fontSize: number = 16
+ * @input color: color = #1677FF
+ * @input twoToneColor: string = "#1677ff"
+ * @input rotate: number = 0
+ */
+// Generated from the official @ant-design/icons export FileUnknownFilled.
+const definition = {"viewBox":[64,64,896,896],"paths":[{"d":"M854.6 288.7c6 6 9.4 14.1 9.4 22.6V928c0 17.7-14.3 32-32 32H192c-17.7 0-32-14.3-32-32V96c0-17.7 14.3-32 32-32h424.7c8.5 0 16.7 3.4 22.7 9.4l215.2 215.3zM790.2 326L602 137.8V326h188.2zM402 549c0 5.4 4.4 9.5 9.8 9.5h32.4c5.4 0 9.8-4.2 9.8-9.4 0-28.2 25.8-51.6 58-51.6s58 23.4 58 51.5c0 25.3-21 47.2-49.3 50.9-19.3 2.8-34.5 20.3-34.7 40.1v32c0 5.5 4.5 10 10 10h32c5.5 0 10-4.5 10-10v-12.2c0-6 4-11.5 9.7-13.3 44.6-14.4 75-54 74.3-98.9-.8-55.5-49.2-100.8-108.5-101.6-61.4-.7-111.5 45.6-111.5 103zm110 227a32 32 0 100-64 32 32 0 000 64z"}]};
+const input = pencil.input || {};
+const fontSize = Number(input.fontSize ?? 16);
+if (!Number.isFinite(fontSize) || fontSize <= 0) throw new Error('fontSize must be a positive pixel value');
+
+const rawTone = input.twoToneColor || '#1677ff';
+const tones = Array.isArray(rawTone)
+  ? rawTone
+  : String(rawTone).trim().startsWith('[')
+    ? JSON.parse(rawTone)
+    : [rawTone];
+const primary = tones[0];
+const lighten = (color) => {
+  const value = String(color).replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(value)) return '#E6F4FF';
+  const channels = [0, 2, 4].map((offset) => parseInt(value.slice(offset, offset + 2), 16));
+  return '#' + channels.map((channel) => Math.round(channel + (255 - channel) * 0.9).toString(16).padStart(2, '0')).join('');
+};
+const secondary = tones[1] || lighten(primary);
+const angle = Number(input.rotate || 0);
+const radians = angle * Math.PI / 180;
+const half = fontSize / 2;
+const x = (Number(pencil.width) || fontSize) / 2 - half * Math.cos(radians) + half * Math.sin(radians);
+const y = (Number(pencil.height) || fontSize) / 2 - half * Math.sin(radians) - half * Math.cos(radians);
+
+return definition.paths.map((attrs, index) => ({
+  type: 'path',
+  name: 'FileUnknownFilled path ' + (index + 1),
+  x,
+  y,
+  width: fontSize,
+  height: fontSize,
+  viewBox: definition.viewBox,
+  geometry: attrs.d,
+  fill: attrs.fill === '__primary__'
+    ? primary
+    : attrs.fill === '__secondary__'
+      ? secondary
+      : (!attrs.fill || attrs.fill === 'currentColor')
+        ? (input.color || '#1677FF')
+        : attrs.fill,
+  fillRule: attrs['fill-rule'] || 'nonzero',
+  opacity: attrs['fill-opacity'] === undefined ? 1 : Number(attrs['fill-opacity']),
+  rotation: -angle,
+}));

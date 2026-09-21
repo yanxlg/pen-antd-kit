@@ -7,7 +7,8 @@
   "scripts": {
     "verify": "node scripts/verify-antd-assets.mjs",
     "verify:icon": "node scripts/verify-icon-canvas.mjs",
-    "generate:icon": "node scripts/generate-icon-canvas.mjs && node scripts/build-independent-instances.mjs",
+    "generate:icon": "node scripts/generate-icon-canvas.mjs && node scripts/generate-icon-components.mjs && node scripts/build-independent-instances.mjs",
+    "generate:icon-components": "node scripts/generate-icon-components.mjs",
     "generate:pen": "node scripts/generate-figma-design-system.mjs",
     "generate:design-system": "node scripts/generate-figma-design-system.mjs",
     "import:figma": "python3 scripts/import_figma_antd.py",
