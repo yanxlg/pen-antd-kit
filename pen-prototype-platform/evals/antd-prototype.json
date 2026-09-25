@@ -1,0 +1,47 @@
+{
+  "skill": "antd-prototype",
+  "cases": [
+    {
+      "id": "markdown-list-page",
+      "prompt": "根据 requirements.md 设计一个用户与权限管理 Pen 原型",
+      "expected": [
+        "resolves markdown input and list-page guidance",
+        "runs library preflight before node creation",
+        "queries rather than loading the full registry",
+        "includes loading, empty, error, and permission states"
+      ]
+    },
+    {
+      "id": "html-form-normalization",
+      "prompt": "把 existing-form.html 转成标准 Ant Design Pen 原型",
+      "expected": [
+        "uses HTML as structural evidence instead of preserving arbitrary CSS",
+        "checks for a form template without forcing a mismatch",
+        "uses verified library components",
+        "models validation and submission states"
+      ]
+    },
+    {
+      "id": "pen-revision",
+      "prompt": "优化 rough.pen，保留已有流程并统一为当前组件库",
+      "expected": [
+        "routes to revise workflow",
+        "does not rebuild unaffected regions",
+        "verifies library provenance",
+        "performs visual review"
+      ]
+    },
+    {
+      "id": "admin-shell-instance",
+      "prompt": "根据需求目录中的 PRD 和参考 .pen 创建后台客群管理原型。必须用 antd-6.lib 的 AppShell 模板；所有完整页面固定 1920px 宽、至少 1080px 高，不制作窄屏或响应式状态，保存为原型.pen。",
+      "expected": [
+        "creates every full page as a top-level ref to the catalogued Admin App Shell frame",
+        "places business content inside the shell's replaceable page body slot",
+        "keeps Menu, Breadcrumb, Header, and Sider as template descendants",
+        "configures component inputs from library Examples and Components scenarios",
+        "checks every delivered page at 1920px width and at least 1080px height, with no narrow-screen state or clipped content",
+        "saves, reopens, and verifies the persisted ref, import, position, size, and visual layout"
+      ]
+    }
+  ]
+}

@@ -55,7 +55,7 @@ export const componentVariants = {
   DatePicker: [['Date', {}], ['Selected', { value: '2026-09-18' }], ['Open', { open: true }], ['Month', { picker: 'month' }], ['Disabled', { disabled: true }]],
   Form: [['Basic', {}], ['Horizontal', { layout: 'horizontal' }], ['Required', { required: true }], ['Error', { status: 'error' }]],
   Input: [['Basic', {}], ['Value', { value: 'Ant Design' }], ['Prefix and suffix', { prefix: '¥', suffix: 'RMB' }], ['Filled', { variant: 'filled' }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
-  InputNumber: [['Basic', {}], ['Small', { size: 'small' }], ['Large', { size: 'large' }], ['Spinner', { mode: 'spinner' }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
+  InputNumber: [['Basic', {}], ['Hovered', { hovered: true }], ['Focused', { focused: true }], ['Small', { size: 'small' }], ['Large', { size: 'large' }], ['Precision', { value: '1.00', precision: 2 }], ['Addon', { addonBefore: '+', addonAfter: '$', value: 100 }], ['Spinner', { mode: 'spinner' }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
   Mentions: [['Basic', {}], ['Value', { value: '@afc163 hello' }], ['Disabled', { disabled: true }], ['Error', { status: 'error' }]],
   Radio: [['Unchecked', {}], ['Checked', { checked: true }], ['Disabled', { disabled: true }]],
   Rate: [['Basic', {}], ['Half', { value: 3.5, allowHalf: true }], ['Disabled', { disabled: true }]],

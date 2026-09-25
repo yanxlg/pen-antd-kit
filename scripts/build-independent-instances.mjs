@@ -9,7 +9,7 @@ export const bindings = {...captured};
 for (const [id, value] of Object.entries(layout.values)) bindings[id] = {...captured[id], ...value, type:value.ref?'ref':'script'};
 for (const [id, value] of Object.entries(icons)) {
   const {name, ...inputs} = value;
-  bindings[id] = {type:'script', name, scriptUri:`../canvas-components/icons/${name}.js`, inputs};
+  bindings[id] = {type:'script', name, scriptUri:`../canvas-components/Icon.js`, inputs: {type: name, ...inputs}};
 }
 export function buildIndependentInstances() {
   const files = new Set(Object.values(bindings).map(n=>n.scriptUri).filter(Boolean));

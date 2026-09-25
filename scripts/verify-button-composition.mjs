@@ -7,7 +7,7 @@ for(const type of ['default','primary','dashed','text','link'])for(const size of
  const layers=renderButton({input:b.inputs,width:b.width,height:b.height}),box=layers[0],text=layers.find(n=>n.type==='text'),glyph=layers.find(n=>n.type==='script');
  assert.equal(b.scriptUri,'../canvas-components/Button.js');assert.equal(buttonChildren(b),'Save');assert.equal(text.content,'Save');
  assert.equal(box.height,size==='large'?40:size==='small'?24:32);assert.equal(box.width,100);
- assert.equal(glyph.scriptUri,`../canvas-components/icons/${state==='loading'?'LoadingOutlined':'SaveOutlined'}.js`);
+ assert.equal(glyph.scriptUri,'../canvas-components/Icon.js');
  assert.ok(!Object.hasOwn(glyph.inputs,'name'));assert.equal(text.fill,glyph.inputs.color);assert.equal(glyph.y+glyph.height/2,b.height/2);count++;
 }
 const plain=buttonInstance({children:'Delete <all> & retry'});plain.inputs.children='Renamed';assert.equal(buttonProps(plain).children,'Renamed');

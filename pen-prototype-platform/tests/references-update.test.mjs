@@ -17,6 +17,7 @@ async function kitSource(root) {
   await writeJson(resolve(source, "registry/components.json"), { library: "antd-6", version: "6.6.4", components: {} });
   await writeFile(resolve(source, "canvas-components/README.txt"), "fixture", "utf8");
   await writeJson(resolve(source, "libraries/antd-6.lib.pen"), { children: [] });
+  await writeJson(resolve(source, "libraries/templates.pen"), { children: [] });
   return source;
 }
 
@@ -33,7 +34,8 @@ test("uses a local Kit directory supplied with --source", async () => {
   assert.equal(result.source, "local");
   assert.equal(result.stale, false);
   assert.equal(result.kitVersion, "1.0.0");
-  assert.equal(await pathExists(result.skillPath), true);
+  assert.equal(await pathExists(result.referencePath), true);
+  assert.equal(result.referencePath, resolve(result.kitRoot, "references/guide.md"));
 });
 
 test("installs the release Kit, then serves it from cache within the TTL", async () => {
@@ -49,7 +51,8 @@ test("installs the release Kit, then serves it from cache within the TTL", async
   assert.equal(installed.source, "remote");
   assert.equal(installed.updated, true);
   assert.equal(installed.kitVersion, "2.0.0");
-  assert.equal(await pathExists(installed.skillPath), true);
+  assert.equal(await pathExists(installed.referencePath), true);
+  assert.equal(installed.referencePath, resolve(installed.kitRoot, "references/guide.md"));
 
   const cached = await updateReferences({ channelFile, home });
   assert.equal(cached.source, "cache");

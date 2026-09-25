@@ -48,7 +48,7 @@ const checkbox = (x,y,checked=false,disabled=false) => ({
 });
 const icon = (name,x,y,size=14,color=textColor) => ({
   type:"ref",ref:"antd-icon-live-origin",name:`Icon.${name}`,x,y,width:size,height:size,
-  inputs:{name,fontSize:size,color},
+  inputs:{type:name,name,fontSize:size,color},
 });
 const button = (label,x,y,width=28,disabled=false,type="default",icon="") => ({
   type:"ref", ref:"DQZzq", scriptUri:"../canvas-components/Button.js", name:"Button", x,y,width,height:24,

@@ -8,16 +8,18 @@
  * @input maxLength: number = 0
  * @input disabled: boolean = false
  * @input allowClear: boolean = false
+ * @input resizable: boolean = true
  * @input status: enum("default", "error", "warning") = "default"
  * @input variant: enum("outlined", "filled", "borderless", "underlined") = "outlined"
  * @input primaryColor: color = #1677FF
  * @input borderColor: string = ""
+ * @input countColor: string = ""
  */
 
 const i = pencil.input;
 const W = Math.max(80, pencil.width);
 // 官方几何：lineHeight 22、padding 4px 11px、border 1px → 高 = rows*22 + 10（rows=4 → 98）
-const defaultH = Math.max(54, (Number(i.rows) || 4) * 22 + 10);
+const defaultH = Math.max(32, (Number(i.rows) || 4) * 22 + 10);
 const H = Math.max(defaultH, pencil.height || defaultH);
 const padX = 11;
 const padY = 4;
@@ -30,6 +32,7 @@ const text = (content, x, y, width, height, color = "#000000E0", fontSize = 14, 
   y,
   width,
   height: height || Math.max(16, fontSize + 4),
+  textGrowth: "fixed-width",
   fill: color,
   fontFamily: "Inter",
   fontSize,
@@ -54,7 +57,7 @@ const box = (x, y, width, height, fill = "#FFFFFF", radius = 6, stroke = "#D9D9D
 const disabledCol = "#00000040";
 const textCol = i.value ? (i.disabled ? disabledCol : "#000000E0") : "#00000040";
 const borderCol = i.borderColor || (i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9");
-const bgFill = i.disabled ? "#F5F5F5" : (i.variant === "filled" ? "#00000005" : "#FFFFFF");
+const bgFill = i.disabled ? "#F5F5F5" : (i.variant === "filled" ? "#0000000A" : "#FFFFFF");
 const strokeCol = i.variant === "borderless" || i.variant === "underlined" ? "#00000000" : borderCol;
 
 // 主体框
@@ -67,7 +70,9 @@ if (i.variant === "underlined") {
 const val = i.value !== undefined && i.value !== "" ? i.value : String(i.placeholder || "");
 if (val) {
   const contentH = Math.max(22, H - padY * 2);
-  nodes.push(text(val, padX, padY, W - padX * 2, contentH, textCol, 14, "normal", "left"));
+  const clearReserved = i.allowClear && i.value && !i.disabled ? 20 : 0;
+  // CSS content box starts after the 1px wrapper border and 4px/11px textarea padding.
+  nodes.push(text(val, padX + 1, padY + 1, W - (padX + 1) * 2 - clearReserved, contentH, textCol, 14, "normal", "left"));
 }
 
 // 字数统计
@@ -75,26 +80,31 @@ if (i.showCount) {
   const currentLen = String(i.value || "").length;
   const max = Number(i.maxLength) || 0;
   const countStr = max > 0 ? `${currentLen} / ${max}` : String(currentLen);
-  const countCol = max > 0 && currentLen > max ? "#FF4D4F" : "#00000073";
-  const countW = Math.max(30, countStr.length * 8);
-  nodes.push(text(countStr, W - padX - countW, H - 22, countW, 16, countCol, 12, "normal", "right"));
+  const countCol = max > 0 && currentLen > max ? "#FF4D4F" : (i.countColor || "#00000073");
+  const countW = Math.max(30, countStr.length * 6.3);
+  // antd 6 positions .ant-input-data-count outside the textarea: top equals
+  // the inner textarea's bottom edge (wrapper height - 1), right aligned to the wrapper.
+  nodes.push(text(countStr, W - countW, H - 1, countW, 22, countCol, 14, "normal", "right"));
 }
 
-// 右下角 resize 手柄线条
-if (!i.disabled && i.variant !== "borderless") {
-  // 两条微小的对角线/点模拟 resize 手柄
-  nodes.push({
-    type: "path",
-    name: "resize-handle",
-    x: W - 11,
-    y: H - 11,
-    width: 7,
-    height: 7,
-    viewBox: [0, 0, 7, 7],
-    geometry: "M6 1 L1 6 M6 4 L4 6",
-    stroke: "#00000030",
-    strokeWidth: 1.2
-  });
+// 右下角 resize 手柄。autoSize 和 style={{ resize: "none" }} 不显示。
+if (!i.disabled && i.variant !== "borderless" && i.resizable !== false && !i.autoSize) {
+  const dotCol = "#00000040";
+  const points = [[4, 4], [7, 4], [4, 7], [10, 4], [7, 7], [4, 10]];
+  for (const [right, bottom] of points) {
+    nodes.push({
+      type: "rectangle",
+      name: "resize-handle",
+      x: W - right,
+      y: H - bottom,
+      width: 1.5,
+      height: 1.5,
+      cornerRadius: 0,
+      fill: dotCol,
+      stroke: dotCol,
+      strokeWidth: 0,
+    });
+  }
 }
 
 // 清除图标

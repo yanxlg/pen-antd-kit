@@ -1,0 +1,3 @@
+{
+  "input": "Print(Get(\"frame-676\", {depth:1})); Print(Get(\"frame-676\", (n,ctx)=>ctx.problems ? {id:n.id,name:n.name,problem:ctx.problems,bounds:ctx.bounds} : undefined)); TakeScreenshot([\"frame-676\"])"
+}

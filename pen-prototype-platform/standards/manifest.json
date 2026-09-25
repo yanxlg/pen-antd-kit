@@ -1,14 +1,29 @@
 {
   "$schema": "../schemas/standards-manifest.schema.json",
   "schemaVersion": 1,
-  "standardsVersion": "0.3.0",
+  "standardsVersion": "1.0.0",
   "status": "passed",
   "entrypoint": "index.md",
   "qualityProfile": "prototype-quality.json",
   "runtimeDocuments": [
     {
+      "id": "foundation.canvas-write-policy",
+      "path": "foundations/canvas-write-policy.md",
+      "appliesTo": ["all"]
+    },
+    {
       "id": "foundation.environment-layout",
       "path": "foundations/environment-layout.md",
+      "appliesTo": ["all"]
+    },
+    {
+      "id": "pattern.module-decomposition",
+      "path": "patterns/module-decomposition.md",
+      "appliesTo": ["all"]
+    },
+    {
+      "id": "pattern.template-composition",
+      "path": "patterns/template-composition.md",
       "appliesTo": ["all"]
     },
     {

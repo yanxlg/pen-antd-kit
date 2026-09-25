@@ -1,49 +1,129 @@
 /**
  * @schema 2.18
- * @input layout: enum("vertical", "horizontal", "inline") = "vertical"
- * @input fields: string = "用户名|密码|电子邮箱"
+ * @input layout: enum("horizontal", "vertical", "inline") = "horizontal"
+ * @input size: enum("middle", "small", "large") = "middle"
  * @input disabled: boolean = false
- * @input required: boolean = false
- * @input status: enum("", "error", "warning") = ""
- * @input acceptCharset: string = ""
- * @input action: string = ""
- * @input clearOnDestroy: boolean = false
- * @input colon: boolean = false
- * @input color: string = ""
- * @input encType: string = ""
- * @input labelAlign: enum("left", "right") = "left"
- * @input labelWrap: boolean = false
- * @input method: string = ""
- * @input name: string = ""
- * @input noValidate: boolean = false
- * @input preserve: boolean = false
- * @input size: enum("middle", "medium", "large", "small") = "middle"
- * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
+ * @input colon: boolean = true
+ * @input labelAlign: enum("right", "left") = "right"
+ * @input labelWidth: number = 88
+ * @input variant: enum("outlined", "borderless", "filled") = "outlined"
+ * @input children: string = ""
  * @input primaryColor: color = #1677FF
  */
 
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
-const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const i = pencil.input || {};
+const W = Math.max(80, pencil.width || 360);
+const H = Math.max(24, pencil.height || 132);
 
-  const fields=(i.fields||"Username|Password").split("|"),error=i.status==="error",border=error?"#FF4D4F":"#D9D9D9",mark=i.required?" *":"";
-  fields.forEach((f,idx)=>{
-    if(i.layout==="horizontal"){
-      const fy=idx*44,labelW=88;nodes.push(text(f+mark,0,fy+7,labelW,i.disabled?"#00000040":"#000000D9",13,"normal","right"));nodes.push(box(labelW+8,fy,W-labelW-8,32,i.disabled?"#0000000A":"#FFFFFF",6,border));nodes.push(text("Please input "+f,labelW+18,fy+7,W-labelW-28,"#00000040",12));
-    }else if(i.layout==="inline"){
-      const cell=W/fields.length,x=idx*cell;nodes.push(box(x,0,cell-8,32,i.disabled?"#0000000A":"#FFFFFF",6,border));nodes.push(text(f+mark,x+10,7,cell-28,"#00000040",12));
-    }else{
-      const fy=idx*60;nodes.push(text(f+mark,0,fy,120,i.disabled?"#00000040":"#000000D9",13));nodes.push(box(0,fy+22,W,32,i.disabled?"#0000000A":"#FFFFFF",6,border));nodes.push(text("Please input "+f,10,fy+29,W-20,"#00000040",12));if(error&&idx===0)nodes.push(text("Please enter a valid value",0,fy+55,W,"#FF4D4F",11));
+const nodes = [];
+
+const text = (content, x, y, width, height, color = "#000000E0", fs = 14, weight = "normal", align = "left") => ({
+  type: "text",
+  name: String(content),
+  content: String(content),
+  x: Math.round(x),
+  y: Math.round(y),
+  width: Math.max(1, Math.round(width)),
+  height: Math.max(1, Math.round(height)),
+  textGrowth: "fixed-width-height",
+  fontFamily: "Inter",
+  fontSize: fs,
+  fontWeight: weight,
+  lineHeight: 1.5714,
+  textAlign: align,
+  textAlignVertical: "middle",
+  fill: color
+});
+
+const box = (x, y, width, height, fill = "#FFFFFF", radius = 6, stroke = "#D9D9D9", strokeWidth = 1) => ({
+  type: "rectangle",
+  x: Math.round(x),
+  y: Math.round(y),
+  width: Math.max(1, Math.round(width)),
+  height: Math.max(1, Math.round(height)),
+  cornerRadius: radius,
+  fill,
+  stroke,
+  strokeWidth,
+  strokeAlignment: "inner"
+});
+
+let parsedChildren = null;
+if (i.children) {
+  if (typeof i.children === "object") {
+    parsedChildren = i.children;
+  } else if (typeof i.children === "string") {
+    try {
+      parsedChildren = JSON.parse(i.children);
+    } catch {
+      if (/^[a-zA-Z0-9_-]{4,8}$/.test(i.children.trim())) {
+        parsedChildren = [{ type: "ref", ref: i.children.trim() }];
+      }
+    }
+  }
+}
+
+if (parsedChildren) {
+  const items = Array.isArray(parsedChildren) ? parsedChildren : [parsedChildren];
+  const isInline = i.layout === "inline";
+  let curX = 0, curY = 0;
+  const gapY = 24, gapX = 16;
+  const controlH = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
+
+  for (const item of items) {
+    const c = JSON.parse(JSON.stringify(item));
+    if (!c.inputs) c.inputs = {};
+    if (c.inputs.layout === undefined) c.inputs.layout = i.layout;
+    if (c.inputs.size === undefined) c.inputs.size = i.size;
+    if (c.inputs.disabled === undefined && i.disabled) c.inputs.disabled = i.disabled;
+    if (c.inputs.colon === undefined) c.inputs.colon = i.colon;
+    if (c.inputs.labelAlign === undefined) c.inputs.labelAlign = i.labelAlign;
+    if (c.inputs.labelWidth === undefined) c.inputs.labelWidth = i.labelWidth;
+
+    if (isInline) {
+      const itemW = typeof c.width === "number" && c.width > 0 ? c.width : 200;
+      c.x = curX;
+      c.y = 0;
+      c.width = itemW;
+      c.height = c.height || controlH;
+      nodes.push(c);
+      curX += itemW + gapX;
+    } else {
+      const itemH = typeof c.height === "number" && c.height > 0 ? c.height : (i.layout === "vertical" ? 56 : controlH);
+      c.x = 0;
+      c.y = curY;
+      c.width = W;
+      c.height = itemH;
+      nodes.push(c);
+      curY += itemH + gapY;
+    }
+  }
+} else {
+  // Default Demo fallback
+  const isHoriz = i.layout === "horizontal";
+  const isInline = i.layout === "inline";
+  const fields = ["Username", "Password"];
+  const controlH = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
+  const labelW = Number(i.labelWidth) || 88;
+
+  fields.forEach((f, idx) => {
+    if (isHoriz) {
+      const fy = idx * (controlH + 16);
+      nodes.push(text(f + (i.colon !== false ? " :" : ""), 0, fy, labelW, controlH, i.disabled ? "#00000040" : "#000000E0", 14, "normal", i.labelAlign || "right"));
+      nodes.push(box(labelW + 8, fy, W - labelW - 8, controlH, i.disabled ? "#0000000A" : "#FFFFFF", 6, "#D9D9D9"));
+      nodes.push(text("Please input " + f.toLowerCase(), labelW + 20, fy, W - labelW - 32, controlH, "#00000040", 14, "normal", "left"));
+    } else if (isInline) {
+      const cellW = (W - 16) / 2;
+      const fx = idx * (cellW + 16);
+      nodes.push(box(fx, 0, cellW, controlH, i.disabled ? "#0000000A" : "#FFFFFF", 6, "#D9D9D9"));
+      nodes.push(text(f, fx + 12, 0, cellW - 24, controlH, "#00000040", 14, "normal", "left"));
+    } else {
+      const fy = idx * (controlH + 32);
+      nodes.push(text(f, 0, fy, W, 22, i.disabled ? "#00000040" : "#000000E0", 14, "normal", "left"));
+      nodes.push(box(0, fy + 26, W, controlH, i.disabled ? "#0000000A" : "#FFFFFF", 6, "#D9D9D9"));
+      nodes.push(text("Please input " + f.toLowerCase(), 12, fy + 26, W - 24, controlH, "#00000040", 14, "normal", "left"));
     }
   });
+}
+
 return nodes;

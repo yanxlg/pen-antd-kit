@@ -17,6 +17,7 @@ test("prepares immutable GitHub assets without publishing", async () => {
   await writeJson(resolve(source, "registry/components.json"), { components: {} });
   await writeFile(resolve(source, "canvas-components/fixture.txt"), "fixture", "utf8");
   await writeJson(resolve(source, "libraries/antd-6.lib.pen"), { children: [] });
+  await writeJson(resolve(source, "libraries/templates.pen"), { children: [] });
 
   const prepared = await prepareGitHubRelease({
     sourceRoot: source,
@@ -29,7 +30,7 @@ test("prepares immutable GitHub assets without publishing", async () => {
   const channel = await readJson(prepared.channelPath);
   assert.equal(prepared.tag, "kit-v1.2.3");
   assert.equal(release.quality.status, "candidate");
-  assert.equal(release.standards.version, "0.3.0");
+  assert.equal(release.standards.version, "1.0.0");
   assert.equal(release.artifact.url, "https://github.com/example/pen-antd-kit/releases/download/kit-v1.2.3/pen-antd-kit-1.2.3.tar.gz");
   assert.equal(channel.releaseUrl, "https://github.com/example/pen-antd-kit/releases/download/kit-v1.2.3/release-1.2.3.json");
 });

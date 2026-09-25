@@ -1,7 +1,7 @@
 /**
  * @schema 2.18
  * @input children: string = "选项一"
- * @input checked: boolean = true
+ * @input checked: boolean = false
  * @input disabled: boolean = false
  * @input name: string = ""
  * @input skipGroup: boolean = false

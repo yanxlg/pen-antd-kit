@@ -82,7 +82,7 @@
 | **DatePicker** | 日期选择框 | 静态 Frame | 🟡 待验收 | 日期/月份/年份/时间范围选择 |
 | **Form** | 表单 | 静态 Frame | 🟡 待验收 | 垂直/水平排版与校验报错提示 |
 | **Input** | 输入框 | 静态 Frame | 🟡 待优化 | 基础/前缀/后缀/密码/OTP/文本域 |
-| **InputNumber** | 数字输入框 | 仅展示 | 🟡 待补齐Master | 缺可复用节点，步进加减按钮 |
+| **InputNumber** | 数字输入框 | **Live Script** (`InputNumber.js`) + 独立实例 | 🟢 **已完成** | 官方 14 个示例通过原生 import 完整恢复，包含步进器微调器、Spinner、Formatter、前后缀图标、四形态变体与状态。通过 Data Entry 自动化检验与视觉复核。 |
 | **Mentions** | 提及 | 静态 Frame | 🟡 待验收 | `@` 唤出列表与选中 |
 | **Radio** | 单选框 | 静态 Frame | 🟡 待验收 | 单选圆点与单选按钮组合（Radio.Group） |
 | **Rate** | 评分 | 静态 Frame | 🟡 待验收 | 半星、整星与只读态 |

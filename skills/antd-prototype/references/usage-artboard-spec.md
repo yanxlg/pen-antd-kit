@@ -171,7 +171,7 @@ function normalizeExampleColumn(columnNodeId) {
 | **画板结构** | 官方存在的行 / 标题 / 描述缺失，或组件被错误建模 | 画板 `Insert` / `Copy` / `Move` |
 
 ### 1. 尺寸类属性（size / rows / autoSize）由实例框高决定，不在脚本内
-`size` 只改变脚本内部几何（large 40 / middle 32 / small 24），**实例框 `height` 才是实际渲染高度**；框高与 size 不匹配时内容会被裁切。TextArea 每行 = 22px + 上下 padding 8px + 边框 2px。多行实例启用 `showCount` 时，实例高 = 官方 textarea 高 + 22（计数行在框下方，与 antd 一致）。
+`size` 只改变脚本内部几何（large 40 / middle 32 / small 24），**实例框 `height` 才是输入框本身的实际渲染高度**；框高与 size 不匹配时内容会被裁切。TextArea 每行 = 22px + 上下 padding 8px + 边框 2px。启用 `showCount` 时实例框高仍等于 textarea 高，计数节点从 `height - 1` 开始向框外溢出 22px；父级排版需要为这 22px 外溢留出空间。
 
 ### 2. 脚本内渲染 antd 图标必须内联 path，禁止返回 ref
 Schema 2.18 脚本**没有** `materialize` / `__bindings` 包装（那是 2.11 的 Button / Space 才有的写法），返回 `{type:'ref', ref:'antd-icon-live-origin'}` 无法解析，会导致整篇文档渲染卡死——典型表现是所有 `TakeScreenshot` 都超时到 55s 上限。
@@ -197,7 +197,7 @@ path 数据取自 `ant-design/ant-design-icons` 仓库 `packages/icons-svg/svg/{
 卡片本体还需与同类卡一致：`fill:"#FFFFFF"`、`stroke:"#0505050f"`、`strokeWidth:1`、`cornerRadius:8`、`padding:1`、`strokeAlignment:"inner"`；meta 区 `cornerRadius:[0,0,6,6]`，chip `x:16 y:-15 h:30 radius[6,6,0,0]` + 内框 `x:8 y:4 h:28`，描述容器 `padding:[18,24,12,24]`、文字 `AlibabaSans 14`、`lineHeight:2`。
 
 ### 4. Input 能力清单（对齐 antd 6.6.4 后）
-`prefixIcon` / `suffixIcon`（传 antd 图标名，如 `UserOutlined`）、`showCount` + `countMax` + `countStrategy`（`length` | `runes`，emoji 按 1 计）、`password`（自动渲染 `EyeInvisibleOutlined`）、`otp` + `otpLength` / `otpSeparator` / `otpMask`；清除图标用 `CloseCircleFilled`、搜索态按钮用 `SearchOutlined`。suffix 区顺序按 antd 为 `[清除][后缀文本][后缀图标][眼睛][字数]`。
+`prefixIcon` / `suffixIcon`（传 antd 图标名，如 `UserOutlined`）、`showCount` + `countMax` + `countStrategy`（`length` | `runes`，emoji 按 1 计）、`password`（自动渲染 `EyeInvisibleOutlined`）、`otp` + `otpLength` / `otpSeparator` / `otpMask`；清除图标用 `CloseCircleFilled`、搜索态按钮用 `SearchOutlined`。普通 Input 与 Input.Password 的 suffix DOM 不可套用同一顺序；Password 带自定义 suffix 时必须是 `[输入内容][可见性图标][自定义 suffix]`。
 
 ### 5. 实例值的原则
 实例 props 以官方 demo 为准；仅当官方初始值会让示例要展示的对象完全不可见时（例如 `allowClear` 需要 `value` 才显示清除图标），才补充「展示态」的值，并在交付说明中标注该有意偏离。
@@ -272,16 +272,25 @@ img = Image.alpha_composite(Image.new("RGBA", img.size, (255,255,255,255)), img.
 ### 11. `Input.TextArea` 官方几何
 - **高度公式**：`rows * 22 + 10`（lineHeight 22、padding 4px 11px、border 1px×2）。rows=2→54、3→76、4→98、5→120。脚本里写 `rows*22+16` 是错的。
 - **无默认 placeholder**：官方 TextArea 不填 placeholder 就什么都不渲染；脚本声明 `@input placeholder: string = ""` 且为空时跳过文本节点，**不要**兜底渲染「请输入多行内容」。
-- **demo 间距**：textarea demo 两个 `<br/>` → 间隔 44px；autosize demo 的 `<div style={{margin:'24px 0'}}/>` → 间隔 48px。不要统一用卡的默认 gap 16。
-- `autoSize={{minRows, maxRows}}` 的静态高度 = `minRows * 22 + 10`（初始未输入时按 minRows 渲染），实例 props 照抄官方源码（如 rows=2 对应 minRows:2）。
+- **demo 间距**：textarea demo 两个 `<br/>` 在官网实际形成 22px 净间距（两个 98px textarea 的顶部相差 120px）；autosize demo 的 `<div style={{margin:'24px 0'}}/>` → 间隔 24px。不要把源码标签或上下 margin 直接相加成画板 `gap`。
+- `autoSize` 布尔值的空内容初始高度为单行 32px；`autoSize={{minRows, maxRows}}` 的静态高度 = `minRows * 22 + 10`（初始未输入时按 minRows 渲染），实例 props 照抄官方源码（如 minRows:2 → rows=2）。
 
 ### 12. `Input.OTP` 官方几何
-- **格子**：26.5×32（middle；small 24.5 / large 30.5），radius 6，paddingInline 4，columnGap 8；根容器 `inline-flex` **fit-content**，禁止被 `fill_container` 拉伸：6 格 = 199、8 格 = 268。
-- **分隔符**：只在传了 `separator` prop 时渲染（默认无！），每个格子之间一个，7×22、颜色 `rgba(0,0,0,0.88)`，与格子之间同样隔 8px gap；带分隔符时 6 格总宽 = 274。官方「custom function separator」demo 按 index 交替蓝/红（`(i) => i&1 ? red : blue`）。
+- **格子**：27×32（middle；small 24.5 / large 30.5），radius 6，paddingInline 4，columnGap 8；根容器 `inline-flex` **fit-content**，禁止被 `fill_container` 拉伸：6 格 = 202、8 格 = 272。
+- **分隔符**：只在传了 `separator` prop 时渲染（默认无！），每个格子之间一个，`/` 为 7×22、`—` 为 9.58×22，颜色 `rgba(0,0,0,0.88)`，与格子之间同样隔 8px gap；6 格带 `/` 总宽 = 277，带 `—` 总宽约 289.9。官方「custom function separator」demo 按 index 交替蓝/红（`(i) => i&1 ? red : blue`）。
 - **demo 副标题**是 `Typography Title level={5}`：fontSize 16、fontWeight 600、lineHeight 24、marginBottom 8（加上 Flex gap 16 → 标题与组件间隔 24）。画板里用 14/500 是错的。
 - 官方 demo 所有 OTP 初始值为空，**不要**补 `value:"123456"`（mask 行同理，mask 只影响输入后的显示）。
 
-### 13. `Update(id, {inputs})` 是整体替换，不是合并
+### 13. `Input` 后半段 Examples 官方几何
+- `Password box` 的外层 `Space vertical` 是 **285×152**、gap 8；四行均高 32、宽 285，第三行是 `197 + 8 + 80`。这些宽度来自 Example 的 inline `Space` 内容尺寸，不是 `Input.Password` 的组件默认宽度。四个密码值初始均为空。
+- `prefix and suffix` 与 `With clear icon` 都由两个 `<br/>` 形成 **22px 净间距**；后者 TextArea 默认 rows=2、高 54，不是 80。
+- `With character counting` 使用 gap 32，三行高度分别是 32 / 54 / 120。
+- `Custom count logic` 的三个块各为 64px（h5 16/24、600，margin-bottom 8；Input 32），块间 gap 16。`count.max` 超限只把输入文字和计数改为 `#FF4D4F`，affix wrapper 边框仍是 `#D9D9D9`，不能把它当作 `status="error"`。输入文字与计数均为 14/22，在 32px 框内 y=5；普通计数色为 `rgba(0,0,0,.45)`。
+- TextArea 的 `.ant-input-data-count` 不在输入框内部：官网绝对定位的 top = wrapper height - 1、right = 0，高 22、字号 14；计数右边缘与 wrapper 对齐。原生 resize handle 仍在 textarea 内部右下角，因此两者不能共用同一个框内坐标。`autoSize` 或 `resize:none` 时不显示 resize handle。
+- `Status` 使用 width 100%、gap 8；四行均高 32。`Focus` 顶部按钮按内容宽，实测为 115.88 / 114.77 / 149.59 / 163.55，间距 8。
+- `Custom semantic dom styling` 使用 gap 24；各行官网 y 坐标为 0 / 56 / 112 / 190 / 246 / 302。TextArea 默认 rows=2、高 54。OTP 根节点宽度为 100%，内容从 x=0 开始；styles 把单格覆盖为 32px、蓝色边框 `#6E8CFB`，`*` 分隔符实测约 6.45×22px，在 32px 行内以 y=5 上下居中，六格内容整体宽约 304.25。其余函数样式颜色依次为 Input `#696FC7`、TextArea 边框/计数 `#BDE3C3`、Password `#F5D3C4`、Search `#4DA8DA`。
+- 该 Semantic Style 示例的 large Search 为 40px 高，input padding `7px 11px`，所以文字节点 x=12、y=8、行盒高24；右侧按钮 40×40，与 input 重叠 1px，16px Search icon 位于按钮内 x/y=12。
+- `Input.Password` 有自定义 suffix 时的视觉顺序是 `input → visibility icon → custom suffix`。middle 尺寸下两枚 icon 均为 14px、间隔 8px，最右 icon 距外框右边 12px，input 与第一枚 icon 保留 4px。
+
+### 14. `Update(id, {inputs})` 是整体替换，不是合并
 pen 的 `Update` 传 `inputs` 时会**整对象替换**，漏写的字段会被清掉（例如只想改 `rows:2` 会把 `placeholder`/`autoSize` 一起抹掉）。改实例 props 必须把该实例的完整 inputs 一次性写全，改完用 `Get` 回读确认。
-
-

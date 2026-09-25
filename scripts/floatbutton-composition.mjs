@@ -3,7 +3,7 @@ export const manifest=JSON.parse(await readFile(new URL('../registry/canvas-comp
 export const renderFloatButton=new Function('pencil',await readFile(new URL('../canvas-components/FloatButton.js',import.meta.url),'utf8'));
 export const renderBadge=new Function('pencil',await readFile(new URL('../canvas-components/Badge.wrapper.js',import.meta.url),'utf8'));
 export const renderIndicator=new Function('pencil',await readFile(new URL('../canvas-components/Badge.js',import.meta.url),'utf8'));
-export function iconInstance(name){if(!manifest.iconRefs[name])throw new Error('Unknown Icon '+name);return {type:'script',scriptUri:`../canvas-components/icons/${name}.js`,name,inputs:{}};}
+export function iconInstance(name){if(!manifest.iconRefs[name])throw new Error('Unknown Icon '+name);return {type:'script',scriptUri:'../canvas-components/Icon.js',name,inputs:{type:name,name}};}
 export function floatButtonInstance({icon=iconInstance('FileTextOutlined'),...props}={},placement={}){
  if(icon&&(icon.type!=='script'||!icon.scriptUri))throw new Error('icon must be an independent component instance');
  const inputs={shape:'circle',type:'default',state:'normal',...props,icon:icon?JSON.stringify(icon):''};

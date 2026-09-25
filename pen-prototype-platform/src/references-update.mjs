@@ -3,7 +3,7 @@ import { defaultRepo, githubChannelUrl } from "./config.mjs";
 import { pathExists, readJson, writeJson } from "./io.mjs";
 import { stateHome } from "./paths.mjs";
 import { resolveRelease } from "./release-resolver.mjs";
-import { currentSkillPath } from "./skill-bootstrap.mjs";
+import { currentReferencePath } from "./skill-bootstrap.mjs";
 
 export const DEFAULT_TTL_MINUTES = 60;
 
@@ -17,7 +17,7 @@ async function readCurrent(currentPath) {
 }
 
 async function describe(kitRoot, kitVersion, channel) {
-  return { channel, kitVersion, kitRoot, skillPath: await currentSkillPath(kitRoot) };
+  return { channel, kitVersion, kitRoot, referencePath: await currentReferencePath(kitRoot) };
 }
 
 function withinTtl(checkedAt, ttlMinutes) {

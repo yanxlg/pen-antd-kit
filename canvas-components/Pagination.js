@@ -203,7 +203,17 @@ function renderNavigation(component, i, W, H, metrics) {
     const itemY=Math.max(inset,Math.round((H-size)/2));
     const color=i.disabled?disabled:fg;
     if(i.hideOnSinglePage&&pages===1)return nodes;
-    if(i.showTotal){const label=i.showTotal==='range'?`${(current-1)*pageSize+1}-${Math.min(current*pageSize,total)} of ${total} items`:`Total ${total} items`;nodes.push(text('Total',label,x,itemY,measure(label),size,color));x+=measure(label)+8;}
+    const isZh = i.locale === 'zh_CN' || i.locale === 'zh-CN' || i.locale === 'zh' || i.locale === 'cn' || (i.locale !== 'en_US' && i.locale !== 'en');
+    if(i.showTotal){
+      const customLabel = typeof i.showTotal === 'string' && !['total', 'range', 'true'].includes(i.showTotal)
+        ? i.showTotal.replace('${total}', total).replace('{total}', total)
+        : null;
+      const label = customLabel || (i.showTotal === 'range'
+        ? (isZh ? `第 ${(current-1)*pageSize+1}-${Math.min(current*pageSize,total)} 条 / 共 ${total} 条` : `${(current-1)*pageSize+1}-${Math.min(current*pageSize,total)} of ${total} items`)
+        : (isZh ? `共 ${total} 条` : `Total ${total} items`));
+      nodes.push(text('Total',label,x,itemY,measure(label),size,color));
+      x+=measure(label)+8;
+    }
     function arrow(name,inactive,label){const w=label?measure(label)+8:size;if(label)nodes.push(text(name,label,x,itemY,w,size,inactive||i.disabled?disabled:primary));else nodes.push(icon(name,x+(size-12)/2,itemY+(size-12)/2,12,inactive||i.disabled?disabled:color));x+=w+gap;}
     arrow('LeftOutlined',current===1,i.previousLabel);
     if(i.simple){
@@ -244,19 +254,20 @@ function renderNavigation(component, i, W, H, metrics) {
         nodes.push(script('InputNumber',{value:pageSize,min:1,disabled:!!i.disabled,size:i.size||'middle'},x,itemY,100,size));
         x+=108;
       }else{
-        const label=pageSize+' / page',w=measureExact(label)+42;
-        nodes.push(script('Select',{value:label,options:'10 / page|20 / page|50 / page|100 / page',disabled:!!i.disabled,size:i.size||'middle',allowClear:false},x,itemY,w,size));
+        const label=isZh?`${pageSize} 条/页`:`${pageSize} / page`,w=measureExact(label)+42;
+        nodes.push(script('Select',{value:label,options:isZh?'10 条/页|20 条/页|50 条/页|100 条/页':'10 / page|20 / page|50 / page|100 / page',disabled:!!i.disabled,size:i.size||'middle',allowClear:false},x,itemY,w,size));
         x+=w+8;
       }
     }
     if(i.showQuickJumper){
-      const prefix='Go to',prefixWidth=measureExact(prefix),prefixX=x+(showSizeChanger?0:8);
+      const prefix=isZh?'跳至':'Go to',prefixWidth=measureExact(prefix),prefixX=x+(showSizeChanger?0:8);
       nodes.push(text('Jump prompt',prefix,prefixX,itemY,prefixWidth,size,color));
       x=prefixX+prefixWidth+8;
-      nodes.push(script('Input',{value:'',placeholder:'',disabled:!!i.disabled,size:i.size==='small'?'small':i.size==='large'?'large':'middle',allowClear:false},x,itemY,50,size));
+      nodes.push(script('Input',{value:'',placeholder:'',disabled:!!i.disabled,size:i.size==='small'?'small':i.size==='large'?'large':'middle',allowClear:false,textAlign:'center'},x,itemY,50,size));
       x+=58;
-      nodes.push(text('Jump suffix','Page',x,itemY,measureExact('Page'),size,color));
-      x+=measureExact('Page');
+      const suffix=isZh?'页':'Page';
+      nodes.push(text('Jump suffix',suffix,x,itemY,measureExact(suffix),size,color));
+      x+=measureExact(suffix);
     }
     const used=Math.max(0,...nodes.filter(n=>!n.name?.startsWith('Root border')&&n.name!=='Pagination root bg').map(n=>n.x+n.width));
     const offset=i.align==='center'?(W-used)/2:i.align==='end'?W-used-inset:0;

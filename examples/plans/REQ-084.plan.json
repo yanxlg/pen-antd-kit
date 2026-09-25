@@ -1,0 +1,1004 @@
+{
+  "version": 1,
+  "title": "APP配置运营管理（REQ-084）",
+  "source": "/Users/yanxianliang/overseas/fintechgrowthui/docs/history/REQ-084/resources/APP配置运营管理 & 配置清单_需求.md",
+  "inputs": [
+    {
+      "kind": "requirements",
+      "path": "/Users/yanxianliang/overseas/fintechgrowthui/docs/history/REQ-084/resources/APP配置运营管理 & 配置清单_需求.md",
+      "note": "PRD：4 个一级菜单、抽屉与二次确认弹窗规则、验收标准 AC-00 ~ AC-06.1"
+    },
+    {
+      "kind": "html",
+      "path": "/Users/yanxianliang/overseas/fintechgrowthui/docs/history/REQ-084/resources/APP配置运营管理_原型.html",
+      "note": "既有原型，用于核对信息架构；样式不作为事实源"
+    },
+    {
+      "kind": "pen",
+      "path": "/Users/yanxianliang/overseas/fintechgrowthui/docs/history/REQ-084/resources/APP配置运营管理_标准原型_v2.pen",
+      "note": "上一版标准原型，用于核对页面清单与抽屉字段"
+    }
+  ],
+  "assumptions": [
+    "四个一级菜单共享同一 App Shell；appsource 由外壳的 App Source Switcher 控制，本期固定 PAKORA。",
+    "APP 配置页的内容区由 split-tabs 模板承载（左侧模块树 + BFF配置/中台配置 Tabs + 筛选 + 表格 + 分页），不再单独拆 tab 模块。",
+    "错误码管理、中台配置管理、页面管理三页共用 standard-list 模板。",
+    "Kit 模板目录当前只有页面和抽屉模板，没有弹窗模板；弹窗模块标记 custom 并在画布上留占位 Frame。",
+    "发布历史抽屉与操作记录抽屉复用 drawer-detail 的遮罩与抽屉外壳，body 替换为表格。",
+    "本阶段只生成模块 Frame 骨架，字段级内容与交互态在后续步骤按各模块 structure 填充。",
+    "页面以普通 Frame 复制 App Shell，并将内容模板放入 Page Body Slot；内部正式控件从组件库导入。"
+  ],
+  "modules": [
+    {
+      "id": "app-config.workspace",
+      "kind": "page",
+      "title": "APP配置",
+      "goal": "按 appsource、模块、页面和关键字定位配置项，并在 BFF配置/中台配置两个 Tab 中查看与操作。",
+      "requirementRefs": [
+        "3.1.1 F-01",
+        "3.1.2",
+        "3.1.3",
+        "AC-01",
+        "AC-05"
+      ],
+      "template": {
+        "outer": "admin-app-shell",
+        "inner": "split-tabs",
+        "slot": "Page Body Slot · 页面内容插槽"
+      },
+      "structure": [
+        {
+          "role": "shell",
+          "label": "Admin App Shell",
+          "note": "品牌区、侧边菜单、面包屑、App Source Switcher、语言/RTL、头像；默认全量保留"
+        },
+        {
+          "role": "catalog",
+          "label": "模块树",
+          "note": "左侧模块与页面目录，切换时保持右侧当前 Tab 不变并重新筛选"
+        },
+        {
+          "role": "content",
+          "label": "BFF配置 / 中台配置 Tabs",
+          "note": "BFF 仅展示 BFF 直配；中台配置仅展示当前模块关联引用"
+        },
+        {
+          "role": "filters",
+          "label": "检索区",
+          "note": "页面下拉、配置名称/编码输入、状态下拉、查询、重置"
+        },
+        {
+          "role": "table",
+          "label": "配置列表",
+          "note": "页面、配置编码/名称、状态、描述、更新人、更新时间、操作；操作列 fixed right"
+        },
+        {
+          "role": "actions",
+          "label": "行操作",
+          "note": "编辑、启用/停用、历史记录；发布中置灰并展示气泡「配置发布中」"
+        },
+        {
+          "role": "feedback",
+          "label": "空态/发布中/未发布变更标记",
+          "note": "无匹配空态、发布中禁用、未发布变更标记"
+        }
+      ],
+      "components": [
+        "Layout",
+        "Menu",
+        "Breadcrumb",
+        "Select",
+        "Tabs",
+        "Input",
+        "Button",
+        "Table",
+        "Pagination",
+        "Tag",
+        "Tooltip",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty",
+        "publishing",
+        "error"
+      ],
+      "notes": "生成时复制 App Shell 普通 Frame，并将 split-tabs 模板填入 Page Body Slot；内部正式控件保留组件库引用。"
+    },
+    {
+      "id": "error-code.list",
+      "kind": "page",
+      "title": "错误码管理",
+      "goal": "全量检索、新建、查看、编辑、启停错误码并追溯历史。",
+      "requirementRefs": [
+        "3.2",
+        "AC-06.1"
+      ],
+      "template": {
+        "outer": "admin-app-shell",
+        "inner": "standard-list",
+        "slot": "Page Body Slot · 页面内容插槽"
+      },
+      "structure": [
+        {
+          "role": "shell",
+          "label": "Admin App Shell"
+        },
+        {
+          "role": "filters",
+          "label": "检索区",
+          "note": "页面下拉、错误码/错误描述合并输入、状态下拉、呈现形式下拉、查询、重置"
+        },
+        {
+          "role": "actions",
+          "label": "新建错误码",
+          "note": "仅研发角色可见"
+        },
+        {
+          "role": "table",
+          "label": "错误码列表",
+          "note": "错误码、错误描述、关联页面、呈现形式、状态、更新人、更新时间、操作"
+        },
+        {
+          "role": "actions",
+          "label": "行操作",
+          "note": "查看、编辑、启用/停用、历史记录"
+        },
+        {
+          "role": "feedback",
+          "label": "空态与分页"
+        }
+      ],
+      "components": [
+        "Layout",
+        "Select",
+        "Input",
+        "Button",
+        "Table",
+        "Pagination",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty",
+        "error"
+      ],
+      "notes": "生成时复制 App Shell 普通 Frame，并将 standard-list 模板填入 Page Body Slot；内部正式控件保留组件库引用。"
+    },
+    {
+      "id": "mid-platform.list",
+      "kind": "page",
+      "title": "中台配置管理",
+      "goal": "维护中台配置引用：新建、查看、编辑、删除，并保留操作记录。",
+      "requirementRefs": [
+        "3.3"
+      ],
+      "template": {
+        "outer": "admin-app-shell",
+        "inner": "standard-list",
+        "slot": "Page Body Slot · 页面内容插槽"
+      },
+      "structure": [
+        {
+          "role": "shell",
+          "label": "Admin App Shell"
+        },
+        {
+          "role": "filters",
+          "label": "检索区",
+          "note": "配置名称、配置来源、关联模块、关联页面、状态"
+        },
+        {
+          "role": "actions",
+          "label": "新建配置 / 操作记录",
+          "note": "操作记录入口位于列表顶部"
+        },
+        {
+          "role": "table",
+          "label": "中台配置列表",
+          "note": "配置名称、配置来源、来源标识、关联模块、关联页面、更新人、更新时间、操作"
+        },
+        {
+          "role": "actions",
+          "label": "行操作",
+          "note": "查看、编辑、删除；删除需二次确认并校验 BFF 关联"
+        },
+        {
+          "role": "feedback",
+          "label": "空态与分页"
+        }
+      ],
+      "components": [
+        "Layout",
+        "Select",
+        "Input",
+        "Button",
+        "Table",
+        "Pagination",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty",
+        "error"
+      ],
+      "notes": "生成时复制 App Shell 普通 Frame，并将 standard-list 模板填入 Page Body Slot；内部正式控件保留组件库引用。"
+    },
+    {
+      "id": "page-management.list",
+      "kind": "page",
+      "title": "页面管理",
+      "goal": "维护 APP 页面主数据（页面名称、页面编码、所属模块、状态），供配置与埋点引用。",
+      "requirementRefs": [
+        "3.4",
+        "AC-06"
+      ],
+      "template": {
+        "outer": "admin-app-shell",
+        "inner": "standard-list",
+        "slot": "Page Body Slot · 页面内容插槽"
+      },
+      "structure": [
+        {
+          "role": "shell",
+          "label": "Admin App Shell"
+        },
+        {
+          "role": "filters",
+          "label": "检索区",
+          "note": "页面名称/编码、所属模块、状态；不提供 APP 下拉"
+        },
+        {
+          "role": "actions",
+          "label": "新建页面 / 操作记录"
+        },
+        {
+          "role": "table",
+          "label": "页面列表",
+          "note": "APP、页面名称、页面编码、所属模块、状态、操作人、操作时间、操作"
+        },
+        {
+          "role": "actions",
+          "label": "行操作",
+          "note": "编辑、启用/停用"
+        },
+        {
+          "role": "feedback",
+          "label": "空态与分页"
+        }
+      ],
+      "components": [
+        "Layout",
+        "Select",
+        "Input",
+        "Button",
+        "Table",
+        "Pagination",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty",
+        "error"
+      ],
+      "notes": "生成时复制 App Shell 普通 Frame，并将 standard-list 模板填入 Page Body Slot；内部正式控件保留组件库引用。"
+    },
+    {
+      "id": "app-config.edit-drawer",
+      "kind": "drawer",
+      "title": "配置查看/编辑/新建",
+      "goal": "在同一抽屉内查看、编辑或新建一个配置项，包含默认配置与全部规则配置。",
+      "requirementRefs": [
+        "3.1.2.2 F-02",
+        "AC-02"
+      ],
+      "template": "drawer-form",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部",
+          "note": "页面、配置编码、配置名称、配置描述、是否涉及多语言配置各占一行"
+        },
+        {
+          "role": "form",
+          "label": "默认配置卡片",
+          "note": "置顶、不可删除、仅 JSON；多语言时按 English/اردو 分 Tab"
+        },
+        {
+          "role": "form",
+          "label": "规则配置卡片",
+          "note": "执行优先级、条件组、标准化条件行（类型/参数/函数/入参/运算符/匹配值）"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 发布 / 发布并启用；无变更禁用"
+        },
+        {
+          "role": "feedback",
+          "label": "JSON 格式化与校验提示"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Form",
+        "Input",
+        "Select",
+        "InputNumber",
+        "Checkbox",
+        "Radio",
+        "Tabs",
+        "Button",
+        "Alert",
+        "Message"
+      ],
+      "states": [
+        "view",
+        "edit",
+        "create",
+        "dirty",
+        "publishing",
+        "error"
+      ]
+    },
+    {
+      "id": "app-config.history-drawer",
+      "kind": "drawer",
+      "title": "发布历史",
+      "goal": "按发布时间倒序查看某个配置项的多轮发布记录，并进入 diff。",
+      "requirementRefs": [
+        "3.1.2.4.1 F-04",
+        "AC-04"
+      ],
+      "template": "drawer-detail",
+      "notes": "复用 drawer-detail 的遮罩、抽屉外壳与头部；body 的只读详情替换为历史记录表格。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部",
+          "note": "标题「发布历史」+ 关闭"
+        },
+        {
+          "role": "table",
+          "label": "历史记录表格",
+          "note": "发布时间、操作人、变更摘要、记录类型、操作；发布时间倒序"
+        },
+        {
+          "role": "actions",
+          "label": "查看 diff",
+          "note": "打开历史发布 diff 弹窗"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Table",
+        "Pagination",
+        "Button",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty"
+      ]
+    },
+    {
+      "id": "error-code.form-drawer",
+      "kind": "drawer",
+      "title": "错误码新建/查看/编辑",
+      "goal": "维护错误描述、呈现形式、双语页面文案与弹窗按钮配置。",
+      "requirementRefs": [
+        "3.2",
+        "AC-06.1"
+      ],
+      "template": "drawer-form",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部",
+          "note": "错误码只读；错误描述紧随其后"
+        },
+        {
+          "role": "form",
+          "label": "呈现形式",
+          "note": "Toast / 弹窗切换；Toast 展示双语对客文案，弹窗展示标题、文案与按钮配置"
+        },
+        {
+          "role": "form",
+          "label": "弹窗按钮配置",
+          "note": "1–3 个按钮，主/次 + 文案 + 动作；跳转链接展示必填 URL"
+        },
+        {
+          "role": "form",
+          "label": "关联页面",
+          "note": "跨模块多选，至少一项"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "发布 / 发布并启用 + 取消"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Form",
+        "Input",
+        "Select",
+        "Radio",
+        "Checkbox",
+        "Tabs",
+        "Button",
+        "Alert",
+        "Message"
+      ],
+      "states": [
+        "view",
+        "edit",
+        "create",
+        "dirty",
+        "publishing",
+        "error"
+      ]
+    },
+    {
+      "id": "error-code.history-drawer",
+      "kind": "drawer",
+      "title": "错误码历史记录",
+      "goal": "查看错误码的发布与启停历史，并进入按语言分组的字段 diff。",
+      "requirementRefs": [
+        "3.2",
+        "AC-06.1"
+      ],
+      "template": "drawer-detail",
+      "notes": "复用 drawer-detail 的遮罩、抽屉外壳与头部；body 替换为历史记录表格。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部"
+        },
+        {
+          "role": "table",
+          "label": "历史记录表格",
+          "note": "发布时间、操作人、类型（发布/发布并启用/启用/停用）、操作"
+        },
+        {
+          "role": "actions",
+          "label": "查看 diff",
+          "note": "按共用配置、English、اردو 分组"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Table",
+        "Pagination",
+        "Button",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty"
+      ]
+    },
+    {
+      "id": "mid-platform.form-drawer",
+      "kind": "drawer",
+      "title": "中台配置新建/编辑",
+      "goal": "按配置来源（ConfPlus / O端运营页面）维护中台配置引用与关联模块、页面。",
+      "requirementRefs": [
+        "3.3"
+      ],
+      "template": "drawer-form",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部"
+        },
+        {
+          "role": "form",
+          "label": "配置来源",
+          "note": "ConfPlus：所属应用、配置编码级联反显；O端运营页面：配置名称 + 页面 URL"
+        },
+        {
+          "role": "form",
+          "label": "关联关系",
+          "note": "关联模块 → 关联页面联动"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "保存 + 取消；接口加载中禁用保存"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Form",
+        "Input",
+        "Select",
+        "Radio",
+        "Button",
+        "Alert",
+        "Spin"
+      ],
+      "states": [
+        "create",
+        "edit",
+        "loading",
+        "error"
+      ]
+    },
+    {
+      "id": "mid-platform.records-drawer",
+      "kind": "drawer",
+      "title": "中台配置操作记录",
+      "goal": "按时间倒序查看新建、编辑、删除成功的操作记录与摘要。",
+      "requirementRefs": [
+        "3.3"
+      ],
+      "template": "drawer-detail",
+      "notes": "复用 drawer-detail 的遮罩、抽屉外壳与头部；body 替换为操作记录表格。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部"
+        },
+        {
+          "role": "table",
+          "label": "操作记录表格",
+          "note": "操作时间、操作人、配置名称、操作类型"
+        },
+        {
+          "role": "actions",
+          "label": "查看摘要",
+          "note": "打开记录摘要弹窗"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Table",
+        "Pagination",
+        "Button",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty"
+      ]
+    },
+    {
+      "id": "page-management.form-drawer",
+      "kind": "drawer",
+      "title": "页面新建/编辑",
+      "goal": "维护页面名称、页面编码与所属模块；新建默认启用。",
+      "requirementRefs": [
+        "3.4.2",
+        "AC-06"
+      ],
+      "template": "drawer-form",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部",
+          "note": "APP 由当前 appsource 决定，不在抽屉内展示"
+        },
+        {
+          "role": "form",
+          "label": "页面字段",
+          "note": "页面名称、页面编码（编辑态只读）、所属模块下拉"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "发布 / 发布并启用 + 取消"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Form",
+        "Input",
+        "Select",
+        "Button",
+        "Alert"
+      ],
+      "states": [
+        "create",
+        "edit",
+        "publishing",
+        "error"
+      ]
+    },
+    {
+      "id": "page-management.records-drawer",
+      "kind": "drawer",
+      "title": "页面操作记录",
+      "goal": "只读查看页面启用、停用的状态变更记录。",
+      "requirementRefs": [
+        "3.4.2"
+      ],
+      "template": "drawer-detail",
+      "notes": "复用 drawer-detail 的遮罩、抽屉外壳与头部；body 替换为操作记录表格，只读。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与抽屉容器"
+        },
+        {
+          "role": "header",
+          "label": "抽屉头部"
+        },
+        {
+          "role": "table",
+          "label": "操作记录表格",
+          "note": "操作时间、操作人、页面编码、页面名称、状态变更"
+        }
+      ],
+      "components": [
+        "Drawer",
+        "Table",
+        "Pagination",
+        "Tag",
+        "Empty"
+      ],
+      "states": [
+        "default",
+        "loading",
+        "empty"
+      ]
+    },
+    {
+      "id": "app-config.publish-confirm",
+      "kind": "modal",
+      "title": "发布确认",
+      "goal": "发布前展示本次变更的名称、描述、规则配置与 JSON diff 并要求确认。",
+      "requirementRefs": [
+        "3.1.2.3 F-03",
+        "AC-03"
+      ],
+      "custom": true,
+      "customReason": "Kit 模板目录当前没有弹窗模板；弹窗按组件（Modal + Descriptions + diff 列表）自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "header",
+          "label": "标题",
+          "note": "确认发布 / 确认发布并启用"
+        },
+        {
+          "role": "content",
+          "label": "变更列表",
+          "note": "仅展示变化字段；多语言按 English/اردو 分组"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 确认；确认后进入发布中"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Descriptions",
+        "Tabs",
+        "Alert",
+        "Button",
+        "Spin"
+      ],
+      "states": [
+        "default",
+        "publishing",
+        "error"
+      ]
+    },
+    {
+      "id": "app-config.toggle-confirm",
+      "kind": "modal",
+      "title": "启用/停用确认",
+      "goal": "对配置项启停做二次确认，确认后独立发布状态变更。",
+      "requirementRefs": [
+        "3.1.2.1 F-01",
+        "AC-01",
+        "AC-03"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal 组件自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "content",
+          "label": "操作对象与动作说明"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 确认"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Button",
+        "Message"
+      ],
+      "states": [
+        "default",
+        "loading"
+      ]
+    },
+    {
+      "id": "app-config.discard-confirm",
+      "kind": "modal",
+      "title": "放弃未发布变更",
+      "goal": "编辑态存在未发布变更时，关闭抽屉前提供继续编辑与放弃变更两个出口。",
+      "requirementRefs": [
+        "3.1.2.3 F-03",
+        "3.5",
+        "AC-03"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal 组件自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "header",
+          "label": "标题「放弃未发布变更？」"
+        },
+        {
+          "role": "content",
+          "label": "影响说明",
+          "note": "放弃后清除未发布输入"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "继续编辑（主）+ 放弃变更"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Button"
+      ],
+      "states": [
+        "default"
+      ]
+    },
+    {
+      "id": "app-config.history-diff",
+      "kind": "modal",
+      "title": "历史发布 diff",
+      "goal": "左右对照展示某次发布前后的默认配置与规则配置差异。",
+      "requirementRefs": [
+        "3.1.2.4.2",
+        "AC-04"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal + 左右对照卡片自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与大尺寸弹窗"
+        },
+        {
+          "role": "header",
+          "label": "标题 +「仅展示变更」勾选",
+          "note": "默认勾选"
+        },
+        {
+          "role": "content",
+          "label": "逐行对照",
+          "note": "每张卡片一行，左变更前/右变更后，按行高亮；缺失侧展示「无」"
+        },
+        {
+          "role": "footer",
+          "label": "关闭"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Checkbox",
+        "Tabs",
+        "Button",
+        "Divider"
+      ],
+      "states": [
+        "default",
+        "all-cards",
+        "changed-only"
+      ]
+    },
+    {
+      "id": "error-code.publish-confirm",
+      "kind": "modal",
+      "title": "错误码发布确认",
+      "goal": "按语言分组展示错误码字段变更并要求确认发布或发布并启用。",
+      "requirementRefs": [
+        "3.2",
+        "AC-06.1"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal 组件自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "content",
+          "label": "变更分组",
+          "note": "共用配置 / English / اردو，仅展示变更字段"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 确认发布"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Tabs",
+        "Descriptions",
+        "Button"
+      ],
+      "states": [
+        "default",
+        "publishing",
+        "error"
+      ]
+    },
+    {
+      "id": "mid-platform.delete-confirm",
+      "kind": "modal",
+      "title": "删除中台配置确认",
+      "goal": "删除前二次确认，并被 APP 配置关联校验拦截。",
+      "requirementRefs": [
+        "3.3"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal 组件自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "content",
+          "label": "删除对象与影响说明",
+          "note": "被引用时展示「当前配置已被 APP 配置关联，无法删除」"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 删除"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Alert",
+        "Button",
+        "Message"
+      ],
+      "states": [
+        "default",
+        "blocked",
+        "loading"
+      ]
+    },
+    {
+      "id": "mid-platform.record-summary",
+      "kind": "modal",
+      "title": "操作记录摘要",
+      "goal": "展示单条操作记录的来源、来源标识、关联模块页面与变更摘要。",
+      "requirementRefs": [
+        "3.3"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal + Descriptions 自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "content",
+          "label": "字段摘要",
+          "note": "配置来源、来源标识、关联模块、关联页面、变更摘要"
+        },
+        {
+          "role": "footer",
+          "label": "关闭"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Descriptions",
+        "Button"
+      ],
+      "states": [
+        "default"
+      ]
+    },
+    {
+      "id": "page-management.confirm",
+      "kind": "modal",
+      "title": "页面发布/启停确认",
+      "goal": "页面新建、编辑、启停的二次确认；被引用时停用被拦截。",
+      "requirementRefs": [
+        "3.4.2",
+        "AC-06"
+      ],
+      "custom": true,
+      "customReason": "无弹窗模板；按 Modal 组件自建。",
+      "structure": [
+        {
+          "role": "overlay",
+          "label": "遮罩与居中弹窗"
+        },
+        {
+          "role": "content",
+          "label": "确认文案",
+          "note": "发布 / 发布并启用 / 停用被拦截的提示"
+        },
+        {
+          "role": "footer",
+          "label": "底部操作",
+          "note": "取消 + 确认"
+        }
+      ],
+      "components": [
+        "Modal",
+        "Alert",
+        "Button",
+        "Message"
+      ],
+      "states": [
+        "default",
+        "blocked",
+        "loading"
+      ]
+    }
+  ]
+}

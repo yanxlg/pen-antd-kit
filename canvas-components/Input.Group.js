@@ -5,39 +5,67 @@
  * @input primaryColor: color = #1677FF
  */
 
-const i = pencil.input;
-const W = Math.max(80, pencil.width), H = Math.max(24, pencil.height);
-const pad = i.size === "small" ? 8 : i.size === "large" ? 16 : 12;
+const i = pencil.input || {};
+const W = Math.max(80, pencil.width || 320);
 const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-const text = (content, x, y, width, color="#000000E0", fontSize=14, weight="normal", align="left") => ({type:"text", content:String(content), x, y, width, height:Math.max(16,fontSize+4), fill:color, fontFamily:"Inter", fontSize, fontWeight:weight, textAlign:align});
-const box = (x, y, width, height, fill="#FFFFFF", radius=6, stroke="#D9D9D9", strokeWidth=1) => ({type:"rectangle", x, y, width, height, cornerRadius:radius, fill, stroke, strokeWidth, strokeAlignment:"inner"});
-const circle = (x, y, size, fill="#1677FF", stroke=undefined) => ({type:"ellipse", x, y, width:size, height:size, fill, stroke, strokeWidth:stroke?1:0});
-const nodes = [];
-const disabled = i.disabled ? "#00000040" : "#000000E0";
-const primary = i.danger ? "#FF4D4F" : (i.primaryColor || "#1677FF");
-const borderCol = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
-const bgFill = i.variant === "filled" ? "#00000005" : "#FFFFFF";
-const strokeCol = i.variant === "borderless" ? "#00000000" : borderCol;
+const fs = i.size === "small" ? 12 : i.size === "large" ? 16 : 14;
+const r = i.size === "small" ? 4 : i.size === "large" ? 8 : 6;
+const isCompact = i.compact !== false;
 
-  const fieldW = Math.max(1, pencil.width);
-  const fieldH = i.multiline ? H : h;
-  if (i.otp) {
-    const count=6,gap=8,bw=(fieldW-gap*(count-1))/count;
-    for(let n=0;n<count;n++){nodes.push(box(n*(bw+gap),0,bw,h,i.disabled?"#0000000A":bgFill,6,strokeCol));if(i.value)nodes.push(text(String(i.value)[n]||"",n*(bw+gap),7,bw,disabled,14,"normal","center"));}
-    return nodes;
-  }
-  nodes.push(box(0, 0, fieldW, fieldH, i.disabled ? "#0000000A" : bgFill, 6, strokeCol));
-  let curX = pad;
-  if (i.prefix) {
-    nodes.push(text(i.prefix, curX, (h-18)/2, 20, "#00000040", 13));
-    curX += 20;
-  }
-  const raw = i.value !== undefined && i.value !== "" ? i.value : (i.placeholder ?? (i.prefix ? "" : "请输入内容"));
-  const val = i.password && i.value ? "•".repeat(Math.max(6,String(i.value).length)) : raw;
-  const col = i.value ? disabled : "#00000040";
-  const center = i.textAlign === "center";
-  const suffixSpace=i.search?44:(i.allowClear?32:pad);
-  nodes.push(text(val, center ? 0 : curX, i.multiline?10:(h-18)/2, center ? fieldW : fieldW - curX - suffixSpace, col, 14, "normal", center ? "center" : "left"));
-  if (i.allowClear && i.value && !i.search) nodes.push(text("✕", fieldW - 24, (h-18)/2, 16, "#00000040", 12));
-  if(i.search){nodes.push(box(fieldW-40,0,40,h,primary,[0,6,6,0],primary));nodes.push(text("⌕",fieldW-40,6,40,"#fff",16,"normal","center"));}
+const nodes = [];
+
+const text = (content, x, y, width, color = "#000000E0", fontSize = 14, weight = "normal", align = "left", height = Math.max(16, fontSize + 4)) => ({
+  type: "text",
+  content: String(content),
+  x,
+  y,
+  width,
+  height,
+  fill: color,
+  fontFamily: "Inter",
+  fontSize,
+  fontWeight: weight,
+  textAlign: align,
+  lineHeight: height / fontSize,
+});
+
+const box = (x, y, width, height, fill = "#FFFFFF", radius = 6, stroke = "#D9D9D9", strokeWidth = 1) => ({
+  type: "rectangle",
+  x,
+  y,
+  width,
+  height,
+  cornerRadius: radius,
+  fill,
+  stroke,
+  strokeWidth,
+  strokeAlignment: "inner",
+});
+
+if (isCompact) {
+  // 紧凑模式：双输入框无缝并排连接（例如区号 0571 + 电话 26888888）
+  const w1 = Math.round(W * 0.3);
+  const w2 = W - w1 + 1;
+  const textY = Math.round((h - 22) / 2);
+
+  // 左侧子项
+  nodes.push(box(0, 0, w1, h, "#FFFFFF", [r, 0, 0, r], "#D9D9D9", 1));
+  nodes.push(text("0571", 11, textY, w1 - 22, "#000000E0", fs, "normal", "left", 22));
+
+  // 右侧子项
+  nodes.push(box(w1 - 1, 0, w2, h, "#FFFFFF", [0, r, r, 0], "#D9D9D9", 1));
+  nodes.push(text("26888888", w1 + 11, textY, w2 - 22, "#000000E0", fs, "normal", "left", 22));
+} else {
+  // 普通模式：支持两两并排展示
+  const gap = 8;
+  const itemW = Math.max(20, (W - gap) / 2);
+  const textY = Math.round((h - 22) / 2);
+
+  nodes.push(box(0, 0, itemW, h, "#FFFFFF", r, "#D9D9D9", 1));
+  nodes.push(text("Input 1", 11, textY, itemW - 22, "#000000E0", fs, "normal", "left", 22));
+
+  nodes.push(box(itemW + gap, 0, itemW, h, "#FFFFFF", r, "#D9D9D9", 1));
+  nodes.push(text("Input 2", itemW + gap + 11, textY, itemW - 22, "#000000E0", fs, "normal", "left", 22));
+}
+
 return nodes;

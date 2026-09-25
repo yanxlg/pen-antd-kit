@@ -22,6 +22,8 @@
  * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  * @input variant: enum("outlined", "borderless", "filled", "underlined") = "outlined"
  * @input primaryColor: color = #1677FF
+ * @input hasFeedback: boolean = false
+ * @input feedbackStatus: enum("none", "success", "warning", "error", "validating") = "none"
  */
 
 const i = pencil.input;
@@ -32,7 +34,9 @@ const fs = i.size === "large" ? 16 : 14;
 const primary = i.primaryColor || "#1677FF";
 const disabled = !!i.disabled;
 const semantic = i.semanticStyle || "default";
-const statusColor = i.status === "error" ? "#FF4D4F" : i.status === "warning" ? "#FAAD14" : "#D9D9D9";
+const isStatusError = i.status === "error" || (i.hasFeedback && i.feedbackStatus === "error");
+const isStatusWarning = i.status === "warning" || (i.hasFeedback && i.feedbackStatus === "warning");
+const statusColor = isStatusError ? "#FF4D4F" : isStatusWarning ? "#FAAD14" : "#D9D9D9";
 const borderColor = semantic === "function" ? "#722ED1" : statusColor;
 const bg = disabled || i.variant === "filled" ? "#F5F5F5" : "#FFFFFF";
 const textColor = disabled ? "#00000040" : "#000000E0";
@@ -92,9 +96,21 @@ if (i.prefixIcon) {
   nodes.push(smile(left, (h - 14) / 2, semantic === "function" ? "#722ED1" : textColor));
   left += 20;
 }
-const rightSpace = i.suffixIcon === "none" ? pad : 30;
+const effFeedback = i.hasFeedback ? (i.feedbackStatus && i.feedbackStatus !== "none" ? i.feedbackStatus : (i.status === "error" ? "error" : i.status === "warning" ? "warning" : i.status === "validating" ? "validating" : (i.status === "success" ? "success" : "none"))) : "none";
+const rightSpace = (i.suffixIcon === "none" ? pad : 30) + (effFeedback !== "none" ? 20 : 0);
 nodes.push(fieldText(formatValue(raw), left, Math.max(16, W - left - rightSpace), raw ? textColor : "#00000040"));
 if (i.suffixIcon !== "none") nodes.push(i.suffixIcon === "SmileOutlined" ? smile(W - pad - 14, (h - 14) / 2) : clock(W - pad - 14, (h - 14) / 2));
+if (effFeedback !== "none") {
+  const fbPath = effFeedback === "success" ? "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm193.5 301.5l-254.4 256c-3.1 3.1-7.2 4.7-11.3 4.7-4.1 0-8.2-1.6-11.3-4.7l-120.7-121.5c-6.2-6.3-6.2-16.4 0-22.6l22.6-22.6c6.3-6.2 16.4-6.2 22.6 0l96.8 97.4 231.8-233.3c6.2-6.3 16.4-6.3 22.6 0l22.6 22.6c6.3 6.3 6.3 16.4 0 22.6z" :
+                 effFeedback === "warning" ? "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4 3.6 8 8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z" :
+                 effFeedback === "error" ? "M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z" :
+                 "M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z";
+  const fbVb = effFeedback === "validating" ? [0,0,1024,1024] : [64,64,896,896];
+  const fbCol = effFeedback === "success" ? "#52C41A" :
+                effFeedback === "warning" ? "#FAAD14" :
+                effFeedback === "error" ? "#FF4D4F" : "#1677FF";
+  nodes.push(path(fbPath, fbVb, W - pad - 34, (h-14)/2, 14, fbCol));
+}
 
 if (i.open) {
   const format = i.format || "HH:mm:ss";

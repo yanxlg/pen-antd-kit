@@ -4,7 +4,7 @@
 
 GitHub 承载全部发布资源，共两个发布单元：
 
-- **Kit Release**：不可变 Kit，包含 Ant Design `.pen` library、模板 UI、registry、完整 Skill、设计规范、规则和 Schema，避免不同版本被客户端混装。references 随 Kit 一起发布。
+- **Kit Release**：不可变 Kit，包含 Ant Design `.pen` library、模板 UI、registry、版本化 references、设计规范、规则和 Schema，避免不同版本被客户端混装。Kit 不包含可独立安装的 Skill；客户端只安装薄 Skill。
 - **CLI 包**：`@pen-kit/antd`，发布到公共 npm（`registry.npmjs.org`），供 `npx` 直接拉取执行。需要走 GitHub Packages 时传 `--registry https://npm.pkg.github.com/`。
 
 两者互不依赖：references 更新不需要重新发布 CLI，CLI 升级不需要重新打 Kit。
@@ -15,7 +15,7 @@ stable channel 使用固定地址：
 https://github.com/<owner>/<repo>/releases/latest/download/channel-stable.json
 ```
 
-客户端每次原型任务开始时调用 `references update` 解析该地址。发现新版本后下载 tarball、校验 SHA-256、解压到版本目录，再原子切换 `current.json`；下载或校验失败时降级到上一个本地版本并标记 `stale`。薄 Skill 不需要随规范更新而重装，CLI 由 `npx` 自动取最新版本。
+客户端每次原型任务开始时调用 `references update` 解析该地址。发现新版本后下载 tarball、校验 SHA-256、解压到版本目录，再原子切换 `current.json`；下载或校验失败时降级到上一个本地版本并标记 `stale`。日常 references 更新不要求重装薄 Skill，CLI 由 `npx` 自动取最新版本。首次切换到 `referencePath` 协议时，已安装旧版薄 Skill 的客户端需重新安装一次入口文件。
 
 当前下载器适用于可直接访问的 GitHub Release。私有仓库需要另行接入组织认证或把 Release 资产同步到带鉴权的制品服务，不能把长期 token 写进 channel 文件。
 

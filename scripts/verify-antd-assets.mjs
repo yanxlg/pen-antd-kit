@@ -15,7 +15,7 @@ const files=new Set(fs.readdirSync(componentDir).filter(file=>file.endsWith('.js
 const missingFiles=expected.filter(name=>!files.has(name));
 const missingRegistry=expected.filter(name=>!registry.components[name]);
 const missingInspector=Object.keys(registry.components).filter(name=>!inspector.components[name]||inspector.components[name].props.length!==registry.components[name].props.length);
-const missingIconFiles=Object.values(icons).filter(value=>!fs.existsSync(new URL(`canvas-components/icons/${value.name}.js`,root))).map(value=>value.name);
+const missingIconFiles=fs.existsSync(new URL('canvas-components/Icon.js',root))?[]:['Icon.js'];
 const invalidIcons=Object.entries(icons).filter(([,value])=>!value.name||value.fontSize!==24||value.color!=='#1677FF').map(([id])=>id);
 const runtimeErrors=[];
 const emptyByDesign=new Set(['Affix','App','Breadcrumb','Col','Flex','Masonry','Popover','Row','Space','Splitter','Steps','Tooltip','Tour','Upload']);

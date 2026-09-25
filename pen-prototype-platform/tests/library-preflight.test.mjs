@@ -19,11 +19,13 @@ async function fixture() {
   return root;
 }
 
-test("requires one-time manual import when Pen reports no import capability", async () => {
+test("imports through the document when Pen reports no MCP import capability", async () => {
   const result = await prepareLibrary({ kitRoot: await fixture() });
   assert.equal(result.stage, "before-prototype-generation");
-  assert.equal(result.import.automaticImportSupported, false);
-  assert.equal(result.import.manualActionRequired, true);
+  assert.equal(result.import.strategy, "document-import");
+  assert.equal(result.import.automaticImportSupported, true);
+  assert.equal(result.import.manualActionRequired, false);
+  assert.equal(result.import.alias, "antd");
 });
 
 test("selects an explicit future Pen import capability", async () => {

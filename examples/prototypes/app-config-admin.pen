@@ -1,0 +1,1177 @@
+{
+  "version": "2.17",
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ],
+    "density": [
+      "regular",
+      "compact"
+    ]
+  },
+  "children": [
+    {
+      "type": "frame",
+      "id": "library-sources",
+      "name": "Library Sources",
+      "x": -40000,
+      "y": 0,
+      "width": 200,
+      "height": 200,
+      "layout": "vertical",
+      "gap": 24,
+      "children": [
+        {
+          "type": "script",
+          "id": "nXLz3",
+          "x": 24,
+          "y": 72,
+          "name": "Table",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Table",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 760,
+          "height": 280,
+          "scriptUri": "../canvas-components/Table.js",
+          "inputs": {
+            "columns": "[{\"title\":\"Name\",\"dataIndex\":\"c0\"},{\"title\":\"Age\",\"dataIndex\":\"c1\"},{\"title\":\"Address\",\"dataIndex\":\"c2\"},{\"title\":\"Action\",\"dataIndex\":\"c3\"}]",
+            "dataSource": "[{\"key\":\"0\",\"c0\":\"John Brown\",\"c1\":\"32\",\"c2\":\"New York No. 1 Lake Park\",\"c3\":\"Invite\"},{\"key\":\"1\",\"c0\":\"Jim Green\",\"c1\":\"42\",\"c2\":\"London No. 1 Lake Park\",\"c3\":\"Delete\"},{\"key\":\"2\",\"c0\":\"Joe Black\",\"c1\":\"32\",\"c2\":\"Sydney No. 1 Lake Park\",\"c3\":\"View\"}]"
+          }
+        },
+        {
+          "type": "script",
+          "id": "QYpZY",
+          "x": 24,
+          "y": 72,
+          "name": "Tree",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Tree",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 600,
+          "height": 180,
+          "scriptUri": "../canvas-components/Tree.js"
+        },
+        {
+          "type": "script",
+          "id": "acxPC",
+          "name": "Tabs",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Tabs",
+              "category": "Navigation",
+              "version": "6.6.4"
+            }
+          },
+          "width": 420,
+          "height": 84,
+          "scriptUri": "../canvas-components/Tabs.js",
+          "inputs": {
+            "items": "[{\"key\": \"1\", \"label\": \"Tab 1\", \"disabled\": false, \"closable\": false, \"children\": \"Content of Tab Pane 1\"}, {\"key\": \"2\", \"label\": \"Tab 2\", \"disabled\": false, \"closable\": false, \"children\": \"Content of Tab Pane 2\"}, {\"key\": \"3\", \"label\": \"Tab 3\", \"disabled\": false, \"closable\": false, \"children\": \"Content of Tab Pane 3\"}]",
+            "activeKey": "1",
+            "type": "line",
+            "size": "middle",
+            "tabPlacement": "top",
+            "centered": false,
+            "hideAdd": true,
+            "styles": "{}"
+          }
+        },
+        {
+          "type": "script",
+          "id": "VoQE7",
+          "name": "Select",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Select",
+              "category": "Data Entry",
+              "version": "6.6.4",
+              "example": "Definition"
+            }
+          },
+          "width": 240,
+          "height": 32,
+          "scriptUri": "../canvas-components/Select.js",
+          "inputs": {
+            "placeholder": "Select a person",
+            "value": "",
+            "options": "Jack|Lucy|Tom"
+          }
+        },
+        {
+          "type": "script",
+          "id": "iQ5uU",
+          "name": "Input",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Input",
+              "category": "Data Entry",
+              "version": "6.6.4",
+              "example": "Definition"
+            }
+          },
+          "width": 320,
+          "height": 32,
+          "scriptUri": "../canvas-components/Input.js",
+          "inputs": {
+            "placeholder": "Basic usage",
+            "value": "",
+            "allowClear": false
+          }
+        },
+        {
+          "type": "script",
+          "id": "jSd6E",
+          "name": "Input.TextArea",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Input.TextArea",
+              "category": "Data Entry",
+              "version": "6.6.4"
+            }
+          },
+          "width": 420,
+          "height": 100,
+          "scriptUri": "../canvas-components/Input.TextArea.js"
+        },
+        {
+          "type": "script",
+          "id": "SiWnx",
+          "name": "InputNumber",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "InputNumber",
+              "category": "Data Entry",
+              "version": "6.6.4",
+              "example": "Definition"
+            }
+          },
+          "width": 160,
+          "height": 32,
+          "scriptUri": "../canvas-components/InputNumber.js",
+          "inputs": {
+            "value": 3,
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "type": "script",
+          "id": "DQZzq",
+          "x": 404,
+          "y": 115,
+          "name": "Button",
+          "context": "Button properties: icon is a component reference; children is a string; childrenContent holds rich content.",
+          "reusable": true,
+          "width": 85,
+          "height": 32,
+          "scriptUri": "../canvas-components/Button.js",
+          "inputs": {
+            "children": "Button",
+            "type": "default",
+            "icon": "",
+            "disabled": false,
+            "color": "default",
+            "variant": "outlined",
+            "size": "middle",
+            "shape": "default",
+            "danger": false,
+            "ghost": false,
+            "state": "normal"
+          }
+        },
+        {
+          "type": "script",
+          "id": "cpj9Y",
+          "name": "Checkbox",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Checkbox",
+              "category": "Data Entry",
+              "version": "6.6.4",
+              "example": "Definition"
+            }
+          },
+          "width": 160,
+          "height": 32,
+          "scriptUri": "../canvas-components/Checkbox.js",
+          "inputs": {
+            "checked": false,
+            "children": "Checkbox"
+          }
+        },
+        {
+          "type": "script",
+          "id": "Y9L6l",
+          "name": "Pagination",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Pagination",
+              "category": "Navigation",
+              "version": "6.6.4"
+            }
+          },
+          "width": 360,
+          "height": 32,
+          "scriptUri": "../canvas-components/Pagination.js",
+          "inputs": {
+            "current": 1,
+            "total": 50,
+            "pageSize": 10,
+            "size": "middle",
+            "disabled": false,
+            "simple": false,
+            "showSizeChanger": false,
+            "showQuickJumper": false
+          }
+        },
+        {
+          "type": "script",
+          "id": "w7rZw",
+          "x": 24,
+          "y": 72,
+          "name": "Tag",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Tag",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 34.34,
+          "height": 22,
+          "scriptUri": "../canvas-components/Tag.js",
+          "inputs": {
+            "children": "Tag",
+            "color": "default"
+          }
+        },
+        {
+          "type": "script",
+          "id": "LSKNJ",
+          "x": 24,
+          "y": 72,
+          "name": "Card",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Card",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 360,
+          "height": 180,
+          "scriptUri": "../canvas-components/Card.content.js",
+          "inputs": {
+            "children": "Card content",
+            "padding": 24,
+            "variant": "outlined",
+            "title": "Card title",
+            "bordered": true
+          }
+        },
+        {
+          "type": "frame",
+          "id": "V5YhmT",
+          "name": "Space",
+          "context": "Ant Design Space 6.6.4. Official design props: orientation, size, align, separator, wrap. children is a real component slot. Deprecated direction/split and code-only classNames/styles are omitted.",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Space",
+              "category": "Layout",
+              "version": "6.6.4"
+            }
+          },
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VWZt2",
+              "name": "children",
+              "context": "children — real nested component slot. orientation→layout; size→gap token; align→alignItems; separator→Divider child; wrap→preset.",
+              "slot": [
+                "DQZzq",
+                "f2bMlx",
+                "iQ5uU",
+                "VoQE7",
+                "xi5QX",
+                "yXAfm"
+              ],
+              "gap": "$antd-paddingXS",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "GQZGy",
+                  "type": "ref",
+                  "ref": "DQZzq",
+                  "name": "Button",
+                  "width": 88,
+                  "height": 32,
+                  "inputs": {
+                    "children": "Primary",
+                    "type": "primary"
+                  }
+                },
+                {
+                  "id": "T4JDk",
+                  "type": "ref",
+                  "ref": "DQZzq",
+                  "name": "Button",
+                  "width": 87,
+                  "height": 32,
+                  "inputs": {
+                    "children": "Default",
+                    "type": "default"
+                  }
+                },
+                {
+                  "id": "UfgLB",
+                  "type": "ref",
+                  "ref": "DQZzq",
+                  "name": "Button",
+                  "width": 88,
+                  "height": 32,
+                  "inputs": {
+                    "children": "Dashed",
+                    "type": "dashed"
+                  }
+                },
+                {
+                  "id": "BDMJT",
+                  "type": "ref",
+                  "ref": "DQZzq",
+                  "name": "Button",
+                  "width": 55,
+                  "height": 32,
+                  "inputs": {
+                    "children": "Link",
+                    "type": "link"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tnuK6",
+          "name": "Flex",
+          "context": "Ant Design Flex. Children are real nested component nodes.",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Flex",
+              "category": "Layout",
+              "version": "6.6.4"
+            }
+          },
+          "width": 740,
+          "height": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "D9Fok",
+              "name": "children",
+              "context": "Flex children slot",
+              "slot": [
+                "DQZzq",
+                "f2bMlx",
+                "yml1S",
+                "Iw74k"
+              ],
+              "width": "fill_container",
+              "height": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f9kWQ",
+                  "name": "Flex item 1",
+                  "width": 80,
+                  "height": 40,
+                  "fill": "#1677FF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nWXi8",
+                      "name": "Item label",
+                      "fill": "#FFFFFF",
+                      "content": "1",
+                      "lineHeight": 1.5714,
+                      "fontFamily": "AlibabaSans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yuwMh",
+                  "name": "Flex item 2",
+                  "width": 80,
+                  "height": 40,
+                  "fill": "#4096FF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "edmSa",
+                      "name": "Item label",
+                      "fill": "#FFFFFF",
+                      "content": "2",
+                      "lineHeight": 1.5714,
+                      "fontFamily": "AlibabaSans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uVHk3",
+                  "name": "Flex item 3",
+                  "width": 80,
+                  "height": 40,
+                  "fill": "#1677FF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wyfko",
+                      "name": "Item label",
+                      "fill": "#FFFFFF",
+                      "content": "3",
+                      "lineHeight": 1.5714,
+                      "fontFamily": "AlibabaSans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SCdoJ",
+                  "name": "Flex item 4",
+                  "width": 80,
+                  "height": 40,
+                  "fill": "#4096FF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IIRKy",
+                      "name": "Item label",
+                      "fill": "#FFFFFF",
+                      "content": "4",
+                      "lineHeight": 1.5714,
+                      "fontFamily": "AlibabaSans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "script",
+          "id": "HYXCo",
+          "x": 24,
+          "y": 72,
+          "name": "Drawer",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Drawer",
+              "category": "Feedback",
+              "version": "6.6.4"
+            }
+          },
+          "width": 740,
+          "height": 360,
+          "scriptUri": "../canvas-components/Drawer.js",
+          "inputs": {
+            "title": "Basic Drawer",
+            "children": "Some contents...\nSome contents...\nSome contents...",
+            "open": true,
+            "placement": "right",
+            "width": 378,
+            "height": 256,
+            "mask": true,
+            "closable": true,
+            "loading": false
+          }
+        },
+        {
+          "type": "script",
+          "id": "EVKFO",
+          "x": 24,
+          "y": 72,
+          "name": "Modal",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Modal",
+              "category": "Feedback",
+              "version": "6.6.4"
+            }
+          },
+          "width": 740,
+          "height": 360,
+          "scriptUri": "../canvas-components/Modal.js",
+          "inputs": {
+            "title": "Basic Modal",
+            "children": "Some contents...",
+            "open": true,
+            "width": 520,
+            "centered": false,
+            "closable": true,
+            "mask": true,
+            "okText": "OK",
+            "cancelText": "Cancel",
+            "confirmLoading": false,
+            "loading": false,
+            "footer": true
+          }
+        },
+        {
+          "type": "script",
+          "id": "rS4lY",
+          "x": 24,
+          "y": 72,
+          "name": "Alert",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Alert",
+              "category": "Feedback",
+              "version": "6.6.4"
+            }
+          },
+          "width": 360,
+          "height": 40,
+          "scriptUri": "../canvas-components/Alert.js",
+          "inputs": {
+            "title": "Success Text",
+            "message": "",
+            "description": "",
+            "type": "success",
+            "showIcon": true,
+            "closable": false,
+            "banner": false,
+            "variant": "outlined",
+            "action": ""
+          }
+        },
+        {
+          "type": "script",
+          "id": "b0w4Mx",
+          "x": 24,
+          "y": 72,
+          "name": "Empty",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Empty",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 360,
+          "height": 180,
+          "scriptUri": "../canvas-components/Empty.js"
+        },
+        {
+          "type": "script",
+          "id": "LG38Z",
+          "x": 0,
+          "y": 0,
+          "name": "Typography.Text",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Typography.Text",
+              "category": "Typography",
+              "version": "6.6.4"
+            }
+          },
+          "width": 300,
+          "height": 40,
+          "scriptUri": "../canvas-components/Typography.Text.js",
+          "inputs": {
+            "theme": "light"
+          }
+        },
+        {
+          "type": "script",
+          "id": "uhW9Y",
+          "x": 24,
+          "y": 72,
+          "name": "Descriptions",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Descriptions",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 360,
+          "height": 160,
+          "scriptUri": "../canvas-components/Descriptions.js",
+          "inputs": {
+            "column": 1,
+            "styles": "{\"root\":{\"backgroundColor\":\"#FFFFFF\",\"padding\":12}}"
+          }
+        },
+        {
+          "type": "script",
+          "id": "n9gmO",
+          "x": 24,
+          "y": 72,
+          "name": "Segmented",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Segmented",
+              "category": "Data Display",
+              "version": "6.6.4"
+            }
+          },
+          "width": 240,
+          "height": 32,
+          "scriptUri": "../canvas-components/Segmented.js",
+          "inputs": {
+            "options": "Daily|Weekly|Monthly",
+            "value": "Daily"
+          }
+        },
+        {
+          "type": "script",
+          "id": "rZqkn",
+          "name": "Switch",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Switch",
+              "category": "Data Entry",
+              "version": "6.6.4",
+              "example": "Definition"
+            }
+          },
+          "width": 44,
+          "height": 22,
+          "scriptUri": "../canvas-components/Switch.js",
+          "inputs": {
+            "checked": true,
+            "children": ""
+          }
+        },
+        {
+          "type": "script",
+          "id": "H0DThz",
+          "name": "Radio.Group",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Radio.Group",
+              "category": "Data Entry",
+              "version": "6.6.4"
+            }
+          },
+          "width": 300,
+          "height": 40,
+          "scriptUri": "../canvas-components/Radio.Group.js"
+        },
+        {
+          "type": "script",
+          "id": "puR2r",
+          "x": 24,
+          "y": 72,
+          "name": "Spin",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Spin",
+              "category": "Feedback",
+              "version": "6.6.4"
+            }
+          },
+          "width": 14,
+          "height": 14,
+          "scriptUri": "../canvas-components/Spin.js",
+          "inputs": {
+            "size": "small",
+            "spinning": true,
+            "tip": "",
+            "fullscreen": false,
+            "children": ""
+          }
+        },
+        {
+          "type": "script",
+          "id": "antd-icon-live-origin",
+          "name": "Icon",
+          "context": "Ant Design icon renderer and icon component source.",
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Icon",
+              "category": "General",
+              "version": "6.4.3",
+              "props": {},
+              "tokens": {}
+            }
+          },
+          "width": 32,
+          "height": 32,
+          "scriptUri": "../canvas-components/Icon.js",
+          "inputs": {
+            "name": "HeartOutlined",
+            "fontSize": 32,
+            "color": "#000000E0",
+            "twoToneColor": "#1677ff",
+            "rotate": 0
+          }
+        },
+        {
+          "type": "script",
+          "id": "antd-typography-live-origin",
+          "name": "Typography",
+          "context": "Ant Design typography root component source.",
+          "reusable": true,
+          "metadata": {
+            "type": "antd-component",
+            "antd": {
+              "component": "Typography",
+              "category": "General",
+              "version": "6.4.3",
+              "props": {},
+              "tokens": {}
+            }
+          },
+          "width": 180,
+          "height": 22,
+          "scriptUri": "../canvas-components/Typography.js",
+          "inputs": {
+            "component": "Text",
+            "content": "Ant Design Typography",
+            "level": "1",
+            "theme": "light"
+          }
+        },
+        {
+          "type": "script",
+          "id": "KBvQW",
+          "name": "Splitter.Panel",
+          "reusable": true,
+          "width": 740,
+          "height": 160,
+          "scriptUri": "../canvas-components/Splitter.Panel.js",
+          "inputs": {
+            "children": "{\"type\":\"script\",\"name\":\"Typography.Title\",\"scriptUri\":\"../canvas-components/Splitter.PanelContent.js\",\"inputs\":{\"children\":\"First\",\"color\":\"#00000073\"}}",
+            "size": "",
+            "min": "0",
+            "max": "100%",
+            "resizable": true,
+            "defaultSize": "",
+            "collapsible": false,
+            "destroyOnHidden": false
+          }
+        },
+        {
+          "type": "script",
+          "id": "xi5QX",
+          "name": "Divider",
+          "reusable": true,
+          "width": 600,
+          "height": 49,
+          "scriptUri": "../canvas-components/Divider.js",
+          "inputs": {
+            "orientation": "horizontal",
+            "variant": "solid",
+            "size": "large"
+          }
+        },
+        {
+          "type": "script",
+          "id": "JdEBy",
+          "name": "Splitter",
+          "reusable": true,
+          "width": 740,
+          "height": 240,
+          "scriptUri": "../canvas-components/Splitter.js",
+          "inputs": {
+            "children": "[{\"ref\":\"KBvQW\",\"size\":50,\"resizable\":true,\"collapsible\":false},{\"ref\":\"G41BNr\",\"size\":50,\"resizable\":true,\"collapsible\":false}]",
+            "orientation": "horizontal",
+            "vertical": false,
+            "collapsible": "{}",
+            "destroyOnHidden": false,
+            "onDraggerDoubleClick": "",
+            "onResizeStart": "",
+            "onResize": "",
+            "onResizeEnd": "",
+            "onCollapse": "",
+            "lazy": false,
+            "classNames": "{}",
+            "styles": "{}"
+          }
+        },
+        {
+          "type": "script",
+          "id": "AhZRS",
+          "name": "FloatButton",
+          "context": "FloatButton with root Inspector properties and Icon component reference.",
+          "reusable": true,
+          "width": 40,
+          "height": 40,
+          "scriptUri": "../canvas-components/FloatButton.js",
+          "inputs": {
+            "shape": "circle",
+            "type": "default",
+            "icon": "{\"type\":\"script\",\"name\":\"Icon\",\"scriptUri\":\"../canvas-components/Icon.js\",\"inputs\":{\"name\":\"FileTextOutlined\",\"fontSize\":36,\"color\":\"#000000E0\",\"twoToneColor\":\"#1677ff\",\"rotate\":0}}"
+          }
+        },
+        {
+          "type": "script",
+          "id": "e9TdI",
+          "name": "FloatButton.Group",
+          "reusable": true,
+          "width": 40,
+          "height": 152,
+          "scriptUri": "../canvas-components/FloatButton.group.js",
+          "inputs": {
+            "shape": "circle",
+            "placement": "top",
+            "open": true,
+            "trigger": "click",
+            "firstIcon": "{\"type\":\"script\",\"name\":\"Icon\",\"scriptUri\":\"../canvas-components/Icon.js\",\"inputs\":{\"name\":\"QuestionCircleOutlined\",\"fontSize\":36,\"color\":\"#000000E0\",\"twoToneColor\":\"#1677ff\",\"rotate\":0}}",
+            "secondIcon": "{\"type\":\"script\",\"name\":\"Icon\",\"scriptUri\":\"../canvas-components/Icon.js\",\"inputs\":{\"name\":\"FileTextOutlined\",\"fontSize\":36,\"color\":\"#000000E0\",\"twoToneColor\":\"#1677ff\",\"rotate\":0}}",
+            "thirdIcon": "{\"type\":\"script\",\"name\":\"Icon\",\"scriptUri\":\"../canvas-components/Icon.js\",\"inputs\":{\"name\":\"VerticalAlignTopOutlined\",\"fontSize\":36,\"color\":\"#000000E0\",\"twoToneColor\":\"#1677ff\",\"rotate\":0}}"
+          }
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "antd-colorPrimary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#1677FF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#1668DC",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorSuccess": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#52C41A",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#49AA19",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorWarning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAAD14",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#D89614",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorError": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF4D4F",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#DC4446",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorText": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000E0",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFFD9",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorTextSecondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000A6",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFFA6",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorTextTertiary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00000073",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFF73",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorTextPlaceholder": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00000040",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFF40",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorBgContainer": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#141414",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorBgLayout": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F5F5F5",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#000000",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorFillAlter": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#00000005",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#FFFFFF0A",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-colorBorder": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D9D9D9",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#424242",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "antd-borderRadius": {
+      "type": "number",
+      "value": 6
+    },
+    "antd-borderRadiusLG": {
+      "type": "number",
+      "value": 8
+    },
+    "antd-fontSize": {
+      "type": "number",
+      "value": 14
+    },
+    "antd-controlHeight": {
+      "type": "number",
+      "value": [
+        {
+          "value": 32,
+          "theme": {
+            "density": "regular"
+          }
+        },
+        {
+          "value": 24,
+          "theme": {
+            "density": "compact"
+          }
+        }
+      ]
+    },
+    "antd-paddingXS": {
+      "type": "number",
+      "value": 8
+    },
+    "antd-padding": {
+      "type": "number",
+      "value": 16
+    },
+    "antd-paddingLG": {
+      "type": "number",
+      "value": 24
+    }
+  },
+  "fonts": [
+    {
+      "name": "AlibabaSans",
+      "url": "fonts/ant.design/43c1fc9f81b21c75.woff2",
+      "weight": 300
+    },
+    {
+      "name": "AlibabaSans",
+      "url": "fonts/ant.design/5d15837bbebf7f00.woff2"
+    },
+    {
+      "name": "AlibabaSans",
+      "url": "fonts/ant.design/b884f89e909859c2.woff2",
+      "weight": 500
+    },
+    {
+      "name": "AlibabaSans",
+      "url": "fonts/ant.design/b884f89e909859c2.woff2",
+      "weight": 600
+    },
+    {
+      "name": "AlibabaSans",
+      "url": "fonts/ant.design/b884f89e909859c2.woff2",
+      "weight": 700
+    }
+  ]
+}

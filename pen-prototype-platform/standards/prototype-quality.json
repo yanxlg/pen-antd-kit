@@ -6,7 +6,7 @@
     "information-hierarchy",
     "state-completeness",
     "content-resilience",
-    "responsive-intent",
+    "desktop-canvas-compliance",
     "accessibility"
   ],
   "requiredPageStates": [
@@ -26,16 +26,19 @@
   ],
   "hardFailures": [
     "missing-primary-task",
+    "required-template-not-instantiated",
+    "content-component-not-instantiated",
     "hand-drawn-existing-library-component",
     "unreachable-full-value",
     "unmodeled-destructive-confirmation",
     "color-only-state",
     "clipped-primary-action",
     "unresolved-placeholder",
-    "accidental-overlap"
+    "accidental-overlap",
+    "narrow-screen-state",
+    "invalid-desktop-resolution"
   ],
   "reviewViewports": [
-    { "name": "desktop", "width": 1440 },
-    { "name": "narrow", "width": 760 }
+    { "name": "desktop", "width": 1920, "minimumHeight": 1080 }
   ]
 }

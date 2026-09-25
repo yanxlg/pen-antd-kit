@@ -157,7 +157,7 @@ Pattern 使用 Component instance 组合，不复制组件实现。
 
 浮层模板以完整正常页面作为容器和底层页面，并在同一页面中展示 `open: true` 的 Drawer 或 Modal；必须保留半透明 Mask 和真实打开状态，不能只展示孤立的弹窗或右侧面板。底层页面优先复用对应页面模板实例，表单、描述列表、状态标签、数据表格和操作按钮继续在原位置使用独立组件实例。
 
-每个模板的可见标题必须追加实际画布分辨率，格式为 `Template Name · WIDTH × HEIGHT`；模板节点同时通过 metadata 的 `resolution.width`、`resolution.height` 或等价的机器可读 context 保存相同尺寸。后续原型生成按 metadata、context、标题的顺序解析并使用该分辨率创建页面，不得按画布缩放后的视觉大小推断分辨率。
+每个模板的可见标题必须追加实际画布分辨率，格式为 `Template Name · WIDTH × HEIGHT`；模板节点同时通过 metadata 的 `resolution.width`、`resolution.height` 或等价的机器可读 context 保存相同尺寸。内置桌面模板统一为 `1920×1080`；原型页面根节点固定宽度 `1920`、最小高度 `1080`，内容超出时仅增高。不得创建或交付窄屏页面／响应式状态。后续原型生成按 metadata、context、标题的顺序校验该分辨率，不得按画布缩放后的视觉大小推断分辨率。
 
 Drawer、Modal 等浮层页面的头部、正文和底部操作区必须完整落在模板分辨率定义的视口内。内容超出视口时只裁切或滚动正文区域，底部操作区保持可见，不得通过裁掉底部区域来适配分辨率。
 

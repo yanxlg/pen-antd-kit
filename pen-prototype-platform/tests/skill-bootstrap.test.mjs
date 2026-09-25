@@ -10,6 +10,9 @@ test("installs only the stable bootstrap layer", async () => {
   const result = await installBootstrapSkill(root);
   const content = await readFile(result.skillPath, "utf8");
   assert.match(content, /references update/);
+  assert.match(content, /referencePath/);
+  assert.match(content, /references path/);
+  assert.doesNotMatch(content, /versioned Skill|skillPath/);
   assert.match(content, /npx -y @pen-kit\/antd@latest/);
   assert.doesNotMatch(content, /# List page/);
 });

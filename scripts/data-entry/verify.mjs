@@ -52,6 +52,71 @@ assert(suffixedInput.some(node => node.type === 'text' && node.content === 'RMB'
 const underlinedInput = renderInput({ input: { value: 'Ant Design', variant: 'underlined' }, width: 240, height: 32 });
 assert.equal(underlinedInput[0].stroke, '#00000000', 'Underlined Input removes the surrounding border');
 assert.equal(underlinedInput[1].height, 1, 'Underlined Input renders a single bottom rule');
+const exceededInput = renderInput({ input: { value: 'Hello, antd!', showCount: true, countMax: 10 }, width: 342.66, height: 32 });
+assert.equal(exceededInput[0].stroke, '#D9D9D9', 'Count overflow preserves the normal Input border like the official affix wrapper');
+assert.equal(exceededInput.find(node => node.content === 'Hello, antd!')?.fill, '#FF4D4F', 'Count overflow turns the Input value red');
+assert.equal(exceededInput.find(node => node.content === '12 / 10')?.fill, '#FF4D4F', 'Count overflow turns the count red');
+assert.equal(exceededInput.find(node => node.content === 'Hello, antd!')?.y, 5, 'Middle Input value uses the official 22px centered line box');
+assert.equal(exceededInput.find(node => node.content === '12 / 10')?.y, 5, 'Middle Input count uses the official 22px centered line box');
+assert.equal(exceededInput.find(node => node.content === '12 / 10')?.textGrowth, 'fixed-width', 'Input count honors right alignment within its width');
+assert.equal(exceededInput.find(node => node.content === 'Hello, antd!')?.textAlignVertical, 'middle', 'Input value centers within its line box');
+const emojiInput = renderInput({ input: { value: '🔥🔥🔥', showCount: true, countStrategy: 'runes' }, width: 342.66, height: 32 });
+const flames = emojiInput.filter(node => node.fill?.type === 'image' && node.fill.url.endsWith('/input-fire-emoji.png'));
+assert.equal(flames.length, 3, 'Emoji count Input renders three colored fire glyphs');
+assert.deepEqual(flames.map(node => node.x), [12, 28, 44], 'Colored fire glyphs retain the input text spacing');
+assert(flames.every(node => node.y === 9), 'Colored fire glyphs sit on the centered value line');
+assert(fs.existsSync(flames[0].fill.url), 'Colored fire glyph asset exists');
+assert.equal(emojiInput.find(node => node.content === '3')?.content, '3', 'Emoji count remains three runes');
+const emojiCount = emojiInput.find(node => node.content === '3');
+assert.equal(emojiCount.x + emojiCount.width, 342.66 - 12, 'Count line box ends at the official 12px right inset');
+assert.equal(emojiCount.textAlign, 'right', 'Count is aligned to the right edge of its line box');
+
+const textAreaSource = fs.readFileSync(new URL('../../canvas-components/Input.TextArea.js', import.meta.url), 'utf8');
+const renderTextArea = new Function('pencil', textAreaSource);
+const oneRowTextArea = renderTextArea({ input: { rows: 1, autoSize: true, placeholder: 'Autosize' }, width: 406, height: 32 });
+assert.equal(oneRowTextArea[0].height, 32, 'Boolean autoSize TextArea preserves the official single-line 32px height');
+assert.equal(oneRowTextArea.find(node => node.content === 'Autosize')?.x, 12, 'TextArea content starts after the wrapper border and padding');
+assert.equal(oneRowTextArea.find(node => node.content === 'Autosize')?.y, 5, 'TextArea content uses the official 5px top inset');
+assert.equal(oneRowTextArea.filter(node => node.name === 'resize-handle').length, 0, 'Autosize TextArea suppresses the native resize affordance');
+const countedTextArea = renderTextArea({ input: { rows: 2, showCount: true, maxLength: 100, placeholder: 'can resize' }, width: 774, height: 54 });
+assert.equal(countedTextArea.find(node => node.content === '0 / 100')?.y, 53, 'TextArea count starts at the inner textarea bottom edge');
+assert.equal(countedTextArea.find(node => node.content === '0 / 100')?.fontSize, 14, 'TextArea count uses the official 14px font size');
+assert.equal(countedTextArea.filter(node => node.name === 'resize-handle').length, 6, 'Resizable TextArea keeps its grip inside the bottom-right corner');
+const fixedTextArea = renderTextArea({ input: { rows: 5, showCount: true, maxLength: 100, resizable: false }, width: 774, height: 120 });
+assert.equal(fixedTextArea.filter(node => node.name === 'resize-handle').length, 0, 'resize none TextArea does not render a grip');
+const semanticTextArea = renderTextArea({ input: { value: 'TextArea', rows: 2, showCount: true, countColor: '#BDE3C3' }, width: 342.66, height: 54 });
+assert.equal(semanticTextArea.find(node => node.content === '8')?.fill, '#BDE3C3', 'Semantic TextArea applies its custom count color');
+
+const passwordSource = fs.readFileSync(new URL('../../canvas-components/Input.Password.js', import.meta.url), 'utf8');
+const renderPassword = new Function('pencil', passwordSource);
+const suffixedPassword = renderPassword({ input: { placeholder: 'input password support suffix', suffixIcon: 'LockOutlined' }, width: 320, height: 32 });
+const eyeNode = suffixedPassword.find(node => node.name === 'EyeInvisibleOutlined');
+const lockNode = suffixedPassword.find(node => node.name === 'LockOutlined');
+assert.equal(eyeNode.x, 272, 'Password visibility icon occupies the first suffix position');
+assert.equal(lockNode.x, 294, 'Password custom suffix occupies the rightmost suffix position');
+assert.equal(lockNode.x - (eyeNode.x + eyeNode.width), 8, 'Password suffix icons preserve the official 8px gap');
+assert.equal(suffixedPassword.find(node => node.content === 'input password support suffix')?.y, 5, 'Password text uses the official 22px line box');
+
+const otpSource = fs.readFileSync(new URL('../../canvas-components/Input.OTP.js', import.meta.url), 'utf8');
+const renderOtp = new Function('pencil', otpSource);
+const plainOtp = renderOtp({ input: { length: 6, size: 'middle' }, width: 202, height: 32 });
+assert.deepEqual(plainOtp.filter(node => node.type === 'rectangle').map(node => node.width), Array(6).fill(27), 'Middle OTP uses six official 27px cells');
+const slashOtp = renderOtp({ input: { length: 6, size: 'middle', separator: '/' }, width: 277, height: 32 });
+assert.equal(Math.max(...slashOtp.map(node => node.x + node.width)), 277, 'Slash-separated OTP keeps the official 277px fit-content width');
+const dashOtp = renderOtp({ input: { length: 6, size: 'middle', separator: '—' }, width: 289.9, height: 32 });
+assert.equal(Math.round(Math.max(...dashOtp.map(node => node.x + node.width)) * 10) / 10, 289.9, 'Em-dash-separated OTP keeps the official 289.9px fit-content width');
+const styledOtp = renderOtp({ input: { length: 6, size: 'middle', separator: '*', cellWidth: 32 }, width: 304.25, height: 32 });
+assert.equal(Math.round(Math.max(...styledOtp.map(node => node.x + node.width)) * 100) / 100, 304.25, 'Semantic styling demo can override OTP cells to the official 32px width');
+assert.deepEqual(styledOtp.filter(node => node.type === 'text').map(node => [node.y, node.height, node.lineHeight]), Array(5).fill([5, 22, 22 / 14]), 'OTP separators use the official centered 22px line box');
+const blueStyledOtp = renderOtp({ input: { length: 6, size: 'middle', separator: '*', cellWidth: 32, borderColor: '#6E8CFB' }, width: 342.66, height: 32 });
+assert(blueStyledOtp.filter(node => node.type === 'rectangle').every(node => node.stroke === '#6E8CFB'), 'Semantic styling applies the official blue border to every OTP cell');
+
+const searchSource = fs.readFileSync(new URL('../../canvas-components/Input.Search.js', import.meta.url), 'utf8');
+const renderSearch = new Function('pencil', searchSource);
+const semanticSearch = renderSearch({ input: { placeholder: 'Search', size: 'large', borderColor: '#4DA8DA', color: '#4DA8DA' }, width: 342.66, height: 40 });
+assert.equal(semanticSearch[0].stroke, '#4DA8DA', 'Semantic Search applies its cyan input border');
+assert.equal(semanticSearch.find(node => node.name === 'SearchOutlined')?.fill, '#4DA8DA', 'Semantic Search applies its cyan icon color');
+assert.deepEqual([semanticSearch.find(node => node.content === 'Search')?.x, semanticSearch.find(node => node.content === 'Search')?.y, semanticSearch.find(node => node.content === 'Search')?.height], [12, 8, 24], 'Large Search uses the official 11px padding and centered 24px line box');
 
 const rangePickerSource = fs.readFileSync(new URL('../../canvas-components/DatePicker.RangePicker.js', import.meta.url), 'utf8');
 const renderRangePicker = new Function('pencil', rangePickerSource);
@@ -155,6 +220,34 @@ assert(spinnerNumber.some(node => node.type === 'text' && node.content === '−'
 assert(spinnerNumber.some(node => node.type === 'text' && node.content === '+'));
 const disabledErrorNumber = renderInputNumber({ input: { value: 3, disabled: true, status: 'error', variant: 'outlined' }, width: 160, height: 32 });
 assert.equal(disabledErrorNumber[0].stroke, '#D9D9D9', 'Disabled InputNumber must override status border');
+const hoveredNumber = renderInputNumber({ input: { value: 3, hovered: true, variant: 'outlined' }, width: 160, height: 32 });
+assert(hoveredNumber.some(node => node.type === 'text' && node.content === '▴'), 'Hovered InputNumber must display stepper up button');
+assert(hoveredNumber.some(node => node.type === 'text' && node.content === '▾'), 'Hovered InputNumber must display stepper down button');
+assert.equal(hoveredNumber[0].stroke, '#4096FF', 'Hovered InputNumber must use primary hover border');
+const noControlsHovered = renderInputNumber({ input: { value: 3, controls: false, hovered: true, variant: 'outlined' }, width: 160, height: 32 });
+assert(!noControlsHovered.some(node => node.type === 'text' && node.content === '▴'), 'controls=false InputNumber must suppress stepper controls even on hover');
+
+// Precision and decimal formatting assertions
+const fixedPrecisionNumber = renderInputNumber({ input: { value: '1', precision: 2, variant: 'outlined' }, width: 160, height: 32 });
+assert(fixedPrecisionNumber.some(node => node.type === 'text' && node.content === '1.00'), 'InputNumber must force retain 2 decimal places when precision=2');
+
+const stepInferredPrecisionNumber = renderInputNumber({ input: { value: '1', step: '0.00000000000001', variant: 'outlined' }, width: 200, height: 32 });
+assert(stepInferredPrecisionNumber.some(node => node.type === 'text' && node.content === '1.00000000000000'), 'InputNumber must infer decimal precision from step attribute');
+
+const highPrecisionNumber = renderInputNumber({ input: { value: '1.00000000000001', stringMode: true, step: '0.00000000000001', variant: 'outlined' }, width: 200, height: 32 });
+assert(highPrecisionNumber.some(node => node.type === 'text' && node.content === '1.00000000000001'), 'InputNumber must preserve exact high precision decimal string');
+
+const spinnerPrecisionNumber = renderInputNumber({ input: { value: 5, precision: 1, mode: 'spinner', variant: 'outlined' }, width: 160, height: 32 });
+assert(spinnerPrecisionNumber.some(node => node.type === 'text' && node.content === '5.0'), 'Spinner InputNumber must also respect precision formatting');
+
+// Focused and Addon assertions
+const focusedNumber = renderInputNumber({ input: { value: 3, focused: true, variant: 'outlined' }, width: 160, height: 32 });
+assert.equal(focusedNumber[0].stroke, '#1677FF26', 'Focused InputNumber must render focus shadow outer rect');
+assert.equal(focusedNumber[1].stroke, '#1677FF', 'Focused InputNumber must render primary blue border');
+
+const addonNumber = renderInputNumber({ input: { value: 100, addonBefore: '+', addonAfter: '$', variant: 'outlined' }, width: 200, height: 32 });
+assert(addonNumber.some(node => node.type === 'text' && node.content === '+'), 'InputNumber must render addonBefore');
+assert(addonNumber.some(node => node.type === 'text' && node.content === '$'), 'InputNumber must render addonAfter');
 
 const switchSource = fs.readFileSync(new URL('../../canvas-components/Switch.js', import.meta.url), 'utf8');
 const renderSwitch = new Function('pencil', switchSource);
@@ -204,12 +297,56 @@ const findNode = (node, id) => {
   return undefined;
 };
 const libraryRoot = { children: library.children };
+const inputExamples = findNode(libraryRoot, 'W43nmh');
+const localizedInputCopy = [];
+const collectLocalizedCopy = (node) => {
+  if (node?.type === 'text' && /[\u3400-\u9fff]/.test(String(node.content ?? ''))) localizedInputCopy.push(node.content);
+  for (const child of node?.children ?? []) collectLocalizedCopy(child);
+};
+collectLocalizedCopy(inputExamples);
+assert.deepEqual(localizedInputCopy, [], 'Input Example titles and descriptions remain English-only');
+assert.deepEqual(['tdyYE', 'cxCP6', 'eJeJ5'].map(id => findNode(libraryRoot, id)?.fontFamily), ['Inter', 'Inter', 'Inter'], 'Custom count headings use the same system-font approximation as the other official demo headings');
 assert.equal(findNode(libraryRoot, 'taGuQ')?.inputs?.variant, 'underlined', 'Variants demo uses the Cascader underlined renderer instead of overlapping imported DOM');
 assert.equal(findNode(libraryRoot, 'h7TxfD')?.ref, 'H0DThz', 'Placement demo uses the canonical Radio.Group renderer');
 assert.equal(findNode(libraryRoot, 'h7TxfD')?.inputs?.value, 'topLeft', 'Placement demo exposes the official selected Radio.Button');
 assert.equal(findNode(libraryRoot, 'RrYbV')?.ref, 'F3IF3s', 'Panel demo uses the canonical Cascader.Panel renderer');
 assert.equal(findNode(libraryRoot, 'wGU5i')?.inputs?.multiple, true, 'Panel demo preserves its official multiple state');
 assert.equal(findNode(libraryRoot, 'TPdHc')?.inputs?.options, '[]', 'Panel demo preserves its official empty state');
+assert.equal(findNode(libraryRoot, 'q7xJ3D')?.height, 32, 'Autosize TextArea demo starts at the official one-row height');
+assert.equal(findNode(libraryRoot, 'q7xJ3D')?.inputs?.rows, 1, 'Autosize TextArea demo models boolean autoSize as one visible row');
+assert.equal(findNode(libraryRoot, 'CdJ5M')?.gap, 22, 'Basic TextArea demo preserves the official 22px net gap created by two br elements');
+assert.equal(findNode(libraryRoot, 'hd9M8')?.height, 370, 'Basic TextArea card contracts with the corrected demo gap');
+assert.equal(findNode(libraryRoot, 'lnagf')?.gap, 24, 'Autosize TextArea demo uses the official 24px margin gap');
+assert.equal(findNode(libraryRoot, 'lnagf')?.height, 303, 'Autosize TextArea demo matches the official rendered section height');
+assert.equal(findNode(libraryRoot, 'h23Ua1')?.height, 419.4, 'Autosize TextArea card contracts with the corrected demo geometry');
+assert.equal(findNode(libraryRoot, 'YVnFH')?.height, 656, 'OTP demo stack matches the official total runtime height');
+assert.equal(findNode(libraryRoot, 'Hlkp7')?.gap, 24, 'OTP demo combines the Flex gap and title margin into a 24px title-to-input gap');
+assert.equal(findNode(libraryRoot, 'X7S3SL')?.width, 202, 'Six-cell OTP demo uses the official fit-content width');
+assert.equal(findNode(libraryRoot, 'iTwkB')?.width, 277, 'Slash-separated OTP demo uses the official fit-content width');
+assert.equal(findNode(libraryRoot, 'QWfVU')?.width, 289.9, 'Function-separated OTP demo accounts for the wider em dash glyph');
+assert.equal(findNode(libraryRoot, 'E7gf5')?.width, 285, 'Password demo keeps the official intrinsic 285px stack width');
+assert.equal(findNode(libraryRoot, 'E7gf5')?.gap, 8, 'Password demo uses the official small Space gap');
+assert.equal(findNode(libraryRoot, 'j3ar1')?.width, 197, 'Controlled Password input leaves 80px for the button and an 8px gap');
+assert.equal(findNode(libraryRoot, 'QNLdO')?.height, 346, 'Password demo card matches the official runtime height');
+assert.equal(findNode(libraryRoot, 'NQRMR')?.gap, 22, 'Prefix and suffix demo preserves the two-br 22px net gap');
+assert.equal(findNode(libraryRoot, 'VYj7q')?.gap, 22, 'Allow clear demo preserves the two-br 22px net gap');
+assert.equal(findNode(libraryRoot, 'ptLzb')?.height, 54, 'Allow clear TextArea uses the official two-row height');
+assert.equal(findNode(libraryRoot, 'jQOe8')?.height, 54, 'Character counting resizable TextArea uses the official two-row height');
+assert.equal(findNode(libraryRoot, 'dhMXr')?.inputs?.resizable, false, 'Disable resize character-count demo suppresses the resize handle');
+assert.equal(findNode(libraryRoot, 'tLuO9')?.height, 346.19, 'Status demo card matches the official runtime height');
+assert.equal(findNode(libraryRoot, 'UC7hZ')?.width, 115.88, 'Focus demo button widths follow the official content-fit geometry');
+assert.equal(findNode(libraryRoot, 'vt6MI')?.height, 54, 'Semantic styling TextArea uses the official default two-row height');
+assert.equal(findNode(libraryRoot, 'vt6MI')?.inputs?.resizable, false, 'Semantic styling TextArea applies its resize none rule');
+assert.equal(findNode(libraryRoot, 'DglAb')?.inputs?.borderColor, '#696FC7', 'Semantic styling function Input uses its official border color');
+assert.equal(findNode(libraryRoot, 'vt6MI')?.inputs?.countColor, '#BDE3C3', 'Semantic styling TextArea count uses its official green color');
+assert.equal(findNode(libraryRoot, 'wtC8L')?.inputs?.borderColor, '#F5D3C4', 'Semantic styling Password uses its official border color');
+assert.equal(findNode(libraryRoot, 'Tjus2')?.inputs?.cellWidth, 32, 'Semantic styling OTP applies its official custom cell width');
+assert.equal(findNode(libraryRoot, 'Tjus2')?.inputs?.borderColor, '#6E8CFB', 'Semantic styling OTP uses its official blue border color');
+assert.equal(findNode(libraryRoot, 'Tjus2')?.x, 0, 'Semantic styling OTP starts at the official left edge');
+assert.equal(findNode(libraryRoot, 'Tjus2')?.width, 304.25, 'Semantic styling OTP matches the official six-cell content width');
+assert.equal(findNode(libraryRoot, 'GlCzr')?.layout, 'none', 'Semantic styling OTP wrapper preserves its explicit left position');
+assert.equal(findNode(libraryRoot, 'XRoe7')?.inputs?.color, '#4DA8DA', 'Semantic styling Search uses its official cyan foreground color');
+assert.equal(findNode(libraryRoot, 'ELN9e')?.height, 536.19, 'Semantic styling demo card matches the official runtime height');
 assert.equal(findNode(libraryRoot, 'X08r02')?.inputs?.placeholder, 'Please select', 'Default value demo does not misuse placeholder text');
 assert.equal(findNode(libraryRoot, 'X08r02')?.inputs?.value, '["zhejiang","hangzhou","west-lake"]', 'Default value demo stores the official selected path as value');
 assert.equal(findNode(libraryRoot, 'Ehfbs')?.inputs?.value, '["zhejiang","hangzhou","west-lake"]', 'Custom render demo stores a real selected path');

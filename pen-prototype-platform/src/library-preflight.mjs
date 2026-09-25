@@ -1,5 +1,6 @@
 import { resolve } from "node:path";
 import { pathExists, readJson, sha256 } from "./io.mjs";
+import { readSharedLibrary, sharedLibraryPath } from "./library-store.mjs";
 
 const knownImportCapabilities = new Set([
   "library.import",
@@ -34,6 +35,7 @@ export async function prepareLibrary({ kitRoot, capabilitiesFile }) {
   if (capabilitiesFile) capabilityNames = flattenCapabilityNames(await readJson(capabilitiesFile));
   const importCapability = capabilityNames.find((name) => knownImportCapabilities.has(name));
   const automaticImportSupported = Boolean(importCapability);
+  const shared = await readSharedLibrary({});
 
   return {
     stage: "before-prototype-generation",
@@ -51,11 +53,17 @@ export async function prepareLibrary({ kitRoot, capabilitiesFile }) {
           nextAction: "Invoke the reported Pen library import capability, then verify the library id and digest before creating nodes.",
         }
       : {
-          strategy: "manual-pen-ui",
-          automaticImportSupported: false,
-          manualActionRequired: true,
-          reason: "The reported Pen MCP capability set has no library import or registration operation.",
-          nextAction: "Import this file once from Pen Libraries, then rerun the generation preflight and verify the library id before creating nodes.",
+          // Documents import the library by path, so generation itself carries
+          // the library; there is no manual registration step.
+          strategy: "document-import",
+          automaticImportSupported: true,
+          manualActionRequired: false,
+          alias: shared?.alias || "antd",
+          sharedHome: shared?.home || resolve(sharedLibraryPath({}), ".."),
+          prepared: Boolean(shared),
+          nextAction: shared
+            ? "doc build writes the import automatically; run `pen-antd library shared` to refresh the shared copy when the Kit changes."
+            : "Run `pen-antd library shared` (doc build does this automatically) before generating.",
         },
   };
 }

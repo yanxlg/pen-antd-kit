@@ -1,0 +1,3 @@
+{
+  "input": "Print(Get(\"tpl-132\", {depth:1})); Print(Get(\"tpl-132\", (n,ctx)=>ctx.problems ? {id:n.id,name:n.name,problem:ctx.problems,bounds:ctx.bounds} : undefined).slice(0,30)); TakeScreenshot([\"tpl-132\"])"
+}

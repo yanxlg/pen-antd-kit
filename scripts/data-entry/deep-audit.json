@@ -1,0 +1,2680 @@
+[
+  {
+    "index": 1,
+    "id": "AdLBf",
+    "title": "Basic Usage",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Username",
+        "controls": [
+          {
+            "id": "d48cgF",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Password",
+        "controls": [
+          {
+            "id": "Y3WT4W",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "Gne2x",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "Remember me"
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "O7Dip",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "id": "Ujr5p",
+    "title": "Form methods",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "Note",
+        "controls": [
+          {
+            "id": "yTpen",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Gender",
+        "controls": [
+          {
+            "id": "fOBk7",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "UXNaI",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "qxE3D",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Reset",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "R9V6A",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Fill form",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "id": "vVZQm",
+    "title": "Form Layout",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Form Layout",
+        "controls": [
+          {
+            "id": "uzge1",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Horizontal"
+            }
+          },
+          {
+            "id": "uyPnP",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Vertical"
+            }
+          },
+          {
+            "id": "cutrn",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Inline"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Field A",
+        "controls": [
+          {
+            "id": "dGTF9",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Field B",
+        "controls": [
+          {
+            "id": "nuQxb",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "dSsDm",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "id": "Nc4pr",
+    "title": "Form mix layout",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "horizontal",
+        "controls": [
+          {
+            "id": "GLzRS",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "vertical",
+        "controls": [
+          {
+            "id": "gBAIC",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "vertical2",
+        "controls": [
+          {
+            "id": "q55SJM",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "id": "N1Mp4",
+    "title": "Form disabled",
+    "itemCount": 0,
+    "items": []
+  },
+  {
+    "index": 6,
+    "id": "YQmDT",
+    "title": "(unknown)",
+    "itemCount": 11,
+    "items": [
+      {
+        "label": "Form variant",
+        "controls": []
+      },
+      {
+        "label": "Input",
+        "controls": [
+          {
+            "id": "kJLhv",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "InputNumber",
+        "controls": [
+          {
+            "id": "l8ooCh",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "TextArea",
+        "controls": [
+          {
+            "id": "qAvVr",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      },
+      {
+        "label": "Mentions",
+        "controls": [
+          {
+            "id": "XUP5w",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      },
+      {
+        "label": "Select",
+        "controls": [
+          {
+            "id": "l9yU4",
+            "name": "Select",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "ZmH2k",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Cascader",
+        "controls": [
+          {
+            "id": "w8OAZr",
+            "name": "Cascader",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "tpZFy",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "TreeSelect",
+        "controls": [
+          {
+            "id": "RcjAN",
+            "name": "TreeSelect",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "dtfbr",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "DatePicker",
+        "controls": [
+          {
+            "id": "yxbBQ",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "RangePicker",
+        "controls": [
+          {
+            "id": "kS7DZ",
+            "name": "DatePicker.RangePicker",
+            "ref": "QmZCd"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "Q5bdo",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "id": "L9eYI",
+    "title": "Required style",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Required Mark (optional)",
+        "controls": [
+          {
+            "id": "jmJXp",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Default"
+            }
+          },
+          {
+            "id": "f2jgs",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Hidden"
+            }
+          },
+          {
+            "id": "S0oVHS",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Customize"
+            }
+          },
+          {
+            "id": "ffaFI",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Optional"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Field A",
+        "controls": [
+          {
+            "id": "xwSYw",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Field B (optional)",
+        "controls": [
+          {
+            "id": "aoYVi",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "kECE9",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "id": "CbXFV",
+    "title": "Form size",
+    "itemCount": 9,
+    "items": [
+      {
+        "label": "Form Size",
+        "controls": [
+          {
+            "id": "fq6xt",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Small"
+            }
+          },
+          {
+            "id": "XuD5Z",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Large"
+            }
+          },
+          {
+            "id": "D7loTC",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "Medium"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Input",
+        "controls": [
+          {
+            "id": "Phn8G",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Select",
+        "controls": [
+          {
+            "id": "b0Wtu",
+            "name": "Select",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "x3IH8e",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "TreeSelect",
+        "controls": [
+          {
+            "id": "hMehU",
+            "name": "TreeSelect",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "fdbAQ",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Cascader",
+        "controls": [
+          {
+            "id": "dTtxB",
+            "name": "Cascader",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "kF9u3",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "DatePicker",
+        "controls": [
+          {
+            "id": "Bt6ZB",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "InputNumber",
+        "controls": [
+          {
+            "id": "s8u0e",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Switch",
+        "controls": [
+          {
+            "id": "qXWpe",
+            "name": "Switch",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "aocc6",
+            "name": "Switch",
+            "ref": "rZqkn",
+            "inputs": {
+              "checked": false,
+              "size": "medium",
+              "loading": false,
+              "disabled": false,
+              "primaryColor": "#00000040",
+              "checkedChildren": "",
+              "unCheckedChildren": ""
+            }
+          }
+        ]
+      },
+      {
+        "label": "Button",
+        "controls": [
+          {
+            "id": "O8vu8I",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Button",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "id": "yp2Oo",
+    "title": "label can wrap",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Normal label",
+        "controls": [
+          {
+            "id": "tKXou",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "A super long label text",
+        "controls": [
+          {
+            "id": "d6wmq",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "A super long label text",
+        "controls": [
+          {
+            "id": "w4Cn6g",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "J5ovt",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "id": "jxAYh",
+    "title": "No block rule",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "URL",
+        "controls": [
+          {
+            "id": "tTaaL",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "x9eZI",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "YL2c3",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Fill",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "id": "B3ovXF",
+    "title": "Watch Hooks",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Name (Watch to trigger rerender)",
+        "controls": [
+          {
+            "id": "l0qOMX",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Age (Not Watch)",
+        "controls": [
+          {
+            "id": "bwZTc",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "id": "lmze2",
+    "title": "Validate Trigger",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "Field A",
+        "controls": [
+          {
+            "id": "rooCp",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "Field B",
+        "controls": [
+          {
+            "id": "YdNfn",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "Field C",
+        "controls": [
+          {
+            "id": "g0uyu9",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "id": "F6ZL2",
+    "title": "Validate Only",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "Name",
+        "controls": [
+          {
+            "id": "TLdoD",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Age",
+        "controls": [
+          {
+            "id": "R9mXtf",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "nLckj",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "MreUB",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Reset",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "id": "sPx4q",
+    "title": "Path Prefix",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "First Name",
+        "controls": [
+          {
+            "id": "vbPRc",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Last Name",
+        "controls": [
+          {
+            "id": "mJCHP",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Age",
+        "controls": [
+          {
+            "id": "LXCH9",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "PPaHC",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "id": "Fs1Jk",
+    "title": "Dynamic Form Item",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "YTj04",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Add field",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "thBml",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Add field at head",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "E0qdXE",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "id": "pCq0F",
+    "title": "Dynamic Form nest Items",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "LdfBy",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Add field",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "LxsvX",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "id": "poQH4",
+    "title": "Drag sorting",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "e6Umu",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Add field",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "dxjXc",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "id": "YEcu2",
+    "title": "Complex Dynamic Form Item",
+    "itemCount": 1,
+    "items": [
+      {
+        "label": "Name",
+        "controls": [
+          {
+            "id": "MTEtW",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "X2yve",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "+ Add Sub Item",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "vdjBE",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "+ Add Item",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "id": "cR9Tn",
+    "title": "Nest",
+    "itemCount": 6,
+    "items": [
+      {
+        "label": "Name",
+        "controls": [
+          {
+            "id": "I214S",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Email",
+        "controls": [
+          {
+            "id": "LGOra",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Age",
+        "controls": [
+          {
+            "id": "fxEAd",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Website",
+        "controls": [
+          {
+            "id": "OKtP2",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Introduction",
+        "controls": [
+          {
+            "id": "F9q9Jq",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "dNChp",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "id": "L9L5FZ",
+    "title": "complex form control",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Username",
+        "controls": [
+          {
+            "id": "jvc6x",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Address",
+        "controls": [
+          {
+            "id": "yO296",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "H1FTEP",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "BirthDate",
+        "controls": [
+          {
+            "id": "o4MOa",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "R2JGa",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "W1XHyB",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "id": "uLBJL",
+    "title": "Customized Form Controls",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Price",
+        "controls": [
+          {
+            "id": "ks11j",
+            "name": "InputNumber",
+            "ref": "SiWnx"
+          },
+          {
+            "id": "tjNsd",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "veDov",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "id": "w81kKy",
+    "title": "Store Form Data into Upper Component",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Username",
+        "controls": [
+          {
+            "id": "gUSrx",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Email",
+        "controls": [
+          {
+            "id": "GdN2H",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "id": "w8qSt",
+    "title": "Control between forms",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "Group Name",
+        "controls": [
+          {
+            "id": "m6OVv",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "User List",
+        "controls": []
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "YeasL",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "PRuX1",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Add User",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "id": "szkF5",
+    "title": "Inline Login Form",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "yiUyc",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "MrwnR",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "T1sDz",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Log in",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "id": "ztVMC",
+    "title": "Login Form",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "bLgE0",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "Th6iK",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "GjeSx",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "Remember me"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "id": "sx27H",
+    "title": "Registration",
+    "itemCount": 13,
+    "items": [
+      {
+        "label": "E-mail",
+        "controls": [
+          {
+            "id": "jXYZ8",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Password",
+        "controls": [
+          {
+            "id": "x3sRg",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Confirm Password",
+        "controls": [
+          {
+            "id": "c2YblA",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Nickname",
+        "controls": [
+          {
+            "id": "jwayj",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Habitual Residence",
+        "controls": [
+          {
+            "id": "O9VQKU",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Phone Number",
+        "controls": [
+          {
+            "id": "Z4mGol",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "tRCM2",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Donation",
+        "controls": [
+          {
+            "id": "dYxGI",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "N1ZeaJ",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Website",
+        "controls": [
+          {
+            "id": "vRFvT",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Intro",
+        "controls": [
+          {
+            "id": "j9XVv",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      },
+      {
+        "label": "Gender",
+        "controls": [
+          {
+            "id": "eqoEp",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Captcha",
+        "controls": [
+          {
+            "id": "GAbih",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "VYT3O",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Get captcha",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "wPOdK",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "I have read the agreement"
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "L0xsp",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Register",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "id": "Q7C56",
+    "title": "Advanced search",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Field 0",
+        "controls": [
+          {
+            "id": "NGclR",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "ay3L7",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "KKbFa",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "AvYYT",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "U7l50f",
+            "name": "Input",
+            "ref": "iQ5uU"
+          },
+          {
+            "id": "MZH1K",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "IpNms",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Search",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "nse7b",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Clear",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "id": "S4Tol",
+    "title": "Form in Modal to Create",
+    "itemCount": 0,
+    "items": []
+  },
+  {
+    "index": 29,
+    "id": "xENxO",
+    "title": "Time-related Controls",
+    "itemCount": 7,
+    "items": [
+      {
+        "label": "DatePicker",
+        "controls": [
+          {
+            "id": "TVv1N",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "DatePicker[showTime]",
+        "controls": [
+          {
+            "id": "vP9U1",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "MonthPicker",
+        "controls": [
+          {
+            "id": "h7qnmq",
+            "name": "DatePicker.MonthPicker",
+            "ref": "avOxG"
+          }
+        ]
+      },
+      {
+        "label": "RangePicker",
+        "controls": [
+          {
+            "id": "i3FLv",
+            "name": "DatePicker.RangePicker",
+            "ref": "QmZCd"
+          }
+        ]
+      },
+      {
+        "label": "RangePicker[showTime]",
+        "controls": [
+          {
+            "id": "irVA7",
+            "name": "DatePicker.RangePicker",
+            "ref": "QmZCd"
+          }
+        ]
+      },
+      {
+        "label": "TimePicker",
+        "controls": [
+          {
+            "id": "gSQT4",
+            "name": "TimePicker",
+            "ref": "GPix8"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "uQ3vs",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "id": "lLDwu",
+    "title": "Handle Form Data Manually",
+    "itemCount": 0,
+    "items": []
+  },
+  {
+    "index": 31,
+    "id": "VhVgS",
+    "title": "Customized Validation",
+    "itemCount": 22,
+    "items": [
+      {
+        "label": "Fail",
+        "controls": [
+          {
+            "id": "z1BWk",
+            "name": "Select",
+            "ref": "VoQE7"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "vr1dU",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Validating",
+        "controls": [
+          {
+            "id": "B6Rqwu",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "Success",
+        "controls": [
+          {
+            "id": "SsJAS",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "SyXIN",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Fail",
+        "controls": [
+          {
+            "id": "O55rLv",
+            "name": "Select",
+            "ref": "VoQE7"
+          }
+        ]
+      },
+      {
+        "label": "Success",
+        "controls": [
+          {
+            "id": "MvLmm",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "iwnQ5",
+            "name": "TimePicker",
+            "ref": "GPix8"
+          }
+        ]
+      },
+      {
+        "label": "Error",
+        "controls": [
+          {
+            "id": "eNKQ7",
+            "name": "DatePicker.RangePicker",
+            "ref": "QmZCd"
+          }
+        ]
+      },
+      {
+        "label": "Error",
+        "controls": [
+          {
+            "id": "JBzEW",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Validating",
+        "controls": [
+          {
+            "id": "i5Vd1",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "sTo8O",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "inline",
+        "controls": [
+          {
+            "id": "CJzMj",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          },
+          {
+            "id": "t46rL",
+            "name": "Please select right date",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "NmBol",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "Success",
+        "controls": [
+          {
+            "id": "pcUrz",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Success",
+        "controls": [
+          {
+            "id": "i07hX",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "cKYCs",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Error",
+        "controls": [
+          {
+            "id": "aI9ex",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Success",
+        "controls": [
+          {
+            "id": "kCHKO",
+            "name": "Input.OTP",
+            "ref": "QmpsX"
+          }
+        ]
+      },
+      {
+        "label": "Warning",
+        "controls": [
+          {
+            "id": "qUJlt",
+            "name": "Input.OTP",
+            "ref": "QmpsX"
+          }
+        ]
+      },
+      {
+        "label": "Error",
+        "controls": [
+          {
+            "id": "QH0yh",
+            "name": "Input.OTP",
+            "ref": "QmpsX"
+          }
+        ]
+      },
+      {
+        "label": "Fail",
+        "controls": [
+          {
+            "id": "GFsTF",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      },
+      {
+        "label": "Fail",
+        "controls": [
+          {
+            "id": "kh2fA",
+            "name": "Input.TextArea",
+            "ref": "jSd6E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "id": "KPq3T",
+    "title": "Dynamic Rules",
+    "itemCount": 4,
+    "items": [
+      {
+        "label": "Name",
+        "controls": [
+          {
+            "id": "fwEGK",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Nickname",
+        "controls": [
+          {
+            "id": "p0gMc",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "e34vS",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "Nickname is required"
+            }
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "udALi",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Check",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "id": "bA98a",
+    "title": "Dependencies",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Password",
+        "controls": [
+          {
+            "id": "UC4sj",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Confirm Password",
+        "controls": [
+          {
+            "id": "HMtLz",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "id": "y25Ie",
+    "title": "getValueProps + normalize",
+    "itemCount": 2,
+    "items": [
+      {
+        "label": "Date",
+        "controls": [
+          {
+            "id": "cn7u4",
+            "name": "DatePicker",
+            "ref": "jCYiD"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "b9326x",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "id": "MUNQW",
+    "title": "Slide to error field",
+    "itemCount": 0,
+    "items": []
+  },
+  {
+    "index": 36,
+    "id": "ex5Kr",
+    "title": "Other Form Controls",
+    "itemCount": 14,
+    "items": [
+      {
+        "label": "Plain Text",
+        "controls": []
+      },
+      {
+        "label": "Select",
+        "controls": [
+          {
+            "id": "pr2bB",
+            "name": "Select",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "A7hMn",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Select[multiple]",
+        "controls": [
+          {
+            "id": "fptsO",
+            "name": "Select[multiple]",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "nQMgU",
+            "name": "Please select favourite colors",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "InputNumber",
+        "controls": [
+          {
+            "id": "h91ziq",
+            "name": "InputNumber",
+            "ref": "SiWnx"
+          }
+        ]
+      },
+      {
+        "label": "Switch",
+        "controls": [
+          {
+            "id": "I4gJqq",
+            "name": "Switch",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "FeSij",
+            "name": "Switch",
+            "ref": "rZqkn",
+            "inputs": {
+              "checked": false,
+              "size": "medium",
+              "loading": false,
+              "disabled": false,
+              "primaryColor": "#00000040",
+              "checkedChildren": "",
+              "unCheckedChildren": ""
+            }
+          }
+        ]
+      },
+      {
+        "label": "Slider",
+        "controls": [
+          {
+            "id": "iYOmG",
+            "name": "Slider",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "Radio.Group",
+        "controls": [
+          {
+            "id": "lVgWi",
+            "name": "Radio.Group",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "Radio.Button",
+        "controls": [
+          {
+            "id": "wJSao",
+            "name": "Radio.Button",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "PjhoY",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "item 1"
+            }
+          },
+          {
+            "id": "O23lY",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "item 2"
+            }
+          },
+          {
+            "id": "c211oV",
+            "name": "Radio.Button",
+            "ref": "I4GAP",
+            "inputs": {
+              "children": "item 3"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Checkbox.Group",
+        "controls": [
+          {
+            "id": "XMGoz",
+            "name": "Checkbox.Group",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "V88gCQ",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "A"
+            }
+          },
+          {
+            "id": "tBuBN",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "B"
+            }
+          },
+          {
+            "id": "bGVJE",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "C"
+            }
+          },
+          {
+            "id": "p7WGaH",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "D"
+            }
+          },
+          {
+            "id": "K6vbh",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "E"
+            }
+          },
+          {
+            "id": "B9Aj9H",
+            "name": "Checkbox",
+            "ref": "cpj9Y",
+            "inputs": {
+              "children": "F"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Rate",
+        "controls": [
+          {
+            "id": "sqXoE",
+            "name": "Rate",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "Upload",
+        "controls": [
+          {
+            "id": "VJuAV",
+            "name": "Upload",
+            "type": "text",
+            "isDom": true
+          },
+          {
+            "id": "MFqyT",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Click to upload",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "label": "Dragger",
+        "controls": [
+          {
+            "id": "ZkWdr",
+            "name": "Support for a single or bulk upload.",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "ColorPicker",
+        "controls": [
+          {
+            "id": "U5LqI",
+            "name": "ColorPicker",
+            "type": "text",
+            "isDom": true
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "lPc2b",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "t2soZY",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "reset",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "id": "I00Zb",
+    "title": "(unknown)",
+    "itemCount": 3,
+    "items": [
+      {
+        "label": "Username",
+        "controls": [
+          {
+            "id": "naH7f",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "Email",
+        "controls": [
+          {
+            "id": "v6cgbY",
+            "name": "Input",
+            "ref": "iQ5uU"
+          }
+        ]
+      },
+      {
+        "label": "",
+        "controls": [
+          {
+            "id": "QW0xr",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "Submit",
+              "type": "primary",
+              "color": "primary",
+              "variant": "solid",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          },
+          {
+            "id": "zvMat",
+            "name": "Button",
+            "ref": "DQZzq",
+            "inputs": {
+              "children": "reset",
+              "type": "default",
+              "color": "default",
+              "variant": "outlined",
+              "size": "middle",
+              "shape": "default",
+              "danger": false,
+              "disabled": false,
+              "loading": false,
+              "hasIcon": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

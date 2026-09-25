@@ -1,6 +1,6 @@
 /**
  * @schema 2.18
- * @input placeholder: string = "请输入搜索内容"
+ * @input placeholder: string = "input search text"
  * @input value: string = ""
  * @input size: enum("small", "middle", "large") = "middle"
  * @input enterButton: string = ""
@@ -16,6 +16,7 @@
  * @input compactPlacement: enum("none", "start", "middle", "end") = "none"
  * @input primaryColor: color = #1677FF
  * @input borderColor: string = ""
+ * @input color: string = ""
  */
 
 const icons = {
@@ -42,24 +43,25 @@ const icons = {
 const i = pencil.input;
 const W = Math.max(80, pencil.width);
 const h = i.size === "small" ? 24 : i.size === "large" ? 40 : 32;
-// 官方内边距：middle/large 的 affix wrapper 与 middle 裸输入框均为 11px，large 裸输入框 7px，small 7px；再各加 1px 描边
-const hasAffix = !!(i.prefix || i.suffixIcon || i.allowClear);
-const pad = i.size === "small" ? 8 : (i.size === "large" && !hasAffix ? 8 : 12);
+// 官方内边距：middle/large 为 11px、small 为 7px；再各加 1px 描边。
+const pad = i.size === "small" ? 8 : 12;
 const fontSize = i.size === "small" ? 12 : i.size === "large" ? 16 : 14;
+const lineH = i.size === "small" ? 20 : i.size === "large" ? 24 : 22;
 const nodes = [];
 
-const text = (content, x, y, width, color = "#000000E0", fSize = 14, weight = "normal", align = "left") => ({
+const text = (content, x, y, width, color = "#000000E0", fSize = 14, weight = "normal", align = "left", height = Math.max(16, fSize + 4)) => ({
   type: "text",
   content: String(content),
   x,
   y,
   width,
-  height: Math.max(16, fSize + 4),
+  height,
   fill: color,
   fontFamily: "Inter",
   fontSize: fSize,
   fontWeight: weight,
   textAlign: align,
+  lineHeight: height / fSize,
 });
 
 const box = (x, y, width, height, fill = "#FFFFFF", radius = 6, stroke = "#D9D9D9", strokeWidth = 1) => ({
@@ -84,7 +86,6 @@ const icon = (name, x, y, size, fill = "#00000073") => {
 };
 
 const hasButton = i.enterButton !== undefined && i.enterButton !== "" && i.enterButton !== "false";
-const isPrimary = hasButton;
 const btnText = typeof i.enterButton === "string" && i.enterButton !== "true" ? i.enterButton : "";
 // 官方按钮宽度（Button 水平 padding 15px + 1px 描边，内容盒）：
 //   有 enterButton 文字 → 文字宽 + 32；enterButton={true} → 14/16 图标 + 32；无 enterButton → ant-btn-icon-only，width = height
@@ -101,9 +102,24 @@ const borderCol = i.borderColor || (i.status === "error" ? "#FF4D4F" : i.status 
 const isTransparentBorder = i.variant === "borderless" || i.variant === "underlined" || i.variant === "filled";
 const bgFill = i.disabled ? "#F5F5F5" : (i.variant === "filled" ? "#0000000A" : (i.variant === "borderless" || i.variant === "underlined" ? "#00000000" : "#FFFFFF"));
 const strokeCol = isTransparentBorder ? "#00000000" : borderCol;
-const textCol = i.value ? (i.disabled ? disabledCol : "#000000E0") : "#00000040";
-const prefixTextCol = i.disabled ? disabledCol : "#000000E0";
-const textY = (h - (fontSize + 4)) / 2;
+const customCol = i.color || "";
+const textCol = i.value ? (i.disabled ? disabledCol : customCol || "#000000E0") : "#00000040";
+const prefixTextCol = i.disabled ? disabledCol : customCol || "#000000E0";
+const textY = (h - lineH) / 2;
+
+// 按钮样式规则（官方 Search.tsx: color/variant 由 enterButton + variant 共同决定）：
+// ┌──────────────────────────┬────────────────────────────────────────────────────────────┐
+// │ enterButton / variant    │ button style                                               │
+// ├──────────────────────────┼────────────────────────────────────────────────────────────┤
+// │ false + outlined         │ color=default, variant=outlined  白底 D9D9D9边 深色icon     │
+// │ false + filled/bl/ul     │ color=default, variant=text      rgba(0,0,0,0.04)底 无边     │
+// │ true  + outlined         │ color=primary, variant=solid     primary底 无边 白icon       │
+// │ true  + filled/bl/ul     │ color=primary, variant=text      rgba(0,0,0,0.04)底 无边 primary icon │
+// └──────────────────────────┴────────────────────────────────────────────────────────────┘
+const isSolid = hasButton && !isTransparentBorder;      // primary solid btn
+const isPrimaryText = hasButton && isTransparentBorder; // primary text btn
+const isOutlinedBtn = !hasButton && !isTransparentBorder; // default outlined btn
+// isTextDefault = !hasButton && isTransparentBorder   -- default text btn (implicit)
 
 const baseR = i.size === "large" ? 8 : (i.size === "small" ? 4 : 6);
 const placement = i.compactPlacement || "none";
@@ -116,8 +132,8 @@ if (i.variant === "underlined") {
   btnRadius = 0;
 }
 
-// 输入框与按钮在共享的那 1px 描边上重叠（antd 的 margin-right:-1px）；总宽恒等于 W
-const overlap = isTransparentBorder ? 0 : 1;
+// 输入框与按钮的重叠：outlined 按钮有 D9D9D9 边框，需要 -1px 消除双边框；solid/text 按钮无边框不需要
+const overlap = isOutlinedBtn ? 1 : 0;
 const inputW = Math.max(1, W - btnW + overlap);
 const btnX = inputW - overlap;
 const finalBtnW = btnW;
@@ -130,17 +146,17 @@ if (i.variant === "underlined") {
 
 let curX = pad;
 if (i.prefix) {
-  nodes.push(text(i.prefix, curX, textY, 20, prefixTextCol, fontSize));
+  nodes.push(text(i.prefix, curX, textY, 20, prefixTextCol, fontSize, "normal", "left", lineH));
   curX += 20;
 }
 
 // 右侧搜索按钮（尾部 padding 11px + 1px 描边 = 距右边缘 12px）
 let rx = inputW - 12;
 
-// 搜索内部右侧图标逻辑（放 suffixIcon 或 clear）
+// 搜索内部右侧图标逻辑（放 suffixIcon 或 clear）；large 尺寸图标 16px
 if (i.suffixIcon) {
-  rx -= 14;
-  icon(i.suffixIcon, rx, Math.round((h - 14) / 2), 14, i.suffixIconColor || (i.disabled ? disabledCol : "#000000E0"));
+  rx -= btnIconSize;
+  icon(i.suffixIcon, rx, Math.round((h - btnIconSize) / 2), btnIconSize, i.suffixIconColor || (i.disabled ? disabledCol : "#000000E0"));
   rx -= 4;
 }
 if (i.allowClear && i.value && !i.disabled) {
@@ -148,13 +164,19 @@ if (i.allowClear && i.value && !i.disabled) {
   icon("CloseCircleFilled", rx, Math.round((h - 12) / 2), 12, "#00000040");
 }
 
-const rawVal = i.value !== undefined && i.value !== "" ? i.value : (i.placeholder || "请输入搜索内容");
-nodes.push(text(rawVal, curX, textY, Math.max(1, rx - curX), textCol, fontSize, "normal", "left"));
+const rawVal = i.value !== undefined && i.value !== "" ? i.value : (i.placeholder || "input search text");
+nodes.push(text(rawVal, curX, textY, Math.max(1, rx - curX), textCol, fontSize, "normal", "left", lineH));
 
-// 右侧搜索按钮
-const btnBg = isPrimary ? primary : (i.disabled ? "#F5F5F5" : (i.variant === "filled" ? bgFill : (i.variant === "borderless" || i.variant === "underlined" ? "#00000000" : "#FFFFFF")));
-const btnBorder = isPrimary ? primary : (isTransparentBorder ? "#00000000" : borderCol);
-const btnIconCol = isPrimary ? "#FFFFFF" : (i.disabled ? disabledCol : "#000000E0");
+// 右侧搜索按钮颜色
+const btnBg = i.disabled
+  ? (isSolid ? "#0000000A" : bgFill)
+  : isSolid ? primary : bgFill;
+const btnBorder = isOutlinedBtn ? borderCol : "#00000000";
+const btnIconCol = isSolid
+  ? (i.disabled ? disabledCol : "#FFFFFF")
+  : isPrimaryText
+    ? (i.disabled ? disabledCol : primary)
+    : (i.disabled ? disabledCol : customCol || "#000000E0");
 
 const btnNodeStart = nodes.length;
 nodes.push(box(btnX, 0, finalBtnW, h, btnBg, btnRadius, btnBorder));
@@ -166,10 +188,10 @@ if (i.loading) {
   icon("LoadingOutlined", gx, Math.round((h - btnIconSize) / 2), btnIconSize, btnIconCol);
   if (btnText) {
     // 左对齐、x 已按「icon + gap + 文字」整体居中算好；用 auto 宽度避免贴着估宽换行
-    nodes.push(text(btnText, gx + btnIconSize + gap, textY, btnTextW, btnIconCol, fontSize, "normal", "left"));
+    nodes.push(text(btnText, gx + btnIconSize + gap, textY, btnTextW, btnIconCol, fontSize, "normal", "left", lineH));
   }
 } else if (btnText) {
-  nodes.push({ ...text(btnText, btnX, textY, finalBtnW, isPrimary ? "#FFFFFF" : "#000000E0", fontSize, "normal", "center"), textGrowth: "fixed-width" });
+  nodes.push({ ...text(btnText, btnX, textY, finalBtnW, btnIconCol, fontSize, "normal", "center", lineH), textGrowth: "fixed-width" });
 } else {
   icon("SearchOutlined", btnX + Math.round((finalBtnW - btnIconSize) / 2), Math.round((h - btnIconSize) / 2), btnIconSize, btnIconCol);
 }

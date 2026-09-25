@@ -1,5 +1,7 @@
 const input = pencil.input || {};
-const name = input.name || 'SearchOutlined';
+const name = (input.name && (!input.type || input.type === 'SearchOutlined'))
+  ? input.name
+  : (input.type || input.name || 'SearchOutlined');
 const definition = icons[name];
 if (!definition) throw new Error('Unknown Ant Design icon export: ' + name);
 const fontSize = Number(input.fontSize ?? 16);

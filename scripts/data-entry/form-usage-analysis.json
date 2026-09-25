@@ -1,0 +1,2540 @@
+[
+  {
+    "index": 1,
+    "id": "AdLBf",
+    "title": "Basic Usage",
+    "refCount": 4,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Remember me"
+        },
+        "path": "section > form > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "id": "Ujr5p",
+    "title": "Form methods",
+    "refCount": 5,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Reset",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Fill form",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "id": "vVZQm",
+    "title": "Form Layout",
+    "refCount": 6,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Horizontal"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Vertical"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Inline"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "id": "Nc4pr",
+    "title": "Form mix layout",
+    "refCount": 6,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "id": "N1Mp4",
+    "title": "Form disabled",
+    "refCount": 18,
+    "domCount": 13,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Form disabled"
+        },
+        "path": "section > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Checkbox :",
+          "checked": false,
+          "indeterminate": false,
+          "disabled": false,
+          "primaryColor": "#1677FF"
+        },
+        "path": "section > form > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Checkbox",
+          "checked": false,
+          "indeterminate": false,
+          "disabled": true,
+          "primaryColor": "#1677FF"
+        },
+        "path": "section > form > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Radio",
+        "ref": "wU1wC",
+        "inputs": {
+          "children": "Radio :",
+          "checked": false,
+          "disabled": false,
+          "optionType": "button",
+          "buttonStyle": "outline",
+          "primaryColor": "#1677FF"
+        },
+        "path": "section > form > div > div > Radio"
+      },
+      {
+        "type": "text",
+        "name": "Input",
+        "path": "section > form > div > div > label > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Select",
+        "path": "section > form > div > div > label > Select"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "TreeSelect",
+        "path": "section > form > div > div > label > TreeSelect"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Cascader",
+        "path": "section > form > div > div > label > Cascader"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "DatePicker",
+        "path": "section > form > div > div > label > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "RangePicker",
+        "path": "section > form > div > div > label > RangePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.RangePicker",
+        "ref": "QmZCd",
+        "path": "section > form > div > div > DatePicker.RangePicker"
+      },
+      {
+        "type": "text",
+        "name": "InputNumber",
+        "path": "section > form > div > label > InputNumber"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > form > div > Input.TextArea"
+      },
+      {
+        "type": "text",
+        "name": "Switch",
+        "path": "section > form > div > div > label > Switch"
+      },
+      {
+        "type": "ref",
+        "name": "Switch",
+        "ref": "rZqkn",
+        "inputs": {
+          "checked": false,
+          "size": "medium",
+          "loading": false,
+          "disabled": true,
+          "primaryColor": "#00000040",
+          "checkedChildren": "",
+          "unCheckedChildren": ""
+        },
+        "path": "section > form > div > div > div > Switch"
+      },
+      {
+        "type": "text",
+        "name": "Upload",
+        "path": "section > form > div > div > label > Upload"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Upload",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > span > Button"
+      },
+      {
+        "type": "text",
+        "name": "Button",
+        "path": "section > form > div > div > label > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Button",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "text",
+        "name": "Slider",
+        "path": "section > form > div > div > label > Slider"
+      },
+      {
+        "type": "text",
+        "name": "ColorPicker",
+        "path": "section > form > div > div > label > ColorPicker"
+      },
+      {
+        "type": "text",
+        "name": "Rate",
+        "path": "section > form > div > div > label > Rate"
+      },
+      {
+        "type": "ref",
+        "name": "Mentions",
+        "ref": "VIOgT",
+        "path": "section > form > div > div > Mentions"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "small",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": true
+        },
+        "path": "section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "small",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": true
+        },
+        "path": "section > form > div > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "id": "YQmDT",
+    "title": "(unknown)",
+    "refCount": 10,
+    "domCount": 7,
+    "elements": [
+      {
+        "type": "text",
+        "name": "Input",
+        "path": "section > section > form > div > div > label > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "InputNumber",
+        "path": "section > section > form > div > div > label > InputNumber"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > section > form > div > Input.TextArea"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > section > form > div > div > Input.TextArea"
+      },
+      {
+        "type": "text",
+        "name": "Select",
+        "path": "section > section > form > div > div > label > Select"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Cascader",
+        "path": "section > section > form > div > div > label > Cascader"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "TreeSelect",
+        "path": "section > section > form > div > div > label > TreeSelect"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "DatePicker",
+        "path": "section > section > form > div > div > label > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > section > form > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "RangePicker",
+        "path": "section > section > form > div > div > label > RangePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.RangePicker",
+        "ref": "QmZCd",
+        "path": "section > section > form > div > div > DatePicker.RangePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "id": "L9eYI",
+    "title": "Required style",
+    "refCount": 7,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Default"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Hidden"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Customize"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Optional"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "id": "CbXFV",
+    "title": "Form size",
+    "refCount": 11,
+    "domCount": 8,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Small"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Large"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "Medium"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "text",
+        "name": "Input",
+        "path": "section > form > div > div > label > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Select",
+        "path": "section > form > div > div > label > Select"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "TreeSelect",
+        "path": "section > form > div > div > label > TreeSelect"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Cascader",
+        "path": "section > form > div > div > label > Cascader"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "DatePicker",
+        "path": "section > form > div > div > label > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "InputNumber",
+        "path": "section > form > div > label > InputNumber"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Switch",
+        "path": "section > form > div > div > label > Switch"
+      },
+      {
+        "type": "ref",
+        "name": "Switch",
+        "ref": "rZqkn",
+        "inputs": {
+          "checked": false,
+          "size": "medium",
+          "loading": false,
+          "disabled": false,
+          "primaryColor": "#00000040",
+          "checkedChildren": "",
+          "unCheckedChildren": ""
+        },
+        "path": "section > form > div > div > div > Switch"
+      },
+      {
+        "type": "text",
+        "name": "Button",
+        "path": "section > form > div > div > label > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Button",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "id": "yp2Oo",
+    "title": "label can wrap",
+    "refCount": 4,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "id": "jxAYh",
+    "title": "No block rule",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Fill",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "id": "B3ovXF",
+    "title": "Watch Hooks",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "id": "lmze2",
+    "title": "Validate Trigger",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > DatePicker"
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "id": "F6ZL2",
+    "title": "Validate Only",
+    "refCount": 4,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Reset",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "id": "sPx4q",
+    "title": "Path Prefix",
+    "refCount": 4,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > Button"
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "id": "Fs1Jk",
+    "title": "Dynamic Form Item",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Add field",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Add field at head",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "id": "pCq0F",
+    "title": "Dynamic Form nest Items",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Add field",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "id": "poQH4",
+    "title": "Drag sorting",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Add field",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "id": "YEcu2",
+    "title": "Complex Dynamic Form Item",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "+ Add Sub Item",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "+ Add Item",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "id": "cR9Tn",
+    "title": "Nest",
+    "refCount": 6,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > form > div > Input.TextArea"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "id": "L9L5FZ",
+    "title": "complex form control",
+    "refCount": 6,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "id": "uLBJL",
+    "title": "Customized Form Controls",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "InputNumber",
+        "ref": "SiWnx",
+        "path": "section > form > div > div > span > InputNumber"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > span > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > Button"
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "id": "w81kKy",
+    "title": "Store Form Data into Upper Component",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "id": "w8qSt",
+    "title": "Control between forms",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Add User",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "id": "szkF5",
+    "title": "Inline Login Form",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Log in",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > Button"
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "id": "ztVMC",
+    "title": "Login Form",
+    "refCount": 3,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Remember me"
+        },
+        "path": "section > form > div > div > Checkbox"
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "id": "sx27H",
+    "title": "Registration",
+    "refCount": 16,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > form > div > Input.TextArea"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > frame > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Get captcha",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > frame > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "I have read the agreement"
+        },
+        "path": "section > form > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Register",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "id": "Q7C56",
+    "title": "Advanced search",
+    "refCount": 8,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Search",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > frame > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Clear",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > frame > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "id": "S4Tol",
+    "title": "Form in Modal to Create",
+    "refCount": 1,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "New Collection",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > Button"
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "id": "xENxO",
+    "title": "Time-related Controls",
+    "refCount": 7,
+    "domCount": 6,
+    "elements": [
+      {
+        "type": "text",
+        "name": "DatePicker",
+        "path": "section > form > div > div > label > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "DatePicker[showTime]",
+        "path": "section > form > div > div > label > DatePicker[showTime]"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "MonthPicker",
+        "path": "section > form > div > div > label > MonthPicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.MonthPicker",
+        "ref": "avOxG",
+        "path": "section > form > div > div > DatePicker.MonthPicker"
+      },
+      {
+        "type": "text",
+        "name": "RangePicker",
+        "path": "section > form > div > div > label > RangePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.RangePicker",
+        "ref": "QmZCd",
+        "path": "section > form > div > div > DatePicker.RangePicker"
+      },
+      {
+        "type": "text",
+        "name": "RangePicker[showTime]",
+        "path": "section > form > div > div > label > RangePicker[showTime]"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.RangePicker",
+        "ref": "QmZCd",
+        "path": "section > form > div > div > DatePicker.RangePicker"
+      },
+      {
+        "type": "text",
+        "name": "TimePicker",
+        "path": "section > form > div > div > label > TimePicker"
+      },
+      {
+        "type": "ref",
+        "name": "TimePicker",
+        "ref": "GPix8",
+        "path": "section > form > div > div > TimePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "id": "lLDwu",
+    "title": "Handle Form Data Manually",
+    "refCount": 1,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "InputNumber",
+        "ref": "SiWnx",
+        "path": "section > div > div > div > InputNumber"
+      }
+    ]
+  },
+  {
+    "index": 31,
+    "id": "VhVgS",
+    "title": "Customized Validation",
+    "refCount": 23,
+    "domCount": 1,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Select",
+        "ref": "VoQE7",
+        "path": "section > form > div > div > Select"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Select",
+        "ref": "VoQE7",
+        "path": "section > form > div > div > Select"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "TimePicker",
+        "ref": "GPix8",
+        "path": "section > form > div > TimePicker"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker.RangePicker",
+        "ref": "QmZCd",
+        "path": "section > form > div > DatePicker.RangePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > div > div > DatePicker"
+      },
+      {
+        "type": "text",
+        "name": "Please select right date",
+        "context": "div",
+        "path": "section > form > div > div > div > div > Please select right date"
+      },
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input.OTP",
+        "ref": "QmpsX",
+        "path": "section > form > div > div > Input.OTP"
+      },
+      {
+        "type": "ref",
+        "name": "Input.OTP",
+        "ref": "QmpsX",
+        "path": "section > form > div > div > Input.OTP"
+      },
+      {
+        "type": "ref",
+        "name": "Input.OTP",
+        "ref": "QmpsX",
+        "path": "section > form > div > div > Input.OTP"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > form > div > span > Input.TextArea"
+      },
+      {
+        "type": "ref",
+        "name": "Input.TextArea",
+        "ref": "jSd6E",
+        "path": "section > form > div > div > Input.TextArea"
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "id": "KPq3T",
+    "title": "Dynamic Rules",
+    "refCount": 4,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "Nickname is required"
+        },
+        "path": "section > form > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Check",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "id": "bA98a",
+    "title": "Dependencies",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "id": "y25Ie",
+    "title": "getValueProps + normalize",
+    "refCount": 2,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "DatePicker",
+        "ref": "jCYiD",
+        "path": "section > form > div > div > DatePicker"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "id": "MUNQW",
+    "title": "Slide to error field",
+    "refCount": 0,
+    "domCount": 0,
+    "elements": []
+  },
+  {
+    "index": 36,
+    "id": "ex5Kr",
+    "title": "Other Form Controls",
+    "refCount": 15,
+    "domCount": 14,
+    "elements": [
+      {
+        "type": "text",
+        "name": "Select",
+        "path": "section > form > div > div > label > Select"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > form > div > Input"
+      },
+      {
+        "type": "text",
+        "name": "Select[multiple]",
+        "path": "section > form > div > div > label > Select[multiple]"
+      },
+      {
+        "type": "frame",
+        "name": "input",
+        "context": "input",
+        "path": "section > form > div > div > div > input"
+      },
+      {
+        "type": "text",
+        "name": "Please select favourite colors",
+        "context": "div",
+        "path": "section > form > div > div > div > Please select favourite colors"
+      },
+      {
+        "type": "text",
+        "name": "InputNumber",
+        "path": "section > form > div > div > label > InputNumber"
+      },
+      {
+        "type": "ref",
+        "name": "InputNumber",
+        "ref": "SiWnx",
+        "path": "section > form > div > div > InputNumber"
+      },
+      {
+        "type": "text",
+        "name": "Switch",
+        "path": "section > form > div > div > label > Switch"
+      },
+      {
+        "type": "ref",
+        "name": "Switch",
+        "ref": "rZqkn",
+        "inputs": {
+          "checked": false,
+          "size": "medium",
+          "loading": false,
+          "disabled": false,
+          "primaryColor": "#00000040",
+          "checkedChildren": "",
+          "unCheckedChildren": ""
+        },
+        "path": "section > form > div > div > div > Switch"
+      },
+      {
+        "type": "text",
+        "name": "Slider",
+        "path": "section > form > div > div > label > Slider"
+      },
+      {
+        "type": "text",
+        "name": "Radio.Group",
+        "path": "section > form > div > div > label > Radio.Group"
+      },
+      {
+        "type": "text",
+        "name": "Radio.Button",
+        "path": "section > form > div > div > label > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "item 1"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "item 2"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "ref",
+        "name": "Radio.Button",
+        "ref": "I4GAP",
+        "inputs": {
+          "children": "item 3"
+        },
+        "path": "section > form > div > div > div > Radio.Button"
+      },
+      {
+        "type": "text",
+        "name": "Checkbox.Group",
+        "path": "section > form > div > div > label > Checkbox.Group"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "A"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "B"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "C"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "D"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "E"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "ref",
+        "name": "Checkbox",
+        "ref": "cpj9Y",
+        "inputs": {
+          "children": "F"
+        },
+        "path": "section > form > div > div > div > div > Checkbox"
+      },
+      {
+        "type": "text",
+        "name": "Rate",
+        "path": "section > form > div > div > label > Rate"
+      },
+      {
+        "type": "text",
+        "name": "Upload",
+        "path": "section > form > div > div > label > Upload"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Click to upload",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      },
+      {
+        "type": "text",
+        "name": "Support for a single or bulk upload.",
+        "context": "p",
+        "path": "section > form > div > div > span > div > Support for a single or bulk upload."
+      },
+      {
+        "type": "text",
+        "name": "ColorPicker",
+        "path": "section > form > div > div > label > ColorPicker"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "reset",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > form > div > div > div > Button"
+      }
+    ]
+  },
+  {
+    "index": 37,
+    "id": "I00Zb",
+    "title": "(unknown)",
+    "refCount": 8,
+    "domCount": 0,
+    "elements": [
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "reset",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Input",
+        "ref": "iQ5uU",
+        "path": "section > section > form > div > div > Input"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "Submit",
+          "type": "primary",
+          "color": "primary",
+          "variant": "solid",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > section > form > div > div > div > Button"
+      },
+      {
+        "type": "ref",
+        "name": "Button",
+        "ref": "DQZzq",
+        "inputs": {
+          "children": "reset",
+          "type": "default",
+          "color": "default",
+          "variant": "outlined",
+          "size": "middle",
+          "shape": "default",
+          "danger": false,
+          "disabled": false,
+          "loading": false,
+          "hasIcon": false
+        },
+        "path": "section > section > form > div > div > div > Button"
+      }
+    ]
+  }
+]

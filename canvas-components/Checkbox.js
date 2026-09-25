@@ -1,7 +1,7 @@
 /**
  * @schema 2.18
  * @input children: string = "记住账号"
- * @input checked: boolean = true
+ * @input checked: boolean = false
  * @input indeterminate: boolean = false
  * @input disabled: boolean = false
  * @input value: string = ""

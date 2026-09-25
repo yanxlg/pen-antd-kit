@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "title": "海外客群管理平台 P0 原型",
+  "source": "/Users/yanxianliang/overseas/pd-atlas/03_迭代需求交付/01_业务需求/REQ075_客群管理平台P0需求/1.需求/PRD_海外客群管理平台_P0.md",
+  "inputs": [
+    {
+      "kind": "requirements",
+      "path": "/Users/yanxianliang/overseas/pd-atlas/03_迭代需求交付/01_业务需求/REQ075_客群管理平台P0需求/1.需求/REQ_海外客群管理平台.md",
+      "note": "REQ075 当前需求与 P0/P1/P2 边界"
+    },
+    {
+      "kind": "markdown",
+      "path": "/Users/yanxianliang/overseas/pd-atlas/03_迭代需求交付/01_业务需求/REQ075_客群管理平台P0需求/1.需求/PRD_海外客群管理平台_P0.md",
+      "note": "P0 页面、字段、权限和状态事实源"
+    },
+    {
+      "kind": "pen",
+      "path": "/Users/yanxianliang/overseas/pd-atlas/03_迭代需求交付/01_业务需求/REQ075_客群管理平台P0需求/1.需求/海外客群管理平台.pen",
+      "note": "用于核对既有页面清单与业务信息，不复用其手绘控件"
+    }
+  ],
+  "assumptions": [
+    "仅交付 P0：不包含 P1 维度圈选、观测页、核验页与导出审计查看页。",
+    "所有完整后台页面复用 antd-6.lib 的 Admin App Shell 模板；页面内容区使用库内 Live Script 组件。",
+    "App 来源由入口上下文带入，原型固定展示 TACO，不在业务表单中提供 App 来源选项。",
+    "所有示例数据均为合成数据；手机号等敏感字段仅展示脱敏值。",
+    "Modal 在当前 Kit 中无页面模板，严格使用库内 Modal Live Script 组件表达。"
+  ],
+  "modules": [
+    {
+      "id": "audience.list",
+      "kind": "page",
+      "title": "客群列表",
+      "goal": "筛选、浏览并从唯一主入口新建或管理客群。",
+      "requirementRefs": ["PRD 4.2", "F-03", "F-07"],
+      "template": "admin-app-shell",
+      "structure": [{"role":"shell"},{"role":"header"},{"role":"filters"},{"role":"actions"},{"role":"table"},{"role":"feedback"}],
+      "components": ["Layout","Menu","Breadcrumb","Select","Input","Button","Tabs","Table","Tag","Pagination","Empty","Spin","Alert"],
+      "states": ["default","loading","empty","error","permission"]
+    },
+    {
+      "id": "audience.regular-sql",
+      "kind": "page",
+      "title": "常规客群 SQL 圈选",
+      "goal": "维护基本信息、校验 SQL、自动预跑并保存 SQL 或上线。",
+      "requirementRefs": ["PRD 4.3", "F-08"],
+      "template": "admin-app-shell",
+      "structure": [{"role":"shell"},{"role":"header"},{"role":"form"},{"role":"content"},{"role":"feedback"},{"role":"footer"}],
+      "components": ["Layout","Menu","Breadcrumb","Form","Input","Select","TimePicker","Tabs","Button","Alert","Table","Tag"],
+      "states": ["default","invalid","validating","submitted","server-error"]
+    },
+    {
+      "id": "audience.onetime-sql",
+      "kind": "page",
+      "title": "一次性客群建群",
+      "goal": "创建 SNAPSHOT 一次性客群，校验预跑后上线生成固定快照。",
+      "requirementRefs": ["PRD 4.5", "F-05"],
+      "template": "admin-app-shell",
+      "structure": [{"role":"shell"},{"role":"header"},{"role":"form"},{"role":"content"},{"role":"feedback"},{"role":"footer"}],
+      "components": ["Layout","Menu","Breadcrumb","Form","Input","Select","DatePicker","Button","Alert","Table","Tag"],
+      "states": ["default","invalid","submitted","server-error"]
+    },
+    {
+      "id": "audience.detail",
+      "kind": "page",
+      "title": "客群详情",
+      "goal": "只读查看客群概览、成员、圈选记录、刷新记录和应用记录。",
+      "requirementRefs": ["PRD 4.4", "PRD 4.6"],
+      "template": "admin-app-shell",
+      "structure": [{"role":"shell"},{"role":"header"},{"role":"navigation"},{"role":"detail"},{"role":"table"}],
+      "components": ["Layout","Menu","Breadcrumb","Tabs","Descriptions","Table","Tag","Pagination","Empty"],
+      "states": ["overview","members","selection-records","refresh-records","application-records"]
+    },
+    {
+      "id": "audience.basic-info",
+      "kind": "modal",
+      "title": "新建客群基本信息",
+      "goal": "确认名称、自动英文名、锁定类型、业务场景和负责人。",
+      "requirementRefs": ["PRD 4.2", "PRD 4.5"],
+      "structure": [{"role":"overlay"},{"role":"form"},{"role":"footer"}],
+      "components": ["Modal","Input","Select","Button"],
+      "states": ["open","invalid","submitting"],
+      "custom": true,
+      "customReason": "Kit 当前无 Modal 页面模板，使用 Modal Live Script 组件。"
+    },
+    {
+      "id": "audience.prerun",
+      "kind": "modal",
+      "title": "SQL 预跑",
+      "goal": "明确展示预跑进行中、成功和失败三态。",
+      "requirementRefs": ["PRD 3.7", "PRD 4.3"],
+      "structure": [{"role":"overlay"},{"role":"feedback"},{"role":"footer"}],
+      "components": ["Modal","Spin","Alert","Descriptions","Button"],
+      "states": ["running","success","error"],
+      "custom": true,
+      "customReason": "Kit 当前无 Modal 页面模板，使用 Modal Live Script 组件。"
+    }
+  ]
+}
